@@ -3,6 +3,7 @@ title: Qiita記事をGitHubで管理することにしました (use Qiita CLI)
 tags:
   - Qiita
   - QiitaCLI
+  - 闘魂
 private: false
 updated_at: '2023-08-05T11:17:58+09:00'
 id: 75854acfcb0460d08237
