@@ -1,0 +1,224 @@
+---
+title: 闘魂Elixir ── 06. Enumモジュール
+tags:
+  - Elixir
+  - 猪木
+  - 40代駆け出しエンジニア
+  - AdventCalendar2022
+  - 闘魂
+private: false
+updated_at: '2022-12-23T08:55:55+09:00'
+id: bb9d43cde4d667cddb30
+organization_url_name: fukuokaex
+slide: false
+---
+<b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
+
+https://qiita.com/advent-calendar/2022
+
+https://qiita.com/advent-calendar/2022/elixir
+
+# はじめに
+
+闘魂と[Elixir](https://elixir-lang.org/)が出会いました。
+闘魂 meets [Elixir](https://elixir-lang.org/).です。
+[Elixir](https://elixir-lang.org/) meets 闘魂.でもよいです。
+
+本日は、[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールを説明します。
+
+```elixir
+iex> "Elixir" |> String.graphemes() |> Enum.frequencies()
+%{"E" => 1, "i" => 2, "l" => 1, "r" => 1, "x" => 1}
+```
+
+# モジュール
+
+まずは、モジュールを説明します。
+
+> In Elixir we group several functions into modules. 
+
+https://elixir-lang.org/getting-started/modules-and-functions.html
+
+モジュールとは、いくつかの関数をまとめたものです。
+以下、もう少し詳しく説明します。
+
+[Elixir](https://elixir-lang.org/)は、 **世俗派関数型言語**[^1] です。
+大衆派関数型言語と言ってもいいかもしれません。
+
+https://qiita.com/kikuyuta/items/afa4c264720eb29d9760
+
+怖くない関数型言語です。ゆるふわっとした関数型言語です。
+感覚的なことですのでこれ以上は話しません。話せません。
+
+「世俗派」や「大衆派」などとの接頭辞を取っ払ってしまえば、 [Elixir](https://elixir-lang.org/)は、 **関数型言語** なのです。
+「世俗派」や「大衆派」などとの接頭辞を付けているのは、 **関数型言語** だからと言ってそんなに力まずに、数学が分からなくても、なんとなくゆるふわっと使える素敵なプログラミング言語なのです。
+「あれ？　私、気づいたら関数型言語使いこなしていましたわ」とそんなノリです。
+繰り返します。とにかく[Elixir](https://elixir-lang.org/)は、 **関数型言語** なのです。
+
+その中心にあるものは、 **関数** です。
+
+モジュールというのは、 **関数** をまとめたものです。
+[Elixir](https://elixir-lang.org/)には、標準で多くのモジュールがあります。
+本[「闘魂Elixir」シリーズ](https://qiita.com/torifukukaiou/items/3b65e5c04fa8c55f526e)では代表的な３つのモジュールを解説します。
+
+1. [Enum](https://hexdocs.pm/elixir/Enum.html)
+1. [Map](https://hexdocs.pm/elixir/Map.html)
+1. [String](https://hexdocs.pm/elixir/String.html)
+
+今回は、[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールを説明します。
+
+[^1]: @kikuyuta さんの「[世俗派関数型言語 Elixir を関数型言語風に使ってみたらやっぱり関数型言語みたいだった](https://qiita.com/kikuyuta/items/afa4c264720eb29d9760)」より。
+
+# [Enum](https://hexdocs.pm/elixir/Enum.html)モジュール
+
+[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールが取り扱うデータ型は、[Enumerable](https://hexdocs.pm/elixir/Enumerable.html)プロトコルを実装したものです。
+
+小難しいことは置いておいて具体例を示します。
+
+1. List
+1. Keyword List
+1. Map
+1. Range
+
+などです。
+[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールは、これらの型のデータを変換できます。
+
+## List
+
+Listの例です。
+
+```elixir
+[1, 2, 3, "da-"]
+```
+
+## Keyword List
+
+Keyword Listの例です。
+
+```elixir
+[{:inoki, 102}, {:baba, 141}, {:rikidozan, 116}]
+```
+
+こういうふうにも書けます。
+
+```elixir
+[inoki: 102, baba: 141, rikidozan: 116]
+```
+
+## Map
+
+キーと値の組です。
+
+```elixir
+%{:inoki => 102, :baba => 141, :rikidozan => 116}
+```
+
+キーがAtomの場合は、こういうふうにも書けます。
+
+```elixir
+%{inoki: 102, baba: 141, rikidozan: 116}
+```
+
+## Range
+
+Rangeの例です。
+
+```elixir
+1..1000
+```
+
+# [Enum](https://hexdocs.pm/elixir/Enum.html)モジュールの関数一覧
+
+https://hexdocs.pm/elixir/Enum.html#functions
+
+こちらに一覧があります。
+
+「[闘魂Elixir](https://qiita.com/torifukukaiou/items/3b65e5c04fa8c55f526e)シリーズ」では、私が独断と偏見で決めたよく使われるであろう関数を一つずつ丁寧に解説します。
+お楽しみに！
+
+
+# ワンポイントレッスン
+
+モジュールは自作できます。
+
+[defmodule](https://hexdocs.pm/elixir/Kernel.html#defmodule/2) です。
+例を示しておきます。
+
+```elixir
+defmodule Number do
+  def one, do: 1
+  def two, do: 2
+end
+#=> {:module, Number, <<70, 79, 82, ...>>, {:two, 0}}
+
+Number.one()
+#=> 1
+
+Number.two()
+#=> 2
+```
+
+
+# 今日の<font color="#d00080">闘魂</font>
+
+今日は、将棋の大山康晴永世名人の言葉です。
+『[勝負のこころ](https://www.php.co.jp/books/detail.php?isbn=978-4-569-70677-1)』 :book: から引きました。
+
+---
+
+
+勝負の世界では、自分だけが頼りである。その頼りになる自分を鍛え上げていくのが、プロ棋士の修業である。将棋に限らず、すべての職業についてもいえることだと思う。(中略)毎日毎日が自分との戦いであった。(中略)いま私は五十三歳。将棋の世界では老兵の部に属するが、私自身は、いまも新人だと思って戦っている。(中略)色紙を頼まれると、私はよく「克己」と書く。おのれに克つことは、何にも増して苦しい戦いである。それができれば、自然に明るい世界が開けてくる。（中略）理屈を越えて理解したことは、怠け心を捨てて自分に打ち克つ精神を養えば、将棋もまた上達するという事実であった。（中略）おのれに克つことは、将棋に勝つことであった。
+
+
+---
+
+
+
+猪木さん流に言うと、「<font color="#d00080">闘魂</font>」です。
+猪木さんは、 「<font color="#d00080">闘魂</font>」とは、 **「己に打ち克ち、闘いを通じて己の魂を磨いていくことである」** と述べられています。
+
+大山康晴永世名人がおっしゃられている「克己」と同じです。
+超一流の人は、見える景色が同じなのでしょう。
+表面的なところだけしか私には理解できていないのだとおもいますが、同じことをおっしゃられているように感じて、感動を覚えております。
+将棋にしても、プロレスにしてもトップで闘い続けたご両人が語る言葉 ーー 克己、闘魂には重みがあります。
+
+
+https://www.shinchosha.co.jp/book/129721/
+
+https://presidentstore.jp/item/008105.html
+
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/be8933f5-e3e2-d5f4-1561-f65f75abdf38.png)
+
+
+
+
+# さいごに
+
+[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールを説明しました。
+明日から代表的な関数を一つ一つ見ていきます。
+
+闘魂の意味は、 **「己に打ち克ち、闘いを通じて己の魂を磨いていくことである」** との猪木さんの言葉をそのまま胸に刻み込んでいます。
+知っているだけで終わらせることなく、実行する、断行する、一歩を踏み出すことを自らの行動で示していきたいとおもいます。
+
+<font color="red">$\huge{１、２、３ ぁっダー！}$</font>
+
+
+<iframe width="910" height="512" src="https://www.youtube.com/embed/AWxwmqzbOaw" title="燃える闘魂 アントニオ猪木  追悼VTR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.youtube.com/watch?v=FSz7N5hCltw
+
+---
+
+https://qiita.com/torifukukaiou/items/5e96f4e9f12ec3c4b3f4
+
+---
+
+# Twitter
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Elixir Advent Calendar 3の6日目は、 <a href="https://twitter.com/torifukukaiou?ref_src=twsrc%5Etfw">@torifukukaiou</a> さんの1人カレンダー6日目で、コレクションとEnumのお話😉<a href="https://t.co/w3RM0K0GLV">https://t.co/w3RM0K0GLV</a><br><br>エモいとこを抜粋してみた😜<br><br>・Elixirは世俗派関数型言語<br>・大衆派関数型言語と言ってもいいかも知れない<br>・怖くない関数型言語<br>・ゆるふわっとした関数型言語</p>&mdash; piacere (love Elixir, Gravity and VR/AR/Metaverse) (@piacere_ex) <a href="https://twitter.com/piacere_ex/status/1599965400695197696?ref_src=twsrc%5Etfw">December 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+---
+
+<b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>

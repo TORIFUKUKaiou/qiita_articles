@@ -1,0 +1,321 @@
+---
+title: Phoenix LiveView完全理解道程 (2021/12/08)
+tags:
+  - Elixir
+  - Phoenix
+  - fukuoka.ex
+  - LiveView
+  - autoracex
+private: false
+updated_at: '2021-12-16T07:10:29+09:00'
+id: 3de65fff5df48e8baa20
+organization_url_name: easy_easy
+slide: false
+---
+https://qiita.com/advent-calendar/2021/easyeasy
+
+2021/12/08の回です。
+前日は、@NobuHandMakerさんによる「[teensy4.1完全に理解した](https://qiita.com/NobuHandMaker/items/e73f998759f00e7b25b6)」でした。
+**teensy4.1を完全に理解**されていてスゴイです:rocket:
+
+
+# はじめに
+- [Elixir](https://elixir-lang.org/)を楽しんでいますか:bangbang::bangbang::bangbang:
+- [Phoenix](https://www.phoenixframework.org/)を楽しんでいますか:bangbang::bangbang::bangbang:
+- [Phoenix LiveView](https://github.com/phoenixframework/phoenix_live_view)を楽しんでいますか:bangbang::bangbang::bangbang:
+- この記事は、2021/11/25(木)に開催された「[LiveView JP#1：コミュニティ発足記念LT会、そしてLiveViewモブプログラミング開始](https://liveviewjp.connpass.com/event/231755/)」での発表資料として使いました
+- [LiveView](https://github.com/phoenixframework/phoenix_live_view)を**完全に理解**しました[^2]
+- あなたもこの道程(みちのり)を歩むことで**完全理解**したときっと言えるようになるでしょう
+
+[^2]: https://togetter.com/li/1268851
+
+# What's [LiveView](https://github.com/phoenixframework/phoenix_live_view)?
+
+[LiveView](https://github.com/phoenixframework/phoenix_live_view)とは何かを説明します。
+その前に、[Elixir](https://elixir-lang.org/)と[Phoenix](https://www.phoenixframework.org/)の説明をします。
+
+## [Elixir](https://elixir-lang.org/)
+
+[Elixir](https://elixir-lang.org/)というプログラミング言語があります。
+関数型言語に分類されます。
+以下、[Qiita API](https://qiita.com/api/v2/docs)で記事を取得する[Elixir](https://elixir-lang.org/)でのプログラム例です。
+[|>](https://hexdocs.pm/elixir/Kernel.html#%7C%3E/2)はパイプ演算子と呼ばれるもので、[Elixir](https://elixir-lang.org/)のプログラムではよく使われます。
+前の関数の結果を次の関数の第一引数に入れてくれます。
+
+```elixir
+Mix.install([{:jason, "~> 1.2"}, {:httpoison, "~> 1.8"}])
+
+"https://qiita.com/api/v2/items?query=elixir"
+|> HTTPoison.get!([], [timeout: 50_000, recv_timeout: 50_000])
+|> Map.get(:body)
+|> Jason.decode!()
+|> Enum.map(& Map.take(&1, ["title", "url"]))
+|> IO.inspect()
+```
+
+上のプログラム断片でも使っております[Enum](https://hexdocs.pm/elixir/Enum.html#content)モジュールの理解は、[Elixir](https://elixir-lang.org/)をはじめたときにいの一番でやるともっとも効率よく学べます。
+@cooldaemon さんの「[私が愛する Elixir/Erlang の楽しさと辛さ](https://speakerdeck.com/cooldaemon/erlang-falsele-sisatoxin-sa)」スライドにその理由が詳しく書いてあります。
+
+## [Phoenix](https://www.phoenixframework.org/)
+
+[Elixir](https://elixir-lang.org/)でWebアプリケーション開発を**楽しむ**フレームワークが、[Phoenix](https://www.phoenixframework.org/)です。
+
+## [LiveView](https://github.com/phoenixframework/phoenix_live_view)
+
+> Phoenix LiveView enables rich, real-time user experiences with server-rendered HTML.
+
+---
+
+> The most fun you'll ever have building interactive web applications. We guarantee it.
+
+[Elixir](https://elixir-lang.org/)を一つ覚えるだけで、高性能なバックエンドもリッチなフロントエンドも**楽しく**つくれちゃうんです。
+
+# LiveViewの始め方
+
+https://hexdocs.pm/phoenix/installation.html#content
+
+[Phoenix](https://www.phoenixframework.org/)のインストール手順と同じです。
+もしも詰まってしまうことがあったら後述するコミュニティを訪ねてみてください。
+
+# LiveViewの学び方
+
+私のオススメは、
+
+https://pragmaticstudio.com/phoenix-liveview
+
+The Pragmatic Studioの[Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview) Courseです。
+
+有料のコースです。
+英語です。
+最初のいくつかは無料で観ることができます。
+
+:::note info
+11/30まで40%オフのクーポンがあります。
+2021SALE
+(この情報は、アドベントカレンダーで公開時には無効になっちゃいますね :sweat_smile: )
+:::
+
+「英語だから……」と気後れする必要はありません。
+洋楽を聞き流している感じでよいです。
+私は英語を全然聞き取れていません。何の自慢にもなりませんが。
+
+:::note info
+各講義のコードはGit管理されたものを入手できて、before(start)とafter(end)のブランチが用意されています。
+前とあとのdiffをとって、写経しているうちに雰囲気でわかるようになるとおもいます!!!
+:::
+
+# [Livebook](https://github.com/livebook-dev/livebook)
+
+> Livebook is a web application for writing interactive and collaborative code notebooks for Elixir, built with Phoenix LiveView.
+
+Pythonで言うところの[Jupyter Notebook](https://jupyter.org/)のようなものです。
+
+
+## [Docker](https://www.docker.com/)で動かす
+
+```
+$ docker run -p 8080:8080 --pull always livebook/livebook
+...
+[Livebook] Application running at http://localhost:8080/?token=ougo4kkrjoscpj4iwwh6st5dpoj3wo7l
+```
+
+Visit: http://localhost:8080/?token=ougo4kkrjoscpj4iwwh6st5dpoj3wo7l
+
+`token`は適宜読み替えてください。
+
+以下、**New Notebook**を押して、以下のプログラムを打ち込んでみてください。
+メモリ使用量のグラフを描くことができます。
+
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.3.0"},
+  {:vega_lite, "~> 0.1.0"}
+])
+
+alias VegaLite, as: Vl
+
+memory = [
+  total: :red,
+  processes: :yellow,
+  atom: :green,
+  binary: :pink,
+  code: :orange,
+  ets: :blue
+]
+
+layers = 
+  for {layer, color} <- memory do
+    Vl.new()
+    |> Vl.mark(:line)
+    |> Vl.encode_field(:x, "iteration", type: :quantitative)
+    |> Vl.encode_field(:y, Atom.to_string(layer), type: :quantitative, title: "Memory usage (MB)")
+    |> Vl.encode(:color, value: color, datum: Atom.to_string(layer))
+  end
+
+widget = Vl.new(width: 500, height: 200)
+  |> Vl.layers(layers)
+  |> Kino.VegaLite.new()
+```
+
+```elixir
+Kino.VegaLite.periodically(widget, 200, 0, fn i ->
+  point =
+    :erlang.memory()
+    |> Enum.map(fn {type, bytes} -> {type, bytes / 1_000_000} end)
+    |> Map.new()
+    |> Map.put(:iteration, i)
+
+  Kino.VegaLite.push(widget, point, window: 1000)
+  {:cont, i + 1}
+end)
+```
+
+```elixir
+for i <- 1..1_000_000 do
+  :"atom#{i}"
+end
+```
+
+![スクリーンショット 2021-08-21 22.02.07.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/45839b62-acae-72be-7ad2-b949c31ddde9.png)
+
+## 私が全世界に公開しているLivebookを使う
+
+[Docker](https://www.docker.com/)インストールするのも面倒くさいという方は私がイゴかしている[^1]ものをご自由にお使いください。
+
+https://livebook.torifuku-kaiou.app/
+
+Passwordは
+**enjoyelixirwearethealchemists**
+です。
+
+[^1]: 「動かす」の意。西日本の方言、おそらく。[NervesJP]()ではおなじみの表現。少し古いオートレースの映像ですが、実況アナウンサーが「針イゴきます」とはっきり言っています。https://autorace.jp/netstadium/SearchMovie/Movie/iizuka?date=2017-01-04&p=5&race_number=11&pg=
+
+## [Nerves Livebook](https://github.com/livebook-dev/nerves_livebook)
+
+[Nerves](https://www.nerves-project.org/)は、[Elixir](https://elixir-lang.org/)でIoTを楽しめる、**ナウでヤングでcoolなすごいヤツ**です。
+[Nerves](https://www.nerves-project.org/)でLivebookをイゴかせます[^1]。
+
+ほこりを被ってしまっているRaspberry Piはないですか〜。
+
+ぜひ[Nerves Livebook](https://github.com/livebook-dev/nerves_livebook)をイゴかしましょう。
+
+[Nerves](https://www.nerves-project.org/)を本格的に始めるにはいろいろ準備が必要なのですが、[Nerves Livebook](https://github.com/livebook-dev/nerves_livebook)をイゴかすには以下の手順でOKです。
+
+![md-bfd602be71b2c1099b91877aed3b41f0.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/f75d03bd-1c25-c064-4123-28eda6de0409.png)
+
+
+1. [Raspberry Pi Imager](https://www.raspberrypi.com/software/)をインストールする
+1. https://github.com/livebook-dev/nerves_livebook/releases からご自身がお持ちのハードウェアに合致するファームウェアをダウンロードする(.zipをダウンロードしてください)
+1. [Raspberry Pi Imager](https://www.raspberrypi.com/software/)のCHOOSE OSにてダウンロードしたファームウェア(.zip)を選んでmicroSDカードに焼き込む
+1. こんがり焼き上がったmicroSDをハードウェア(Raspberry Pi等)に挿して、LANケーブルでネットワークに接続して電源ON
+1. PCのブラウザで http://nerves.local にアクセス
+1. パスワードは`nerves`です
+1. [Nerves Livebook](https://github.com/livebook-dev/nerves_livebook)を楽しむ
+
+## Lチカ
+
+![Sketch_ブレッドボード.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/b3271529-9d89-e27c-6519-08240beec068.png)
+
+```elixir
+defmodule Example do
+  use GenServer
+
+  def init(state) do
+    {:ok, gpio} = Circuits.GPIO.open(25, :output)
+    set_interval()
+    {:ok, {gpio, state}}
+  end
+
+  defp set_interval() do
+    Process.send_after(self(), :tick, 1000)
+  end
+
+  def handle_info(:tick, {gpio, state}) do
+    Circuits.GPIO.write(gpio, state)
+    set_interval()
+    {:noreply, {gpio, flip(state)}}
+  end
+
+  defp flip(1), do: 0
+  defp flip(0), do: 1
+end
+
+GenServer.start_link(Example, 0)
+```
+
+![output.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/7e3143f4-e959-7914-850a-bdb4758051e3.gif)
+
+
+
+# デモ
+
+私が[Phoenix LiveView](https://github.com/phoenixframework/phoenix_live_view)を使ってつくった、[オートレース](https://autorace.jp/)の過去動画を再生するWebアプリをデモします。
+
+## https://github.com/TORIFUKUKaiou/autorace_phoenix
+
+[デモサイト](https://autoracex.torifuku-kaiou.app/)
+
+- mainにマージしたら、[CircleCI](https://circleci.com/)経由で[Gigalixir](https://www.gigalixir.com/)にデプロイします
+  - 自分でやったはずなのにあんまり覚えていないです :sweat_smile:
+- Phoenix 1.6で`mix phx.new`をしたときに、`assets`配下の様子が1.5までと違っていて、`node_modules`を追加したいときはどうするんだ？　となりまして、以下にたどり着いて解決しました
+    - **https://github.com/phoenixframework/esbuild#third-party-js-packages**
+    - Thanks!
+    - このへんはいろいろと試行錯誤がありまして、この記事の中に埋もれさせてしまうのはもったい無い気がするので記事をわけて別で書きます
+    - 書きました :fire::fire::fire:
+    - [Third-party JS packages on Phoenix 1.6 (2021/12/12)](https://qiita.com/torifukukaiou/private/c006fab0621630398d4a)
+    - ~~https://elixirforum.com/t/webpack-config-and-package-json-missing-from-new-liveview-project-mix-phx-new-app-live/43378~~
+    - ~~https://cloudless.studio/wrapping-your-head-around-assets-in-phoenix-1-6~~
+        - ~~ざっくり言うと、**Hex**の[esbuild](https://hex.pm/packages/esbuild)は消してしまって、`assets/package.json`をつくってそのなかにJSの[esbuild](https://esbuild.github.io/)を追加しておいて、~~
+        - ~~さらに他の`node_modules`が必要な場合は`assets`フォルダ配下で`npm install --save somelib`しようねって感じです~~
+        - ~~**esbuild + NPM combo**と表現されています~~
+        - ~~[Gigalixir](https://www.gigalixir.com/)へのデプロイはこのやり方をとることであっけなく成功しました~~
+        - ~~もし`assets/package.json`が無いプロジェクトの場合は、 https://gigalixir.readthedocs.io/en/latest/getting-started-guide.html#specify-versions に従って作っておく必要があります~~
+
+
+
+# Wrapping up :lgtm::lgtm::lgtm::lgtm::lgtm:
+
+Enjoy [Elixir](https://elixir-lang.org/) :bangbang::bangbang::bangbang:
+Enjoy [LiveView](https://github.com/phoenixframework/phoenix_live_view) :bangbang::bangbang::bangbang:
+
+
+
+---
+
+# おまけ
+
+[Elixir](https://elixir-lang.org/)を始めてみよう！　とおもった、あなたに参考情報(クリスマス🎄プレゼント)を贈ります。:gift::gift::gift:
+**思い立ったが吉日です!!!**
+
+## オススメの書籍 :books: 
+- [プログラミングElixir（第2版）](https://www.ohmsha.co.jp/book/9784274226373/) -- オーム社
+- [Elixir実践ガイド](https://book.impress.co.jp/books/1120101021) -- インプレス
+- [アルケミスト 夢を旅した少年](https://www.kadokawa.co.jp/product/199999275001/) -- 角川文庫
+
+## Webアプリケーションを楽しむなら
+- [Phoenix](https://www.phoenixframework.org/)
+
+## IoTを楽しむなら
+- [Nerves](https://www.nerves-project.org/)
+
+## AIを楽しむなら
+- [Nx](https://github.com/elixir-nx/nx) + [Livebook](https://github.com/livebook-dev/livebook)
+
+## コミュニティ
+-  [elixir.jp](https://join.slack.com/t/elixirjp/shared_invite/zt-ae8m5bad-WW69GH1w4iuafm1tKNgd~w) Slack workspaceに参加してみてください
+    - マヂ、やさしい人ばっかりのコミュニティ
+    - あなたの**困った**をきっと解決してくれるでしょう
+- [NervesJP](https://join.slack.com/t/nerves-jp/shared_invite/zt-9vteokip-iVAqi8TkT0ID_uK9dSqVHA) Slack workspaceでは、[Nerves](https://www.nerves-project.org/)やIoTが好きな愉快なfolksたちがあなたの訪れを歓迎します :tada:
+- たくさんのコミュニティがあります
+    - @kn339264 さん作の素敵な資料をご紹介します
+    - [Elixirコミュニティ の歩き方〜国内オンライン編〜](https://speakerdeck.com/elijo/elixirkomiyunitei-falsebu-kifang-guo-nei-onrainbian) :clap::clap_tone1::clap_tone2::clap_tone3::clap_tone4::clap_tone5:
+
+![FCOvBkAUYAE6mL8.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/a277d0ea-2780-d9a3-4062-66d38b175125.jpeg)
+@piacerex さん作 :pray::pray_tone1::pray_tone2::pray_tone3::pray_tone4::pray_tone5:
+
+---
+
+明日は、@kikochan さんによる「[なんか書き書き](https://qiita.com/advent-calendar/2021/easyeasy)」です:bangbang::bangbang::bangbang:
+楽しみにしています:tada:
+

@@ -1,0 +1,160 @@
+---
+title: 闘魂Elixir ── 15. Map.update
+tags:
+  - Elixir
+  - 猪木
+  - 40代駆け出しエンジニア
+  - AdventCalendar2022
+  - 闘魂
+private: false
+updated_at: '2022-12-18T14:10:09+09:00'
+id: e5c8ac46fff4f7daf69d
+organization_url_name: fukuokaex
+slide: false
+---
+<b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
+
+https://qiita.com/advent-calendar/2022
+
+https://qiita.com/advent-calendar/2022/elixir
+
+# はじめに
+
+闘魂と[Elixir](https://elixir-lang.org/)が出会いました。
+闘魂 meets [Elixir](https://elixir-lang.org/).です。
+[Elixir](https://elixir-lang.org/) meets 闘魂.でもよいです。
+
+本日は、[Map.update/4](https://hexdocs.pm/elixir/Map.html#update/4)を説明します。
+
+```elixir
+iex> "Elixir" |> String.graphemes() |> Enum.frequencies()
+%{"E" => 1, "i" => 2, "l" => 1, "r" => 1, "x" => 1}
+```
+
+# [Map.update/4](https://hexdocs.pm/elixir/Map.html#update/4)
+
+指定したキーで、マップの値を更新します。
+マップとはキーと値のアレです。はてな？　の方は、「[闘魂Elixir ── 11. Mapモジュール](https://qiita.com/torifukukaiou/items/2421ccca8784e192ebac)」をご覧になってください。
+
+値はキーが存在しないときの初期値と、キーが存在するときにどういう裁定をくだすのかを関数で指定できます。レフェリーです。私は、**裁定（レフェリー）関数**と呼んでいます。これは私が勝手にそう呼んでいるので、他では通用しません。
+
+
+
+こちらの図[^1]をみてください。
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/66749f1b-0189-235b-8e44-4e6ed269515b.png)
+
+
+
+
+なかなか複雑ですね。説明します。
+Map`%{a: 1}`に、キー`:a`の値を`13`で更新したいわけです。
+キー`:a`はすでにMapの中にあるので、**裁定（レフェリー）関数**の出番です。ここでは元の値を2倍するという関数が指定されています。
+`13`はどこにいっちゃったの？　とお思いのかたがいらっしゃるかもしれません。なかったことにされます。そういうものなのです。`13`を結果に活かしたい場合には、「[闘魂Elixir ── 14. Map.merge](https://qiita.com/torifukukaiou/items/fb6d576dff4ef104449c)」を使いましょう。
+
+説明はこのくらいにしておきます。
+さっそく動かしてみましょう。
+
+
+
+[^1]: 図は、https://excalidraw.com/ を使って作成しています。スゴ腕ハッカーが書いたかのような手書き風の絵が書けるので最近の私のお気に入りツールです。
+
+
+
+[IEx](https://hexdocs.pm/iex/IEx.html)で確かめてみましょう。
+
+```:CMD
+iex
+```
+
+[IEx](https://hexdocs.pm/iex/IEx.html)が立ち上がったら、以下のプログラムを実行してみてください。
+
+```elixir
+iex> f = fn existing_value -> existing_value * 2 end
+
+iex> Map.update(%{a: 1}, :a, 13, f)
+%{a: 2}
+```
+
+Map`%{a: 1}`から、`%{a: 2}`得られました :tada: 
+
+
+# ワンポイントレッスン
+
+リスト`[:cat, :dog, :cat, :bird, :inoki, :dog, :cat]`に含まれるアトムの数を数えます。
+今回紹介した[Map.update/4](https://hexdocs.pm/elixir/Map.html#update/4)と[Enum.reduce/3](https://hexdocs.pm/elixir/Enum.html#reduce/3)を組み合わせると実現できます。
+
+
+```elixir
+iex> ( [:cat, :dog, :cat, :bird, :inoki, :dog, :cat]
+|> Enum.reduce(%{}, fn a, acc -> Map.update(acc, a, 1, & &1 + 1) end) )
+%{bird: 1, cat: 3, dog: 2, inoki: 1}
+```
+
+さらにいうと、[Enum.frequencies/1](https://hexdocs.pm/elixir/Enum.html#frequencies/1)を使うことで同じ結果を得ることができます。
+
+
+# 今日の<font color="#d00080">闘魂</font>
+
+今日は、『読史管見』から言葉を引きます。
+
+---
+<ruby>人事<rt>じんじ</rt></ruby>を尽くして天命を待つ
+---
+
+解説は、[こちら](https://dime.jp/genre/1138984/)をご参照ください。
+猪木さん流に言うと、 **「やることをきちんとやって、もっと自分にうぬぼれてみろよ」** ということです。
+
+有名な「出る前に負けることを考える馬鹿いるかよ！　出て行けコラァ！」のシーンにつながるわけです。
+
+そしてこの心構えは、サッカー日本代表の2022年ワールドカップでの活躍につながるわけです。
+私は信じます。日本代表がワールドカップの頂点に立つことを。
+
+https://www.nikkansports.com/soccer/qatar2022/news/202211160001361.html
+
+<iframe width="1570" height="578" src="https://www.youtube.com/embed/zwSYR1FbtsI" title="アントニオ猪木　出る前に負ける事考えるバカいるかよ　ビンタ　伝説の事件" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> 「オレは世界で最強だ」という思いで突っ走ってきた。その自信の源となっていたのは、日々のたゆまぬトレーニングだった。私はプロフェッショナルとして、いついかなるときでも練習に関しては妥協したことがないと自信を持っていえる。（中略）もちろん、単に「うぬぼれ屋になれ」という意味じゃない。（中略）勝つためには努力が必要だ。きちんと努力しているならば、卑屈になるな、弱気になるな、自信を持て！　もっと自分にうぬぼれて生きてみなよ。
+
+:book:『[アントニオ猪木 最後の闘魂](https://www.amazon.co.jp/dp/4833481057)』:book:から引きました。
+みなさまもぜひこの本をお手にとられて、猪木さんが残されたメッセージを通じて、直接猪木さんから「元氣」をもらってください。
+
+https://www.shinchosha.co.jp/book/129721/
+
+https://presidentstore.jp/item/008105.html
+
+
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/be8933f5-e3e2-d5f4-1561-f65f75abdf38.png)
+
+
+
+
+# さいごに
+
+[Map.update/4](https://hexdocs.pm/elixir/Map.html#update/4)を説明しました。
+
+闘魂の意味は、 **「己に打ち克ち、闘いを通じて己の魂を磨いていくことである」** との猪木さんの言葉をそのまま胸に刻み込んでいます。
+知っているだけで終わらせることなく、実行する、断行する、一歩を踏み出すことを自らの行動で示していきたいとおもいます。
+
+<font color="red">$\huge{１、２、３ ぁっダー！}$</font>
+
+
+<iframe width="910" height="512" src="https://www.youtube.com/embed/AWxwmqzbOaw" title="燃える闘魂 アントニオ猪木  追悼VTR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.youtube.com/watch?v=FSz7N5hCltw
+
+---
+
+https://qiita.com/torifukukaiou/items/5e96f4e9f12ec3c4b3f4
+
+---
+
+# Twitter
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Elixir Advent Calendar 3の15日目は、毎度お馴染み <a href="https://twitter.com/torifukukaiou?ref_src=twsrc%5Etfw">@torifukukaiou</a> さんで、Mapモジュールの続き、Map .updateです😌<a href="https://t.co/dMf3RdQ9Pi">https://t.co/dMf3RdQ9Pi</a><br><br>…え？…Map .updateがレフェリー？？？…なんだか闘魂ストロングスタイルが徐々にElixir界に入り込んできている？…😅 <a href="https://t.co/lvJidLAvVM">pic.twitter.com/lvJidLAvVM</a></p>&mdash; piacere (love Elixir, Gravity and VR/AR/Metaverse) (@piacere_ex) <a href="https://twitter.com/piacere_ex/status/1603198147710574592?ref_src=twsrc%5Etfw">December 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+
+<b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>

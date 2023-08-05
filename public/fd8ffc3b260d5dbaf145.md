@@ -1,0 +1,164 @@
+---
+title: 【毎日自動更新】深層学習の論文について解説してみた LGTMランキング！
+tags:
+  - Elixir
+  - 40代駆け出しエンジニア
+  - AdventCalendar2022
+  - QiitaEngineerFesta_深層学習
+  - QiitaEngineerFesta2022
+private: false
+updated_at: '2023-08-05T08:00:08+09:00'
+id: fd8ffc3b260d5dbaf145
+organization_url_name: fukuokaex
+slide: false
+---
+https://qiita.com/official-campaigns/engineer-festa/2022
+
+https://qiita.com/official-events/97ae2edf9e1a01bde1fe
+
+# この記事は
+
+「[深層学習の論文について解説してみた](https://qiita.com/official-events/97ae2edf9e1a01bde1fe)」
+テーマの応援記事です。
+
+[Qiita API v2](https://qiita.com/api/v2/docs)を利用させていただいて、「[深層学習の論文について解説してみた](https://qiita.com/official-events/97ae2edf9e1a01bde1fe)」に参加しているとおもわれる記事を収拾します。
+あつまった記事群（データ）にあれこれしてみます。
+
+- LGTM数順に記事を並べます
+- 投稿者ごとの記事数を集計します
+- 投稿者ごとのLGTM数を集計します
+- tagごとの記事数を集計します
+- tagごとのLGTM数を集計します
+
+「参加ボタン」を押すのをお忘れなく!!!
+
+[Qiita Engineer Festa 2022](https://qiita.com/official-campaigns/engineer-festa/2022)を微力でなおかつ僭越ながら盛り上げたいとおもっています:rocket::rocket::rocket:
+
+---
+
+# 総件数
+11件 :tada::tada::tada:
+
+# LGTM数 :confetti_ball::military_medal::confetti_ball:
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[【2022年最新AI論文】画像異常検知AIの世界最先端手法「PatchCore」の論文を解説【CVPR 2022】](https://qiita.com/umapyoi/items/7c3e9b42388d576057b1)<br>@umapyoi|2022-06-19|2022-07-31|129|
+|2|[2022年最新のYOLOv7の論文解説](https://qiita.com/h1day/items/ab003cc1ed03b795d95f)<br>@h1day|2022-07-12|2022-07-19|49|
+|3|[パラメータ数が多くても過学習しない！？～二重降下～](https://qiita.com/Uchiiita/items/0e2f1f1653e0c186de6d)<br>@Uchiiita|2022-06-24|2022-07-31|24|
+|4|[【論文読み】画像をグラフ構造として特徴抽出するVisionGNN](https://qiita.com/exp/items/208fcdd587c1dcd5b912)<br>@exp|2022-06-19|2022-06-19|21|
+|5|[異常検知　SPADE系譜の原点「Deep Nearest Neighbor Anomaly Detection」を解説してみた](https://qiita.com/DINOkun/items/2d5fcb2c39a1e1c93461)<br>@DINOkun|2022-07-14|2022-07-30|13|
+|6|[【論文読み】CLIPで視覚情報と文字情報が分離されるように学習させる](https://qiita.com/exp/items/1296d83b38f7c9baeb09)<br>@exp|2022-06-19|2022-06-19|6|
+|7|[【毎日自動更新】深層学習の論文について解説してみた LGTMランキング！](https://qiita.com/torifukukaiou/items/fd8ffc3b260d5dbaf145)<br>@torifukukaiou|2022-06-08|2023-08-04|5|
+|8|[評価行列とアイテムの説明文書を活用した推薦システム「ConvMF」を何とか実装していきたい!①理論と実験用データの整形](https://qiita.com/morinota/items/d84269b7b4bf55d157d8)<br>@morinota|2022-07-06|2022-07-13|4|
+|9|[評価行列とアイテムの説明文書を活用した推薦システム「ConvMF」を何とか実装していきたい!②MFパートの実装](https://qiita.com/morinota/items/6bcad7dfe9f406364bfd)<br>@morinota|2022-07-12|2022-07-13|1|
+|10|[化学×深層学習](https://qiita.com/dem_kk/items/76833c4064a3a203d6cf)<br>@dem_kk|2022-06-28|2022-06-28|0|
+|11|[Deep Multi-Agent Reinforcement Learning with Hybrid Action Spaces based on Maximum Entropy, Hongzhi Hua, Kaigui Wu and Guixuan Wen](https://qiita.com/kaizen_nagoya/items/07319eae13129726487a)<br>@kaizen_nagoya|2022-06-13|2022-06-13|0|
+
+
+# 投稿者ごとの記事数とLGTM数
+|No|user|count|LGTM|
+|---|---|---:|---:|
+|1|@exp|2|27|
+|2|@morinota|2|5|
+|3|@DINOkun|1|13|
+|4|@Uchiiita|1|24|
+|5|@dem_kk|1|0|
+|6|@h1day|1|49|
+|7|@kaizen_nagoya|1|0|
+|8|@torifukukaiou|1|5|
+|9|@umapyoi|1|129|
+
+
+# 投稿者ごとのLGTM数と記事数
+|No|user|LGTM|count|
+|---|---|---:|---:|
+|1|@umapyoi|129|1|
+|2|@h1day|49|1|
+|3|@exp|27|2|
+|4|@Uchiiita|24|1|
+|5|@DINOkun|13|1|
+|6|@morinota|5|2|
+|7|@torifukukaiou|5|1|
+|8|@dem_kk|0|1|
+|9|@kaizen_nagoya|0|1|
+
+
+# タグごとの記事数とLGTM数
+|No|tag|count|LGTM|
+|---|---|---:|---:|
+|1|[QiitaEngineerFesta_深層学習](https://qiita.com/tags/QiitaEngineerFesta_深層学習)|11|252|
+|2|[DeepLearning](https://qiita.com/tags/DeepLearning)|6|242|
+|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|3|5|
+|4|[機械学習](https://qiita.com/tags/機械学習)|3|166|
+|5|[論文読み](https://qiita.com/tags/論文読み)|3|27|
+|6|[AI](https://qiita.com/tags/AI)|2|153|
+|7|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|2|5|
+|8|[CNN](https://qiita.com/tags/CNN)|2|5|
+|9|[Python](https://qiita.com/tags/Python)|2|5|
+|10|[Recommendation](https://qiita.com/tags/Recommendation)|2|5|
+|11|[matrix-factorization](https://qiita.com/tags/matrix-factorization)|2|5|
+|12|[深層学習](https://qiita.com/tags/深層学習)|2|30|
+|13|[異常検知](https://qiita.com/tags/異常検知)|2|142|
+|14|[40代駆け出しエンジニア](https://qiita.com/tags/40代駆け出しエンジニア)|1|5|
+|15|[ComputerVision](https://qiita.com/tags/ComputerVision)|1|21|
+|16|[DoCAP](https://qiita.com/tags/DoCAP)|1|0|
+|17|[Elixir](https://qiita.com/tags/Elixir)|1|5|
+|18|[GCN](https://qiita.com/tags/GCN)|1|21|
+|19|[ObjectDetection](https://qiita.com/tags/ObjectDetection)|1|49|
+|20|[YOLO](https://qiita.com/tags/YOLO)|1|49|
+|21|[disentangle](https://qiita.com/tags/disentangle)|1|6|
+|22|[yolov7](https://qiita.com/tags/yolov7)|1|49|
+|23|[初心者](https://qiita.com/tags/初心者)|1|13|
+|24|[化学](https://qiita.com/tags/化学)|1|0|
+
+
+# タグごとのLGTM数と記事数
+|No|tag|LGTM|count|
+|---|---|---:|---:|
+|1|[QiitaEngineerFesta_深層学習](https://qiita.com/tags/QiitaEngineerFesta_深層学習)|252|11|
+|2|[DeepLearning](https://qiita.com/tags/DeepLearning)|242|6|
+|3|[機械学習](https://qiita.com/tags/機械学習)|166|3|
+|4|[AI](https://qiita.com/tags/AI)|153|2|
+|5|[異常検知](https://qiita.com/tags/異常検知)|142|2|
+|6|[ObjectDetection](https://qiita.com/tags/ObjectDetection)|49|1|
+|7|[YOLO](https://qiita.com/tags/YOLO)|49|1|
+|8|[yolov7](https://qiita.com/tags/yolov7)|49|1|
+|9|[深層学習](https://qiita.com/tags/深層学習)|30|2|
+|10|[論文読み](https://qiita.com/tags/論文読み)|27|3|
+|11|[ComputerVision](https://qiita.com/tags/ComputerVision)|21|1|
+|12|[GCN](https://qiita.com/tags/GCN)|21|1|
+|13|[初心者](https://qiita.com/tags/初心者)|13|1|
+|14|[disentangle](https://qiita.com/tags/disentangle)|6|1|
+|15|[40代駆け出しエンジニア](https://qiita.com/tags/40代駆け出しエンジニア)|5|1|
+|16|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|5|2|
+|17|[CNN](https://qiita.com/tags/CNN)|5|2|
+|18|[Elixir](https://qiita.com/tags/Elixir)|5|1|
+|19|[Python](https://qiita.com/tags/Python)|5|2|
+|20|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|5|3|
+|21|[Recommendation](https://qiita.com/tags/Recommendation)|5|2|
+|22|[matrix-factorization](https://qiita.com/tags/matrix-factorization)|5|2|
+|23|[DoCAP](https://qiita.com/tags/DoCAP)|0|1|
+|24|[化学](https://qiita.com/tags/化学)|0|1|
+
+
+---
+
+# Wrapping up :lgtm: :qiitan: :lgtm:
+
+この記事は、「[深層学習の論文について解説してみた](https://qiita.com/official-events/97ae2edf9e1a01bde1fe)」の応援記事です。
+
+豪華プレゼントをGetしちゃってください！
+ユー、豪華プレゼントをGetしちゃいなよ！
+
+---
+
+最後に、この記事を自動更新しているプログラムについて補足しておきます。
+
+- 自動更新は、[Elixir](https://elixir-lang.org/)というプログラミング言語がありまして、その[Elixir](https://elixir-lang.org/)で作られた[Nerves](https://www.nerves-project.org/)という[ナウでヤングでcoolなすごいIoTフレームワーク](https://www.slideshare.net/takasehideki/elixiriotcoolnerves-236780506)を使ってつくったアプリケーションで行っております
+  - [Nerves](https://www.nerves-project.org/)の始め方につきましては下記の記事が詳しいです
+  - [ElixirでIoT#4.1：Nerves開発環境の準備](https://qiita.com/takasehideki/items/88dda57758051d45fcf9)
+- [Elixir](https://elixir-lang.org/)には、データを自在に取り扱える[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールがあります
+- [Elixir](https://elixir-lang.org/)をはじめてみようという方は、[Enum](https://hexdocs.pm/elixir/Enum.html)モジュールの習得からはじめるとよいとおもいます
+- [WEB+DB PRESS Vol.127](https://gihyo.jp/magazine/wdpress/archive/2022/vol127) :book: の特集２「Elixirによる高速なWeb開発！ 作って学ぶPhoenix」は、[Elixir](https://elixir-lang.org/)でWebアプリケーション開発を楽しめる[Phoenix](https://www.phoenixframework.org/)の基礎がぎっしりと詰まっていて、**オススメ**です
+- プログラムは、 https://github.com/TORIFUKUKaiou/hello_nerves/tree/master/lib/qiita/events にあります
+

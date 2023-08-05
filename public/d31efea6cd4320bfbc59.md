@@ -1,0 +1,196 @@
+---
+title: banditをイゴかしてみる
+tags:
+  - Elixir
+private: false
+updated_at: '2021-12-29T23:44:05+09:00'
+id: d31efea6cd4320bfbc59
+organization_url_name: fukuokaex
+slide: false
+---
+https://qiita.com/advent-calendar/2021/nervesjp
+
+2021/12/21(水)の回です。
+
+# はじめに
+
+[Elixir](https://elixir-lang.org/)を楽しんでいますか:bangbang::bangbang::bangbang:
+[Bandit](https://github.com/mtrudel/bandit) Hexの話をします。
+@zacky1972 先生に、[Bandit](https://github.com/mtrudel/bandit)のことを教えてもらいました。
+
+> Bandit is an HTTP server for Plug apps.
+> Bandit is still a young project, and much work remains before it is ready for production use. 
+
+---
+
+> Bandit is written entirely in Elixir and is built atop Thousand Island.
+
+---
+
+> [Thousand Island](https://github.com/mtrudel/thousand_island) is a modern, pure Elixir socket server, inspired heavily by [ranch](https://github.com/ninenines/ranch).
+
+
+# 論よりRun :rocket::rocket::rocket: 
+
+とにかくイゴかしてみます[^1]。
+YouTube動画を用意してみました。
+まずはこちらをご覧ください。
+
+<iframe width="1117" height="628" src="https://www.youtube.com/embed/1_C2DZV4St8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+動画では簡単なHTTP PostとHTTP Getを受け取っている様子を収めています。
+ローカルでは[LINE](https://line.me/)のbotや[slack](https://slack.com/)のbotを作って動かすことができました。
+その話はまた別の記事にまとめます。
+
+## LINEボットの作例 (基本:interrobang:のオウム返しボット)
+
+https://qiita.com/torifukukaiou/items/05255dc857ddd5a695ee
+
+
+[^1]: 「動かしてみます」の意。おそらく西日本の方言、たぶん。[NervesJP](https://nerves-jp.connpass.com/)ではおなじみ。少し古いオートレースの映像ですが、実況アナウンサーが「針[^2]イゴきます」とはっきり言っています。https://autorace.jp/netstadium/SearchMovie/Movie/iizuka?date=2017-01-04&p=5&race_number=11&pg=  
+
+[^2]: 大時計の針のこと。針がイゴいてある地点まで到達すると選手はスタートを切って良い発走の合図。針がイゴきはじめると(おそらく)選手は緊張するし、スタートはその後のレース展開に大きく影響するので、車券を握りしめている観客たちがもっとも緊張する瞬間であるため、先の尖った鋭いものを連想させる針は緊張の暗喩としても言い得て妙。
+
+
+# 動画で行っていること
+
+以下、動画で行っていることをまとめておきます。
+
+
+## プロジェクトの作成
+
+```
+$ mix new hello_world --sup
+$ cd hello_world
+```
+
+## mix.exsにHexを追加
+
+```diff:mix.exs
+  defp deps do
+     [
+       # {:dep_from_hexpm, "~> 0.3.0"},
+       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
++      {:bandit, "~> 0.4.5"}
+     ]
+   end
+ end
+```
+
+
+## mix deps.get
+
+```bash
+$ mix deps.get
+```
+
+## Write
+
+```elixir:lib/hello_world/my_plug.ex
+defmodule HelloWorld.MyPlug do
+  import Plug.Conn
+
+  def init(options) do
+    # initialize options
+    options
+  end
+
+  def call(conn, opts) do
+    IO.puts("== conn ==")
+    IO.inspect(conn)
+
+    {:ok, body, conn} = Plug.Conn.read_body(conn, opts)
+    IO.puts("== conn ==")
+    IO.inspect(body)
+
+    conn
+    |> put_resp_content_type("application/json")
+    |> send_resp(200, body)
+  end
+end
+```
+
+```diff:lib/hello_world/application.ex
+     children = [
+       # Starts a worker by calling: HelloWorld.Worker.start_link(arg)
+       # {HelloWorld.Worker, arg}
++      {Bandit, plug: HelloWorld.MyPlug, scheme: :http, options: [port: 4000]}
+     ]
+```
+
+
+
+## Run
+
+```bash
+$ iex -S mix
+```
+
+
+## 別のターミナルでcurlコマンド
+
+```bash
+# HTTP Post
+$ curl -X POST -H "Content-Type: application/json" -d '{"name":"awesome", "age":42}' http://localhost:4000/api/v1/users
+
+
+# HTTP Get
+$ curl http://localhost:4000/api/v1/users
+```
+
+
+## 参考リンク
+
+https://github.com/mtrudel/bandit
+
+https://hexdocs.pm/plug/readme.html
+
+https://hexdocs.pm/plug/Plug.Parsers.html#module-custom-body-reader
+
+
+# Wrapping up :lgtm::lgtm::lgtm::lgtm::lgtm:
+
+[Bandit](https://github.com/mtrudel/bandit)のイゴかし方を説明しました。
+
+> Bandit is still a young project
+
+どこかで聞いたことありますよね:interrobang::interrobang::interrobang:
+<font color="purple">$\huge{young}$</font>
+<font color="purple">$\huge{ヤング}$</font>
+
+そうです:bangbang::bangbang::bangbang:
+『[Nervesはナウでヤングなcoolなすごいやつ](https://www.slideshare.net/takasehideki/elixirnervescool-249038510)』
+これで、[#NervesJP](https://qiita.com/advent-calendar/2021/nervesjp)アドベントカレンダーに居座ってもいい理由ができました。
+
+[Bandit](https://github.com/mtrudel/bandit)には、これからも注目していきます!!!
+Enjoy [Elixir](https://elixir-lang.org/):rocket::rocket::rocket:
+
+
+## 新しい試み
+
+動画:movie_camera:をつけてみました。
+動画:movie_camera:で説明をして、文章はコマンド例、ソースコード例だけにして特に説明はしませんでした[^3]。
+このフォーマットが好評であれば続けていきたいと思います。
+
+[^3]: いつもろくに説明していないと言われそう……
+
+以下、動画:movie_camera:ってどうやって作ったの？、Qiitaに埋め込んだの? をご存じない方のための情報です。
+
+ツールはmacOSに標準で入っているソフトを使いました。
+
+- その他 > スクリーンショット: 動画撮影
+- iMovie: 動画編集
+
+説明のしゃべりを入れる場合には、Zoomのレコーディング機能を使えば比較的少ない機材で撮影ができます。
+ただ言い間違えたりなんたりしたときの編集が面倒なので、今回はしゃべりを入れずに小粋な音楽だけにしてみました。
+
+動画は8倍速(箇所によっては20倍速)にしてYouTubeに公開しています。
+まだ遅いと感じる方は、YouTubeのほうで倍速にしてください。
+
+Qiita記事の動画の埋め込みは、YouTubeの動画を表示している画面にて「右クリック > 埋め込みコードをコピー」にてコピーしたものをそのまま貼り付けました。
+
+
+
+
+
+

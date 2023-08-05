@@ -1,0 +1,345 @@
+---
+title: Qiitaエンジニアフェスタ2021 LGTMランキング！
+tags:
+  - Elixir
+  - Nerves
+  - Qiitaエンジニアフェスタ_開発環境
+private: false
+updated_at: '2023-08-04T13:10:22+09:00'
+id: 949ff6d59ffeeec0cd51
+organization_url_name: fukuokaex
+slide: false
+---
+https://qiita.com/official-campaigns/engineer-festa/2021
+
+# この記事は
+- 2021年7月1日から8月25日まで開催されている[Qiitaエンジニアフェスタ2021](https://qiita.com/official-campaigns/engineer-festa/2021)に投稿されたと**おもわれる**記事をLGTM数順に並べたものです
+  - 「参加ボタン」を押すのをお忘れなく
+- 私だけの感じ方かもしれません[^1]が、自分が書いた記事が他の方の記事からリンクされると、Qiitaの画面の上のほうで「あなたの記事にリンクしました」とお知らせがくることがありますよね
+  - あれが私はうれしいです
+  - イベントですし、お祭りということで勝手に応援させてください :lgtm::tada::tada::tada::lgtm:
+
+[^1]: 矢吹丈がそんな言い方を乾物屋の紀ちゃんにするシーンがあって、私は多用しています
+
+# 総件数
+187件 :tada::tada::tada:
+
+# 総LGTM数 :lgtm::lgtm::lgtm::lgtm::lgtm:
+3,329 :rocket::rocket::rocket:
+
+# 総合賞
+https://qiita.com/official-campaigns/engineer-festa/2021
+> エンジニアフェスタ全体で最も多くのLGTMがついた記事を投稿したユーザーに対して総合賞を設けています。
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|627|
+|2|[デザインの勉強をしたいエンジニアにおすすめの本10選](https://qiita.com/xrxoxcxox/items/baa1ce69bf997db4b8a5)<br>@xrxoxcxox|2021-07-19|2022-04-23|372|
+|3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
+|4|[時間を溶かす素敵なサイトとすごい技術コレクション](https://qiita.com/e99h2121/items/50b43f6f4f087c40f4f9)<br>@e99h2121|2021-07-17|2021-11-14|180|
+|5|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
+|6|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|101|
+|7|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|92|
+|8|[「.」で起動するgithub.devとGithub Codespacesの違い](https://qiita.com/ku_suke/items/07deb49dba04bdc36216)<br>@ku_suke|2021-08-12|2021-08-12|88|
+|9|[あなたもdocker, 私もdocker。docker(130)](https://qiita.com/kaizen_nagoya/items/8f2746f10f30b575d0a8)<br>@kaizen_nagoya|2021-07-24|2023-06-28|64|
+|10|[Github Codespacesでブラウザ上に自宅と同期したVSCode環境が構築できた](https://qiita.com/ku_suke/items/55676049940c234e49b5)<br>@ku_suke|2021-08-05|2022-07-08|63|
+
+
+# スポンサー企業のテーマ
+
+https://qiita.com/official-events/5fcd3867b233a9228fd0
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[【付録付き】認証機能をAuth0に差し替える時に全ユーザー移行した話](https://qiita.com/miyatomo/items/3f6ef4fe315143cc584d)<br>@miyatomo|2021-07-03|2021-08-04|38|
+|2|[Firebase Authentication と比較しながら「Auth0 なら多分これが一番早いと思います」](https://qiita.com/kaibadash@github/items/c754e9e002deabb84964)<br>@kaibadash@github|2021-08-08|2021-08-08|25|
+|3|[権限制御可能な永続化APIキーをAuth0で発行する](https://qiita.com/miyatomo/items/6b1780358bdd826da472)<br>@miyatomo|2021-08-25|2021-08-25|16|
+|4|[【Auth0】Organization機能を利用してマルチテナントの認証・認可を実現する](https://qiita.com/tpxfuj/items/85ff03de30b65fb7faf5)<br>@tpxfuj|2021-08-25|2021-09-18|12|
+|5|[Auth0をPhoenix LiveViewと組み合わせて使ってみました (Elixir)](https://qiita.com/torifukukaiou/items/322482ab1a445d1f2f1a)<br>@torifukukaiou|2021-08-14|2021-08-16|12|
+|6|[【画像手順解説】Auth0 Rails(api) + React  SPAでユーザー認証機能を実装しよう 1 (React編)](https://qiita.com/pon0204/items/ea6b68043ca11c2b5156)<br>@pon0204|2021-07-29|2021-08-24|11|
+|7|[RailsアプリにAuth0をサクッと導入する](https://qiita.com/wonder_boooy/items/57d30faf940f9831bf1b)<br>@wonder_boooy|2021-07-24|2022-07-31|11|
+|8|[正義の星](https://qiita.com/kubosuke/items/09db830f95f2aec6a84d)<br>@kubosuke|2021-07-22|2021-08-23|11|
+|9|[保護されたAPIにアクセスするSPA](https://qiita.com/m28/items/bf428f92aeacf8ae36b6)<br>@m28|2021-08-24|2021-08-24|9|
+|10|[【画像手順解説】Auth0 Rails(api) + React  SPAでユーザー認証機能を実装しよう 3 (Rails(api) + React編)](https://qiita.com/pon0204/items/50838829bd8932b37820)<br>@pon0204|2021-07-29|2021-08-24|9|
+|11|[初見3分(本当は12分)でAuth0を使ったOIDCログインを実装するまで](https://qiita.com/kkoiwai/items/3e1205bf60b11c8d9649)<br>@kkoiwai|2021-08-07|2022-02-11|6|
+|12|[【画像手順解説】Auth0 Rails(api) + React  SPAでユーザー認証機能を実装しよう 2 (Rails編)](https://qiita.com/pon0204/items/4de8c4b55b348a4c0781)<br>@pon0204|2021-07-29|2021-07-30|5|
+|13|[Auth0のトークンにRulesでロールを追加できなくなってハマった件](https://qiita.com/pontata/items/11b06bddf14dd0b0ad1f)<br>@pontata|2021-07-26|2021-07-27|4|
+|14|[【Auth0 × React × Express API】Auth0 After Quickstarts](https://qiita.com/engineer-ruirui/items/0ba5d3e8e562c8410ee0)<br>@engineer-ruirui|2021-07-14|2021-07-14|4|
+|15|[SpringBootアプリケーションでAuth0を試してみた【kotlin】](https://qiita.com/Teramonte4/items/dbeda4c19dd9f209d42a)<br>@Teramonte4|2021-07-29|2021-07-29|3|
+
+---
+https://qiita.com/official-events/846e19ec9af76ca9c940
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[ビジュアルプログラミングだけで郵便受けにモノが入ってるかどうか検知してみた](https://qiita.com/inui_yui/items/6de23911cded9d4423dc)<br>@inui_yui|2021-07-05|2021-08-25|53|
+|2|[SORACOMのIoTボタンで耳の遠い祖父のために光とLINEで通知する呼び鈴を作る](https://qiita.com/kaonaga9/items/24e63bf07659f6a54bc8)<br>@kaonaga9|2021-08-21|2022-04-15|23|
+|3|[一人暮らしの祖母の畑(と家)をハックする](https://qiita.com/Tommyyyyyyy/items/3cec00156cb51e1dcb75)<br>@Tommyyyyyyy|2021-08-22|2021-08-22|13|
+|4|[ESP-NOWを使ってGateWay方式でSORACOMへ送信する～機械のIoT化を低コストで](https://qiita.com/m_take/items/35fe5d67d82554fe9217)<br>@m_take|2021-08-15|2021-11-11|13|
+|5|[Nerves Livebook Firmwareを使って温度・湿度のグラフをかいてみる](https://qiita.com/torifukukaiou/items/dfe1577004f36b8b77d7)<br>@torifukukaiou|2021-08-07|2021-09-04|13|
+|6|[BLEビーコンとソラコムAPIでつい押してみたくなる出退勤記録ボタンを作る（Slack通知機能追加版）](https://qiita.com/k_izutani/items/d8c1014a2070fc0a3f5f)<br>@k_izutani|2021-07-18|2021-07-22|9|
+|7|[SORACOM 3G対応データ通信端末を利用した水やりIoTシステム](https://qiita.com/xu1718191411/items/13d8d763c2389e139b36)<br>@xu1718191411|2021-08-24|2021-08-24|7|
+|8|[サウナの温湿度情報をリアルタイムで可視化しよう！ SORACOM + Raspberry Pi + Arduino ](https://qiita.com/joh/items/30bcf7d5c4e94c728520)<br>@joh|2021-08-23|2021-08-28|7|
+|9|[寝苦しかったから、エアコンとセラミックファインヒータで再熱除湿を疑似再現してみた](https://qiita.com/nora_wanko/items/82bf7da1c1c525bf8f99)<br>@nora_wanko|2021-08-25|2021-08-25|5|
+|10|[SORACOM + EnOcean + Ambient で、スマート一次産業（農業・林業・漁業・など）](https://qiita.com/TakaW/items/8319cae8eca214741c26)<br>@TakaW|2021-08-19|2021-08-21|5|
+|11|[【なつやすみの】有名ミュージシャンの気分を味わえちゃう装置を作ってみた【じゆうけんきゅう】](https://qiita.com/reacon4234/items/93756d1659918a1e0325)<br>@reacon4234|2021-08-25|2021-08-25|4|
+|12|[SORACOMで日本と北米機器からping遅延を収集しGoogle Cloudで可視化](https://qiita.com/joshnn/items/e3b885c54dd526d27e8e)<br>@joshnn|2021-08-22|2021-08-23|4|
+|13|[SORACOM HarvestとSORACOM Lagoonを触ってみた](https://qiita.com/allforbigfire/items/b2d7203f4f6b9f634f94)<br>@allforbigfire|2021-08-22|2021-08-22|4|
+|14|[Grove IoT スターターキット for SORACOM で作るリモートカメラシステム](https://qiita.com/ekzemplaro/items/541b82908cec46f6aa7b)<br>@ekzemplaro|2021-08-16|2021-08-23|4|
+|15|[SORACOM 3G対応データ通信端末 AK-020、Raspberry PI 3 Model B+、PyCharmでIoT開発環境を整えて見ました](https://qiita.com/xu1718191411/items/8b6f0241162894f87b57)<br>@xu1718191411|2021-08-10|2021-08-18|3|
+|16|[WioLTE で収集した温度湿度を grafana で表示する](https://qiita.com/ekzemplaro/items/b16092af9ab543fbaa34)<br>@ekzemplaro|2021-08-25|2021-08-25|2|
+|17|[MQTT を file に変換するプログラム](https://qiita.com/ekzemplaro/items/e4db9635047029867246)<br>@ekzemplaro|2021-08-22|2021-08-23|1|
+|18|[WioLTE: MQTT で Subscribe したデータを表示する](https://qiita.com/ekzemplaro/items/8730bdd555703e3b6ab2)<br>@ekzemplaro|2021-08-20|2021-08-20|1|
+|19|[ブラウザーから MQTT Publish でブザーを鳴らす](https://qiita.com/ekzemplaro/items/4fe55f7964f7c74ac1ce)<br>@ekzemplaro|2021-08-13|2021-08-21|1|
+|20|[MQTT Subscribe で受け取った温度と湿度をブラウザーに表示する](https://qiita.com/ekzemplaro/items/7af584b418a05f9da7d0)<br>@ekzemplaro|2021-08-12|2022-12-22|1|
+|21|[Grove IoT スターターキット for SORACOM で MQTT クライアントを使う](https://qiita.com/ekzemplaro/items/b9b7b178471d700e3ffc)<br>@ekzemplaro|2021-08-10|2021-08-10|1|
+|22|[HTTP で温度と湿度を Harvest に送る](https://qiita.com/ekzemplaro/items/4151144656fb06dac4fd)<br>@ekzemplaro|2021-08-08|2021-08-10|1|
+|23|[UDP で温度と湿度を Harvest に送る](https://qiita.com/ekzemplaro/items/690faa6f56003272299f)<br>@ekzemplaro|2021-08-08|2021-08-25|1|
+|24|[SORACOM Harvest でエラーが出た時の対策](https://qiita.com/ekzemplaro/items/d9e3f7f1a6c49995feb8)<br>@ekzemplaro|2021-08-07|2021-08-07|1|
+|25|[Grove IoT スターターキット for SORACOM で GPS を使う](https://qiita.com/ekzemplaro/items/943506636fc1e6292c81)<br>@ekzemplaro|2021-08-06|2021-08-06|1|
+|26|[Grove IoT スターターキット for SORACOM で加速度センサーを使う](https://qiita.com/ekzemplaro/items/2a5b6a4bfb0308456c98)<br>@ekzemplaro|2021-08-06|2021-08-06|1|
+|27|[Grove IoT スターターキット for SORACOM で超音波距離計を使う](https://qiita.com/ekzemplaro/items/31b90e9d0c4287a7cf2d)<br>@ekzemplaro|2021-08-06|2021-08-06|1|
+|28|[Grove IoT スターターキット for SORACOM で磁気スイッチを使う](https://qiita.com/ekzemplaro/items/3cdcb0013729283e9660)<br>@ekzemplaro|2021-08-05|2021-08-06|1|
+|29|[Grove IoT スターターキット for SORACOM で温湿度センサーを使う](https://qiita.com/ekzemplaro/items/a59eadca385df0847dfc)<br>@ekzemplaro|2021-08-05|2021-08-05|1|
+|30|[Grove IoT スターターキット for SORACOM の使い方](https://qiita.com/ekzemplaro/items/bcc676b3326cdc7db421)<br>@ekzemplaro|2021-08-04|2021-08-04|1|
+|31|[HTTP POST を file に変換する API](https://qiita.com/ekzemplaro/items/679b4e80f1b421cc33c2)<br>@ekzemplaro|2021-08-22|2021-08-22|0|
+|32|[WioLTE で MQTT Publish できる最大サイズを調べる](https://qiita.com/ekzemplaro/items/f5f4eab42c1b5afcb985)<br>@ekzemplaro|2021-08-21|2021-08-21|0|
+|33|[WioLTE で 大きいデータを MQTT Publish する](https://qiita.com/ekzemplaro/items/7a7cbcfca11c2de28dd1)<br>@ekzemplaro|2021-08-19|2021-08-31|0|
+|34|[HTTP POST を MQTT Publish に変換する](https://qiita.com/ekzemplaro/items/df8e8eb7b7ee50c18158)<br>@ekzemplaro|2021-08-18|2021-08-23|0|
+|35|[MQTT over WebSocket で画像を表示](https://qiita.com/ekzemplaro/items/545260fff37db8b3cc30)<br>@ekzemplaro|2021-08-18|2021-08-18|0|
+|36|[リモートカメラシステム （MQTT ブローカーに画像をそのまま送る）](https://qiita.com/ekzemplaro/items/f6da54ffc38b6f6e9c94)<br>@ekzemplaro|2021-08-17|2021-08-17|0|
+|37|[リモートカメラシステム（MQTT ブローカーの検証）](https://qiita.com/ekzemplaro/items/1ac5b1b30c08e414c561)<br>@ekzemplaro|2021-08-17|2021-08-17|0|
+|38|[リモートカメラシステム　（クローン部分）](https://qiita.com/ekzemplaro/items/c613c101b4bbb0ae3925)<br>@ekzemplaro|2021-08-16|2021-08-23|0|
+|39|[リモートカメラシステム　（Web ページ部分）](https://qiita.com/ekzemplaro/items/0ceafae3f0d2c9eaa82c)<br>@ekzemplaro|2021-08-16|2021-08-23|0|
+|40|[リモートカメラシステム　（Arduino 部分）](https://qiita.com/ekzemplaro/items/4e2a64aa5a3a1e182b7f)<br>@ekzemplaro|2021-08-16|2021-08-23|0|
+|41|[ブラウザーから MQTT Publish でボードの LED の点灯色を変える](https://qiita.com/ekzemplaro/items/f728559635e223e74dac)<br>@ekzemplaro|2021-08-13|2021-08-13|0|
+|42|[MQTT で温度と湿度を publish する](https://qiita.com/ekzemplaro/items/1dd7f73538ffedf48d6d)<br>@ekzemplaro|2021-08-12|2021-08-12|0|
+|43|[MQTT を受信して ボードの LED の点灯色を変える](https://qiita.com/ekzemplaro/items/f629ac2e92dc1d65c5fa)<br>@ekzemplaro|2021-08-11|2021-08-20|0|
+|44|[SORACOM コンソールで サポート-> 問い合わせができない問題](https://qiita.com/ekzemplaro/items/95d240708552b4543995)<br>@ekzemplaro|2021-08-08|2021-08-08|0|
+|45|[Grove IoT スターターキット for SORACOM でボタンを使う](https://qiita.com/ekzemplaro/items/c8e4222e5be10ea4b580)<br>@ekzemplaro|2021-08-04|2021-08-05|0|
+|46|[Grove IoT スターターキット for SORACOM でブザーをならす](https://qiita.com/ekzemplaro/items/c54b824da73d9ac2bce2)<br>@ekzemplaro|2021-08-04|2021-08-04|0|
+
+---
+https://qiita.com/official-events/64ff6ba4e653a822fce9
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[紙で申請を出す居酒屋店員のシフト希望と管理業務をちょっとスマートにする](https://qiita.com/n0bisuke/items/0c6d6a236b31e3897d41)<br>@n0bisuke|2021-08-25|2021-08-26|13|
+|2|[DirectCloud-BOX APIを実行するまでにハマった事と感想](https://qiita.com/mikkame/items/e47cdb2e6df35831bac7)<br>@mikkame|2021-08-20|2021-08-20|12|
+|3|[DirectCloud-BOX with Power Automate Desktop「API連携でオンプレミスからのファイル配信を効率化する」](https://qiita.com/sys_zero/items/7c199a31adb00978f5ea)<br>@sys_zero|2021-08-25|2022-06-07|5|
+|4|[マルチテナントアプリケーションのストレージをDirectCloud-BOX APIでセキュア化](https://qiita.com/hiromichinomata/items/2e122743cf419cd221ba)<br>@hiromichinomata|2021-08-24|2021-08-24|2|
+|5|[DirectCloud-BOXにファイルをアップロードするGitHub Actionを作ってみた](https://qiita.com/tk3fftk/items/ca71fa6af47411d2738a)<br>@tk3fftk|2021-08-22|2021-08-26|2|
+|6|[DirectCloud-BOXのAPI連携の肝とpythonモジュール作成](https://qiita.com/tentatsu/items/ce1cf272f26fbbb7de44)<br>@tentatsu|2021-08-21|2021-08-21|2|
+|7|[DirectCloud-BOXのAPIを呼び出すとできそうな、ファイルベースRPC](https://qiita.com/Piyomarusoftware/items/34625603003823146cc7)<br>@Piyomarusoftware|2021-08-25|2021-08-25|1|
+|8|[DirectCloud-BOX APIでファイル共有 URL 作成をシンプルにする Web ツールを作ってみた](https://qiita.com/kennyttotheleft/items/636c564e2afc21b2e3d8)<br>@kennyttotheleft|2021-08-22|2021-08-23|1|
+|9|[Google ドライブ に保存された請求書を、定期的にDirectCloud-BOXへバックアップする](https://qiita.com/TakeshiNickOsanai/items/a353951f08c7c947eda5)<br>@TakeshiNickOsanai|2021-08-22|2021-08-25|1|
+
+---
+https://qiita.com/official-events/21bbb48549a4a68172a4
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[あなたのAWS S3は安全ですか?](https://qiita.com/sanshouo/items/becfd1b94bd305c67752)<br>@sanshouo|2021-08-24|2021-08-25|42|
+|2|[AWS CDKを使ってTrend Micro Cloud One Container SecurityをEKSにセットアップしてみた その１](https://qiita.com/nst-zama/items/954ce559b2de46e946ed)<br>@nst-zama|2021-07-23|2021-07-23|14|
+|3|[AWS CDKを使ってTrend Micro Cloud One Container SecurityをEKSにセットアップしてみた その２](https://qiita.com/nst-zama/items/ac30f66637e546fe6d17)<br>@nst-zama|2021-08-09|2021-08-09|11|
+|4|[Trend Micro Cloud One Workload Security を AWS と連携してみる](https://qiita.com/rarako/items/fdc36b04aaf9010d7c93)<br>@rarako|2021-08-15|2021-08-15|5|
+|5|[Cloud One Workload Security の Python SDK のソースコードを読んでみた](https://qiita.com/rarako/items/a3e2c2c5fe7a77579df1)<br>@rarako|2021-08-17|2021-08-17|4|
+|6|[Trend Micro Cloud One Workload Security の無償版を有償版にアップグレードする](https://qiita.com/dnpds-kita/items/be4a6ea7c93f06339c62)<br>@dnpds-kita|2021-08-23|2021-08-23|3|
+
+---
+https://qiita.com/official-events/8d3820474c1143e88801
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[無料で使えるAzure Static Web AppsにGatsbyブログを爆速でデプロイする](https://qiita.com/thanai/items/115e4adeca568da0bfa9)<br>@thanai|2021-08-21|2021-08-25|30|
+|2|[VSCodeでのAzure Static Web Appsのプロジェクト作成手順とローカル開発手順](https://qiita.com/tsubakimoto_s/items/4939a6d6e647721309a3)<br>@tsubakimoto_s|2021-08-12|2021-08-12|21|
+|3|[【Azure】ぎりぎりにAzure Static Web Appsについて調べてみた](https://qiita.com/hikaru_motomiya/items/467004e48a8c7bfdb99a)<br>@hikaru_motomiya|2021-08-24|2021-08-27|19|
+|4|[【Blazor】Azure Static Web Apps にアプリをデプロイする手順](https://qiita.com/nekojoker/items/232725e3bec028cdacc0)<br>@nekojoker|2021-08-12|2021-08-12|12|
+|5|[Azure Static Web AppsでNuxt.jsアプリを作成する](https://qiita.com/jiru/items/0fefe54133ad07968687)<br>@jiru|2021-08-22|2021-08-22|11|
+|6|[Azure Static Web App で Jamstack を運用する方法](https://qiita.com/miyake/items/3c292cf4780628795744)<br>@miyake|2021-07-01|2021-07-02|11|
+|7|[Azure Static Web AppsのCI/CDをAzure DevOpsで構築する！そしてパイプラインをカスタマイズする](https://qiita.com/tsubakimoto_s/items/08265048106cd0eb054f)<br>@tsubakimoto_s|2021-08-22|2021-08-22|7|
+|8|[Azure Static WebAppsでswagger-uiのAPIドキュメントを公開する(認証あり)](https://qiita.com/kaz29@github/items/fa741eedb8e7a09011cf)<br>@kaz29@github|2021-08-20|2021-08-21|7|
+|9|[Azure Static Web Appsで短時間でWEBアプリを公開する](https://qiita.com/fluffy-hammy/items/203ec3a4554c54ec2b2a)<br>@fluffy-hammy|2021-07-27|2021-08-16|7|
+|10|[Azure Static WebAppsでnext.jsのdynamic rootingを使う](https://qiita.com/kaz29@github/items/3a0a3e2361496c7de283)<br>@kaz29@github|2021-07-22|2021-07-23|5|
+|11|[Azure Static Web Apps Custom Domain 設定 (AWSのRoute53で取得したドメインとAzure DNS使用)](https://qiita.com/motoJinC25/items/a60e76fbe9bc0bdf7eb7)<br>@motoJinC25|2021-07-04|2021-07-04|5|
+|12|[Nuxt TypeScript（Composition API）、Django REST Framework で開発したアプリを、Azure Static Web Apps、Heroku にリリースする](https://qiita.com/JQinglong/items/e35294f7a260c5a26ae8)<br>@JQinglong|2021-07-22|2021-08-13|4|
+|13|[Azure Static Web Apps に Blob Storage で公開していたコーポレートサイトの移行で爆速に！！](https://qiita.com/changeworld/items/c1768bed50832d2eac0c)<br>@changeworld|2021-08-20|2021-08-22|3|
+|14|[Azure Static Web Apps の機能をいろいろさわってみる](https://qiita.com/ussvgr/items/b5c827f9dc7ec145895f)<br>@ussvgr|2021-08-20|2021-08-20|2|
+|15|[Qiitaエンジニアフェスタ_StaticWebApps に参加するまで](https://qiita.com/kaizen_nagoya/items/1a1f53926325d872821f)<br>@kaizen_nagoya|2021-07-31|2021-08-26|1|
+
+---
+https://qiita.com/official-events/c6ee70084f9aeb38b0cc
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[「.」で起動するgithub.devとGithub Codespacesの違い](https://qiita.com/ku_suke/items/07deb49dba04bdc36216)<br>@ku_suke|2021-08-12|2021-08-12|88|
+|2|[Github Codespacesでブラウザ上に自宅と同期したVSCode環境が構築できた](https://qiita.com/ku_suke/items/55676049940c234e49b5)<br>@ku_suke|2021-08-05|2022-07-08|63|
+|3|[Kubernetesはこわくない！Azure Bicep + Bridge to KubernetesをVisual Studio Codeで一気に体験する](https://qiita.com/thanai/items/f27a25fc04ec359e6515)<br>@thanai|2021-08-25|2021-08-25|26|
+|4|[Microsoftとの歴史　Basicに始まり、Cコンパイラ、Windows95、Githubまで](https://qiita.com/kaizen_nagoya/items/d7c0cc257e99de0573cf)<br>@kaizen_nagoya|2021-07-24|2023-06-28|21|
+|5|[Blazor アプリ開発で、ブラウザ上に表示されている HTML 要素から、元の .razor ファイルをたどる方法](https://qiita.com/jsakamoto/items/b3625beec8cdddb9e85c)<br>@jsakamoto|2021-08-09|2022-01-09|14|
+|6|[GitHub Codespaces を Organization で使ってみた](https://qiita.com/changeworld/items/48882611a65dfe044919)<br>@changeworld|2021-08-22|2021-08-23|13|
+|7|[Phoenixの開発環境をつくる(Elixir)](https://qiita.com/torifukukaiou/items/5b90b038f38ce18c0256)<br>@torifukukaiou|2021-08-15|2021-08-16|8|
+|8|[VS Code でのフォルダ検索（置換）のまとめ](https://qiita.com/baku2san/items/a16f4f169a78e4706c41)<br>@baku2san|2021-07-30|2021-07-30|8|
+|9|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
+|10|[VS Code: Select Language Mode をショートカットで](https://qiita.com/baku2san/items/332d9e00ea68106d359a)<br>@baku2san|2021-07-24|2021-07-24|4|
+
+---
+https://qiita.com/official-events/aa53d801cf3d9d578e18
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|92|
+|2|[Bitrise で Flutter アプリの CI/CD 環境を構築する（初心者向け）](https://qiita.com/yamatatsu10969/items/3590cc78c62e92718f28)<br>@yamatatsu10969|2021-08-16|2021-08-24|60|
+|3|[Bitriseを利用してミニマルにiOSのCI / CD環境を構築する](https://qiita.com/d_date/items/a06b5661101460851f4c)<br>@d_date|2021-08-25|2022-01-26|24|
+|4|[AppStoreの審査通過後作業を自動化する](https://qiita.com/y_hakutaku/items/4a8fc318d9903a8f6b03)<br>@y_hakutaku|2021-08-25|2021-09-04|8|
+|5|[BitriseのStepのつくりかた](https://qiita.com/tarappo/items/ff3bd985cfadea9f442f)<br>@tarappo|2021-08-25|2021-08-25|5|
+|6|[Remote Accessを使ってBitriseをリモートデバッグする](https://qiita.com/lovee/items/308bfd4859c4bf4cb103)<br>@lovee|2021-08-25|2021-08-25|4|
+|7|[iOS/Android アプリ x Bitrise](https://qiita.com/changeworld/items/5959e6ca5832cddd72fc)<br>@changeworld|2021-08-23|2021-08-23|1|
+
+
+
+# Qiita運営テーマ
+https://qiita.com/official-events/89fd4ad3c24d7882117d
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-03|37|
+|2|[開発環境を豊かにする開発事例　過去・現在・未来](https://qiita.com/kaizen_nagoya/items/d9bf0c2c671fe7f1c749)<br>@kaizen_nagoya|2021-07-24|2023-07-02|14|
+|3|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
+|4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|5|
+|5|[macのDockerが遅い。cachedやdelegatedでも遅い。](https://qiita.com/amaike/items/d6210767d13ab4368f75)<br>@amaike|2021-08-03|2021-08-03|4|
+|6|[今日のgit error:  unknown option `initial-branch=main'](https://qiita.com/kaizen_nagoya/items/208d538716bea14800cc)<br>@kaizen_nagoya|2021-08-22|2023-05-21|3|
+|7|[iPadからVSCodeとJupyter Notebookを使う](https://qiita.com/mochi_yu2/items/860ea0abbc9101a90afa)<br>@mochi_yu2|2021-08-21|2021-08-25|3|
+|8|[JAXA/IPA クリティカルソフトウェアワークショップ WOCS言語関連発表(改定版)](https://qiita.com/kaizen_nagoya/items/4789832baf494cb74626)<br>@kaizen_nagoya|2021-08-11|2023-07-29|3|
+|9|[Dockerとラズパイで迫撃砲（簡単開発支援サーバ）](https://qiita.com/MoriokaReimen/items/7d57c957aca66d16b3e7)<br>@MoriokaReimen|2021-08-01|2021-08-01|3|
+|10|[現場の新人教育：新人から学んで欲しいこと](https://qiita.com/kaizen_nagoya/items/4feb9af8a02074d16dc3)<br>@kaizen_nagoya|2021-07-31|2023-07-15|3|
+|11|[Qiitaエンジニアフェスタ2021 投稿記事の分析](https://qiita.com/kaizen_nagoya/items/52c727f183e4043a13c2)<br>@kaizen_nagoya|2021-07-27|2023-07-14|3|
+|12|[JavaScript トランスパイルツール構築【Webpack5, ESLint7, Babel7】](https://qiita.com/wadakatu/items/d988a3c59a2a17a0c1f3)<br>@wadakatu|2021-07-26|2021-07-28|3|
+|13|[今日のLaTeXエラー:File Ended while scanning use of :解決](https://qiita.com/kaizen_nagoya/items/ec6ea027c99ced27ba2b)<br>@kaizen_nagoya|2021-08-22|2022-05-25|2|
+|14|[TOPPERS の AUTOSAR への貢献 II (改定中)](https://qiita.com/kaizen_nagoya/items/4614c04cfff70a241f77)<br>@kaizen_nagoya|2021-08-15|2022-08-03|2|
+|15|[PyCharmでリモートのラズベリーパイのプロジェクトを開発します](https://qiita.com/xu1718191411/items/056e99f6aef527d086b8)<br>@xu1718191411|2021-07-26|2021-08-24|2|
+|16|[ディスク空き容量を取得するFluentdのプラグイン作った](https://qiita.com/nomunomu0504/items/ab8d3098f5fffd380202)<br>@nomunomu0504|2021-07-26|2021-07-26|2|
+|17|[問題発見、問題解決、再発防止はGithubとDockerで。docker(143)](https://qiita.com/kaizen_nagoya/items/7855011710074c3b8e3d)<br>@kaizen_nagoya|2021-08-24|2023-07-16|1|
+|18|[今日のbrew warning: To `brew update`, first run:   git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow](https://qiita.com/kaizen_nagoya/items/beaf85f67993df32b94c)<br>@kaizen_nagoya|2021-08-22|2023-07-22|1|
+|19|[VisualStudioでビルドしてメール通知するJenkinsの環境をDockerで楽に作る](https://qiita.com/h1day/items/b89ead13faee1d80b736)<br>@h1day|2021-08-11|2021-08-11|1|
+|20|[docker 保守。docker(135)](https://qiita.com/kaizen_nagoya/items/8116e31c07c4220d240a)<br>@kaizen_nagoya|2021-07-25|2023-07-21|1|
+
+---
+https://qiita.com/official-events/be8c5ab5a9ddf90055cd
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[時間を溶かす素敵なサイトとすごい技術コレクション](https://qiita.com/e99h2121/items/50b43f6f4f087c40f4f9)<br>@e99h2121|2021-07-17|2021-11-14|180|
+|2|[ブラウザで上書き保存ができるぞぉぉ](https://qiita.com/kota-yata/items/7b68b5e616bed29b21ef)<br>@kota-yata|2021-07-14|2021-07-14|42|
+|3|[すぐに対応できそうな PWA をより良くするための API を調べてみた](https://qiita.com/ohakutsu/items/422aafb04a886f6d654c)<br>@ohakutsu|2021-07-02|2021-07-02|24|
+|4|[TensorFlow Hub の TensorFlow Lite用モデルを HTML＋JavaScript から使って画像分類（TFJS Task API を利用）](https://qiita.com/youtoy/items/f6482f6a57d593e9fd3e)<br>@youtoy|2021-07-03|2022-10-18|8|
+|5|[ Qiitaエンジニアフェスタ_ブラウザ選手権](https://qiita.com/kaizen_nagoya/items/98c4c7f911aa47465087)<br>@kaizen_nagoya|2021-07-31|2023-07-18|2|
+|6|[PixivのイラストをID毎に一括でダウンロードする実験](https://qiita.com/team3star/items/727518967fc8bba6433d)<br>@team3star|2021-07-06|2021-08-21|2|
+
+---
+https://qiita.com/official-events/339b6440dbd578f4f66f
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[あなたもdocker, 私もdocker。docker(130)](https://qiita.com/kaizen_nagoya/items/8f2746f10f30b575d0a8)<br>@kaizen_nagoya|2021-07-24|2023-06-28|64|
+|2|[dockerとcloudflareを使ってWebサイトを簡単にSSL化対応（ワイルドカード証明書） & 面倒な証明書更新も自動化してみた](https://qiita.com/nomunomu0504/items/c1cde0466f551096354c)<br>@nomunomu0504|2021-07-27|2021-07-27|5|
+|3|[技術書「Rubyソースコード完全解説」 と 「docker で ruby」構築。docker(148)](https://qiita.com/kaizen_nagoya/items/a00fec16fb43e6e9071d)<br>@kaizen_nagoya|2021-08-02|2023-05-04|4|
+|4|[Dockerとラズパイで迫撃砲（簡単開発支援サーバ）](https://qiita.com/MoriokaReimen/items/7d57c957aca66d16b3e7)<br>@MoriokaReimen|2021-08-01|2021-08-01|3|
+|5|[今日のdocker error :Error response from daemon: conflict: unable to delete。docker(131) ](https://qiita.com/kaizen_nagoya/items/a486385d6af636c98f0a)<br>@kaizen_nagoya|2021-07-24|2021-07-26|1|
+
+---
+https://qiita.com/official-events/d409f91fc8b9b44cefb4
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|627|
+|2|[デザインの勉強をしたいエンジニアにおすすめの本10選](https://qiita.com/xrxoxcxox/items/baa1ce69bf997db4b8a5)<br>@xrxoxcxox|2021-07-19|2022-04-23|372|
+|3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
+|4|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
+|5|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|101|
+|6|[プロダクトマネジメントを学びたいときに読みたい本一覧](https://qiita.com/getty104/items/32f8a27d6557559e238e)<br>@getty104|2021-07-13|2021-07-13|63|
+|7|[未経験から新卒3ヶ月で新規事業のiOS開発担当を掻っ攫った時にお世話になった5冊の本](https://qiita.com/shachi_maru/items/7ca9082f761296878985)<br>@shachi_maru|2021-08-20|2021-09-02|30|
+|8|[『プログラミングElixir』を買って、読んで、Qiitaに記事を書いていたら、ラズパイ4をもらったり、自分が書いた原稿が雑誌に載ったり、机をもらったり、YouTubeに出してもらえたりしました](https://qiita.com/torifukukaiou/items/8495f93c4bf18c3b9d97)<br>@torifukukaiou|2021-08-07|2021-08-07|16|
+|9|[人月の神話, Jr. フレデリック・P ブルックス](https://qiita.com/kaizen_nagoya/items/e38c97a8a468c7fc5743)<br>@kaizen_nagoya|2021-08-19|2023-07-02|13|
+|10|[今まで書いてよかった技術書を紹介しよう！](https://qiita.com/kaizen_nagoya/items/d31b7c158541d345a7ef)<br>@kaizen_nagoya|2021-07-22|2023-07-24|12|
+|11|[ コンピュータの構成と設計 & コンピュータアーキテクチャ 定量的アプローチ   パターソン & ヘネシー](https://qiita.com/kaizen_nagoya/items/dc7246b39935974bcd2d)<br>@kaizen_nagoya|2021-08-11|2023-07-02|11|
+|12|[Code Complete：goto論争の終焉](https://qiita.com/kaizen_nagoya/items/82c7939f442cbd5fce37)<br>@kaizen_nagoya|2021-08-08|2023-07-15|9|
+|13|[Web エンジニア１年生で読んだ本からおすすめの本5選+自分なりの技術書との付き合い方をまとめた](https://qiita.com/sho-hata/items/0a8285b5c57119957a86)<br>@sho-hata|2021-07-20|2022-03-31|9|
+|14|[ UMLモデリングの本質、児玉 公信](https://qiita.com/kaizen_nagoya/items/bc6ac386af27530eb78a)<br>@kaizen_nagoya|2021-08-08|2023-07-21|8|
+|15|[伝わる報告書、レポート、メールが書けるようになる厳選２冊](https://qiita.com/k_izutani/items/d91cdb385fab951d5960)<br>@k_izutani|2021-07-24|2021-07-24|8|
+|16|[参考文献の参考文献は参考文献だ。清水吉男「「派生開発」を成功させるプロセス改善の技術と極意」を超えて](https://qiita.com/kaizen_nagoya/items/562a0cf784cf92bc0ebb)<br>@kaizen_nagoya|2021-08-20|2023-07-21|6|
+|17|[プログラマのための読書法または統計](https://qiita.com/kaizen_nagoya/items/211eb49dd868566949be)<br>@kaizen_nagoya|2021-08-15|2023-07-14|6|
+|18|[トヨタの自工程完結　佐々木 眞一](https://qiita.com/kaizen_nagoya/items/dd2de8bd9d884c16911d)<br>@kaizen_nagoya|2021-08-10|2023-07-15|6|
+|19|[時間が経っても「買って良かった」と思っている本](https://qiita.com/_mamo_/items/7fbfea888823fa6cbbb8)<br>@_mamo_|2021-08-25|2021-08-25|4|
+|20|[会計と技術　工業簿記、原価計算に加えて](https://qiita.com/kaizen_nagoya/items/66b0c57d99b689acbb8d)<br>@kaizen_nagoya|2021-08-09|2023-07-17|4|
+|21|[技術書「Rubyソースコード完全解説」 と 「docker で ruby」構築。docker(148)](https://qiita.com/kaizen_nagoya/items/a00fec16fb43e6e9071d)<br>@kaizen_nagoya|2021-08-02|2023-05-04|4|
+|22|[未経験でWebエンジニアになってから1年間学習した書籍&Udemyの紹介【初学者向け】](https://qiita.com/shiva_it/items/a3f055542c59bd9d93db)<br>@shiva_it|2021-08-20|2021-08-20|3|
+|23|[Effective C++ , Scott Meyers](https://qiita.com/kaizen_nagoya/items/e3a2fe74debc767b4cfd)<br>@kaizen_nagoya|2021-08-20|2021-09-02|3|
+|24|[プログラミング言語C++](https://qiita.com/kaizen_nagoya/items/ba75496dfc323502cd79)<br>@kaizen_nagoya|2021-08-20|2021-09-02|3|
+|25|[ Cパズルブック。文法書より先に動かそ。](https://qiita.com/kaizen_nagoya/items/408869e685d8b6272fce)<br>@kaizen_nagoya|2021-08-12|2023-07-16|3|
+|26|[折り紙の幾何学,  伏見満枝, 伏見康治](https://qiita.com/kaizen_nagoya/items/a894d35774b112b84229)<br>@kaizen_nagoya|2021-08-12|2023-07-07|3|
+|27|[ゼロから作るDeep Learning, 斎藤康毅 ](https://qiita.com/kaizen_nagoya/items/57b0a21e7fc922e9660e)<br>@kaizen_nagoya|2021-08-11|2023-07-16|3|
+|28|[12ステップで作る組込みOS自作入門   坂井 弘亮](https://qiita.com/kaizen_nagoya/items/6333a377689a090e257b)<br>@kaizen_nagoya|2021-08-11|2023-07-21|3|
+|29|[CPUの創りかた, 渡波 郁 ](https://qiita.com/kaizen_nagoya/items/2e1b6b79ea3e6b2bf0c0)<br>@kaizen_nagoya|2021-08-11|2023-07-17|3|
+|30|[UNIXネットワーキング実践編](https://qiita.com/kaizen_nagoya/items/f9a31c2133366b84e800)<br>@kaizen_nagoya|2021-08-10|2021-08-26|3|
+|31|[RTL設計スタイルガイド Verilog HDL編](https://qiita.com/kaizen_nagoya/items/c883b9aab40c53c1d259)<br>@kaizen_nagoya|2021-08-07|2023-07-05|3|
+|32|[情報系学部の大学4年間の学びを使った参考書と共に紹介する](https://qiita.com/taikis/items/172561e31d6146b6b4bb)<br>@taikis|2021-07-26|2021-07-26|3|
+|33|[ワインバーグ　コンサルタントの秘密](https://qiita.com/kaizen_nagoya/items/5cbad8d044231b8c5d08)<br>@kaizen_nagoya|2021-08-24|2023-02-09|2|
+|34|[俳句は書かないことが命。短歌は書くことが命。](https://qiita.com/kaizen_nagoya/items/b627936c370fd50b203e)<br>@kaizen_nagoya|2021-08-16|2022-05-25|2|
+|35|[ セーフウェア、ナンシー・G・レブソン](https://qiita.com/kaizen_nagoya/items/dcfb04a15f8d314951ff)<br>@kaizen_nagoya|2021-08-13|2022-07-16|2|
+|36|[Bosch Automotive Handbook and so on.](https://qiita.com/kaizen_nagoya/items/8e330ce57880f04d71d9)<br>@kaizen_nagoya|2021-08-13|2023-07-06|2|
+|37|[量子アニーリングの基礎、 西森 秀稔、大関 真之](https://qiita.com/kaizen_nagoya/items/b00f28537bc3c6d63ed0)<br>@kaizen_nagoya|2021-08-13|2023-07-14|2|
+|38|[色彩の美学　塚田敢 ](https://qiita.com/kaizen_nagoya/items/63c121a89c671f966f21)<br>@kaizen_nagoya|2021-08-13|2023-01-04|2|
+|39|[アンドリュー・S・タネンバウム Minix(Linux発祥の地）](https://qiita.com/kaizen_nagoya/items/4443344b3d08047a115c)<br>@kaizen_nagoya|2021-08-13|2023-07-03|2|
+|40|[日本語語彙大系　追悼：白井諭。Lisperへの敬意を込めて。](https://qiita.com/kaizen_nagoya/items/e41ed513c8686841399b)<br>@kaizen_nagoya|2021-08-13|2023-07-07|2|
+|41|[岩波数学辞典　二つの版がCDに入ってお得](https://qiita.com/kaizen_nagoya/items/1210940fe2121423d777)<br>@kaizen_nagoya|2021-08-12|2023-05-25|2|
+|42|[図、手法　経営系用語集](https://qiita.com/kaizen_nagoya/items/51b808b88def60acf00e)<br>@kaizen_nagoya|2021-08-08|2022-05-27|2|
+|43|[ 電磁気学　演習](https://qiita.com/kaizen_nagoya/items/26184ad713035489887d)<br>@kaizen_nagoya|2021-08-13|2023-07-04|1|
+|44|[LaTeX2ε美文書作成入門　奥村 晴彦](https://qiita.com/kaizen_nagoya/items/8d10a18bb5c8cf2f5530)<br>@kaizen_nagoya|2021-08-13|2022-06-11|1|
+|45|[SQLアンチパターン](https://qiita.com/yk0807/items/90065858733709938d0b)<br>@yk0807|2021-08-10|2021-08-10|1|
+|46|[定量分析の教科書 ](https://qiita.com/kaizen_nagoya/items/c79b7b2356032f3817e3)<br>@kaizen_nagoya|2021-08-07|2023-07-08|1|
+
+---
+https://qiita.com/official-events/e55396f286b3e2b85a62
+
+|No|title|created_at|updated_at|LGTM|
+|---|---|---|---|---:|
+|1|[叙勲、国宝級、まだある、古のフリーソフトたち](https://qiita.com/e99h2121/items/f84da8503d847cdf973a)<br>@e99h2121|2021-07-21|2022-04-03|33|
+|2|[TOPPERS ソースを積み上げよう](https://qiita.com/kaizen_nagoya/items/65c15aed086f2da0928d)<br>@kaizen_nagoya|2021-07-31|2023-07-17|2|
+
+
+
+# Wrapping up :lgtm: :qiitan: :lgtm:
+- 自動更新は、[Elixir](https://elixir-lang.org/)というプログラミング言語がありまして、その[Elixir](https://elixir-lang.org/)で作られた[Nerves](https://www.nerves-project.org/)というナウでヤングなcoolなすごいIoTフレームワークを使ってつくったアプリケーションで行っております
+  - [Nerves](https://www.nerves-project.org/)の始め方につきましては下記の記事が詳しいです
+  - [ElixirでIoT#4.1：Nerves開発環境の準備](https://qiita.com/takasehideki/items/88dda57758051d45fcf9)
+- 令和２年なのに未だに我が家の主力Raspberry Pi 2が毎日自動更新しております
+  - [TORIFUKUKaiou/hello_nerves](https://github.com/TORIFUKUKaiou/hello_nerves)
+- この記事自身があわよくば賞をいただけるようなことがもしあるならば、いただいたプレゼントにてテンションがあがり、**自分の心**という一番御しがたい開発環境を改善することにつながるとおもいまして「[開発環境を豊かにする開発事例](https://qiita.com/official-events/89fd4ad3c24d7882117d)」に応募します
+  - **山中の賊を破るは易く心中の賊を破るは難し**
+
+https://qiita.com/official-events/89fd4ad3c24d7882117d
+
+# 日本マイクロソフト賞④
+- 開発環境を豊かにする開発事例ーーそれは[Qiita Advent Calendar 2020](https://qiita.com/advent-calendar/2020)に積極的に投稿を行ったことです
+- 結果は、[マイクロソフト賞 ④：「クラウドネイティブの ASP.NET Core マイクロサービスを作成してデプロイする」 をやってみる (@torifukukaiou さん)](https://qiita.com/chomado/items/7d1f757f18c5b442fadd#%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88%E8%B3%9E-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE-aspnet-core-%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%99%E3%82%8B-%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B-torifukukaiou-%E3%81%95%E3%82%93)を受賞することができました
+- このとき賞品としていただいた、ボタン操作で机の高さを調整できる[FLEXISPOT スタンディングデスク 電動式 昇降デスク ＆ 天板](https://flexispot.jp/desk/height-adjustable-desks)は開発環境を改善してくれました
+  - たまには立ってPCと向き合うことができています
+  - 150cm x 70cmの天板にモノを全部ならべることができてすっきりしています
+- そうしてさらに、マイクロソフトさんのYouTubeチャンネル[クラウドデベロッパーちゃんねる](https://www.youtube.com/channel/UCMmRHq3E_9Hc9noZeo3zDCw)に出していただけました
+- :movie_camera: [Qiita Advent Calendar インタビュー特集第1弾 Elixir と Azure の愛を語る！](https://www.youtube.com/watch?v=R3o8vR1A9ao) :movie_camera:
+
+![IMG_20210130_144449.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/a088e754-3684-dc25-e72c-53a041469f15.jpeg)
+
+# [NervesJP](https://nerves-jp.connpass.com/)
+- ここで自動更新につかっている[Nerves](https://www.nerves-project.org/)のコミュニティ[NervesJP](https://nerves-jp.connpass.com/)のご紹介です
+  - 月1回程度、ワイワイガヤガヤ オンラインで集まっています
+  - [Nerves](https://www.nerves-project.org/)は、[Elixir](https://elixir-lang.org/)でIoTを楽しめる[ナウでヤングなcoolなすごいヤツ](https://www.slideshare.net/takasehideki/elixirnervescool-249038510)です
+- 愉快なfolksたちがあなたの参加を待っています
+- れっつじょいな〜す
+- https://join.slack.com/t/nerves-jp/shared_invite/enQtNzc0NTM1OTA5MzQ1LTg5NTAyYThiYzRlNDRmNDIwM2ZlZTJiZDc1MmE5NTFjYzA5OTE4ZTM5OWQxODFhZjY1NWJmZTc4NThkMjQ1Yjk
+- ぜひぜひSlackにご参加ください :rocket::rocket::rocket::rocket::rocket:
+
+
+
+![https___qiita-user-contents.imgix.net_https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F240349%2F5ef22bb9-f357-778c-1bff-b018cce54948.png_ixlib=rb-1.2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/efe3084e-4891-9aa2-0ee3-e053c990ba4c.png)

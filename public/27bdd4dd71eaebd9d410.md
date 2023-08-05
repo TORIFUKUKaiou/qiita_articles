@@ -1,0 +1,131 @@
+---
+title: 野球のボールカウント（どう書く）(Elixir)
+tags:
+  - Elixir
+private: false
+updated_at: '2021-01-06T23:15:24+09:00'
+id: 27bdd4dd71eaebd9d410
+organization_url_name: fukuokaex
+slide: false
+---
+# はじめに
+- [Elixir](https://elixir-lang.org/) 楽しんでいますか :bangbang::bangbang::bangbang:
+- @Nabetaniさんの「[オフラインリアルタイムどう書く第三回の参考問題](https://qiita.com/Nabetani/items/ebd8a56b41711ba459f9)」を[Elixir](https://elixir-lang.org/)でやってみました
+    - @obelisk68 さんの「[野球のボールカウント（どう書く）](https://qiita.com/obelisk68/items/73fb67656c92437ee38f)」で問題の存在を知りました
+
+# 準備
+- [Elixir](https://elixir-lang.org/) をインストールしましょう
+- 手前味噌ですが、[インストール](https://qiita.com/torifukukaiou/items/d04d0273749c41eb50af#0-%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)などをご参照ください
+
+## うまくいかなかったら
+- 何事にも準備が肝心です
+- ここが一番つまらないし、謎にハマってしまうことが多いのですが、がんばってください！
+- うまくいかなかったら、**思い切って僕の胸に飛び込んで来てほしい** (by 長嶋茂雄 読売ジャイアンツ終身名誉監督)
+    - [elixirjp.slack.com slack workspace](https://elixirjp.slack.com/join/shared_invite/enQtODE0NjM3NTIyNTMzLTU5NmViZDE4N2Q3MGUyMmI5YTdlNmQ2ZDI4ZDgxZGZiYTVlYmJjOTMzYzk2NGUyMjBhMTBiNDdjYTg3ZjhmYWI)か[NervesJP workspace](https://join.slack.com/t/nerves-jp/shared_invite/enQtNzc0NTM1OTA5MzQ1LTg5NTAyYThiYzRlNDRmNDIwM2ZlZTJiZDc1MmE5NTFjYzA5OTE4ZTM5OWQxODFhZjY1NWJmZTc4NThkMjQ1Yjk)に入ってきていただいて、`@torifukukaiou`へご質問ください
+    - たとえ私が答えられなくても、マジみんな親切で優しい人が多いので、きっと解決できるでしょう:bangbang:
+
+# mix new
+
+```
+$ mix new ball_count
+$ cd ball_count
+```
+
+# ソースコードを書く
+
+```elixir:lib/ball_count.ex
+defmodule BallCount do
+  @doc """
+
+  ## Examples
+
+      iex> BallCount.solve("s")
+      "010"
+
+      iex> BallCount.solve("sss")
+      "010,020,100"
+
+      iex> BallCount.solve("bbbb")
+      "001,002,003,000"
+
+      iex> BallCount.solve("ssbbbb")
+      "010,020,021,022,023,000"
+
+      iex> BallCount.solve("ssbbbb")
+      "010,020,021,022,023,000"
+
+      iex> BallCount.solve("hsbhfhbh")
+      "000,010,011,000,010,000,001,000"
+
+      iex> BallCount.solve("psbpfpbp")
+      "100,110,111,200,210,000,001,100"
+
+      iex> BallCount.solve("ppp")
+      "100,200,000"
+
+      iex> BallCount.solve("ffffs")
+      "010,020,020,020,100"
+
+      iex> BallCount.solve("ssspfffs")
+      "010,020,100,200,210,220,220,000"
+
+      iex> BallCount.solve("bbbsfbppp")
+      "001,002,003,013,023,000,100,200,000"
+
+      iex> BallCount.solve("sssbbbbsbhsbppp")
+      "010,020,100,101,102,103,100,110,111,100,110,111,200,000,100"
+
+      iex> BallCount.solve("ssffpffssp")
+      "010,020,020,020,100,110,120,200,210,000"
+  """
+  def solve(input) do
+    String.codepoints(input)
+    |> Enum.reduce([{0, 0, 0}], fn c, [head | _] = acc ->
+      [do_solve(c, head) | acc]
+    end)
+    |> Enum.reverse()
+    |> tl()
+    |> Enum.map(&Tuple.to_list/1)
+    |> Enum.map(&Enum.join/1)
+    |> Enum.join(",")
+  end
+
+  defp do_solve("s", {2, 2, _}), do: {0, 0, 0}
+
+  defp do_solve("s", {out, 2, _}), do: {out + 1, 0, 0}
+
+  defp do_solve("s", {out, strike, ball}), do: {out, strike + 1, ball}
+
+  defp do_solve("b", {out, _, 3}), do: {out, 0, 0}
+
+  defp do_solve("b", {out, strike, ball}), do: {out, strike, ball + 1}
+
+  defp do_solve("h", {out, _, _}), do: {out, 0, 0}
+
+  defp do_solve("f", {out, 2, ball}), do: {out, 2, ball}
+
+  defp do_solve("f", {out, strike, ball}), do: {out, strike + 1, ball}
+
+  defp do_solve("p", {2, _, _}), do: {0, 0, 0}
+
+  defp do_solve("p", {out, _, _}), do: {out + 1, 0, 0}
+end
+```
+
+# [Doctests](https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests)
+
+- `## Examples`の下にあるものは、[Doctests](https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests)と呼ばれるものでテストできるんです :bangbang::bangbang::bangbang:
+
+```
+$ mix test
+..............
+
+Finished in 0.07 seconds
+13 doctests, 1 test, 0 failures
+```
+
+# Wrapping Up 🎍🎍🎍🎍🎍
+- Pipe operator [|>](https://hexdocs.pm/elixir/Kernel.html#%7C%3E/2)、[Pattern matching](https://elixir-lang.org/getting-started/pattern-matching.html)、[Enum](https://hexdocs.pm/elixir/Enum.html#content)モジュールのいろいろな関数、[Doctests](https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#doctests)ーー[Elixir](https://elixir-lang.org/)の良さがよくでるいい問題でした :bangbang:
+- みんなちがって　みんないい(金子みすゞ)
+    - みなさんもお好きなプログラミング言語で書いてみてください！
+- Enjoy [Elixir](https://elixir-lang.org/) :rocket::rocket::rocket:

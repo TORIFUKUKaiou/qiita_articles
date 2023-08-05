@@ -1,0 +1,110 @@
+---
+title: 文章を縦書きにすることをElixirで楽しむ
+tags:
+  - Elixir
+  - 猪木
+  - 40代駆け出しエンジニア
+  - AdventCalendar2022
+private: false
+updated_at: '2022-10-15T08:40:32+09:00'
+id: 98fbc9e341da2dbc33fb
+organization_url_name: fukuokaex
+slide: false
+---
+```
+元気ですかーーーーッ！
+元気があればなんでもできる
+迷わず行けよ
+行けばわかるさ
+```
+
+文章を縦書きにしてみます。
+[Elixir](https://elixir-lang.org/)で楽しみます。
+
+```elixir
+s = """
+元気ですかーーーーッ！
+元気があればなんでもできる
+迷わず行けよ
+行けばわかるさ
+"""
+
+list_of_lists = s |> String.split("\n") |> Enum.map(&String.codepoints/1)
+cnt = list_of_lists |> Enum.max_by(&Enum.count/1) |> Enum.count |> Kernel.-(1)
+
+(for j <- 0..cnt,
+  do: list_of_lists
+      |> Enum.map(fn list -> Enum.at(list, j, "　") end)
+      |> Enum.reverse()
+      |> Enum.join())
+|> Enum.each(&IO.puts/1)
+```
+
+## 実行結果
+
+![スクリーンショット 2022-10-03 22.43.39.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/adc8b81f-81b2-5386-3739-733e814f81fc.png)
+
+
+
+# 入力を細工
+
+```elixir
+s = """
+元気ですか｜｜｜｜ッ！
+元気があればなんでもできる
+迷わず行けよ
+行けばわかるさ
+"""
+
+# あとは上記と同じ
+```
+
+## 実行結果
+
+![スクリーンショット 2022-10-03 22.44.30.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/21de92fd-20fa-16d6-cf56-78b6086aef03.png)
+
+---
+
+# 追記
+
+[autoracex](https://autoracex.connpass.com/)にて、@t-yamanashiさん、@Mnishiguchiさん、@tamanugiさんの検討会が行われていました。
+
+@tamanugi さんが関数型っぽい書き方を紹介してくださいました。
+感謝いたします。
+感激の興奮冷めやらぬうちに追記いたしておきます。
+
+[Enum.zip/1](https://hexdocs.pm/elixir/1.12/Enum.html#zip/1)を使う解法です。
+
+```elixir
+["ドットコム", "どこが混むのと", "聞く上司"]
+|> Enum.reduce({[], 0}, fn i, {a, b} -> {[i | a], max(String.length(i), b)} end)
+|> then(fn {texts, l} -> Enum.map(texts, &String.pad_trailing(&1, l, "　")) end)
+|> Enum.map(&to_charlist/1)
+|> Enum.zip()
+|> Enum.map(&Tuple.to_list/1)
+|> Enum.each(&IO.puts/1)
+```
+
+![スクリーンショット 2022-10-15 8.34.41.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/58d8b05b-f038-761c-9b2c-016d992635f4.png)
+
+---
+
+猪木さん風の言葉を再掲。
+
+```elixir
+"""
+元気ですか｜｜｜｜ッ！
+元気があればなんでもできる
+迷わず行けよ
+行けばわかるさ
+"""
+|> String.split("\n")
+|> Enum.reduce({[], 0}, fn i, {a, b} -> {[i | a], max(String.length(i), b)} end)
+|> then(fn {texts, l} -> Enum.map(texts, &String.pad_trailing(&1, l, "　")) end)
+|> Enum.map(&to_charlist/1)
+|> Enum.zip()
+|> Enum.map(&Tuple.to_list/1)
+|> Enum.each(&IO.puts/1)
+```
+
+![スクリーンショット 2022-10-03 22.44.30.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/21de92fd-20fa-16d6-cf56-78b6086aef03.png)

@@ -1,0 +1,230 @@
+---
+title: 闘魂Elixir ── 04. 学習リソース（書籍、オンラインなど）、コミュニティ
+tags:
+  - Elixir
+  - 猪木
+  - 40代駆け出しエンジニア
+  - AdventCalendar2022
+  - 闘魂
+private: false
+updated_at: '2023-02-24T09:30:28+09:00'
+id: 7b7eaf78f06fbc653eec
+organization_url_name: fukuokaex
+slide: false
+---
+<b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
+
+https://qiita.com/advent-calendar/2022
+
+https://qiita.com/advent-calendar/2022/elixir
+
+# はじめに
+
+闘魂と[Elixir](https://elixir-lang.org/)が出会いました。
+闘魂 meets [Elixir](https://elixir-lang.org/).です。
+[Elixir](https://elixir-lang.org/) meets 闘魂.でもよいです。
+
+本日は、[Elixir](https://elixir-lang.org/)の学習リソース（書籍、オンラインなど）とコミュニティをご紹介します。
+
+```elixir
+iex> "Elixir" |> String.graphemes() |> Enum.frequencies()
+%{"E" => 1, "i" => 2, "l" => 1, "r" => 1, "x" => 1}
+```
+
+
+
+# 学習リソース
+
+[Elixir](https://elixir-lang.org/)の学習リソースを示します。
+
+## 書籍
+
+まずは、書籍からです。
+
+### 入門向け
+
+まずは入門向けからです。
+3冊ご紹介します。
+
+- [WEB+DB PRESS Vol.131 はじめてのElixir](https://gihyo.jp/magazine/wdpress/archive/2022/vol131) :book: 
+    - [Elixir](https://elixir-lang.org/)の基礎がぎっしり、がっしり、コンパクトに収まっています
+- [WEB+DB PRESS Vol.127 作って学ぶPhoenix](https://gihyo.jp/magazine/wdpress/archive/2022/vol127) :book: 
+    - [Elixir](https://elixir-lang.org/)でWebアプリケーション開発を楽しめるフレームワーク[Phoenix](https://www.phoenixframework.org/)の特集記事です
+- [Elixir実践ガイド](https://book.impress.co.jp/books/1120101021) :book: 
+    - 全部で495ページあります
+    - [Elixir](https://elixir-lang.org/)で最初につまずく人もちらほらいる、[Enum.reduce/3](https://hexdocs.pm/elixir/1.12/Enum.html#reduce/3)の説明に一章分を割いて丁寧に説明されています
+    - リストのデータ構造が丁寧に説明されており、末尾への追加が遅い理由がわかります
+    - 後述する[プログラミングElixir 第2版](https://www.ohmsha.co.jp/book/9784274226373/)とあわせて読むと効果抜群です
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">現在、FMラジオ番組「Technology Cruising Night」で今年出たElixir特集、下記2本に触れてます💁‍♂️ <a href="https://twitter.com/hashtag/wdpress?src=hash&amp;ref_src=twsrc%5Etfw">#wdpress</a><a href="https://t.co/Tl98qkIvNS">https://t.co/Tl98qkIvNS</a><br><br>・WEB+DB PRESS Vol.127：Phoenix特集<br>・同Vol.131：Elixir入門特集<br><br>下記の通り、盛り上がりまくってるElixir Advent Calendarにも触れてますのでお聴きください🙇‍♂️ <a href="https://t.co/n0bdqXDMll">pic.twitter.com/n0bdqXDMll</a></p>&mdash; piacere (love Elixir, Gravity and VR/AR/Metaverse) (@piacere_ex) <a href="https://twitter.com/piacere_ex/status/1596081492127813632?ref_src=twsrc%5Etfw">November 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 定番の一冊
+
+持っていて損のない、否、必ず持つべき、ポケットに入れて持ち運びたいくらいだけど、ポケットには入らない大きさの必携書です。
+
+- [プログラミングElixir 第2版](https://www.ohmsha.co.jp/book/9784274226373/) :book: 
+    - ソフトウェア開発の「四書五経」といっても過言ではない、不朽の名著『[達人プログラマー](https://www.ohmsha.co.jp/book/9784274219337/)』:book:の[Dave Thomas](https://pragdave.me/) さんの著書です！！！
+
+
+### [Nerves](https://www.nerves-project.org/)
+
+[Elixir](https://elixir-lang.org/)で、IoTを楽しめます。
+そのIoTフレームワークのことを[Nerves](https://www.nerves-project.org/)と呼びます。
+[Nerves](https://www.nerves-project.org/)の連載記事です。
+
+- [Interface 2020年6月号 IoT向きモダン言語Elixirの研究 第1回　IoT向きプログラミング言語Elixirの世界](https://interface.cqpub.co.jp/magazine/202006/)
+- [Interface 2020年7月号 IoT向きモダン言語Elixirの研究 第2回　ElixirのIoTフレームワークNervesとは](https://interface.cqpub.co.jp/magazine/202007/)
+- [Interface 2020年8月号 IoT向きモダン言語Elixirの研究 第3回　IoTフレームワークNerves&ラズパイでHello World](https://interface.cqpub.co.jp/magazine/202008/)
+- [Interface 2020年9月号 IoT向きモダン言語Elixirの研究 第4回　IoTフレームワークNervesでネットワーク接続](https://interface.cqpub.co.jp/magazine/202009/)
+- [Interface 2020年11月号 IoT向きモダン言語Elixirの研究 第5回　IoTフレームワークNervesでラズパイ周辺デバイスにサクッとつながる](https://interface.cqpub.co.jp/magazine/202011/)
+- [Interface 2020年12月号 IoT向きモダン言語Elixirの研究 第6回　出荷後の機器のファームウェアをOTAで更新](https://interface.cqpub.co.jp/magazine/202012/)
+- [Interface 2021年1月号 IoT向きモダン言語Elixirの研究 第7回　IoTシステム開発にトライ!](https://interface.cqpub.co.jp/magazine/202101/)
+
+---
+
+## オンライン
+
+オンラインの学習リソースを示します。
+
+### 公式ドキュメント
+
+まずは公式ドキュメントのリンクを示しておきます。
+
+- [Elixir](https://elixir-lang.org/)
+
+### 学習リソース
+
+学習リソースを示します。
+日本語訳もあります。段を下げて記しておきます。
+
+- [Getting Started](https://elixir-lang.org/getting-started/introduction.html)
+    - https://dev.to/gumi/elixerelixir-10g2
+        - 「翻訳ではなく、内容を整理したり、説明やコードも補ったり、より理解しやすくなるように手を入れています」とのことです
+- [Elixir School](https://elixirschool.com/en/)
+    - [日本語訳](https://elixirschool.com/ja/)
+- The Pragmatic Studioの[Phoenix LiveView](https://pragmaticstudio.com/phoenix-liveview)コース
+    - 有料版を買う価値ありです
+    - 体験版がありますのでまずはそちらからお試しください
+    - 私は英語が苦手で全く聞き取れていませんが洋楽と同じく聞き流しです
+    - 正解コードは示されるのでなんとかなります
+
+---
+
+# Slack
+
+[Elixir](https://elixir-lang.org/)のSlackを示します。
+
+## 本家
+
+本家のSlackです。使われている言語は、主に英語です。
+
+- [elixir-lang.slack.com](https://join.slack.com/t/elixir-lang/shared_invite/zt-1kk97adsy-337iQMkqiYwYRgGWHw~ZUg)
+
+## Japan
+
+日本の[Elixir](https://elixir-lang.org/) Slackです。使われている言語は、主に日本語です。
+
+- [elixir.jp](https://join.slack.com/t/elixirjp/shared_invite/zt-1kle21v1g-0THpP0Lgcsik7lk0DFUW_Q)
+- [Nerves JP](https://join.slack.com/t/nerves-jp/shared_invite/zt-1kq2eu601-BQnHsXhFU4paPFpwxHtBcA)
+
+あなたの訪れ、参加を**熱烈歓迎**します。
+どうぞ飛び込んできてください。
+
+---
+
+# イベント
+
+日本では、頻繁に[Elixir](https://elixir-lang.org/)のイベントが開催されています。
+
+[Elixirイベントカレンダー](https://elixir-jp-calendar.fly.dev/)で開催日程をカレンダー形式で一望できます。
+
+![スクリーンショット 2022-11-28 23.03.17.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/08f4c4c5-d486-e285-63ec-e91ed06feb0a.png)
+
+ぜひ思い切って参加してみてください！
+「この道を行けばどうなるものか 危ぶむなかれ 危ぶめば道はなし 踏み出せばその一足が道となり　その一足が道となる 迷わず行けよ 行けばわかるさ ありがとう！！！」です。
+
+
+---
+
+# 日本のコミュニティ
+
+日本にはたくさんの[Elixir](https://elixir-lang.org/)コミュニティがあります。
+
+## [Elixirコミュニティの歩き方](https://speakerdeck.com/elijo/elixirkomiyunitei-falsebu-kifang-guo-nei-onrainbian)
+
+https://speakerdeck.com/elijo/elixirkomiyunitei-falsebu-kifang-guo-nei-onrainbian
+
+@nako_sleep_9h さんが作成された、こちらの資料にそれぞれのコミュニティの特徴がまとめられています。
+
+どのコミュニティもあなたの訪れ、参加を**熱烈歓迎**します。
+どうぞ飛び込んでみてください！
+
+
+
+
+
+
+# 今日の<font color="#d00080">闘魂</font>
+
+今日は、将棋の羽生善治先生の『[才能とは続けられること](https://www.php.co.jp/books/detail.php?isbn=978-4-569-78206-5)』 :book: から言葉を引きます。
+この本は2012年に出された本です。藤井聡太五冠とのタイトル戦（王将戦）を予言していたかのような内容の箇所もあります。
+ふりがなが振ってあって子ども向けの本なのかもしれませんが、大人が読んでも学ぶことが多いです。
+真剣に取り組まれている、しかも超一流の人の言葉には相通じるものがあります。
+「武道」のことを述べられている箇所を引きます。
+
+
+---
+
+将棋は武道と似ているなと思う部分があります。
+どんな武道も突き詰めていけば、相手を打ち負かすこととは関係なくなっていくように、将棋からも何か深いものを感じます。
+これからも私は、その将棋の奥深さに挑戦し続けていきたいですし、自分なりの楽しさや面白さを、ひとつでも多く発見できるのならと思い、日々、将棋と向き合っています。
+
+---
+
+猪木さん流に言うと、「ただ単に相手を倒すだけなら、なんの価値もない」ということです。
+
+> プロレスは闘いではあるが、殺し合いや潰し合いではない。ただ単に相手を倒すだけなら、なんの価値もない。それを実感したのが、「熊殺し」と呼ばれた、ウィリー・ウィリアムスとの異種格闘技戦だ。一触即発の雰囲気の中で行われた試合は、わたしがウィリーの打撃で肋骨を痛め、ウィリーはわたしの関節技で靭帯を損傷し、痛み分けに終わった。試合中わたしが腕を決めたとき、ウィリーは「まいった」を選択しなかった。だからといって、彼の腕を折ることはできなかった。殺し合いではなく心身の競い合いだと思っていたからだ。武道とは人間道の追求である。突き詰めれば「人間の和」というところにもつながるもので、わたしの考える格闘技に似たところがある。（中略）後年ウィリーと再会したとき、彼はわたしの手を握り「あなたがいるからこそ今日の自分がいる」といってくれた。この言葉を聞いたとき、彼の腕を折って勝つよりも、感謝を伝えてくれることのほうが、ずっと大きな価値のある勝利だと思えたのだ。
+
+プロレスと将棋、分野は違えど、それぞれの第一人者が「挑戦」という言葉を著書の中で繰り返し使われています。
+飽くなき「挑戦」です。
+「挑戦」を続けるからこそ第一人者であり続けられているのでしょうし、第一人者であるためには「挑戦」は欠かせないことなのでしょう。
+
+:book:『[アントニオ猪木 最後の闘魂](https://www.amazon.co.jp/dp/4833481057)』:book:から引きました。
+みなさまもぜひこの本をお手にとられて、猪木さんが残されたメッセージを通じて、直接猪木さんから「元氣」をもらってください。
+
+
+https://presidentstore.jp/item/008105.html
+
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/be8933f5-e3e2-d5f4-1561-f65f75abdf38.png)
+
+
+# さいごに
+
+[Elixir](https://elixir-lang.org/)の学習リソース（書籍、オンラインなど）とコミュニティをご紹介しました。
+
+
+闘魂の意味は、 **「己に打ち克ち、闘いを通じて己の魂を磨いていくことである」** との猪木さんの言葉をそのまま胸に刻み込んでいます。
+知っているだけで終わらせることなく、実行する、断行する、一歩を踏み出すことを自らの行動で示していきたいとおもいます。
+
+<font color="red">$\huge{１、２、３ ぁっダー！}$</font>
+
+
+<iframe width="910" height="512" src="https://www.youtube.com/embed/AWxwmqzbOaw" title="燃える闘魂 アントニオ猪木  追悼VTR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.youtube.com/watch?v=FSz7N5hCltw
+
+---
+
+https://qiita.com/torifukukaiou/items/5e96f4e9f12ec3c4b3f4
+
+---
+
+# Twitter
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Elixir Advent Calendar 3の4日目は、毎度お馴染み <a href="https://twitter.com/torifukukaiou?ref_src=twsrc%5Etfw">@torifukukaiou</a> さんで、Elixirの学習リソース（書籍、オンラインなど）とコミュニティの紹介コラム😉<a href="https://t.co/50FxKwlscZ">https://t.co/50FxKwlscZ</a><br><br>今年、特集が組まれたWEB+DB PRESS2冊をはじめとする書籍3+1冊、国内外Slack、国内イベントカレンダーなど💁‍♂️ <a href="https://twitter.com/hashtag/wdpress?src=hash&amp;ref_src=twsrc%5Etfw">#wdpress</a> <a href="https://t.co/K03a5aufxV">pic.twitter.com/K03a5aufxV</a></p>&mdash; piacere (love Elixir, Gravity and VR/AR/Metaverse) (@piacere_ex) <a href="https://twitter.com/piacere_ex/status/1599265907691646978?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+<b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>
