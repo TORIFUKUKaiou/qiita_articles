@@ -1,12 +1,14 @@
 ---
-title: 闘魂Time4VPS ーー Time4VPSのContainer VPSでDockerコンテナから外に通信できなかったり、Dockerビルド時に外と通信できなかったらDebian OSにするとよいかもしれません
+title: >-
+  闘魂Time4VPS ーー Time4VPSのContainer
+  VPSでDockerコンテナから外に通信できなかったり、Dockerビルド時に外と通信できなかったらDebian OSにするとよいかもしれません
 tags:
-  - 闘魂
-  - Time4VPS
   - Docker
+  - Time4VPS
+  - 闘魂
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-06T08:43:41+09:00'
+id: 0dd8bbc067166febc8d2
 organization_url_name: fukuokaex
 slide: false
 ---
