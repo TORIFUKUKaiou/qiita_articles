@@ -171,11 +171,13 @@ GitHub Actionsがコケたり、動かなかったらそれはそれで記事が
 うん、私は持っている。  
 これは私が記事をRaspberry Piから自動更新しているために起こった問題です。  
 `updated_at`で処理を止めていることがすばらしいです。  
-この件の対処は後日考えること(Webhookを受け取ってGitHubリポジトリを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
+この件の対処は後日考えること(Webhookを受け取ってGitHubリポジトリを自動更新とか?※)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
 
 今度はきっと成功することでしょう！
 
 ![スクリーンショット 2023-08-05 11.03.45.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/48d3e7b8-f1dc-ea86-6e50-424ed2c8d49b.png)
+
+(※) 記事を自動更新した都度コミットを作る必要もないので、`main`ブランチにPushしたときの[GitHub Actions（.github/workflows/publish.yml）](https://github.com/TORIFUKUKaiou/qiita_articles/blob/main/.github/workflows/publish.yml)に、`npx qiita pull --force`をはさみこむことにしました。  
 
 # 成功しました :tada::tada::tada:
 
