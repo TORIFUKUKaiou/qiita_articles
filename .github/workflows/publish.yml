@@ -41,6 +41,7 @@ jobs:
             git config --global user.name 'TORIFUKUKaiou'
             git config --global user.email 'torifuku.kaiou@gmail.com'
             git commit -m '闘魂注入'
+            git push
           fi
         shell: bash
       - uses: increments/qiita-cli/actions/publish@v0
