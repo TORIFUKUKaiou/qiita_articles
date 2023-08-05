@@ -34,19 +34,15 @@ jobs:
         env:
           QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
         shell: bash
-      - name: Commit and push diff
+      - name: Commit diff
         run: |
           git add public/*
           if ! git diff --staged --exit-code --quiet; then
             git config --global user.name 'TORIFUKUKaiou'
             git config --global user.email 'torifuku.kaiou@gmail.com'
             git commit -m '闘魂注入'
-            git push
           fi
         shell: bash
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: increments/qiita-cli/actions/publish@v0
         with:
           qiita-token: ${{ secrets.QIITA_TOKEN }}
