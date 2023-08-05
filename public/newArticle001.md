@@ -170,7 +170,7 @@ GitHub Actionsがコケたり、動かなかったらそれはそれで記事が
 うん、私は持っている。  
 これは私が記事をRaspberry Piから自動更新しているために起こった問題です。  
 `updated_at`で処理を止めていることがすばらしいです。  
-この件の対処は後日考えること(Webhookを受け取ってGitHubを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
+この件の対処は後日考えること(Webhookを受け取ってGitHubリポジトリを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
 
 今度はきっと成功することでしょう！
 
