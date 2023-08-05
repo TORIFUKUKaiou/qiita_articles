@@ -30,7 +30,7 @@ jobs:
         run: npm install -g @qiita/qiita-cli@v0.7.0
         shell: bash
       - name: Pull articles
-        run: qiita pull
+        run: qiita pull --force
         env:
           QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
         shell: bash
