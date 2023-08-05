@@ -1,12 +1,12 @@
 ---
 title: Qiita記事をGitHubで管理することにしました (use Qiita CLI)
 tags:
-  - 'Qiita'
-  - 'QiitaCLI'
+  - Qiita
+  - QiitaCLI
 private: false
-updated_at: ''
-id: null
-organization_url_name: 'fukuokaex'
+updated_at: '2023-08-05T11:08:23+09:00'
+id: 75854acfcb0460d08237
+organization_url_name: fukuokaex
 slide: false
 ---
 <b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
