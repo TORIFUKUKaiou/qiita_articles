@@ -165,6 +165,17 @@ git push -u origin main
 迷わずPushしてみます！  Pushしてみればわかるさ！  
 GitHub Actionsがコケたり、動かなかったらそれはそれで記事が書けるのでラッキーさ！  
 
+# GitHub Actions失敗 :sob:
+
+うん、私は持っている。  
+これは私が記事をRaspberry Piから自動更新しているために起こった問題です。  
+`updated_at`で処理を止めていることがすばらしいです。  
+この件の対処は後日考えること(Webhookを受け取ってGitHubを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
+
+今度はきっと成功することでしょう！
+
+![スクリーンショット 2023-08-05 11.03.45.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/48d3e7b8-f1dc-ea86-6e50-424ed2c8d49b.png)
+
 ---
 
 
