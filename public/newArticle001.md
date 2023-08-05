@@ -176,6 +176,25 @@ GitHub Actionsがコケたり、動かなかったらそれはそれで記事が
 
 ![スクリーンショット 2023-08-05 11.03.45.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/48d3e7b8-f1dc-ea86-6e50-424ed2c8d49b.png)
 
+# 成功しました :tada::tada::tada:
+
+新規記事の`id`や`updated_at`、ちょっとした整形はGitHub Actionsがやってくれました。  
+すごいすごい:rocket::rocket::rocket:
+
+![スクリーンショット 2023-08-05 11.09.13.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/516588c0-bbca-7ace-75b2-fcc04f173ea4.png)
+
+```bash
+git pull
+# 編集して
+git add .
+git commit -m 'update'
+git push origin main
+```
+
+てな具合で書き足しました。
+
+
+
 ---
 
 
