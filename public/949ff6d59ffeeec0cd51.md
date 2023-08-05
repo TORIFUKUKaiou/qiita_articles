@@ -5,7 +5,7 @@ tags:
   - Nerves
   - Qiitaエンジニアフェスタ_開発環境
 private: false
-updated_at: '2023-08-04T13:10:22+09:00'
+updated_at: '2023-08-05T13:10:16+09:00'
 id: 949ff6d59ffeeec0cd51
 organization_url_name: fukuokaex
 slide: false
@@ -25,7 +25,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 187件 :tada::tada::tada:
 
 # 総LGTM数 :lgtm::lgtm::lgtm::lgtm::lgtm:
-3,329 :rocket::rocket::rocket:
+3,330 :rocket::rocket::rocket:
 
 # 総合賞
 https://qiita.com/official-campaigns/engineer-festa/2021
@@ -33,7 +33,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|627|
+|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|628|
 |2|[デザインの勉強をしたいエンジニアにおすすめの本10選](https://qiita.com/xrxoxcxox/items/baa1ce69bf997db4b8a5)<br>@xrxoxcxox|2021-07-19|2022-04-23|372|
 |3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
 |4|[時間を溶かす素敵なサイトとすごい技術コレクション](https://qiita.com/e99h2121/items/50b43f6f4f087c40f4f9)<br>@e99h2121|2021-07-17|2021-11-14|180|
@@ -203,7 +203,7 @@ https://qiita.com/official-events/89fd4ad3c24d7882117d
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-03|37|
+|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-04|37|
 |2|[開発環境を豊かにする開発事例　過去・現在・未来](https://qiita.com/kaizen_nagoya/items/d9bf0c2c671fe7f1c749)<br>@kaizen_nagoya|2021-07-24|2023-07-02|14|
 |3|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
 |4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|5|
@@ -252,7 +252,7 @@ https://qiita.com/official-events/d409f91fc8b9b44cefb4
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|627|
+|1|[設計を学びたいときに読みたい本一覧](https://qiita.com/getty104/items/c06773198c0244e7744d)<br>@getty104|2021-07-02|2021-11-09|628|
 |2|[デザインの勉強をしたいエンジニアにおすすめの本10選](https://qiita.com/xrxoxcxox/items/baa1ce69bf997db4b8a5)<br>@xrxoxcxox|2021-07-19|2022-04-23|372|
 |3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
 |4|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
