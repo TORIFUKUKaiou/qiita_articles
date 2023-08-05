@@ -52,7 +52,7 @@ AWSの[EC2](https://aws.amazon.com/jp/ec2/)では体験できない（発生し�
  - `docker run`で外部のAPIコールに失敗する
 
 [Docker](https://www.docker.com/)コンテナやイメージのビルド時に外と通信ができないのです。  
- `--net host`オプションを付けて実行すると成功します。
+ `--network=host`オプションを付けて実行すると成功します。
  しかしなんだか嫌です。
 
  AWSの[EC2](https://aws.amazon.com/jp/ec2/)では同種の問題は体験できませんでした（発生しませんでした）。
