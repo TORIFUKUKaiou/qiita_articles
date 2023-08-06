@@ -5,7 +5,7 @@ tags:
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-06T15:11:18+09:00'
+updated_at: '2023-08-06T21:09:28+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
@@ -24,7 +24,7 @@ slide: false
 
 # Requirements
 
-いつインストールしたのか、どうやってインストールしたのかさっぱりですが、`npm`や`npx`と`git`が使える必要があります。  
+いつインストールしたのか、どうやってインストールしたのかさっぱりですが、`npm`や`npx`と`git`が使える必要があります。（`git`は、「[GitHub で記事を管理する](https://github.com/increments/qiita-cli/blob/main/README.md#github-%E3%81%A7%E8%A8%98%E4%BA%8B%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)」をやるときに必要になります。）  
 そこんところはよろしくやってください。  
 
 # 導入
