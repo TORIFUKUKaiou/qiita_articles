@@ -1,11 +1,11 @@
 ---
-title: Qiita記事をGitHubで管理することにしました (use Qiita CLI)
+title: 闘魂Qiita CLI ── Qiita記事をGitHubで管理することにしました (use Qiita CLI)
 tags:
   - Qiita
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-06T13:44:09+09:00'
+updated_at: '2023-08-06T15:11:18+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
