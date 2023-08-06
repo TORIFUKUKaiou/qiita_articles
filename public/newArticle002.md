@@ -7,7 +7,7 @@ tags:
   - Time4VPS
   - 闘魂
 private: false
-updated_at: '2023-08-06T09:04:06+09:00'
+updated_at: '2023-08-06T09:03:06+09:00'
 id: 0dd8bbc067166febc8d2
 organization_url_name: fukuokaex
 slide: false
