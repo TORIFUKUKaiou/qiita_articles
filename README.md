@@ -7,3 +7,12 @@ https://qiita.com/torifukukaiou
 
 使い方は`.devcontainer/credentials.json`を配置した状態で「Reopen in Container」です。  
 （credentials.jsonはそもそもどうやってつくったかというと、ホストで`npx qiita login`をして、ホストの`~/.config/qiita-cli/credentials.json`からコピーしています）  
+
+[Dev Container CLI](https://github.com/devcontainers/cli)を使うとよいでしょう。  
+[Dev Container CLI](https://github.com/devcontainers/cli)の使用例。  
+
+```bash
+devcontainer build
+devcontainer open
+devcontainer exec npx qiita preview
+```
