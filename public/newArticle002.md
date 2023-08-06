@@ -49,12 +49,20 @@ AWSの[EC2](https://aws.amazon.com/jp/ec2/)では体験できない（発生し�
  - `docker build`で外部のパッケージ（ライブラリ）取得ができない
  - `docker run`で外部のAPIコールに失敗する
 
-[Docker](https://www.docker.com/)コンテナやイメージのビルド時に外と通信ができないのです。  
- `--network=host`オプションを付けて実行すると成功します。
- しかしなんだか嫌です。
+```bash
+# ホスト
+docker run -it --rm ubuntu:22.04 /bin/bash
 
- AWSの[EC2](https://aws.amazon.com/jp/ec2/)では同種の問題は体験できませんでした（発生しませんでした）。
- 普通に外と通信できました。
+# コンテナ
+root# apt-get update # 外と通信ができない！！！
+```
+
+[Docker](https://www.docker.com/)コンテナやイメージのビルド時に外と通信ができないのです。  
+`--network=host`オプションを付けて実行すると成功します。
+しかしなんだか嫌です。
+
+AWSの[EC2](https://aws.amazon.com/jp/ec2/)では同種の問題は体験できませんでした（発生しませんでした）。
+普通に外と通信できました。
 
  # 回避策
 
