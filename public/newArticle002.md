@@ -1,5 +1,5 @@
 ---
-title: 闘魂Time4VPS ーー Time4VPSのContainer VPSでDockerコンテナから外に通信できなかったり、Dockerビルド時に外と通信できなかったらDebian OSにするとよいかもしれません
+title: 闘魂Time4VPS ーー Time4VPSのContainer VPSでDockerコンテナから外に通信できなかったり、Dockerビルド時に外と通信できなかったらマシンのOSをDebianにするとよいかもしれません
 tags:
   - 闘魂
   - Time4VPS
@@ -42,9 +42,10 @@ AWSの[EC2](https://aws.amazon.com/jp/ec2/)では体験できない（発生し�
 
 # 問題 ーー Ubuntu 22.04で[Docker](https://www.docker.com/)の動きが変
 
- Ubuntu 22.04に[Docker](https://www.docker.com/)をインストールして動かそうとします。
- なんだか動きが変です。
- 具体的には以下に遭遇しました。
+[Container VPS](https://www.time4vps.com/container-vps/)にUbuntu 22.04をインストールしました。  
+Ubuntu 22.04上に[Docker](https://www.docker.com/)をインストールして動かそうとします。
+[Docker](https://www.docker.com/)のインストールはできましたが、なんだか動きが変です。
+具体的には以下に遭遇しました。
 
  - `docker build`で外部のパッケージ（ライブラリ）取得ができない
  - `docker run`で外部のAPIコールに失敗する
@@ -61,17 +62,18 @@ root# apt-get update # 外と通信ができない！！！
 `--network=host`オプションを付けて実行すると成功します。
 しかしなんだか嫌です。
 
-AWSの[EC2](https://aws.amazon.com/jp/ec2/)では同種の問題は体験できませんでした（発生しませんでした）。
+AWSの[EC2](https://aws.amazon.com/jp/ec2/)で、Ubuntu 22.04を動かした環境では同種の問題は体験できませんでした（発生しませんでした）。
 普通に外と通信できました。
 
  # 回避策
 
+[Container VPS](https://www.time4vps.com/container-vps/)で動かしているOS自体を入れ替えました。  
 Debian 11をインストールしました。  
 これで問題を回避できました。
 私の場合、[Docker](https://www.docker.com/)さえ動けばいいのでOSにこだわりはありません。
 他に試したこととしては[AlmaLinux 8](https://almalinux.org/ja/)を試してみましたが同じ問題が発生しました。
 
-私のネットワーク関係のいまの知識、ググり力では解決はできず、 **究極の力技** で回避しました。  
+私のネットワーク関係のいまの知識、ググり力では解決はできず、 **究極の力技** であるOSの再インストールで回避しました。  
 この記事であげたような[Docker](https://www.docker.com/) Containerから外にでられないといったことはそれなりにあるようです。
 よく目にしたキーワードには`iptables`がありました。
 
@@ -79,9 +81,9 @@ Debian 11をインストールしました。
 
 # さいごに
 
-[Time4VPS](https://www.time4vps.com/)の[Container VPS](https://www.time4vps.com/container-vps/)で[Docker](https://www.docker.com/)コンテナから外に通信できなかったり、[Docker](https://www.docker.com/)ビルド時に外と通信できなかったらDebian OSにするとよいかもしれません。
+[Time4VPS](https://www.time4vps.com/)の[Container VPS](https://www.time4vps.com/container-vps/)で[Docker](https://www.docker.com/)コンテナから外に通信できなかったり、[Docker](https://www.docker.com/)ビルド時に外と通信できなかったらマシンのOSをDebianを利用するとよいかもしれません。
 
-「おい！、OSなんて変えられないよ」という方にはご期待に添えず、自身の力不足を痛感しております。
+「おい！、マシンのOSなんて変えられないよ」という方にはご期待に添えず、自身の力不足を痛感しております。
 
 ---
 
