@@ -4,7 +4,7 @@ tags:
   - Mac
   - 闘魂
 private: false
-updated_at: '2023-08-06T22:28:29+09:00'
+updated_at: '2023-08-07T00:29:46+09:00'
 id: 323ffda3ac2d0329c62f
 organization_url_name: null
 slide: false
@@ -71,7 +71,7 @@ export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
 # さいごに
 
 そのうち解消されることばかりだとはおもいますが、記録を残しておきます。  
-MacBook Pro 16インチ、2023をセットアップ（セラップ）において、[Google 日本語入力](https://www.google.co.jp/ime/)と[Docker](https://www.docker.com/)のインストールがスッといかなかった思い出を書いておきました。  
+MacBook Pro 16インチ、2023をセットアップ（セラップ）するに際して、[Google 日本語入力](https://www.google.co.jp/ime/)と[Docker](https://www.docker.com/)のインストールがスッといかなかった思い出を書いておきました。  
 
 **元氣があればなんでもできる！** であります。
 

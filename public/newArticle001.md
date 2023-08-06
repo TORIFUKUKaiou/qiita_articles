@@ -5,7 +5,7 @@ tags:
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-06T21:09:28+09:00'
+updated_at: '2023-08-07T00:36:48+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
@@ -76,6 +76,19 @@ npx qiita init
 ```
 
 トークンは、`~/.config/qiita-cli/credentials.json`に保存されています。  
+`~/.config/qiita-cli/credentials.json`はこんなJSONです。  
+
+```json:~/.config/qiita-cli/credentials.json
+{
+  "default": "qiita",
+  "credentials": [
+    {
+      "name": "qiita",
+      "accessToken": "your access token"
+    }
+  ]
+}
+```
 
 いままで書いた記事（作品）をダウンロードじゃ〜 (※） 
 
