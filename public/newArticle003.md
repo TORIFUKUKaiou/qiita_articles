@@ -1,11 +1,11 @@
 ---
 title: 闘魂Mac ーー 新しいMacBook Proのセットアップで詰まったこと
 tags:
-  - 闘魂
   - Mac
+  - 闘魂
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-06T22:28:29+09:00'
+id: 323ffda3ac2d0329c62f
 organization_url_name: null
 slide: false
 ---
