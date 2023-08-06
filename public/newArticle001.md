@@ -5,7 +5,7 @@ tags:
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-05T11:25:48+09:00'
+updated_at: '2023-08-06T13:44:09+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
@@ -77,7 +77,7 @@ npx qiita init
 
 トークンは、`~/.config/qiita-cli/credentials.json`に保存されています。  
 
-いままで書いた記事（作品）をダウンロードじゃ〜  
+いままで書いた記事（作品）をダウンロードじゃ〜 (※） 
 
 ```bash
 npx qiita pull --force
@@ -95,6 +95,8 @@ ls public
 ```
 
 こげな感じです。ファイル名は`{記事のID}.md`のようです。  
+
+(※） `npx qiita pull`をせずとも[README.md]((https://github.com/increments/qiita-cli/blob/main/README.md))の案内通りに、`npx qiita preview`をすると初回は`public/`フォルダが作られて、すでに書いた記事がダウンロードされます。
 
 # 画像
 
@@ -171,11 +173,13 @@ GitHub Actionsがコケたり、動かなかったらそれはそれで記事が
 うん、私は持っている。  
 これは私が記事をRaspberry Piから自動更新しているために起こった問題です。  
 `updated_at`で処理を止めていることがすばらしいです。  
-この件の対処は後日考えること(Webhookを受け取ってGitHubリポジトリを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
+この件の対処は後日考えること(※Webhookを受け取ってGitHubリポジトリを自動更新とか?)として、とりあえず`npx qiita pull`でQiita側の変更を取り込んでそれをCommitしてPushしてみます。
 
 今度はきっと成功することでしょう！
 
 ![スクリーンショット 2023-08-05 11.03.45.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/48d3e7b8-f1dc-ea86-6e50-424ed2c8d49b.png)
+
+※更新はQiita上でやって、[Pull articles](https://github.com/TORIFUKUKaiou/qiita_articles/blob/main/.github/workflows/pull.yml)Actionを実行することにしました。[Publish articles](https://github.com/TORIFUKUKaiou/qiita_articles/blob/main/.github/workflows/publish.yml)の前に`npx qiita pull --force`することを試してみましたがこれをすると、せっかく手元で更新したものがQiitaの状態で上書きされて元にもどってしまいます。[GitHub CLI](https://cli.github.com/)も駆使してやると快適です。
 
 # 成功しました :tada::tada::tada:
 
