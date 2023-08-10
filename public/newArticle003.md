@@ -4,7 +4,7 @@ tags:
   - Mac
   - 闘魂
 private: false
-updated_at: '2023-08-07T00:29:46+09:00'
+updated_at: '2023-08-07T18:47:03+09:00'
 id: 323ffda3ac2d0329c62f
 organization_url_name: null
 slide: false
@@ -20,6 +20,8 @@ slide: false
 
 MacBook Pro 16インチ、2023を新調しました。  
 Time Machineでホームディレクトリを[データ移行](https://support.apple.com/ja-jp/HT204350)したあとに各種ソフトウェアのインストールを進めようとしたとき詰まったことを書いておきます。  
+
+https://github.com/TORIFUKUKaiou/qiita_articles
 
 # Google 日本語入力がインストールできない
 
@@ -74,6 +76,8 @@ export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
 MacBook Pro 16インチ、2023をセットアップ（セラップ）するに際して、[Google 日本語入力](https://www.google.co.jp/ime/)と[Docker](https://www.docker.com/)のインストールがスッといかなかった思い出を書いておきました。  
 
 **元氣があればなんでもできる！** であります。
+
+
 
 ---
 

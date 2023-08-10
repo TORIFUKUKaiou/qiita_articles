@@ -5,7 +5,7 @@ tags:
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-07T00:36:48+09:00'
+updated_at: '2023-08-07T18:47:30+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
@@ -21,6 +21,12 @@ slide: false
 
 [Qiita CLI](https://github.com/increments/qiita-cli)を使ってみました。  
 これを期にGitHubで管理することにしようとおもいます。
+
+## 私のGitHubリポジトリ
+
+私のGitHubリポジトリはこちらです。  
+
+https://github.com/TORIFUKUKaiou/qiita_articles
 
 # Requirements
 
@@ -211,7 +217,11 @@ git push origin main
 
 てな具合で書き足しました。
 
+## 私のGitHubリポジトリ
 
+私のGitHubリポジトリはこちらです。  
+
+https://github.com/TORIFUKUKaiou/qiita_articles
 
 ---
 
