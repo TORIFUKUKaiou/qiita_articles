@@ -4,8 +4,8 @@ tags:
   - Elixir
   - 闘魂
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-14T14:57:15+09:00'
+id: c4c27c9453065f83f0a7
 organization_url_name: fukuokaex
 slide: false
 ---
