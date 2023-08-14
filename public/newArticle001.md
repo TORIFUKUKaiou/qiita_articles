@@ -5,7 +5,7 @@ tags:
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-07T18:47:30+09:00'
+updated_at: '2023-08-14T09:37:52+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false
@@ -69,10 +69,10 @@ npx qiita init
 Qiitaにログインします。
 
 ```bash
-npx qiita init
+npx qiita login
 ```
 
-`npx qiita init`を実行すると以下のように表示されるので、指示されたURLにアクセスして発行したトークンを入力します。  
+`npx qiita login`を実行すると以下のように表示されるので、指示されたURLにアクセスして発行したトークンを入力します。  
 
 ```bash
 以下のURLにアクセスしてトークンを発行してください。（「read_qiita」と「write_qiita」にチェックを入れてください）
