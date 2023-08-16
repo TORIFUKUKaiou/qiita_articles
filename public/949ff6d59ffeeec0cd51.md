@@ -5,7 +5,7 @@ tags:
   - Nerves
   - Qiitaエンジニアフェスタ_開発環境
 private: false
-updated_at: '2023-08-14T13:10:18+09:00'
+updated_at: '2023-08-16T13:10:21+09:00'
 id: 949ff6d59ffeeec0cd51
 organization_url_name: fukuokaex
 slide: false
@@ -25,7 +25,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 187件 :tada::tada::tada:
 
 # 総LGTM数 :lgtm::lgtm::lgtm::lgtm::lgtm:
-3,331 :rocket::rocket::rocket:
+3,333 :rocket::rocket::rocket:
 
 # 総合賞
 https://qiita.com/official-campaigns/engineer-festa/2021
@@ -38,7 +38,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 |3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
 |4|[時間を溶かす素敵なサイトとすごい技術コレクション](https://qiita.com/e99h2121/items/50b43f6f4f087c40f4f9)<br>@e99h2121|2021-07-17|2021-11-14|180|
 |5|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
-|6|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|101|
+|6|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|102|
 |7|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|93|
 |8|[「.」で起動するgithub.devとGithub Codespacesの違い](https://qiita.com/ku_suke/items/07deb49dba04bdc36216)<br>@ku_suke|2021-08-12|2021-08-12|89|
 |9|[あなたもdocker, 私もdocker。docker(130)](https://qiita.com/kaizen_nagoya/items/8f2746f10f30b575d0a8)<br>@kaizen_nagoya|2021-07-24|2023-06-28|64|
@@ -203,10 +203,10 @@ https://qiita.com/official-events/89fd4ad3c24d7882117d
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-13|37|
+|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-15|37|
 |2|[開発環境を豊かにする開発事例　過去・現在・未来](https://qiita.com/kaizen_nagoya/items/d9bf0c2c671fe7f1c749)<br>@kaizen_nagoya|2021-07-24|2023-07-02|14|
 |3|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
-|4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|5|
+|4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|6|
 |5|[macのDockerが遅い。cachedやdelegatedでも遅い。](https://qiita.com/amaike/items/d6210767d13ab4368f75)<br>@amaike|2021-08-03|2021-08-03|4|
 |6|[今日のgit error:  unknown option `initial-branch=main'](https://qiita.com/kaizen_nagoya/items/208d538716bea14800cc)<br>@kaizen_nagoya|2021-08-22|2023-05-21|3|
 |7|[iPadからVSCodeとJupyter Notebookを使う](https://qiita.com/mochi_yu2/items/860ea0abbc9101a90afa)<br>@mochi_yu2|2021-08-21|2021-08-25|3|
@@ -256,7 +256,7 @@ https://qiita.com/official-events/d409f91fc8b9b44cefb4
 |2|[デザインの勉強をしたいエンジニアにおすすめの本10選](https://qiita.com/xrxoxcxox/items/baa1ce69bf997db4b8a5)<br>@xrxoxcxox|2021-07-19|2022-04-23|372|
 |3|[エンジニアはどこまで本を読めばよいのか - 良質なインプットと勉強のススメ](https://qiita.com/e99h2121/items/c42048a0f1ac48cff9d1)<br>@e99h2121|2021-07-19|2022-09-02|269|
 |4|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
-|5|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|101|
+|5|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|102|
 |6|[プロダクトマネジメントを学びたいときに読みたい本一覧](https://qiita.com/getty104/items/32f8a27d6557559e238e)<br>@getty104|2021-07-13|2021-07-13|63|
 |7|[未経験から新卒3ヶ月で新規事業のiOS開発担当を掻っ攫った時にお世話になった5冊の本](https://qiita.com/shachi_maru/items/7ca9082f761296878985)<br>@shachi_maru|2021-08-20|2021-09-02|30|
 |8|[『プログラミングElixir』を買って、読んで、Qiitaに記事を書いていたら、ラズパイ4をもらったり、自分が書いた原稿が雑誌に載ったり、机をもらったり、YouTubeに出してもらえたりしました](https://qiita.com/torifukukaiou/items/8495f93c4bf18c3b9d97)<br>@torifukukaiou|2021-08-07|2021-08-07|16|

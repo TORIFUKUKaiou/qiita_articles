@@ -5,6 +5,7 @@ title: >-
 tags:
   - Docker
   - Time4VPS
+  - AdventCalendar2023
   - 闘魂
 private: false
 updated_at: '2023-08-06T09:59:58+09:00'

@@ -2,11 +2,12 @@
 title: 闘魂Mac ーー 新しいMacBook Proのセットアップで詰まったこと
 tags:
   - Mac
+  - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-07T18:47:03+09:00'
+updated_at: '2023-08-14T15:01:53+09:00'
 id: 323ffda3ac2d0329c62f
-organization_url_name: null
+organization_url_name: fukuokaex
 slide: false
 ---
 <b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>

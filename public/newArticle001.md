@@ -2,10 +2,11 @@
 title: 闘魂Qiita CLI ── Qiita記事をGitHubで管理することにしました (use Qiita CLI)
 tags:
   - Qiita
+  - AdventCalendar2023
   - 闘魂
   - QiitaCLI
 private: false
-updated_at: '2023-08-14T09:37:52+09:00'
+updated_at: '2023-08-16T20:47:25+09:00'
 id: 75854acfcb0460d08237
 organization_url_name: fukuokaex
 slide: false

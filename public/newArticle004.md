@@ -2,9 +2,10 @@
 title: 闘魂mkdir ── mkdirしたらcdしてついでにVisual Studio Codeを立ち上げることにしました
 tags:
   - Elixir
+  - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-14T14:57:15+09:00'
+updated_at: '2023-08-16T20:46:29+09:00'
 id: c4c27c9453065f83f0a7
 organization_url_name: fukuokaex
 slide: false
@@ -33,7 +34,7 @@ code .
 これを一気に行うコマンドを作ってみます。  
 
 ちなみに25年くらい前の私が最初にコマンドって素晴らしいですねと感動したコマンドが`mkdir`でした。  
-これを知らなくて、ホームディレクトリ配下に大量の`.c`ファイルが散乱していたことを覚えています。  
+これを知らなくて、ホームディレクトリ配下に大量の`.c`ファイルやら`~`ではじまるファイルやら、実験データなどが散乱していたことを覚えています。  
 
 「[mkdirで作成したディレクトリに作成と同時に移動する](http://nasec.jugem.jp/?eid=20)」こちらの記事をとても参考にしました。ありがとうございます！
 
@@ -84,19 +85,31 @@ https://elixirschool.com/en/lessons/intermediate/escripts
 
 https://github.com/TORIFUKUKaiou/mkdir_cd_code
 
+[Elixir](https://elixir-lang.org/)はインストール済みで`mix`コマンドが使用できる環境をお持ちであることを前提に筆を進めています。
+
 :::note alert
-ただね、`cd`がうまくいっとらんとです。  
-解決策がわかる方はぜひ教えてください。  
+~~ただね、`cd`がうまくいっとらんとです。~~ 
+~~解決策がわかる方はぜひ教えてください。~~
 :::
+
+:::note info
+@zacky1972 先生のコメントで解決できました。
+ありがとうございます！
+:::
+
+
+https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7#comment-5e1570fb538211526524
+
+---
+
+_以下、「`cd`がうまくいきませんでした」の内容（思い出）をそのまま残しておきます。_
 
 ![スクリーンショット 2023-08-14 14.17.16.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/6f4d8d2c-2da2-df5c-b705-2767fc779530.png)
 
-参考にさせていただいた記事「[mkdirで作成したディレクトリに作成と同時に移動する](http://nasec.jugem.jp/?eid=20)」のこのへんの事情と同じだとおもいます。
-[Elixir](https://elixir-lang.org/)のプログラム実行中には確かに移動できていますが、プログラムが終わったあとの実行元のOSのプロセスには影響を及ぼさないみたいな。
-それで私は何をやったかというと、ターミナルアプリを新しく起動するという方法を採りました。  
+_参考にさせていただいた記事「[mkdirで作成したディレクトリに作成と同時に移動する](http://nasec.jugem.jp/?eid=20)」のこのへんの事情と同じだとおもいます。_
+_[Elixir](https://elixir-lang.org/)のプログラム実行中には確かに移動できていますが、プログラムが終わったあとの実行元のOSのプロセスには影響を及ぼさないみたいな。_
 
-ちなみに`source mkdir_cd_code hoge`や`. mkdir_cd_code hoge`では以下のエラーでうまくいきませんでした。  
-（もしかしてzsh特有の実行の仕方がある！？）
+_ちなみに`source mkdir_cd_code hoge`や`. mkdir_cd_code hoge`では以下のエラーでうまくいきませんでした。_  
 
 ```
 source mkdir_cd_code hoge
@@ -105,6 +118,7 @@ source mkdir_cd_code hoge
 /Users/osamu/.asdf/installs/elixir/1.15.4-otp-26/.mix/escripts/mkdir_cd_code:4: bad pattern: PK^C^D^T^@^@^@^H^@^Wp^NW؎I\M-(\M-^U^E^@^@^P^H^@^@^Z^@^@^@mkdir_cd_code_escript.beammU[l^TU^X\M-^^ٳ\M-]^]\M-6\M-^]r\M-:3\M-]m\M-9u\M-h\M-v\M-Bm/-^P\M-(^H\M-^Y^V\M-^W\M-%\M-4\M-T\M-J%\M-\n^ON\M-'
 ```
 
+それで私は何をやったかというと、~~ターミナルアプリを新しく起動するという方法を採りました。~~ @zacky1972 先生にいただいた[コメント](https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7#comment-5e1570fb538211526524)を参考に`cd $(mkdir_cd_code hoge)`とすることにしました。
 
 
 以下ざっと本件を例にescriptの作り方を書いておきます。  
@@ -159,21 +173,20 @@ defmodule MkdirCdCode.MixProject do
 defmodule MkdirCdCode.CLI do
   def main([]) do
     # ディレクトリ名が指定されなかった場合は使い方を説明して終了
-    IO.puts("Usage: mkdir_cd_code dir_name")
+    # https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7#comment-9ddd3d0ccf767d6e74a7
+    IO.puts(:stderr, "Usage: mkdir_cd_code dir_name")
+    IO.puts(".")
   end
 
   def main(args) do
     [dir | _] = args
     :ok = File.mkdir_p(dir)
 
-    if System.find_executable("open") do
-      # openコマンドでターミナルを開く
-      System.cmd("open", ["-a", "Terminal", dir])
-    end
-
     if System.find_executable("code") do
       System.cmd("code", [dir])
     end
+
+    IO.puts(dir) # 移動先のディレクトリのみを標準出力に表示する
   end
 end
 ```
@@ -198,18 +211,20 @@ mix escript.install github TORIFUKUKaiou/mkdir_cd_code
 本記事の内容は、macOS Ventura 13.5でのみ試しています。
 :::
 
-`open -a Terminal awesome`なんてmacOS以外動きません。
+~~`open -a Terminal awesome`なんてmacOS以外動きません。~~
 
 ちなみに`mix escript.install`の使い方は、`mix help escript.install`を引いてみてください。  
 
 
-そのあとは、インストール場所が示されるのでパスを通しておいてください。  
+そのあとは、インストール場所が示されるのでパスを控えておいてください。  
 パスがわからなくなったら`mix escript`コマンドで調べることができます。  
 
-私は`~/.zprofile`に以下のように書きました。  
+私は`~/.zshrc`に以下のような関数を追加しました。  
 
-```:~/.zprofile
-export PATH="$PATH:$HOME/.asdf/installs/elixir/1.15.4-otp-26/.mix/escripts"
+```:~/.zshrc
+mkcdcode() {
+    cd $($HOME/.asdf/installs/elixir/1.15.4-otp-26/.mix/escripts/mkdir_cd_code $1)
+}
 ```
 
 :::note warn
@@ -224,10 +239,10 @@ Elixirの新しいバージョンをインストールしたらどうしよう�
 使い方を示します。  
 
 ```bash
-mkdir_cd_code hoge
+mkcdcode hoge
 ```
 
-`hoge`というディレクトリができて、ターミナルがもう一個たちあがって、[Visual Studio Code](https://code.visualstudio.com/)が立ち上がります。  
+`hoge`というディレクトリができて、[Visual Studio Code](https://code.visualstudio.com/)が立ち上がって、ターミナルは`hoge`ディレクトリへ移動します。  
 
 ---
 
@@ -237,9 +252,10 @@ mkdirしたらcdしてついでにVisual Studio Codeを立ち上げることに�
 シェルスクリプト版は、シェルスクリプトの配置場所、ファイル名、`alias`を書く場所など「こうしたほうがいい」があるかもしれませんが（ぜひコメントください:pray:）、当初やりたかったことを実現できました。  
 
 私は[Elixir](https://elixir-lang.org/)が好きですし、簡単にコマンドラインツールが作れるので、[Elixir](https://elixir-lang.org/)でやったらおもしろそう！　と取り組んでみたところ`cd`がうまくいきませんでした。
-こちらはわかるかたはぜひ教えてください！  
+~~こちらはわかるかたはぜひ教えてください！~~ => @zacky1972 先生の[コメント](https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7#comment-5e1570fb538211526524)により解決できました！　ありがとうーーーーッ！！！　ございますです。
 
-「教えてください」が多目の記事となりましたが、こんな話を思い出しましたので最後にツイートを貼っておきます。  
+「教えてください」が多目の記事となりました。こんな話を思い出しましたので最後にツイートを貼っておきます。  
+
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">もう一つ気に入ってるスティーブ・ジョブズの成功哲学。彼からしてみるとこの単純な事ができるだけでも人生はかなり好転すると。逆にいうとそれをしない人が多すぎる。本当にかなり単純な事なんだけど、それが意外と出来なかったりしますよね。 <a href="https://t.co/hfinRbPsQp">pic.twitter.com/hfinRbPsQp</a></p>&mdash; Brandon K. Hill | CEO of btrax 🇺🇸x🇯🇵/2 (@BrandonKHill) <a href="https://twitter.com/BrandonKHill/status/1684429849061105665?ref_src=twsrc%5Etfw">July 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
