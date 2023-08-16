@@ -1,12 +1,12 @@
 ---
-title: 闘魂mkdir ── Phoenixで作ったアプリケーションを1.6.6から1.7.7へアップグレードすることを楽しんだ思い出
+title: 闘魂Elixir ── Phoenixで作ったアプリケーションを1.6.6から1.7.7へアップグレードすることを楽しんだ思い出
 tags:
   - Elixir
   - Phoenix
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-16T21:46:05+09:00'
+updated_at: '2023-08-16T21:47:44+09:00'
 id: 9b31826be9788f1ce796
 organization_url_name: fukuokaex
 slide: false
