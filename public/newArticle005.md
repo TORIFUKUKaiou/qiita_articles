@@ -6,7 +6,7 @@ tags:
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-16T21:47:44+09:00'
+updated_at: '2023-08-16T21:56:12+09:00'
 id: 9b31826be9788f1ce796
 organization_url_name: fukuokaex
 slide: false
@@ -52,14 +52,14 @@ https://github.com/TORIFUKUKaiou/slack_doorman/pull/7
 さてそろそれ本題に入ります。  
 私流のアップグレード方法です。  
 
-1. プロジェクトのルートで、`mix phx.new .`する同じファイルはとにかく上書きして進める
+1. プロジェクトのルートで、`mix phx.new .`して同じファイルはとにかく上書きして進める
 2. `git diff`や`git blame`を駆使して、手動マージする
 3. `mix.lock`を消して、`mix deps.get`する
 4. とにかく`mix phx.server`や`mix test`で動かしてみて、コンパイルエラーがでるところに対処する
 
 こんな感じでやりました。  
 
-## 1. プロジェクトのルートで、`mix phx.new .`する同じファイルはとにかく上書きして進める
+## 1. プロジェクトのルートで、`mix phx.new .`して同じファイルはとにかく上書きして進める
 
 [Phoenix](https://www.phoenixframework.org/)のバージョンがあがって最初に作られるファイルの内容が異なるからです。  
 あとこれは今回の場合に特有の話ですが、最初に作ったときはデータベースを使う必要がなかったので`--no-ecto`オプションを付けて、`mix phx.new`していました。いまとなっては機能を追加したくその際にデータベースを使うようにしたかったので、初期設定を行ってくれる`mix phx.new`を実行しました。  
@@ -159,8 +159,10 @@ end
 
 Phoenixで作ったアプリケーションを1.6.6から1.7.7へアップグレードすることを楽しみました。  
 プロジェクトのルートで`mix phx.new .`して、あとは[Git](https://git-scm.com/)を駆使してがんばりますということを書いています。  
-[app:update](https://railsguides.jp/upgrading_ruby_on_rails.html#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B9%E3%82%AF)とかありませんので、もしあなたが提供したらヒーローです。  
-You need a heroです！
+[app:update](https://railsguides.jp/upgrading_ruby_on_rails.html#%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B9%E3%82%AF)とかありませんので、もしあなたが提供してくださったらヒーローです。  
+I need a heroです！
+
+<iframe width="948" height="533" src="https://www.youtube.com/embed/a7EPybpQcS0" title="Holding Out For A Hero/ヒーロー [日本語訳・英詞付き]　ボニー・タイラー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 この記事がどなたかのお役に立てますことを切に願っております。  
 
