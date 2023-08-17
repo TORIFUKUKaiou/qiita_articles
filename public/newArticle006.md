@@ -2,12 +2,12 @@
 title: 闘魂Elixir ── OptionParserを楽しむ
 tags:
   - Elixir
-  - OptionParser
   - AdventCalendar2023
+  - optionparser
   - 闘魂
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-17T19:23:05+09:00'
+id: 2409383eb86ac062842a
 organization_url_name: fukuokaex
 slide: false
 ---
