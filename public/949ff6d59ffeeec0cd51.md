@@ -5,7 +5,7 @@ tags:
   - Nerves
   - Qiitaエンジニアフェスタ_開発環境
 private: false
-updated_at: '2023-08-17T13:10:17+09:00'
+updated_at: '2023-08-18T13:10:20+09:00'
 id: 949ff6d59ffeeec0cd51
 organization_url_name: fukuokaex
 slide: false
@@ -203,7 +203,7 @@ https://qiita.com/official-events/89fd4ad3c24d7882117d
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-16|37|
+|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-17|37|
 |2|[開発環境を豊かにする開発事例　過去・現在・未来](https://qiita.com/kaizen_nagoya/items/d9bf0c2c671fe7f1c749)<br>@kaizen_nagoya|2021-07-24|2023-07-02|14|
 |3|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
 |4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|6|

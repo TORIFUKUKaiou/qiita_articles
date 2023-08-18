@@ -6,7 +6,7 @@ tags:
   - optionparser
   - 闘魂
 private: false
-updated_at: '2023-08-17T19:23:05+09:00'
+updated_at: '2023-08-18T22:17:51+09:00'
 id: 2409383eb86ac062842a
 organization_url_name: fukuokaex
 slide: false
