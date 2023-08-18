@@ -2,13 +2,13 @@
 title: 闘魂Elixir ── mix phx.gen.releaseを楽しむ
 tags:
   - Elixir
+  - Phoenix
   - AdventCalendar2023
   - optionparser
   - 闘魂
-  - Phoenix
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-18T22:40:40+09:00'
+id: 1c006187440d50af89ca
 organization_url_name: fukuokaex
 slide: false
 ---
