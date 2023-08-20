@@ -6,7 +6,7 @@ tags:
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-16T21:56:12+09:00'
+updated_at: '2023-08-19T07:26:08+09:00'
 id: 9b31826be9788f1ce796
 organization_url_name: fukuokaex
 slide: false
@@ -151,6 +151,12 @@ end
 記事を書くにあたり[プルリク](https://github.com/TORIFUKUKaiou/slack_doorman/pull/7)を見直していると、変更ファイル数が900を超えていることに気づきました。  
 なぜそんなに多いのだとよくみると、`assets/vendor`配下に多くのファイル(.svg)が追加されていました。  
 1.7.7はアイコンが最初から多く追加されます。  
+
+## mix phx.release.gen --docker
+
+https://qiita.com/torifukukaiou/items/1c006187440d50af89ca
+
+別の記事を作りました。ご参照くださいませ。  
 
 
 ---

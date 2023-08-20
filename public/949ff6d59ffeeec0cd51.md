@@ -5,7 +5,7 @@ tags:
   - Nerves
   - Qiitaエンジニアフェスタ_開発環境
 private: false
-updated_at: '2023-08-18T13:10:20+09:00'
+updated_at: '2023-08-19T13:10:19+09:00'
 id: 949ff6d59ffeeec0cd51
 organization_url_name: fukuokaex
 slide: false
@@ -25,7 +25,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 187件 :tada::tada::tada:
 
 # 総LGTM数 :lgtm::lgtm::lgtm::lgtm::lgtm:
-3,333 :rocket::rocket::rocket:
+3,334 :rocket::rocket::rocket:
 
 # 総合賞
 https://qiita.com/official-campaigns/engineer-festa/2021
@@ -39,7 +39,7 @@ https://qiita.com/official-campaigns/engineer-festa/2021
 |4|[時間を溶かす素敵なサイトとすごい技術コレクション](https://qiita.com/e99h2121/items/50b43f6f4f087c40f4f9)<br>@e99h2121|2021-07-17|2021-11-14|180|
 |5|[エンジニア転職して一年経つので自宅学習で使った技術書&Udemyをジャンル別に評価してみた](https://qiita.com/suzuki0430/items/22cb6b0dcc607afd35dd)<br>@suzuki0430|2021-07-12|2022-07-19|156|
 |6|[マネージャー・リーダーの私にとって有益な知見が得られた書籍](https://qiita.com/kazuo_reve/items/6976029e72763ea73245)<br>@kazuo_reve|2021-08-25|2022-02-05|102|
-|7|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|93|
+|7|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|94|
 |8|[「.」で起動するgithub.devとGithub Codespacesの違い](https://qiita.com/ku_suke/items/07deb49dba04bdc36216)<br>@ku_suke|2021-08-12|2021-08-12|89|
 |9|[あなたもdocker, 私もdocker。docker(130)](https://qiita.com/kaizen_nagoya/items/8f2746f10f30b575d0a8)<br>@kaizen_nagoya|2021-07-24|2023-06-28|64|
 |10|[Github Codespacesでブラウザ上に自宅と同期したVSCode環境が構築できた](https://qiita.com/ku_suke/items/55676049940c234e49b5)<br>@ku_suke|2021-08-05|2022-07-08|63|
@@ -188,7 +188,7 @@ https://qiita.com/official-events/aa53d801cf3d9d578e18
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|93|
+|1|[Ad hoc配信をやめてTestFlightで配信する](https://qiita.com/d_date/items/db540e9ed127b1b23e40)<br>@d_date|2021-07-08|2022-05-24|94|
 |2|[Bitrise で Flutter アプリの CI/CD 環境を構築する（初心者向け）](https://qiita.com/yamatatsu10969/items/3590cc78c62e92718f28)<br>@yamatatsu10969|2021-08-16|2021-08-24|60|
 |3|[Bitriseを利用してミニマルにiOSのCI / CD環境を構築する](https://qiita.com/d_date/items/a06b5661101460851f4c)<br>@d_date|2021-08-25|2022-01-26|24|
 |4|[AppStoreの審査通過後作業を自動化する](https://qiita.com/y_hakutaku/items/4a8fc318d9903a8f6b03)<br>@y_hakutaku|2021-08-25|2021-09-04|8|
@@ -203,7 +203,7 @@ https://qiita.com/official-events/89fd4ad3c24d7882117d
 
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-17|37|
+|1|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2021-07-11|2023-08-18|37|
 |2|[開発環境を豊かにする開発事例　過去・現在・未来](https://qiita.com/kaizen_nagoya/items/d9bf0c2c671fe7f1c749)<br>@kaizen_nagoya|2021-07-24|2023-07-02|14|
 |3|[Githubで開発環境構築から教育環境構築、教材作成へ](https://qiita.com/kaizen_nagoya/items/493bdd22c7d318402fe2)<br>@kaizen_nagoya|2021-08-09|2023-07-15|7|
 |4|[AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア・共通化](https://qiita.com/kaizen_nagoya/items/d613b0b14bfd91989a13)<br>@kaizen_nagoya|2021-08-14|2023-07-29|6|

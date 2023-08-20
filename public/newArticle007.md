@@ -7,7 +7,7 @@ tags:
   - optionparser
   - 闘魂
 private: false
-updated_at: '2023-08-18T22:40:40+09:00'
+updated_at: '2023-08-18T22:44:41+09:00'
 id: 1c006187440d50af89ca
 organization_url_name: fukuokaex
 slide: false
@@ -28,7 +28,7 @@ slide: false
 # What is [mix phx.gen.release](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Release.html) ???
 
 [Phoenix](https://www.phoenixframework.org/) 1.6.3からあります。  
-私が着いていけていませんでした。てっきり1.7からのものだとおもいこんでいました。
+私がついて行けていませんでした。てっきり1.7からのものだとおもいこんでいました。
 
 これらのファイルを作成してくれます。  
 
@@ -66,7 +66,8 @@ defmodule MyApp.Release do
 end
 ```
 
-まずコピペして自分のアプリケーション名にあうように`MyApp`や`:my_app`を書き直していました。
+以前は、まずコピペして自分のアプリケーション名にあうように`MyApp`や`:my_app`を書き直していました。
+[mix phx.gen.release](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Release.html)タスクを使うことで、自分のプロジェクト名にあわせていい感じのファイルを作ってくれます。
 
 ---
 
@@ -177,8 +178,8 @@ USER nobody
 CMD /app/bin/server
 ```
 
-これまた`:my_app`を書き換えていました。  
-
+これまた以前は`:my_app`を書き換えていました。  
+`mix phx.gen.release --docker`タスクをつかうことでいい感じ、猪木寛至、猪木さんのファイルを作ってくれます。  
 
 
 # さいごに
