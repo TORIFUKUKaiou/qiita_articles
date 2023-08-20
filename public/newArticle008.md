@@ -1,14 +1,14 @@
 ---
 title: 闘魂LocalStack ── LocalStackを楽しむ
 tags:
-  - LocalStack
-  - 闘魂
-  - AdventCalendar2023
   - AWS
   - Docker
+  - LocalStack
+  - AdventCalendar2023
+  - 闘魂
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-08-20T12:17:59+09:00'
+id: 89a24e2b60c454b953a2
 organization_url_name: fukuokaex
 slide: false
 ---
