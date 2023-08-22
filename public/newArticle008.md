@@ -7,7 +7,7 @@ tags:
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-20T12:17:59+09:00'
+updated_at: '2023-08-22T13:30:35+09:00'
 id: 89a24e2b60c454b953a2
 organization_url_name: fukuokaex
 slide: false
@@ -30,7 +30,7 @@ slide: false
 
 (※)例の意味です。「製品を利用をするためのチュートリアルを完了できたという意味」私はチュートリアルを全部やったわけではないのでまだ早いのかもしれません。  
 
-開発マシンにあれこれインストールしたくなかったので、全部[Docker](https://www.docker.com/)コンテナ内で実行することにします。なぜインストールしたくないの？　と言われると明確な答えはなく、「なんとなく」の気分です。憧れとは違いますが、なんとなく前からDockerコンテナの中でdockerコマンドを使うことをやってみたかったというのもあります。  
+開発マシンにあれこれインストールしたくなかったので、全部[Docker](https://www.docker.com/)コンテナ内で実行することにします。なぜインストールしたくないの？　と言われると明確な答えはなく、「なんとなく」の気分です。憧れとまでは行きませんが、なんとなく前からDockerコンテナの中でdockerコマンドを使うことをやってみたかったというのもあります。  
 
 # What is [LocalStack](https://localstack.cloud/) ?
 
@@ -145,7 +145,7 @@ https://docs.localstack.cloud/getting-started/installation/#docker-compose
 
 を参考に作りました。`/root/docker-compose.yml`として配置します。  
 
-ホスト（開発）でビルドします。  
+ホスト（開発マシン）でビルドします。  
 
 ```bash
 docker build -t my-image:latest .
@@ -163,7 +163,7 @@ docker run -it --rm \
 my-image:latest
 ```
 
-ここでのポイントは、`"-v /var/run/docker.sock:/var/run/docker.sock`です。  
+ここでのポイントは、`"-v /var/run/docker.sock:/var/run/docker.sock"`です。  
 Ubuntuコンテナ側からホスト（開発マシン）の`docker.sock` (/var/run/docker.sock)をマウントすることでUbuntuコンテナ上のdockerコマンドはホスト（開発マシン）上のDocker環境で実行されます。  
 
 Ubuntuコンテナのbashが立ち上がりますので次のコマンドを実行してみましょう。
@@ -236,6 +236,9 @@ export AWS_ACCESS_KEY_ID=1
 export AWS_SECRET_ACCESS_KEY=2
 export AWS_DEFAULT_REGION=us-west-2
 ```
+
+`docker compose up -d`は、Dockerfileの中に書いた「`COPY docker-compose-for-copy.yml docker-compose.yml`」により、`/app/docker-compose.yml`が配置されておりますのでそれを開始しています。`AWS_ACCESS_KEY_ID`等は、`aws config`をする代わりに環境変数で初期設定をしています。今回はAWSに接続するのではなく、[LocalStack](https://localstack.cloud/)でエミュレートするので値は適当でよいです。  
+
 
 「[AWS CLI で高レベル (S3) コマンドを使用する](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-services-s3-commands.html)」を参考に[LocalStack](https://localstack.cloud/)上で[S3](https://aws.amazon.com/jp/pm/serv-s3/)の操作をしてみます。  
 
