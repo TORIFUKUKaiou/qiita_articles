@@ -39,6 +39,7 @@ defmodule NormalizeFilename do
       Zarex.sanitize(title)
       |> then(&Regex.replace(~r/\[/, &1, "【"))
       |> then(&Regex.replace(~r/\]/, &1, "】"))
+      |> String.slice(0, 80)
 
     "#{created_at}-#{normalized_title}.md"
   end
