@@ -1,0 +1,50 @@
+`tree`の実行結果はこんな感じを想定。  
+
+```
+.
+├── README.md
+├── bin
+│   ├── README
+│   └── normalize-filenames.exs
+├── public
+│   ├── 009fc0559c70e5e69ca7.md
+│   ├── 00b5b0a8b8e81ad0ae46.md
+│   ├── newArticle007.md
+│   └── newArticle008.md
+└── qiita.config.json
+```
+
+プロジェクトのルートで実行する。  
+
+# rename
+
+ファイル名を`yyyyMMdd-title.md`に変更します。  
+
+```bash
+docker run \
+       --rm \
+       --mount type=bind,src=$(pwd),dst=/app \
+       -w /app \
+       -e QIITA_TOKEN="your token" \
+       elixir:1.15.4-otp-25-slim \
+       elixir bin/normalize-filenames.exs
+```
+
+`QIITA_TOKEN`はあなたのトークンをセットしてください。  
+[GET /api/v2/items/:item_id](https://qiita.com/api/v2/docs#get-apiv2itemsitem_id)で`created_at`を取得します。  
+
+
+# format
+
+`bin/normalize-filenames.exs` の内容が気に食わなくて修正をして、Elixirのコードを整形したいときー  
+
+```bash
+docker run \
+       --rm \
+       --mount type=bind,src=$(pwd),dst=/app \
+       -w /app \
+       elixir:1.15.4-otp-25-slim \
+       mix format bin/normalize-filenames.exs
+```
+
+
