@@ -3,8 +3,9 @@ title: Qiita Organizationに登録するまでの社内調整（おもいで）
 tags:
   - Qiita
   - QiitaOrganization
+  - AdventCalendar2023
 private: false
-updated_at: '2023-08-28T18:33:37+09:00'
+updated_at: '2023-09-01T01:56:47+09:00'
 id: 23c85293e673f537b5e4
 organization_url_name: haw
 slide: false
@@ -46,8 +47,10 @@ https://help.qiita.com/ja/articles/qiita-org-1
 会社の名前の露出が増えますし、 **「おもしろそうだ。[やりましょう](https://group.softbank/do)！」** で即決まりました。
 
 上司への説明にあたり、[株式会社 オーイーシー](https://www.oec.co.jp/)の@RyoWakabayashiさんの記事を参考にさせていただきました。
-@RyoWakabayashiさんとは、[Elixir](https://elixir-lang.org/)という世俗派関数型言語[^1]のコミュニティでごいっしょさせていただいております。
-厚かましくも[Qiita Organization](https://qiita.com/organizations)のことについてちょっと質問をさせていただいたところ、丁寧にご回答をいただきました。
+@RyoWakabayashiさんとは、[Elixir](https://elixir-lang.org/)という素敵な世俗派関数型言語[^1]のコミュニティでごいっしょさせていただいております。
+その素敵具合は「[Elixir Saves Pinterest $2 Million a Year In Server Costs](https://paraxial.io/blog/elixir-savings)」によく現れています。開発者も経営者もこの事実に瞠目することでしょう。**$2 Million/年の節約ですってよ！、奥さん。**
+
+厚かましくも[Qiita Organization](https://qiita.com/organizations)のことについてちょっと気になったことを質問をさせていただいたところ、丁寧にご回答をいただきました。
 
 [^1]: @kikuyuta 先生の「[世俗派関数型言語 Elixir を関数型言語風に使ってみたらやっぱり関数型言語みたいだった](https://qiita.com/kikuyuta/items/afa4c264720eb29d9760)」より。[Elixir](https://elixir-lang.org/)はコワくないですよ〜。
 

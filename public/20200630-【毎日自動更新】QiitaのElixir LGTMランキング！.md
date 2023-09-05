@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2023-08-28T21:03:20+09:00'
+updated_at: '2023-09-05T09:03:16+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -15,40 +15,37 @@ slide: false
 
 
 # 総件数 
-3971件 :tada::tada::tada:
+3976件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[Nerves Systems BuilderでNervesシステムを自分でビルドする](https://qiita.com/mnishiguchi/items/53c68d1a2006d97c8a72)<br>@mnishiguchi|2023-08-27|2|
-|2|[asdf 複数のプラグインを一氣にまとめてインストール](https://qiita.com/mnishiguchi/items/68fb2869110bc823e595)<br>@mnishiguchi|2023-08-26|2|
-|3|[Elixirでポートスキャナを作って遊ぶ](https://qiita.com/B_tanuki/items/90a8675855a6b7a87b1f)<br>@B_tanuki|2023-08-26|1|
-|4|[paiza.ioでelixir その249](https://qiita.com/ohisama@github/items/1450dc49f6914305a2f3)<br>@ohisama@github|2023-08-26|1|
+|1|[英文を分割する](https://qiita.com/a_utsuki/items/93e2a8320611a17555c8)<br>@a_utsuki|2023-09-04|1|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2023-08-28|80|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2023-08-28|59|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2023-08-28|37|
-|4|[Google Colaboratory 上で Elixir Livebook を動かす（GPUを無料で使う）](https://qiita.com/RyoWakabayashi/items/113b94866780c7646af1)<br>@RyoWakabayashi|2023-08-02|27|
-|5|[[Elixir] GenServerのプロセスをどう管理するか](https://qiita.com/mnishiguchi/items/833a6e14511f084438d1)<br>@mnishiguchi|2023-08-14|25|
-|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2023-08-28|23|
-|7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2023-08-28|19|
-|8|[闘魂mkdir ── mkdirしたらcdしてついでにVisual Studio Codeを立ち上げることにしました](https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7)<br>@torifukukaiou|2023-08-16|19|
-|9|[ElixirでEnumを使わずEnumする](https://qiita.com/mnishiguchi/items/28a3ade4b7b37f262bcb)<br>@mnishiguchi|2023-08-14|17|
-|10|[Elixir Circuits.I2CをMoxする](https://qiita.com/mnishiguchi/items/7fda38e6becfd57d6d8a)<br>@mnishiguchi|2023-08-14|16|
-|11|[Nx を Evision.Backend で動かす](https://qiita.com/RyoWakabayashi/items/45edc8ddbccba139a5ba)<br>@RyoWakabayashi|2023-08-02|16|
-|12|[Elixir IExでphoenix_pubsubを使いメッセージの出版・購読を楽しむ](https://qiita.com/mnishiguchi/items/73fc5c088d0f933bcf05)<br>@mnishiguchi|2023-08-24|16|
-|13|[ElixirDesktopでスマホアプリを作る - Windows11+WSL2に環境構築](https://qiita.com/Alicesky2127/items/5f9a1c6496b1c083720f)<br>@Alicesky2127|2023-08-05|16|
-|14|[Livebook と Exploler で Qiita の記事データを解析する](https://qiita.com/RyoWakabayashi/items/167d6b8c9215ade42346)<br>@RyoWakabayashi|2023-08-22|15|
-|15|[Nerves電子ペーパーでHello world](https://qiita.com/mnishiguchi/items/f709d6c211cf41078f2f)<br>@mnishiguchi|2023-08-14|14|
-|16|[完走賞を目指してみましょう！ on Livebook](https://qiita.com/RyoWakabayashi/items/7729f0e35bfec62e53b0)<br>@RyoWakabayashi|2023-08-22|14|
-|17|[Livebook で AtCoder 始めてみた](https://qiita.com/RyoWakabayashi/items/5290d6c7f29d8e28190f)<br>@RyoWakabayashi|2023-08-22|14|
-|18|[[Elixir/Nerves] パルス幅変調 (PWM) Lチカ](https://qiita.com/mnishiguchi/items/4bdf88acf0ab0e8e2c7e)<br>@mnishiguchi|2023-08-14|13|
-|19|[Elixirでサーボ制御](https://qiita.com/mnishiguchi/items/5b3aadb26850a36d58f2)<br>@mnishiguchi|2023-08-14|13|
-|20|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2023-08-28|13|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2023-09-04|80|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2023-09-05|59|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2023-09-04|37|
+|4|[Elixir GenServerのプロセスをどう管理するか](https://qiita.com/mnishiguchi/items/833a6e14511f084438d1)<br>@mnishiguchi|2023-09-03|25|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2023-09-04|23|
+|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2023-09-05|19|
+|7|[闘魂mkdir ── mkdirしたらcdしてついでにVisual Studio Codeを立ち上げることにしました](https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7)<br>@torifukukaiou|2023-08-16|19|
+|8|[ElixirでEnumを使わずEnumする](https://qiita.com/mnishiguchi/items/28a3ade4b7b37f262bcb)<br>@mnishiguchi|2023-08-14|17|
+|9|[Elixir Circuits.I2CをMoxする](https://qiita.com/mnishiguchi/items/7fda38e6becfd57d6d8a)<br>@mnishiguchi|2023-08-14|16|
+|10|[Elixir IExでphoenix_pubsubを使いメッセージの出版・購読を楽しむ](https://qiita.com/mnishiguchi/items/73fc5c088d0f933bcf05)<br>@mnishiguchi|2023-08-24|16|
+|11|[Livebook と Exploler で Qiita の記事データを解析する](https://qiita.com/RyoWakabayashi/items/167d6b8c9215ade42346)<br>@RyoWakabayashi|2023-08-22|15|
+|12|[Nerves電子ペーパーでHello world](https://qiita.com/mnishiguchi/items/f709d6c211cf41078f2f)<br>@mnishiguchi|2023-08-14|14|
+|13|[Elixir 全プロセスIDのリストを取得](https://qiita.com/mnishiguchi/items/990be2c72cb526681d0b)<br>@mnishiguchi|2023-09-03|14|
+|14|[完走賞を目指してみましょう！ on Livebook](https://qiita.com/RyoWakabayashi/items/7729f0e35bfec62e53b0)<br>@RyoWakabayashi|2023-08-22|14|
+|15|[Livebook で AtCoder 始めてみた](https://qiita.com/RyoWakabayashi/items/5290d6c7f29d8e28190f)<br>@RyoWakabayashi|2023-08-22|14|
+|16|[[Elixir/Nerves] パルス幅変調 (PWM) Lチカ](https://qiita.com/mnishiguchi/items/4bdf88acf0ab0e8e2c7e)<br>@mnishiguchi|2023-08-14|13|
+|17|[Elixirでサーボ制御](https://qiita.com/mnishiguchi/items/5b3aadb26850a36d58f2)<br>@mnishiguchi|2023-08-14|13|
+|18|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2023-09-04|13|
+|19|[Elixir/Phoenixアプリ用Github Actionsの基本的な設定方法](https://qiita.com/mnishiguchi/items/8e709ef617a3c3deedaa)<br>@mnishiguchi|2023-08-14|12|
+|20|[Phoenix.LiveViewでリアルタイムにグラフうねうね](https://qiita.com/mnishiguchi/items/494ec3e2d9a8948fe60e)<br>@mnishiguchi|2023-08-14|12|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
