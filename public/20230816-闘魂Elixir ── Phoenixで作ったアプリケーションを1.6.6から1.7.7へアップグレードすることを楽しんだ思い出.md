@@ -6,7 +6,7 @@ tags:
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-08-19T07:26:08+09:00'
+updated_at: '2023-09-15T08:28:53+09:00'
 id: 9b31826be9788f1ce796
 organization_url_name: fukuokaex
 slide: false
@@ -49,7 +49,7 @@ https://github.com/TORIFUKUKaiou/slack_doorman/pull/7
 
 # アップグレード
 
-さてそろそれ本題に入ります。  
+さてそろそろ本題に入ります。  
 私流のアップグレード方法です。  
 
 1. プロジェクトのルートで、`mix phx.new .`して同じファイルはとにかく上書きして進める
@@ -97,6 +97,16 @@ APIの応答でJSONを返すことにするときの実装です。
 
 https://hexdocs.pm/phoenix/json_and_apis.html
 
+@piacerex さんからコメントをもらいました！
+ありがとうーーーーッ!!! ございます。
+
+https://qiita.com/torifukukaiou/items/9b31826be9788f1ce796#comment-63c31acc376a20469e3c
+
+:point_up::point_up::point_up: **@piacerex さんからのコメントもあわせてご確認ください。** :point_up::point_up::point_up:
+
+
+### 1.6.2
+
 1.6.2時代は以下のように書いていました。
 
 ```elixir:lib/slack_doorman_web/controllers/event_controller.ex
@@ -121,7 +131,7 @@ end
 
 `lib/slack_doorman_web/views/event_view.ex`は先程申しました通り、1.7.7では作られないフォルダですので、1.7.7のプロジェクトにはありません。
 
-
+### 1.7.7
 
 1.7.7では以下のように変わります。
 

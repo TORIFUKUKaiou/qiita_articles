@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2023-09-05T09:03:16+09:00'
+updated_at: '2023-09-08T21:03:22+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -15,23 +15,28 @@ slide: false
 
 
 # 総件数 
-3976件 :tada::tada::tada:
+3983件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[英文を分割する](https://qiita.com/a_utsuki/items/93e2a8320611a17555c8)<br>@a_utsuki|2023-09-04|1|
+|1|[【2023年版】DockerでElixir/Phoenix1.7系の環境を立ち上げる](https://qiita.com/Nexus0831/items/fd988c2781aa74b9710f)<br>@Nexus0831|2023-09-08|1|
+|2|[wslでelixir その48](https://qiita.com/ohisama@github/items/7b1ba3fea0f59ddcddd8)<br>@ohisama@github|2023-09-07|1|
+|3|[paiza.ioでelixir その251](https://qiita.com/ohisama@github/items/b308696aa1414048d102)<br>@ohisama@github|2023-09-06|1|
+|4|[wslでelixir その47](https://qiita.com/ohisama@github/items/b853cc0cc0459ebb071d)<br>@ohisama@github|2023-09-06|1|
+|5|[wslでelixir その46](https://qiita.com/ohisama@github/items/70a10323e72a30f61c56)<br>@ohisama@github|2023-09-06|1|
+|6|[wslでelixir その49](https://qiita.com/ohisama@github/items/47644b9ee919b0b6e873)<br>@ohisama@github|2023-09-08|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2023-09-04|80|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2023-09-05|59|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2023-09-04|37|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2023-09-08|80|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2023-09-08|59|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2023-09-08|37|
 |4|[Elixir GenServerのプロセスをどう管理するか](https://qiita.com/mnishiguchi/items/833a6e14511f084438d1)<br>@mnishiguchi|2023-09-03|25|
-|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2023-09-04|23|
-|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2023-09-05|19|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2023-09-08|23|
+|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2023-09-08|19|
 |7|[闘魂mkdir ── mkdirしたらcdしてついでにVisual Studio Codeを立ち上げることにしました](https://qiita.com/torifukukaiou/items/c4c27c9453065f83f0a7)<br>@torifukukaiou|2023-08-16|19|
 |8|[ElixirでEnumを使わずEnumする](https://qiita.com/mnishiguchi/items/28a3ade4b7b37f262bcb)<br>@mnishiguchi|2023-08-14|17|
 |9|[Elixir Circuits.I2CをMoxする](https://qiita.com/mnishiguchi/items/7fda38e6becfd57d6d8a)<br>@mnishiguchi|2023-08-14|16|
@@ -43,7 +48,7 @@ slide: false
 |15|[Livebook で AtCoder 始めてみた](https://qiita.com/RyoWakabayashi/items/5290d6c7f29d8e28190f)<br>@RyoWakabayashi|2023-08-22|14|
 |16|[[Elixir/Nerves] パルス幅変調 (PWM) Lチカ](https://qiita.com/mnishiguchi/items/4bdf88acf0ab0e8e2c7e)<br>@mnishiguchi|2023-08-14|13|
 |17|[Elixirでサーボ制御](https://qiita.com/mnishiguchi/items/5b3aadb26850a36d58f2)<br>@mnishiguchi|2023-08-14|13|
-|18|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2023-09-04|13|
+|18|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2023-09-08|13|
 |19|[Elixir/Phoenixアプリ用Github Actionsの基本的な設定方法](https://qiita.com/mnishiguchi/items/8e709ef617a3c3deedaa)<br>@mnishiguchi|2023-08-14|12|
 |20|[Phoenix.LiveViewでリアルタイムにグラフうねうね](https://qiita.com/mnishiguchi/items/494ec3e2d9a8948fe60e)<br>@mnishiguchi|2023-08-14|12|
 
@@ -60,7 +65,7 @@ slide: false
 |7|[ExcelからElixir入門①：データ並替え／絞り込み](https://qiita.com/piacerex/items/6714e1440e3f25fb46a1)<br>@piacerex|2023-04-02|281|
 |8|[Elixir と Reactive System に関する考察](https://qiita.com/naoya@github/items/8a626a8b6c3a46b9d21b)<br>@naoya@github|2016-02-25|273|
 |9|[【CTO meetup】Rust,Go,Elixir,Kotlin次世代言語の魅力をCTOが語る](https://qiita.com/yama-t/items/eddfc3811d90d945f35f)<br>@yama-t|2019-12-03|237|
-|10|[Elixir のパターンマッチを攻略しよう](https://qiita.com/naoya@github/items/9da982febe89d83cb5b5)<br>@naoya@github|2015-09-08|224|
+|10|[Elixir のパターンマッチを攻略しよう](https://qiita.com/naoya@github/items/9da982febe89d83cb5b5)<br>@naoya@github|2015-09-08|223|
 |11|[CentOS + Erlang + Elixir + PhoenixのDockerイメージで今日から始めるElixir on Phoenix入門](https://qiita.com/xtity/items/969eefb83fcac9023542)<br>@xtity|2015-04-14|220|
 |12|[『Programming Elixir』より "Think Different(ly)"](https://qiita.com/naoya@github/items/df267d3b951b47767b22)<br>@naoya@github|2015-08-07|218|
 |13|[Elixirで試しに何か書いてみる(その1)](https://qiita.com/HirofumiTamori/items/602d9b326cb4816c2fe6)<br>@HirofumiTamori|2015-11-30|165|
