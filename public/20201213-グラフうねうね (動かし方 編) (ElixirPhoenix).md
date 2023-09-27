@@ -9,6 +9,7 @@ updated_at: '2021-01-03T23:10:49+09:00'
 id: 3926fe3740e229594c8f
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は[#NervesJP Advent Calendar 2020](https://qiita.com/advent-calendar/2020/nervesjp) 15日目です。
 前日は、@kentaro さんの「[『プログラミングElixir 第2版』を読んでいまこそElixirに入門しよう](https://kentarokuribayashi.com/journal/2020/12/14/programming-elixir-1-6-ja)」でした。

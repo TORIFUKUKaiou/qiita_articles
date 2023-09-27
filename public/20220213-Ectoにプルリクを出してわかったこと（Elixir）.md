@@ -10,6 +10,7 @@ updated_at: '2022-02-16T19:38:50+09:00'
 id: bfbe459979172ecab7d9
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **新しい技術は、必ず次の技術によって置き換わる宿命を持っている。それをまた自分の手でやってこそ技術屋冥利に尽きる。自分がやらなければ他社がやるだけのこと。商品のコストもまったく同じ**
 

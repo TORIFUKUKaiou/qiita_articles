@@ -9,6 +9,7 @@ updated_at: '2021-12-13T07:55:14+09:00'
 id: cefebdcfccdeee67d151
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://qiita.com/advent-calendar/2021/microsoft
 

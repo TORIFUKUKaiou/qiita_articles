@@ -11,6 +11,7 @@ updated_at: '2021-12-22T08:49:06+09:00'
 id: 27abc5b84f6f55f85d71
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://qiita.com/advent-calendar/2021/seeed_ug
 

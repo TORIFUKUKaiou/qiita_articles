@@ -8,6 +8,7 @@ updated_at: '2020-05-02T15:49:06+09:00'
 id: 56373e0bab428ae51a83
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - @k_shibusawa さんの[NHK番組表API叩いてSlackで通知する](https://qiita.com/k_shibusawa/items/4e1cdb015f1271f9b404)を拝見しておりまして、ぜひ[Elixir](https://elixir-lang.org/)でやってみようとおもいました

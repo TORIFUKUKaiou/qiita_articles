@@ -10,6 +10,7 @@ updated_at: '2020-04-22T07:23:24+09:00'
 id: 0be1bcd131ff3790a347
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [mix_phx_gen_auth_demo](https://github.com/dashbitco/mix_phx_gen_auth_demo)を動かしてみます

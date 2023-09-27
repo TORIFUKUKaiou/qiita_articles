@@ -8,6 +8,7 @@ updated_at: '2020-12-02T11:56:51+09:00'
 id: c2b21e3658059927b577
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は、[Elixir その2 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/elixir2) 2日目です。
 前日は[[87, 101, 32, 97, 114, 101, 32, 116, 104, 101, 32, 65, 108, 99, 104, 101, 109, 105, 115, 116, 115, 44, 32, 109, 121, 32, 102, 114, 105, 101, 110, 100, 115, 33]](https://qiita.com/torifukukaiou/items/badb4725a9c17788f8b1)でした。

@@ -12,6 +12,7 @@ updated_at: '2020-12-20T19:40:51+09:00'
 id: d24749203b1586b5685a
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は[Raspberry Pi Advent Calendar 2020](https://qiita.com/advent-calendar/2020/raspberry-pi) 10日目です。
 前日は、@s51517765さんの[エアコンをSlackでスマートリモコン化の効果を温湿度センサで測定する【2020年版】](https://s51517765.hatenadiary.jp/entry/2020/05/25/073000)でした。

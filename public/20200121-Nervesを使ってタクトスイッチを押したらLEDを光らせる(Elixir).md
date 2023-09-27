@@ -8,6 +8,7 @@ updated_at: '2020-01-22T08:00:34+09:00'
 id: ad3eee31dea0dc1cbcbd
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - タクトスイッチが押されたら、LEDを光らせてみます

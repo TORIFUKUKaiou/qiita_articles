@@ -8,6 +8,7 @@ updated_at: '2021-08-01T17:42:09+09:00'
 id: d2d0e9f56ffe3bb8eda1
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/)のWebフレームワークである[Phoenix](https://www.phoenixframework.org/)を使ってつくったプロジェクトを[Gigalixir](https://www.gigalixir.com/)にデプロイしてみます

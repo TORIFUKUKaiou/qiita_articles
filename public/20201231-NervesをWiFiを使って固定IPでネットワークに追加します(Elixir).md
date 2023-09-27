@@ -8,6 +8,7 @@ updated_at: '2021-06-12T17:23:08+09:00'
 id: 45cfc7bdf73f3f232299
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 公式の[VintageNet Cookbook](https://hexdocs.pm/vintage_net/cookbook.html)をよくみるとよいです

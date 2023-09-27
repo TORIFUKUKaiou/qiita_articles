@@ -8,6 +8,7 @@ updated_at: '2019-12-17T22:19:59+09:00'
 id: 63823013b7b6e76fd9ef
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - **私**は、[Elixir](https://elixir-lang.org/)の関数や[if](https://hexdocs.pm/elixir/Kernel.html#if/2)を1行で書くときに `,` を忘れがちです

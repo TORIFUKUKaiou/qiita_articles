@@ -10,6 +10,7 @@ updated_at: '2022-04-10T17:52:16+09:00'
 id: e392052f4339d5f795e5
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **白露に風の吹きしく秋の野はつらぬきとめぬ玉ぞ散りける**
 

@@ -9,6 +9,7 @@ updated_at: '2022-02-28T23:04:02+09:00'
 id: 552a5ac98ff42de8c019
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 何も変更をしていないけれども、コミットをしたいことありますよね！
 私はあります。

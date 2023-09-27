@@ -10,6 +10,7 @@ updated_at: '2022-05-06T23:49:51+09:00'
 id: 9d575ddcc7791593bf53
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 
 **歎きつつひとりぬる夜の明くるまはいかに久しきものとかは知る**

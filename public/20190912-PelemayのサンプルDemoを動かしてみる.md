@@ -7,6 +7,7 @@ updated_at: '2019-09-13T12:25:32+09:00'
 id: 76b31703538a62cf83c2
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - Hastega改め[Pelemay](https://github.com/zeam-vm/pelemay)と言うそうです

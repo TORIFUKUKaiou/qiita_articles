@@ -10,6 +10,7 @@ updated_at: '2022-04-18T15:06:17+09:00'
 id: 90ad6ae186d9311e94b0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **君がため惜しからざりし命さへ長くもがなと思ひけるかな**
 

@@ -7,6 +7,7 @@ updated_at: '2019-09-29T15:15:05+09:00'
 id: 073204626e04aa123ae1
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 2019/9/29(日)

@@ -11,6 +11,7 @@ updated_at: '2023-09-08T08:00:18+09:00'
 id: a1edaacb8d0023873b6d
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://qiita.com/official-campaigns/engineer-festa/2022
 

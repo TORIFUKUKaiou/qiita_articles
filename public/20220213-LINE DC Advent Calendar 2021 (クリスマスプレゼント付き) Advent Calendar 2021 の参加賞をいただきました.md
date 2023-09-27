@@ -11,6 +11,7 @@ updated_at: '2022-02-13T21:55:12+09:00'
 id: 3fcebf5dd832654e4fea
 organization_url_name: linedc_jp
 slide: false
+ignorePublish: false
 ---
 **無謀はいけないが多少の無理はさせろ、無理を通せば、発想が変わる**
 

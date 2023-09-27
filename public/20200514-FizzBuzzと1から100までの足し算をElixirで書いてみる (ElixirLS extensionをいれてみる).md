@@ -7,6 +7,7 @@ updated_at: '2020-06-24T00:48:36+09:00'
 id: cbe366320723cc12c973
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - @aaabb6211 さんの[fizzbuzzを噛み砕く](https://qiita.com/aaabb6211/items/f1ec6d32075a96598ba0)を拝見しまして、ぜひ[Elixir](https://elixir-lang.org/)で書いてみようとおもいました。

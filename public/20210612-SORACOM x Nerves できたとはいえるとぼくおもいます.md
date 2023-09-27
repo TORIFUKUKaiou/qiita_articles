@@ -9,6 +9,7 @@ updated_at: '2021-12-08T09:25:04+09:00'
 id: a7694edb3cc86af062f0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 [【続】SORACOM x Nerves できたとはいえるとぼくおもいます](https://qiita.com/torifukukaiou/items/efe528f8dbd1012ba37e)
 をぜひご参照ください。

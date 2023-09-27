@@ -10,6 +10,7 @@ updated_at: '2022-02-06T09:50:03+09:00'
 id: aea6409e695f9a29d1b0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **よいものを安く、より新しいものを早く。**
 

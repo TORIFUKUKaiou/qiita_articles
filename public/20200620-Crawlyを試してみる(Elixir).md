@@ -7,6 +7,7 @@ updated_at: '2020-06-20T14:13:43+09:00'
 id: e9ee35caf4c5f11e541d
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [ElixirConf EU Virtual](https://virtual.elixirconf.eu/)で[セッション](https://virtual.elixirconf.eu/talks/web-scraping-in-elixir-with-crawly/)をきいた[Crawly](https://github.com/oltarasenko/crawly)を試してみます

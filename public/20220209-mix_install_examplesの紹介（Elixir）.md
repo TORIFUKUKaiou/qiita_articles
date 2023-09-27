@@ -10,6 +10,7 @@ updated_at: '2022-02-09T19:43:51+09:00'
 id: 7509e747c0f48dc2ac09
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **後発での失敗は再起不能と思え**
 

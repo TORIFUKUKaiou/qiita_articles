@@ -8,6 +8,7 @@ updated_at: '2020-10-07T14:13:29+09:00'
 id: 26fed9d7193dc674e8fb
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Nerves](https://www.nerves-project.org/)とは、[ElixirのIoTでナウでヤングなcoolなすごいヤツです:rocket:](https://twitter.com/torifukukaiou/status/1201266889990623233)

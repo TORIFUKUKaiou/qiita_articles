@@ -7,6 +7,7 @@ updated_at: '2021-01-11T21:44:45+09:00'
 id: 937a0e5ba7f393e00793
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - ある条件に合致するときは"Yes"、そうではない場合は"No"を返しなさいという関数をつくりたいとします

@@ -10,6 +10,7 @@ updated_at: '2022-09-29T22:36:26+09:00'
 id: 65cb4fa0b7875d5e4426
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 Advent Calendar 2022 148日目[^1]の記事です。
 I'm looking forward to 12/25,2022 :santa::santa_tone1::santa_tone2::santa_tone3::santa_tone4::santa_tone5:

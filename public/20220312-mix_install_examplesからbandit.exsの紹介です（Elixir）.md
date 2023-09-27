@@ -10,6 +10,7 @@ updated_at: '2022-04-10T19:54:12+09:00'
 id: 415afd564ae02b50260c
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **吹くからに秋の草木のしをるればむべ山風を嵐と言ふらむ**
 

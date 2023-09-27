@@ -8,6 +8,7 @@ updated_at: '2020-11-15T12:15:54+09:00'
 id: ef22b61ef2672113144b
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - @u2dayo さんの[【AtCoder解説】PythonでABC175のA,B,C問題を制する！](https://qiita.com/u2dayo/items/ce1b420344e451560b42)を拝見しまして、私は[Elixir](https://elixir-lang.org/)でやってみようとおもいました

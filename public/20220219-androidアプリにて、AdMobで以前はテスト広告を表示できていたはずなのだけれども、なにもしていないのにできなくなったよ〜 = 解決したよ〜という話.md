@@ -10,6 +10,7 @@ updated_at: '2022-02-19T22:41:35+09:00'
 id: 6c25e3e0183f12f90c14
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **少にして学べば、即ち壮にして為すことあり。壮にして学べば、即ち老いて衰えず。老いて学べば、即ち死して朽ちず**
 

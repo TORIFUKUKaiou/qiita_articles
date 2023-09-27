@@ -7,6 +7,7 @@ updated_at: '2021-02-28T23:24:51+09:00'
 id: 7ae8d2b21729ac19e5ef
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - @kgtkr さんの[ABC167 C - Skill UpをHaskellで解く](https://qiita.com/kgtkr/items/ea4df8f7e7654b3a83e9)を拝見しまして、私はぜひ[Elixir](https://elixir-lang.org/)でやってみようとおもいました

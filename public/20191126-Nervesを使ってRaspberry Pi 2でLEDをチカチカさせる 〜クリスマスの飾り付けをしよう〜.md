@@ -8,6 +8,7 @@ updated_at: '2019-12-10T07:01:58+09:00'
 id: bf0354db8cd0628f161e
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 （この記事は、「[#NervesJP Advent Calendar 2019](https://qiita.com/advent-calendar/2019/nervesjp)」の10日目です）
 昨日は[nishiuchikazuma](https://qiita.com/nishiuchikazuma)さんの「[ElixirでラズパイのLEDをチカ〜RaspbianOSインストールから〜](https://qiita.com/nishiuchikazuma/items/cce6152430467cffba56)」です！
