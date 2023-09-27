@@ -9,6 +9,7 @@ updated_at: '2022-01-05T23:31:32+09:00'
 id: 47637b3f95ca843881a0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://qiita.com/official-events/5cb794f7cb9ac194ed70
 

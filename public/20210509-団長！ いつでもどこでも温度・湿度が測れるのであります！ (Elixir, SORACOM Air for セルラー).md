@@ -11,6 +11,7 @@ updated_at: '2021-06-13T18:49:55+09:00'
 id: ed0d80c2af8699875f54
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://www.lp.soracom.jp/202104-soracom-raspberry-pi-contest
 

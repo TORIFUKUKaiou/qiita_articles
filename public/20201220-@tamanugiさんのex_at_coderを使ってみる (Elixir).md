@@ -8,6 +8,7 @@ updated_at: '2020-12-25T01:43:51+09:00'
 id: 3cb86dede8aefa2cd7c0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は、「[Elixir その2 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/elixir2)」 **24日目**です。
 前日は「[「動的計画法を使う問題をElixirで関数型っぽく解いてみる」のFibonacci3をガード節を使って書き直してみる](https://qiita.com/torifukukaiou/items/5cb11e04d3041b6ac3ca)」でした。

@@ -8,6 +8,7 @@ updated_at: '2020-12-20T01:47:33+09:00'
 id: 5ed277b219da1731dc78
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [「Qiita夏祭り2020 オンライン」ライブ配信](https://connpass.com/event/180539/) に参加しました

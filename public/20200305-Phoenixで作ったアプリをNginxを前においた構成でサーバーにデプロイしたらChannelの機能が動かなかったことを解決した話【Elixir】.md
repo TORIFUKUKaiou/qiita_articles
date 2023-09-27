@@ -9,6 +9,7 @@ updated_at: '2020-04-01T07:59:10+09:00'
 id: 5844fc25cab91950ba3e
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Programming Phoenix >= 1.4](https://www.amazon.co.jp/dp/1680502263) という本がありまして、英語をよちよち読みながら一周しました

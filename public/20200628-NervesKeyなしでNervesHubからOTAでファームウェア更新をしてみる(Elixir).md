@@ -9,6 +9,7 @@ updated_at: '2020-06-28T13:16:22+09:00'
 id: 1e2018e949d4e8e0fe48
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [NervesHub](https://www.nerves-project.org/nerveshub) is an extensible web service that allows you to manage over-the-air (OTA) firmware updates of devices in the field. 

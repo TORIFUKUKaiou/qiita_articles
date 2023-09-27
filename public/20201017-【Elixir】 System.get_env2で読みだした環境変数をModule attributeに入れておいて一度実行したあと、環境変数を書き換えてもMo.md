@@ -10,6 +10,7 @@ updated_at: '2020-10-17T11:38:47+09:00'
 id: c2d13038280bd2431830
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 2020/10/17(土)に行われた[【オンライン】kokura.ex#14：Elixirもくもく会～入門もあるよ（9:30~）祝１周年！](https://fukuokaex.connpass.com/event/191857/)に参加して書きました

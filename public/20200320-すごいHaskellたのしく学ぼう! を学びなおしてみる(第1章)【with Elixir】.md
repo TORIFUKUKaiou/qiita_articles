@@ -7,6 +7,7 @@ updated_at: '2020-04-18T12:51:12+09:00'
 id: c85ec8e360b665981dc9
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/)を使いはじめてだいたい1年くらいがたちました

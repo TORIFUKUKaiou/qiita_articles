@@ -10,6 +10,7 @@ updated_at: '2020-12-20T19:39:42+09:00'
 id: 19fecf95b9313b8a2b8a
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は[Seeed UG Advent Calendar 2020](https://qiita.com/advent-calendar/2020/seeed_ug) 14日目です。
 前日は、「[Grove Base HAT for RasPiは真っ直ぐグイっとさす](https://qiita.com/torifukukaiou/items/81f2a75bee0f919224ad)」でした。

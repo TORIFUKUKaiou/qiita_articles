@@ -8,6 +8,7 @@ updated_at: '2021-05-09T11:24:30+09:00'
 id: 71c3aaaee999ac1b7617
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://autoracex.connpass.com/event/212778/
 

@@ -10,6 +10,7 @@ updated_at: '2022-03-12T21:54:25+09:00'
 id: b56320bc23324eee9280
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **わびぬれば今はた同じなにはなるみをつくしてもあはむとぞ思ふ**
 

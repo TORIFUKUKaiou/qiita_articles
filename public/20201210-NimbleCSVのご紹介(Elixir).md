@@ -7,6 +7,7 @@ updated_at: '2020-12-11T07:02:57+09:00'
 id: 9e9e28411d6a7d134a11
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 この記事は [Elixir その2 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/elixir2) 11日目です。
 前回は [1 = a (プログラミングElixir 第2版)](https://qiita.com/torifukukaiou/items/14ad8b9673bd47ce8b8f) でした。

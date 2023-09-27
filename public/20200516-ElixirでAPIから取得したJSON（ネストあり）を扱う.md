@@ -8,6 +8,7 @@ updated_at: '2020-05-16T13:24:21+09:00'
 id: 378f5b69a8a90e8afb26
 organization_url_name: fukuokaex
 slide: true
+ignorePublish: false
 ---
 # はじめに
 - @chokunari さんの[Node.jsでAPIから取得したJSON（ネストあり）を扱う](https://qiita.com/chokunari/items/cfabfa1039911f8f5f75)を拝見しまして、ぜひ[Elixir](https://elixir-lang.org/)で書いてみようとおもいました

@@ -10,6 +10,7 @@ updated_at: '2022-02-25T07:28:51+09:00'
 id: 130a6ba0b16e1fddf24f
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **他社の動きを気にし始めるのは負けの始まりだ。**
 

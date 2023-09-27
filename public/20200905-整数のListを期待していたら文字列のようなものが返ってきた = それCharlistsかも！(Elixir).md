@@ -7,6 +7,7 @@ updated_at: '2020-09-05T19:24:24+09:00'
 id: d9431806d0009be3faea
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 2020/09/02に行われた[fukuoka.ex#41：Elixirお茶会](https://fukuokaex.connpass.com/event/186882/)にてこんな質問がありました

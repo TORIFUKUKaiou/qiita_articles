@@ -11,6 +11,7 @@ updated_at: '2023-01-07T02:51:14+09:00'
 id: 48ba0b0939e6f1cd3c9e
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 <b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
 <b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>

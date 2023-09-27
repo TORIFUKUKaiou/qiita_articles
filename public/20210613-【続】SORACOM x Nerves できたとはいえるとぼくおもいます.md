@@ -10,6 +10,7 @@ updated_at: '2021-07-10T21:38:06+09:00'
 id: efe528f8dbd1012ba37e
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/) 楽しんでいますか:bangbang::bangbang::bangbang:

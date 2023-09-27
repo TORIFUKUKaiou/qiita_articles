@@ -8,6 +8,7 @@ updated_at: '2020-05-06T16:38:08+09:00'
 id: 11d5f09999e370704192
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # 2020/05/06 追記
 - Windowsで[Nerves](https://www.nerves-project.org/)をはじめられる方は、@takasehideki 先生の[ElixirでIoT#4.1.1：WSL 2でNerves開発環境を整備する](https://qiita.com/takasehideki/items/b8ea8b3455c70398178a) を参考にすすめることをオススメします

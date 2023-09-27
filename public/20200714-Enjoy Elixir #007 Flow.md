@@ -7,6 +7,7 @@ updated_at: '2020-11-15T12:05:11+09:00'
 id: eb1aa2c8842adfc40637
 organization_url_name: fukuokaex
 slide: true
+ignorePublish: false
 ---
 # はじめに
 - [KFIE](https://kfieyaruki.connpass.com/)という近畿大学産業理工学部の情報系コミュニティがあります

@@ -7,6 +7,7 @@ updated_at: '2020-06-19T08:40:39+09:00'
 id: 0d2c63265aa2600bddd2
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Scenic](https://hexdocs.pm/scenic/welcome.html) とは、いまこの時点ではなんのことかさっぱりわかっていません

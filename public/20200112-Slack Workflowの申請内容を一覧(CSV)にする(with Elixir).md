@@ -8,6 +8,7 @@ updated_at: '2020-01-16T13:13:28+09:00'
 id: 9db04591477de8c4cc11
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - Slackの[ワークフロービルダー](https://slack.com/intl/ja-jp/features/workflow-automation)使っていますか！

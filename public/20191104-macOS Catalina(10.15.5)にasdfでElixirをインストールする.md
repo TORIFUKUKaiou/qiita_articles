@@ -7,6 +7,7 @@ updated_at: '2020-05-28T17:15:52+09:00'
 id: 75fa25c55ce2f0b92496
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - `% brew install elixir` でインストールした[Elixir](https://elixir-lang.org/)で楽しんでいましたが、[asdf](https://asdf-vm.com/#/)でインストールするのがいいらしいといろいろな人から聞いていました

@@ -8,6 +8,7 @@ updated_at: '2020-08-17T16:39:59+09:00'
 id: 9135aa5528726abefcad
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 毎朝、私の[Nerves](https://nerves-project.org/)アプリ on Raspberry Pi 2がTwitterへ日本のどこかの地点の天気予報をつぶやくようにしていました

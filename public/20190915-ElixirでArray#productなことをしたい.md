@@ -7,6 +7,7 @@ updated_at: '2019-09-15T15:15:59+09:00'
 id: f916d8373418b1a41f68
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # 結論
 - [内包表記](https://elixirschool.com/ja/lessons/basics/comprehensions/)を使う

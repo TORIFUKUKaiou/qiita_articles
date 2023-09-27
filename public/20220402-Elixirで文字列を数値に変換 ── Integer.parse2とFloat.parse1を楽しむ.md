@@ -10,6 +10,7 @@ updated_at: '2022-04-03T00:42:46+09:00'
 id: b8dfa91f7fa7a37d45d9
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **たれをかも知る人にせむ高砂の松も昔の友ならなくに**
 

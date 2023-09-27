@@ -7,6 +7,7 @@ updated_at: '2022-04-06T18:29:24+09:00'
 id: 2f739c12c031325016a2
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 :::note info
 Elixir 1.13 or laterでは ** が追加されています！

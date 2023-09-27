@@ -11,6 +11,7 @@ updated_at: '2022-02-28T23:15:12+09:00'
 id: bc4210986fc6d4880245
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **わが庵は都のたつみしかぞ住む世を宇治山と人は言ふなり**
 

@@ -8,6 +8,7 @@ updated_at: '2020-12-24T08:01:21+09:00'
 id: 9dd5cfa81109a2e0a5eb
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 ~~いつでも[#NervesJP Advent Calendar 2020](https://qiita.com/advent-calendar/2020/nervesjp)に代打できます~~ :smile_cat:
 12月も終わりそうなので、[NervesJP Slack](https://join.slack.com/t/nerves-jp/shared_invite/enQtNzc0NTM1OTA5MzQ1LTg5NTAyYThiYzRlNDRmNDIwM2ZlZTJiZDc1MmE5NTFjYzA5OTE4ZTM5OWQxODFhZjY1NWJmZTc4NThkMjQ1Yjk)で相談のうえ、代打しました。 

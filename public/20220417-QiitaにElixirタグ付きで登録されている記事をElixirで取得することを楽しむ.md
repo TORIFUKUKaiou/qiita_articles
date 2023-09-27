@@ -10,6 +10,7 @@ updated_at: '2022-12-19T22:04:40+09:00'
 id: 38493ca50c57d88a65fb
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **風をいたみ岩打つ波のおのれのみくだけてものを思ふ頃かな**
 

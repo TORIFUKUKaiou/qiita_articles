@@ -10,6 +10,7 @@ updated_at: '2022-05-06T23:49:26+09:00'
 id: 872e28ca5c8bb3a48951
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 
 **忘れじの行く末まではかたければ今日を限りの命ともがな**

@@ -9,6 +9,7 @@ updated_at: '2022-02-02T00:31:36+09:00'
 id: 6f6e9297e5275b951094
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Docker](https://www.docker.com/)を使って、[Livebook](https://github.com/livebook-dev/livebook)と[Grafana](https://github.com/grafana/grafana)をサーバ上でイゴかします[^1]

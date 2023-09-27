@@ -8,6 +8,7 @@ updated_at: '2020-11-15T12:19:09+09:00'
 id: 584d4e9b3e14792fb701
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/)でやってみました

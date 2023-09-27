@@ -7,6 +7,7 @@ updated_at: '2020-09-20T11:43:03+09:00'
 id: e8a27dd5bdfa31a1ec02
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - [Ruby](https://www.ruby-lang.org/ja/)の[Array#combination](https://docs.ruby-lang.org/ja/latest/method/Array/i/combination.html)相当のことを[Elixir](https://elixir-lang.org/)でやってみたいのであります

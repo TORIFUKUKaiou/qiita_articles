@@ -8,6 +8,7 @@ updated_at: '2020-11-08T01:35:08+09:00'
 id: 8a2d85324c9b8599d69a
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - カスタムMixタスクでEcto経由でデータベースを操作したいです

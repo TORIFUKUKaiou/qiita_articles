@@ -10,6 +10,7 @@ updated_at: '2022-04-13T00:18:32+09:00'
 id: a94c5c131cebb9505eef
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **あひ見ての後の心にくらぶれば昔はものを思はざりけり**
 

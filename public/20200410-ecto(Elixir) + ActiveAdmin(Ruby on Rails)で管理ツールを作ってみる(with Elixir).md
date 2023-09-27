@@ -9,6 +9,7 @@ updated_at: '2020-04-10T09:18:57+09:00'
 id: 07412d94fc86a4eb12a0
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # はじめに
 - 私は[Elixir](https://elixir-lang.org/)を使ってプログラムを書くのが好きです

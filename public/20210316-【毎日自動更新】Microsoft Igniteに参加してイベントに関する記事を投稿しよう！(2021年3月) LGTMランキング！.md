@@ -10,6 +10,7 @@ updated_at: '2023-09-08T09:45:12+09:00'
 id: 88a76181df818f500557
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 # この記事は
 - [Microsoft Igniteに参加してイベントに関する記事を投稿しよう！](https://qiita.com/official-events/a50e99d62dc62d68a9c9)

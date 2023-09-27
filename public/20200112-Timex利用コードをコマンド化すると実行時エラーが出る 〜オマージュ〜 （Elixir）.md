@@ -7,6 +7,7 @@ updated_at: '2020-01-12T17:17:52+09:00'
 id: 422116d6617892ab7050
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 （この記事は @piacerex さんの[Timex利用コードをコマンド化すると実行時エラーが出る](https://qiita.com/piacerex/items/7ebaa107ad7a7f6cec46)のオマージュです）
 

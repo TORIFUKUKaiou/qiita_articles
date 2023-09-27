@@ -9,6 +9,7 @@ updated_at: '2021-12-19T03:57:13+09:00'
 id: 117cc23963b55ae3fc5d
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 https://qiita.com/advent-calendar/2021/soracom
 

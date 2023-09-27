@@ -13,6 +13,7 @@ updated_at: '2020-12-24T23:25:32+09:00'
 id: 0b1faacfdaa1cf217bec
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 [Seeed UG Advent Calendar 2020](https://qiita.com/advent-calendar/2020/seeed_ug) **18日目** です。
 前日は @tseigo さんの[Grove Speech Recognizer を obniz とつなげたメモ](https://www.1ft-seabass.jp/memo/2020/12/16/obniz-with-grove-speech-recognizer/)でした。

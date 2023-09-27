@@ -11,6 +11,7 @@ updated_at: '2022-02-22T22:34:08+09:00'
 id: e167810d20035f23be4c
 organization_url_name: fukuokaex
 slide: false
+ignorePublish: false
 ---
 **不幸にして意気地のない上司についたときは新しいアイデアは上司に黙って、まず、ものをつくれ**
 
