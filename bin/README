@@ -26,7 +26,7 @@ docker run \
        --mount type=bind,src=$(pwd),dst=/app \
        -w /app \
        -e QIITA_TOKEN="your token" \
-       elixir:1.15.4-otp-25-slim \
+       elixir:1.15.6-otp-25-slim \
        elixir bin/normalize-filenames.exs
 ```
 
@@ -43,7 +43,7 @@ docker run \
        --rm \
        --mount type=bind,src=$(pwd),dst=/app \
        -w /app \
-       elixir:1.15.4-otp-25-slim \
+       elixir:1.15.6-otp-25-slim \
        mix format bin/normalize-filenames.exs
 ```
 
