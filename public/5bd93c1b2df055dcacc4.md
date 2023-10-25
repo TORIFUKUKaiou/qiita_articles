@@ -4,8 +4,9 @@ tags:
   - Monacoin
   - ブロックチェーン
   - Web3
+  - AdventCalendar2023
 private: false
-updated_at: '2023-10-19T12:49:51+09:00'
+updated_at: '2023-10-26T00:05:12+09:00'
 id: 5bd93c1b2df055dcacc4
 organization_url_name: haw
 slide: true

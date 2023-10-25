@@ -7,7 +7,7 @@ tags:
   - AdventCalendar2023
   - 闘魂
 private: false
-updated_at: '2023-10-25T23:37:30+09:00'
+updated_at: '2023-10-25T23:46:52+09:00'
 id: beea66ad4c9629fa826e
 organization_url_name: null
 slide: false
@@ -87,7 +87,7 @@ https://paraxial.io/blog/elixir-savings
 
 私のMacでは以下を指していました。
 
-```
+```elixir
 iex> :filename.basedir(:user_cache, "bumblebee")
 "/Users/awesome/Library/Caches/bumblebee"
 ```
@@ -183,7 +183,7 @@ tree /Users/awesome/Library/Caches/bumblebee
 
 [Bumblebee](https://github.com/elixir-nx/bumblebee/)でなにかダウンロードがはじまったら、それはきっと `:filename.basedir(:user_cache, "bumblebee")` の場所に格納されています。
 
-人類は不老不死の霊薬を意味する素敵なプログラミング言語[Elixir](https://elixir-lang.org/)を手に入れました。並行性を容易に書け、コンピュータ資源を有効活用できます。
+人類は不老不死の霊薬を意味する素敵なプログラミング言語[Elixir](https://elixir-lang.org/)を手に入れました。並行処理を他のプログラミング言語よりも比較的容易に書くことができます。それはきっとコンピュータ資源を有効活用できることにつながるでしょう。巡り巡って世界平和に貢献できることでしょう。
 
 さあ、そこのあなたも[Elixir](https://elixir-lang.org/)の世界へようこそ。
 _手始めに[エリクサーチ](https://elixir-lang.info/)なんていかがでしょうか。私のオススメです。_
