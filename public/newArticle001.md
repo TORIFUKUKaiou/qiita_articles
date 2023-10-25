@@ -2,13 +2,13 @@
 title: 闘魂Elixir ── Bumblebeeがダウンロードしたファイルはいずこに
 tags:
   - Elixir
+  - bumblebee
   - Livebook
   - AdventCalendar2023
   - 闘魂
-  - Bumblebee
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-10-25T23:37:30+09:00'
+id: beea66ad4c9629fa826e
 organization_url_name: null
 slide: false
 ignorePublish: false
