@@ -8,7 +8,7 @@ tags:
   - 40代駆け出しエンジニア
   - AdventCalendar2022
 private: false
-updated_at: '2022-12-17T21:09:44+09:00'
+updated_at: '2023-11-24T15:10:04+09:00'
 id: 84c03b8d31c19ca20711
 organization_url_name: fukuokaex
 slide: false
@@ -59,7 +59,7 @@ docker run --rm -v $PWD:/app ruby:3.1.0-alpine3.15 sh -c "cd /app && bundle inst
 ![スクリーンショット 2022-11-14 9.30.58.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/280f3467-4a03-03f4-19f0-3b888336f80c.png)
 
 
-[まつもとゆきひろ](https://twitter.com/yukihiro_matz)さんの講演のときに、TRICK2022(超絶技巧Ruby意味不明コンテスト for RubyKaigi)で金賞を獲得されたプログラム(Quine)の話が少しでてきたそうです。高校生から自分たちでも動かしてみたい！、ソースコードをみてみたい！　とのことでしたので動かすことを楽しみました。
+コーチの方の講演のときに、TRICK2022(超絶技巧Ruby意味不明コンテスト for RubyKaigi)で金賞を獲得されたプログラム(Quine)の話が少しでてきたそうです。高校生から自分たちでも動かしてみたい！、ソースコードをみてみたい！　とのことでしたので動かすことを楽しみました。
 
 [ソースコード](https://github.com/tric/trick2022/blob/master/01-tompng/entry.rb)にも技巧が含まれていました！
 

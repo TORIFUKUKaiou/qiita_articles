@@ -6,7 +6,7 @@ tags:
   - Nerves
   - QiitaAzure
 private: false
-updated_at: '2023-10-25T09:45:12+09:00'
+updated_at: '2023-12-29T09:45:11+09:00'
 id: 88a76181df818f500557
 organization_url_name: fukuokaex
 slide: false
@@ -30,7 +30,7 @@ https://qiita.com/official-events/a50e99d62dc62d68a9c9
 # 全期間 :confetti_ball::military_medal::confetti_ball:
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
-|1|[【Windows 10版でどこまでできるか】Power Automate Desktop のライセンスやできることや気になることまとめ【随時更新】](https://qiita.com/maekawawawa/items/b9c7b866f5ee31d2acd3)<br>@maekawawawa|2021-03-06|2022-08-23|603|
+|1|[【Windows 10版でどこまでできるか】Power Automate Desktop のライセンスやできることや気になることまとめ【随時更新】](https://qiita.com/maekawawawa/items/b9c7b866f5ee31d2acd3)<br>@maekawawawa|2021-03-06|2022-08-23|605|
 |2|[【Windows 10 なら追加費用なしで利用可能】Power Automate Desktop for Windows 10 の利用開始手順](https://qiita.com/maekawawawa/items/9edbd4c33b780fb2b8ec)<br>@maekawawawa|2021-03-03|2022-03-10|202|
 |3|[Elixir: A great first programming language](https://qiita.com/torifukukaiou/items/aecb1297672163f7d5f4)<br>@torifukukaiou|2021-03-21|2021-03-21|18|
 |4|[Microsoft Mesh Technical Overview (日本語訳)](https://qiita.com/Futo_Horio/items/3bb392cf97a3de0894e8)<br>@Futo_Horio|2021-03-05|2021-03-05|18|
@@ -42,7 +42,7 @@ https://qiita.com/official-events/a50e99d62dc62d68a9c9
 |10|[はじめてのAzure Machine Learning](https://qiita.com/roki18d/items/bca8263e475e5ef78076)<br>@roki18d|2021-03-28|2021-03-28|2|
 |11|[Ubuntu 20.04 でAzure ML (Python SDK)を使うと.NET Coreのエラーが出る場合の対処法](https://qiita.com/aical/items/d1183566ffdfe3c81b12)<br>@aical|2021-03-23|2023-01-26|2|
 |12|[Unity + PlayFab Party を使う時の注意点](https://qiita.com/akiojin/items/ba956e8798844fa4fb88)<br>@akiojin|2021-03-22|2021-06-08|2|
-|13|[【毎日自動更新】Microsoft Igniteに参加してイベントに関する記事を投稿しよう！(2021年3月) LGTMランキング！](https://qiita.com/torifukukaiou/items/88a76181df818f500557)<br>@torifukukaiou|2021-03-16|2023-10-24|2|
+|13|[【毎日自動更新】Microsoft Igniteに参加してイベントに関する記事を投稿しよう！(2021年3月) LGTMランキング！](https://qiita.com/torifukukaiou/items/88a76181df818f500557)<br>@torifukukaiou|2021-03-16|2023-12-28|2|
 |14|[AzureWebApps上に構築したSPA+REST APIのウェブアプリにAADで認証を設定してみた](https://qiita.com/ibaraki/items/47f1a0e7c56967bdc0d1)<br>@ibaraki|2021-03-09|2021-03-25|2|
 |15|[Azure Synapse Pathway](https://qiita.com/yangjiayi/items/35f89d1aaec72923cdf1)<br>@yangjiayi|2021-03-11|2021-03-23|1|
 |16|[Power Automate Desktopで作ったフローをブラウザのPower Automateでも管理したい](https://qiita.com/kadogogick/items/206d66262e8248958899)<br>@kadogogick|2021-03-03|2021-03-04|1|
