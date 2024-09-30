@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Azure
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2023-12-30T08:00:13+09:00'
+updated_at: '2024-09-30T08:00:10+09:00'
 id: 7194a4352af5ba780e03
 organization_url_name: fukuokaex
 slide: false
@@ -44,13 +44,13 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |No|title|created_at|updated_at|LGTM|
 |---|---|---|---|---:|
 |1|[Cloud Skill Challenge を題材に Azure Machine Learning SDK v2 で MLOpsの扉を開いた - 回帰モデル](https://qiita.com/ryoma-nagata/items/e5123359a4d7dd93dd9f)<br>@ryoma-nagata|2022-06-24|2022-06-25|12|
-|2|[初学者向け: Azure Machine Learningの始め方(Notebookで機械学習)](https://qiita.com/ryokita/items/6e07e4fca8a38de4fb2e)<br>@ryokita|2022-06-20|2022-06-20|10|
+|2|[初学者向け: Azure Machine Learningの始め方(Notebookで機械学習)](https://qiita.com/ryokita/items/6e07e4fca8a38de4fb2e)<br>@ryokita|2022-06-20|2022-06-20|12|
 |3|[Azure Machine LearningのAutoMLで画像分類を試してみた](https://qiita.com/tmiyata25/items/4871a30bdad8acf19ae1)<br>@tmiyata25|2022-07-15|2022-07-15|8|
-|4|[Azure ML Python SDK v2 で AutoML を試してみた](https://qiita.com/aical/items/eee4fc33f206855c84fd)<br>@aical|2022-06-24|2022-06-24|6|
-|5|[Azure Machine LearningのAutoMLで時系列予測を試してみた~②モデル評価編~](https://qiita.com/tmiyata25/items/47e9b9f55242c1c548d1)<br>@tmiyata25|2022-06-16|2022-06-16|6|
-|6|[Azure Machine LearningのAutoMLで時系列予測を試してみた~①モデル作成編~](https://qiita.com/tmiyata25/items/a08fd81ef8cc156cdb03)<br>@tmiyata25|2022-06-03|2022-06-16|6|
+|4|[Azure Machine LearningのAutoMLで時系列予測を試してみた~①モデル作成編~](https://qiita.com/tmiyata25/items/a08fd81ef8cc156cdb03)<br>@tmiyata25|2022-06-03|2022-06-16|7|
+|5|[Azure ML Python SDK v2 で AutoML を試してみた](https://qiita.com/aical/items/eee4fc33f206855c84fd)<br>@aical|2022-06-24|2022-06-24|6|
+|6|[Azure Machine LearningのAutoMLで時系列予測を試してみた~②モデル評価編~](https://qiita.com/tmiyata25/items/47e9b9f55242c1c548d1)<br>@tmiyata25|2022-06-16|2022-06-16|6|
 |7|[自分の顔と芸能人がどれくらい似ているか画像判断処理をやってみた（Power Apps × Azure Custom Vison ）](https://qiita.com/hide6974/items/40d6b3d2998a1a21876c)<br>@hide6974|2022-06-11|2022-06-11|5|
-|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2023-12-29|5|
+|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2024-09-29|5|
 |9|[【part2】Cloud Skill Challenge を題材に Azure Machine Learning × Azure DevOpsで MLOpsの扉を開いた - 分類モデル](https://qiita.com/ryoma-nagata/items/e647d7189cb1ae6b7f5d)<br>@ryoma-nagata|2022-07-08|2022-07-13|4|
 |10|[[Microsoft Build 2022 最新情報] Azure Machine Learningの新しい機能、Responsible AI Dashboardを試してみる](https://qiita.com/mochan_tk/items/adddc6aed3ea4826ed9e)<br>@mochan_tk|2022-07-07|2022-07-18|4|
 |11|[Github Actions + Azure ML CLI v2 で機械学習ジョブの CD を試みる](https://qiita.com/ShuntaIto/items/222b7a5bdb6d9996515b)<br>@ShuntaIto|2022-06-09|2022-06-09|4|
@@ -64,24 +64,24 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 # 投稿者ごとの記事数とLGTM数
 |No|user|count|LGTM|
 |---|---|---:|---:|
-|1|@ryoma-nagata|3|16|
-|2|@tmiyata25|3|20|
+|1|@tmiyata25|3|21|
+|2|@ryoma-nagata|3|16|
 |3|@ShuntaIto|2|7|
 |4|@aical|2|6|
-|5|@hide6974|1|5|
-|6|@kaizen_nagoya|1|0|
-|7|@kexi|1|3|
+|5|@ryokita|1|12|
+|6|@hide6974|1|5|
+|7|@torifukukaiou|1|5|
 |8|@mochan_tk|1|4|
-|9|@ryokita|1|10|
-|10|@torifukukaiou|1|5|
+|9|@kexi|1|3|
+|10|@kaizen_nagoya|1|0|
 
 
 # 投稿者ごとのLGTM数と記事数
 |No|user|LGTM|count|
 |---|---|---:|---:|
-|1|@tmiyata25|20|3|
+|1|@tmiyata25|21|3|
 |2|@ryoma-nagata|16|3|
-|3|@ryokita|10|1|
+|3|@ryokita|12|1|
 |4|@ShuntaIto|7|2|
 |5|@aical|6|2|
 |6|@hide6974|5|1|
@@ -94,16 +94,16 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 # タグごとの記事数とLGTM数
 |No|tag|count|LGTM|
 |---|---|---:|---:|
-|1|[AzureMachineLearning](https://qiita.com/tags/AzureMachineLearning)|16|76|
-|2|[QiitaEngineerFesta_Azure](https://qiita.com/tags/QiitaEngineerFesta_Azure)|16|76|
-|3|[Azure](https://qiita.com/tags/Azure)|10|50|
-|4|[MachineLearning](https://qiita.com/tags/MachineLearning)|5|22|
+|1|[AzureMachineLearning](https://qiita.com/tags/AzureMachineLearning)|16|79|
+|2|[QiitaEngineerFesta_Azure](https://qiita.com/tags/QiitaEngineerFesta_Azure)|16|79|
+|3|[Azure](https://qiita.com/tags/Azure)|10|51|
+|4|[MachineLearning](https://qiita.com/tags/MachineLearning)|5|23|
 |5|[MLOps](https://qiita.com/tags/MLOps)|4|16|
 |6|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|2|5|
 |7|[Microsoft](https://qiita.com/tags/Microsoft)|2|16|
-|8|[初心者](https://qiita.com/tags/初心者)|2|13|
-|9|[時系列解析](https://qiita.com/tags/時系列解析)|2|12|
-|10|[機械学習](https://qiita.com/tags/機械学習)|2|13|
+|8|[初心者](https://qiita.com/tags/初心者)|2|15|
+|9|[時系列解析](https://qiita.com/tags/時系列解析)|2|13|
+|10|[機械学習](https://qiita.com/tags/機械学習)|2|15|
 |11|[AIによる芸能人どれくらい似ている](https://qiita.com/tags/AIによる芸能人どれくらい似ている)|1|5|
 |12|[AutoML](https://qiita.com/tags/AutoML)|1|8|
 |13|[AzureMachineLearningStudio](https://qiita.com/tags/AzureMachineLearningStudio)|1|4|
@@ -116,23 +116,23 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |20|[ResponsibleAI](https://qiita.com/tags/ResponsibleAI)|1|4|
 |21|[lightgbm](https://qiita.com/tags/lightgbm)|1|3|
 |22|[データサイエンス](https://qiita.com/tags/データサイエンス)|1|6|
-|23|[深層学習](https://qiita.com/tags/深層学習)|1|10|
+|23|[深層学習](https://qiita.com/tags/深層学習)|1|12|
 |24|[画像分類](https://qiita.com/tags/画像分類)|1|8|
 
 
 # タグごとのLGTM数と記事数
 |No|tag|LGTM|count|
 |---|---|---:|---:|
-|1|[AzureMachineLearning](https://qiita.com/tags/AzureMachineLearning)|76|16|
-|2|[QiitaEngineerFesta_Azure](https://qiita.com/tags/QiitaEngineerFesta_Azure)|76|16|
-|3|[Azure](https://qiita.com/tags/Azure)|50|10|
-|4|[MachineLearning](https://qiita.com/tags/MachineLearning)|22|5|
+|1|[AzureMachineLearning](https://qiita.com/tags/AzureMachineLearning)|79|16|
+|2|[QiitaEngineerFesta_Azure](https://qiita.com/tags/QiitaEngineerFesta_Azure)|79|16|
+|3|[Azure](https://qiita.com/tags/Azure)|51|10|
+|4|[MachineLearning](https://qiita.com/tags/MachineLearning)|23|5|
 |5|[MLOps](https://qiita.com/tags/MLOps)|16|4|
 |6|[Microsoft](https://qiita.com/tags/Microsoft)|16|2|
-|7|[初心者](https://qiita.com/tags/初心者)|13|2|
-|8|[機械学習](https://qiita.com/tags/機械学習)|13|2|
-|9|[時系列解析](https://qiita.com/tags/時系列解析)|12|2|
-|10|[深層学習](https://qiita.com/tags/深層学習)|10|1|
+|7|[初心者](https://qiita.com/tags/初心者)|15|2|
+|8|[機械学習](https://qiita.com/tags/機械学習)|15|2|
+|9|[時系列解析](https://qiita.com/tags/時系列解析)|13|2|
+|10|[深層学習](https://qiita.com/tags/深層学習)|12|1|
 |11|[AutoML](https://qiita.com/tags/AutoML)|8|1|
 |12|[画像分類](https://qiita.com/tags/画像分類)|8|1|
 |13|[データサイエンス](https://qiita.com/tags/データサイエンス)|6|1|

@@ -5,7 +5,7 @@ tags:
   - Phoenix
   - fukuoka.ex
 private: false
-updated_at: '2020-04-01T07:59:10+09:00'
+updated_at: '2024-09-18T08:51:35+09:00'
 id: 5844fc25cab91950ba3e
 organization_url_name: fukuokaex
 slide: false
@@ -31,7 +31,7 @@ WebSocket connection to to wss://hogehoge.com/socket/websocket?token=<token>&vsn
 - ↑ 答えはここにありました
 - [nginx](https://www.nginx.com/)の設定に `proxy_http_version 1.1;`を追加しました
 - [Phoenix](https://www.phoenixframework.org/)がどうのこうのというより、以下の記事の内容のほうがぴったりくるかもしれません
-    - [NginxでリバースプロクシをしているサイトでWebSocket使ったら、なんか変な感じになった](http://tolarian-academy.net/nginx%E3%81%A7%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AF%E3%82%B7%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%81%A7websocket%E4%BD%BF%E3%81%A3/)
+    - [NginxでリバースプロクシをしているサイトでWebSocket使ったら、なんか変な感じになった](https://web.archive.org/web/20210926071603/http://tolarian-academy.net/nginx%E3%81%A7%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%AF%E3%82%B7%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%81%A7websocket%E4%BD%BF%E3%81%A3/)
     - ありがとうございます！
 
 # 詳細

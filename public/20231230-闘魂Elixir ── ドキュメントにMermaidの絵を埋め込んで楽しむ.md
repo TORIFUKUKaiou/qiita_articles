@@ -6,7 +6,7 @@ tags:
   - 闘魂
   - AdventCalendar2024
 private: false
-updated_at: '2023-12-30T00:34:13+09:00'
+updated_at: '2023-12-31T17:04:35+09:00'
 id: 874d4f733bbb3ea59eea
 organization_url_name: fukuokaex
 slide: false
