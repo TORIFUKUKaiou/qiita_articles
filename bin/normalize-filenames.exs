@@ -1,5 +1,5 @@
 Mix.install([
-  {:req, "~> 0.3.11"},
+  {:req, "~> 0.5.6"},
   {:timex, "~> 3.7"},
   {:yaml_front_matter, "~> 1.0"},
   {:zarex, "~> 1.0"}
