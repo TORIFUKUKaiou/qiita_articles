@@ -6,7 +6,7 @@ tags:
   - Nerves
   - QiitaAzure
 private: false
-updated_at: '2024-09-30T09:45:11+09:00'
+updated_at: '2024-10-16T09:45:12+09:00'
 id: 88a76181df818f500557
 organization_url_name: fukuokaex
 slide: false
@@ -38,12 +38,12 @@ https://qiita.com/official-events/a50e99d62dc62d68a9c9
 |6|[ElixirでText to Speech REST API(Azure, ニューラル音声)を使ってみて、フレンドリーなヴォイスに驚く](https://qiita.com/torifukukaiou/items/4ce31ea7f6041aae68be)<br>@torifukukaiou|2021-03-20|2021-03-31|11|
 |7|[Azure Mixed Reality の新サービス「Azure Object Anchors」を使う](https://qiita.com/miyaura/items/45f978f8833b3aad12dc)<br>@miyaura|2021-03-31|2021-04-01|9|
 |8|[Microsoft Ignite Recap Community Day で学んだこと](https://qiita.com/kojimadev/items/e937026444a4ad34c9eb)<br>@kojimadev|2021-03-24|2021-03-24|6|
-|9|[気象庁公開データを利用したAzure Machine Learning デザイナーによる来店者数予測のサンプル](https://qiita.com/zukakosan/items/baff8bc08d21d52109d6)<br>@zukakosan|2021-03-31|2021-05-20|2|
-|10|[はじめてのAzure Machine Learning](https://qiita.com/roki18d/items/bca8263e475e5ef78076)<br>@roki18d|2021-03-28|2021-03-28|2|
-|11|[Ubuntu 20.04 でAzure ML (Python SDK)を使うと.NET Coreのエラーが出る場合の対処法](https://qiita.com/aical/items/d1183566ffdfe3c81b12)<br>@aical|2021-03-23|2023-01-26|2|
-|12|[Unity + PlayFab Party を使う時の注意点](https://qiita.com/akiojin/items/ba956e8798844fa4fb88)<br>@akiojin|2021-03-22|2021-06-08|2|
-|13|[【毎日自動更新】Microsoft Igniteに参加してイベントに関する記事を投稿しよう！(2021年3月) LGTMランキング！](https://qiita.com/torifukukaiou/items/88a76181df818f500557)<br>@torifukukaiou|2021-03-16|2024-09-29|2|
-|14|[AzureWebApps上に構築したSPA+REST APIのウェブアプリにAADで認証を設定してみた](https://qiita.com/ibaraki/items/47f1a0e7c56967bdc0d1)<br>@ibaraki|2021-03-09|2021-03-25|2|
+|9|[AzureWebApps上に構築したSPA+REST APIのウェブアプリにAADで認証を設定してみた](https://qiita.com/ibaraki/items/47f1a0e7c56967bdc0d1)<br>@ibaraki|2021-03-09|2021-03-25|3|
+|10|[気象庁公開データを利用したAzure Machine Learning デザイナーによる来店者数予測のサンプル](https://qiita.com/zukakosan/items/baff8bc08d21d52109d6)<br>@zukakosan|2021-03-31|2021-05-20|2|
+|11|[はじめてのAzure Machine Learning](https://qiita.com/roki18d/items/bca8263e475e5ef78076)<br>@roki18d|2021-03-28|2021-03-28|2|
+|12|[Ubuntu 20.04 でAzure ML (Python SDK)を使うと.NET Coreのエラーが出る場合の対処法](https://qiita.com/aical/items/d1183566ffdfe3c81b12)<br>@aical|2021-03-23|2023-01-26|2|
+|13|[Unity + PlayFab Party を使う時の注意点](https://qiita.com/akiojin/items/ba956e8798844fa4fb88)<br>@akiojin|2021-03-22|2021-06-08|2|
+|14|[【毎日自動更新】Microsoft Igniteに参加してイベントに関する記事を投稿しよう！(2021年3月) LGTMランキング！](https://qiita.com/torifukukaiou/items/88a76181df818f500557)<br>@torifukukaiou|2021-03-16|2024-10-15|2|
 |15|[Azure Synapse Pathway](https://qiita.com/yangjiayi/items/35f89d1aaec72923cdf1)<br>@yangjiayi|2021-03-11|2021-03-23|1|
 |16|[Power Automate Desktopで作ったフローをブラウザのPower Automateでも管理したい](https://qiita.com/cadcad-sat/items/206d66262e8248958899)<br>@cadcad-sat|2021-03-03|2021-03-04|1|
 

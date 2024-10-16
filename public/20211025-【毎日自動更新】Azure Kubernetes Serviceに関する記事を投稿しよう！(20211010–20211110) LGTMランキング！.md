@@ -8,7 +8,7 @@ tags:
   - Nerves
   - QiitaAzure
 private: false
-updated_at: '2024-09-30T09:05:03+09:00'
+updated_at: '2024-10-16T09:05:03+09:00'
 id: 2db585bf7dbe39ed6f5d
 organization_url_name: fukuokaex
 slide: false
@@ -28,7 +28,7 @@ https://qiita.com/official-events/8bc3780a142f8ee8effa
 25件 :tada::tada::tada:
 
 # 総LGTM数 :lgtm::lgtm::lgtm::lgtm::lgtm:
-74 :rocket::rocket::rocket:
+75 :rocket::rocket::rocket:
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
 |No|title|created_at|updated_at|LGTM|
@@ -45,11 +45,11 @@ https://qiita.com/official-events/8bc3780a142f8ee8effa
 |10|[AKSのリソース管理とセキュリティ設定（あと小ネタ）](https://qiita.com/_akira19/items/ffe6fe6d85811fce7615)<br>@_akira19|2021-11-08|2021-11-08|3|
 |11|[Azure Kubernetes Service(AKS)でPodからAzureリソースにアクセスする](https://qiita.com/ueba-yuki/items/aecf6b0524651b799f77)<br>@ueba-yuki|2021-10-25|2021-10-25|3|
 |12|[Azure Machine Learningからの機械学習モデルのデプロイ(Local/ACI/AKS)](https://qiita.com/ryokita/items/a65063482cf6367071c4)<br>@ryokita|2021-10-25|2021-10-25|3|
-|13|[Azur IoT Edgeインストールと設定の公式構成ツール](https://qiita.com/motoJinC25/items/ee84a9173e03766b60c7)<br>@motoJinC25|2021-10-26|2021-10-26|2|
-|14|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2024-09-29|2|
-|15|[Jetson NanoとAzure IoT Edgeランタイムのインストール](https://qiita.com/motoJinC25/items/14f9a28bd6983121411c)<br>@motoJinC25|2021-10-25|2021-10-26|2|
-|16|[Azure Kubernetes Serviceを使ってみた](https://qiita.com/rk05231977/items/744e144cae8f253cf3ba)<br>@rk05231977|2021-10-25|2021-10-27|2|
-|17|[Microsoft Defender for Cloud から外部へのアラート通知方法について](https://qiita.com/hisnakad/items/b61a51e2f42401b8ae29)<br>@hisnakad|2021-10-22|2022-10-07|2|
+|13|[Microsoft Defender for Cloud から外部へのアラート通知方法について](https://qiita.com/hisnakad/items/b61a51e2f42401b8ae29)<br>@hisnakad|2021-10-22|2022-10-07|3|
+|14|[Azur IoT Edgeインストールと設定の公式構成ツール](https://qiita.com/motoJinC25/items/ee84a9173e03766b60c7)<br>@motoJinC25|2021-10-26|2021-10-26|2|
+|15|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2024-10-15|2|
+|16|[Jetson NanoとAzure IoT Edgeランタイムのインストール](https://qiita.com/motoJinC25/items/14f9a28bd6983121411c)<br>@motoJinC25|2021-10-25|2021-10-26|2|
+|17|[Azure Kubernetes Serviceを使ってみた](https://qiita.com/rk05231977/items/744e144cae8f253cf3ba)<br>@rk05231977|2021-10-25|2021-10-27|2|
 |18|[M5Stack Core 2で始めるAzure IoT Hub入門（その４）](https://qiita.com/hatsune_/items/3ebcba2384f6e302fafd)<br>@hatsune_|2021-10-10|2021-10-10|2|
 |19|[Azure FirewallのDNSプロキシ機能を試してみた(中編 ～Azure Firewall構築～)](https://qiita.com/hidekko/items/c2de3495c30f4a55e7e6)<br>@hidekko|2021-11-10|2021-11-10|1|
 |20|[Azure Kubernetes Serviceにオンプレミスのローカル環境からアクセスしてみる](https://qiita.com/hidekko/items/732b9cac80fe695eb481)<br>@hidekko|2021-11-01|2021-11-01|1|
