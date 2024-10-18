@@ -3,7 +3,7 @@
 https://qiita.com/torifukukaiou
 
 [Qiita CLI](https://github.com/increments/qiita-cli) を利用させていただいております。  
-記事を書く際には手元のマシンで、[Developing inside a Container（devcontainer）](https://code.visualstudio.com/docs/devcontainers/containers)を使っています。  
+[Developing inside a Container（devcontainer）](https://code.visualstudio.com/docs/devcontainers/containers)を使えるように、リポジトリを構成しています。  
 
 私はRapberry Pi 2の上でイゴかしているNervesアプリケーションで一部の記事を自動更新しています。  
 記事の変更は、 `.github/workflows/pull.yml` で一日一回取り込むことにしています。  
