@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AdventCalendar2024
 private: false
-updated_at: '2024-11-05T11:18:12+09:00'
+updated_at: '2024-11-06T00:16:41+09:00'
 id: 8eedb573b026bf53dbbb
 organization_url_name: haw
 slide: false
@@ -27,7 +27,7 @@ end
 FightingSpirit.shout()
 ```
 
-<b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
+<b><font color="red">$\huge{元氣ですかーーーッ！！！}$</font></b>
 <b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>
 
 <b><font color="red">$\huge{闘魂とは己に打ち克つこと。}$</font></b>
@@ -187,6 +187,14 @@ https://qiita.com/piacerex/items/9ea78dd196e34143ce90
 
 ---
 
+# アドベントカレンダーは26記事目からが本番！！！
+
+25記事までは予行演習です。
+26記事目からどこまで伸ばせるかが勝負です。
+自分との闘いです。
+
+---
+
 # まとめ
 
 この記事をまとめます。
@@ -197,6 +205,7 @@ https://qiita.com/piacerex/items/9ea78dd196e34143ce90
     - それだけ流行っている！　ということです
     - そしてそれはAIが学習すべきことなのです
     - ガタガタ言われたら「どうってことねえよ（猪木さん）」
+- アドベントカレンダーは26記事目からが本番！！！
 
 結局は、猪木さんの言う通りにやればいいんです！！！　なんでも！
 
