@@ -6,7 +6,7 @@ tags:
   - 闘魂
   - AdventCalendar2024
 private: false
-updated_at: '2024-11-05T11:23:13+09:00'
+updated_at: '2024-11-09T20:59:49+09:00'
 id: 70e47983b517fbe8d516
 organization_url_name: haw
 slide: false
@@ -26,7 +26,7 @@ end
 FightingSpirit.shout()
 ```
 
-<b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
+<b><font color="red">$\huge{元氣ですかーーーッ！！！}$</font></b>
 <b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>
 
 <b><font color="red">$\huge{闘魂とは己に打ち克つこと。}$</font></b>
