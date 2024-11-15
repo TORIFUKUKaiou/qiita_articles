@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Zoom
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2024-11-14T08:00:33+09:00'
+updated_at: '2024-11-15T08:00:33+09:00'
 id: 3b232899320ee2f1ceec
 organization_url_name: fukuokaex
 slide: false
@@ -50,11 +50,11 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |5|[Zoom Meeting SDKでなんちゃってボイスチェンジャー](https://qiita.com/wok/items/08c9505d5c3c95d8956d)<br>@wok|2022-07-14|2022-08-01|7|
 |6|[ 【Zoom Video SDK】初心者による導入メモ - iOS/SwiftUI編](https://qiita.com/yuppejp/items/a99ad6a8e2c4b0788868)<br>@yuppejp|2022-06-25|2022-06-25|7|
 |7|[Zoom Meeting SDKとVosk browserでZoom会議のリアルタイム文字起こし](https://qiita.com/wok/items/e83c49c530354a7b8b42)<br>@wok|2022-07-16|2022-08-01|6|
-|8|[Next.jsでZoom Video SDKとAPIを試してみる](https://qiita.com/mikan3rd/items/4bdbc318a11f612e2108)<br>@mikan3rd|2022-07-18|2022-07-18|5|
-|9|[Zoom Meeting SDKでタイムキーパーちゃんを作る](https://qiita.com/wok/items/205c086f19a7ff73718d)<br>@wok|2022-07-11|2022-08-01|5|
+|8|[Zoom Meeting SDKでタイムキーパーちゃんを作る](https://qiita.com/wok/items/205c086f19a7ff73718d)<br>@wok|2022-07-11|2022-08-01|6|
+|9|[Next.jsでZoom Video SDKとAPIを試してみる](https://qiita.com/mikan3rd/items/4bdbc318a11f612e2108)<br>@mikan3rd|2022-07-18|2022-07-18|5|
 |10|[【Zoom Meeting SDK】TouchDesignerによるZoomオペレーションシステム](https://qiita.com/isikic/items/967c67e14e0b69ee54b6)<br>@isikic|2022-07-10|2022-08-21|5|
 |11|[【Zoom API】クラウド録画をPHPで一括ダウンロードする](https://qiita.com/KeiOTN/items/f9a858b1e0ae12c6c61e)<br>@KeiOTN|2022-06-22|2022-06-22|5|
-|12|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2024-11-13|5|
+|12|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2024-11-14|5|
 |13|[Zoom Video SDKを使用したロボットの遠隔監視システムを作ってみる。](https://qiita.com/takahiro19981013/items/0dfe46688d5d4e4fc0d5)<br>@takahiro19981013|2022-07-18|2022-12-22|4|
 |14|[pythonでZoom APIを触ってみた](https://qiita.com/shinkoma/items/1c3e68db47732543e400)<br>@shinkoma|2022-07-15|2022-07-15|4|
 |15|[Zoom Meeting SDKをつかって会議にアバターで参加する](https://qiita.com/wok/items/1bccd567e844ac4e8979)<br>@wok|2022-07-13|2022-08-01|4|
@@ -80,7 +80,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # 投稿者ごとの記事数とLGTM数
 |No|user|count|LGTM|
 |---|---|---:|---:|
-|1|@wok|6|28|
+|1|@wok|6|29|
 |2|@yuppejp|4|11|
 |3|@hareruya-maro|2|56|
 |4|@kieaiaarh|2|6|
@@ -108,7 +108,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |No|user|LGTM|count|
 |---|---|---:|---:|
 |1|@hareruya-maro|56|2|
-|2|@wok|28|6|
+|2|@wok|29|6|
 |3|@shigeshigeshige|19|1|
 |4|@Aichi_Lover|13|1|
 |5|@yuppejp|11|4|
@@ -134,9 +134,9 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとの記事数とLGTM数
 |No|tag|count|LGTM|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|32|171|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|171|
-|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|9|48|
+|1|[Zoom](https://qiita.com/tags/Zoom)|32|172|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|172|
+|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|9|49|
 |4|[ZoomAPI](https://qiita.com/tags/ZoomAPI)|4|11|
 |5|[初心者](https://qiita.com/tags/初心者)|2|17|
 |6|[ZoomMeetingSDK](https://qiita.com/tags/ZoomMeetingSDK)|2|7|
@@ -185,9 +185,9 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとのLGTM数と記事数
 |No|tag|LGTM|count|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|171|32|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|171|32|
-|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|48|9|
+|1|[Zoom](https://qiita.com/tags/Zoom)|172|32|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|172|32|
+|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|49|9|
 |4|[ClarisConnect](https://qiita.com/tags/ClarisConnect)|28|1|
 |5|[slackbot](https://qiita.com/tags/slackbot)|28|1|
 |6|[QiitaEngineerFesta_Claris](https://qiita.com/tags/QiitaEngineerFesta_Claris)|28|1|
