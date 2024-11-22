@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Zoom
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2024-11-21T08:00:31+09:00'
+updated_at: '2024-11-22T08:00:36+09:00'
 id: 3b232899320ee2f1ceec
 organization_url_name: fukuokaex
 slide: false
@@ -52,11 +52,11 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |7|[Zoom Meeting SDKとVosk browserでZoom会議のリアルタイム文字起こし](https://qiita.com/wok/items/e83c49c530354a7b8b42)<br>@wok|2022-07-16|2022-08-01|6|
 |8|[Zoom Meeting SDKでタイムキーパーちゃんを作る](https://qiita.com/wok/items/205c086f19a7ff73718d)<br>@wok|2022-07-11|2022-08-01|6|
 |9|[Next.jsでZoom Video SDKとAPIを試してみる](https://qiita.com/mikan3rd/items/4bdbc318a11f612e2108)<br>@mikan3rd|2022-07-18|2022-07-18|5|
-|10|[【Zoom Meeting SDK】TouchDesignerによるZoomオペレーションシステム](https://qiita.com/isikic/items/967c67e14e0b69ee54b6)<br>@isikic|2022-07-10|2022-08-21|5|
-|11|[【Zoom API】クラウド録画をPHPで一括ダウンロードする](https://qiita.com/KeiOTN/items/f9a858b1e0ae12c6c61e)<br>@KeiOTN|2022-06-22|2022-06-22|5|
-|12|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2024-11-20|5|
-|13|[Zoom Video SDKを使用したロボットの遠隔監視システムを作ってみる。](https://qiita.com/takahiro19981013/items/0dfe46688d5d4e4fc0d5)<br>@takahiro19981013|2022-07-18|2022-12-22|4|
-|14|[pythonでZoom APIを触ってみた](https://qiita.com/shinkoma/items/1c3e68db47732543e400)<br>@shinkoma|2022-07-15|2022-07-15|4|
+|10|[pythonでZoom APIを触ってみた](https://qiita.com/shinkoma/items/1c3e68db47732543e400)<br>@shinkoma|2022-07-15|2022-07-15|5|
+|11|[【Zoom Meeting SDK】TouchDesignerによるZoomオペレーションシステム](https://qiita.com/isikic/items/967c67e14e0b69ee54b6)<br>@isikic|2022-07-10|2022-08-21|5|
+|12|[【Zoom API】クラウド録画をPHPで一括ダウンロードする](https://qiita.com/KeiOTN/items/f9a858b1e0ae12c6c61e)<br>@KeiOTN|2022-06-22|2022-06-22|5|
+|13|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2024-11-21|5|
+|14|[Zoom Video SDKを使用したロボットの遠隔監視システムを作ってみる。](https://qiita.com/takahiro19981013/items/0dfe46688d5d4e4fc0d5)<br>@takahiro19981013|2022-07-18|2022-12-22|4|
 |15|[Zoom Meeting SDKをつかって会議にアバターで参加する](https://qiita.com/wok/items/1bccd567e844ac4e8979)<br>@wok|2022-07-13|2022-08-01|4|
 |16|[ZoomAPI（Server-to-server OAuth）でミーティング作成の自動化](https://qiita.com/kieaiaarh/items/c604541b08ef19135025)<br>@kieaiaarh|2022-07-07|2022-08-04|4|
 |17|[Zoom Meetingにアバターで参加するぞ。番外編](https://qiita.com/wok/items/4f51e1a72d735b75f73f)<br>@wok|2022-07-15|2022-08-01|3|
@@ -89,8 +89,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |7|@KeiOTN|1|5|
 |8|@isikic|1|5|
 |9|@mikan3rd|1|5|
-|10|@torifukukaiou|1|5|
-|11|@shinkoma|1|4|
+|10|@shinkoma|1|5|
+|11|@torifukukaiou|1|5|
 |12|@takahiro19981013|1|4|
 |13|@qtitk|1|3|
 |14|@gurayasu|1|2|
@@ -116,8 +116,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |7|@KeiOTN|5|1|
 |8|@isikic|5|1|
 |9|@mikan3rd|5|1|
-|10|@torifukukaiou|5|1|
-|11|@shinkoma|4|1|
+|10|@shinkoma|5|1|
+|11|@torifukukaiou|5|1|
 |12|@takahiro19981013|4|1|
 |13|@qtitk|3|1|
 |14|@gurayasu|2|1|
@@ -134,8 +134,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとの記事数とLGTM数
 |No|tag|count|LGTM|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|32|172|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|172|
+|1|[Zoom](https://qiita.com/tags/Zoom)|32|173|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|173|
 |3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|9|49|
 |4|[ZoomAPI](https://qiita.com/tags/ZoomAPI)|4|11|
 |5|[初心者](https://qiita.com/tags/初心者)|2|17|
@@ -144,7 +144,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |8|[SpeechToText](https://qiita.com/tags/SpeechToText)|1|19|
 |9|[chrome拡張機能](https://qiita.com/tags/chrome拡張機能)|1|2|
 |10|[Python3](https://qiita.com/tags/Python3)|1|0|
-|11|[pyzoom](https://qiita.com/tags/pyzoom)|1|4|
+|11|[pyzoom](https://qiita.com/tags/pyzoom)|1|5|
 |12|[ClarisConnect](https://qiita.com/tags/ClarisConnect)|1|28|
 |13|[PDF](https://qiita.com/tags/PDF)|1|0|
 |14|[Kotlin](https://qiita.com/tags/Kotlin)|1|1|
@@ -152,7 +152,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |16|[Azure](https://qiita.com/tags/Azure)|1|19|
 |17|[Node.js](https://qiita.com/tags/Node.js)|1|2|
 |18|[PHP](https://qiita.com/tags/PHP)|1|5|
-|19|[Python](https://qiita.com/tags/Python)|1|4|
+|19|[Python](https://qiita.com/tags/Python)|1|5|
 |20|[ZoomVideoSDK](https://qiita.com/tags/ZoomVideoSDK)|1|5|
 |21|[Swift](https://qiita.com/tags/Swift)|1|3|
 |22|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|1|5|
@@ -185,8 +185,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとのLGTM数と記事数
 |No|tag|LGTM|count|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|172|32|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|172|32|
+|1|[Zoom](https://qiita.com/tags/Zoom)|173|32|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|173|32|
 |3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|49|9|
 |4|[ClarisConnect](https://qiita.com/tags/ClarisConnect)|28|1|
 |5|[slackbot](https://qiita.com/tags/slackbot)|28|1|
@@ -202,16 +202,16 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |15|[SwiftUI](https://qiita.com/tags/SwiftUI)|7|1|
 |16|[ZoomMeetingSDK](https://qiita.com/tags/ZoomMeetingSDK)|7|2|
 |17|[Rails](https://qiita.com/tags/Rails)|6|2|
-|18|[PHP](https://qiita.com/tags/PHP)|5|1|
-|19|[ZoomVideoSDK](https://qiita.com/tags/ZoomVideoSDK)|5|1|
-|20|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|5|1|
-|21|[Next.js](https://qiita.com/tags/Next.js)|5|1|
-|22|[React](https://qiita.com/tags/React)|5|1|
-|23|[Elixir](https://qiita.com/tags/Elixir)|5|1|
-|24|[UnrealEngine](https://qiita.com/tags/UnrealEngine)|5|1|
-|25|[TouchDesigner](https://qiita.com/tags/TouchDesigner)|5|1|
-|26|[pyzoom](https://qiita.com/tags/pyzoom)|4|1|
-|27|[Python](https://qiita.com/tags/Python)|4|1|
+|18|[pyzoom](https://qiita.com/tags/pyzoom)|5|1|
+|19|[PHP](https://qiita.com/tags/PHP)|5|1|
+|20|[Python](https://qiita.com/tags/Python)|5|1|
+|21|[ZoomVideoSDK](https://qiita.com/tags/ZoomVideoSDK)|5|1|
+|22|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|5|1|
+|23|[Next.js](https://qiita.com/tags/Next.js)|5|1|
+|24|[React](https://qiita.com/tags/React)|5|1|
+|25|[Elixir](https://qiita.com/tags/Elixir)|5|1|
+|26|[UnrealEngine](https://qiita.com/tags/UnrealEngine)|5|1|
+|27|[TouchDesigner](https://qiita.com/tags/TouchDesigner)|5|1|
 |28|[バヅクリ](https://qiita.com/tags/バヅクリ)|4|1|
 |29|[CTO](https://qiita.com/tags/CTO)|4|1|
 |30|[Swift](https://qiita.com/tags/Swift)|3|1|
