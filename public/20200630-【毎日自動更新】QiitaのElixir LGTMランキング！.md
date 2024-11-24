@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2024-11-23T09:03:51+09:00'
+updated_at: '2024-11-24T09:03:50+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -16,40 +16,42 @@ ignorePublish: false
 
 
 # 総件数 
-5005件 :tada::tada::tada:
+5008件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[趣味プロジェクトをElixirDesktopで作るためのプロダクトマネジメント](https://qiita.com/the_haigo/items/e9976202d5c0a9c625ce)<br>@the_haigo|2024-11-22|2|
-|2|[Advent of code 2015 Day 7 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/2d31d32cb2f8163254a4)<br>@RyoWakabayashi|2024-11-22|1|
-|3|[Advent of code 2015 Day 7 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/818683e0831e5dadf2b7)<br>@RyoWakabayashi|2024-11-22|0|
-|4|[新規のC言語処理系を実装することによる組込みシステム研究にもたらす価値についての考察](https://qiita.com/zacky1972/items/008bf957038e458781c3)<br>@zacky1972|2024-11-21|0|
+|1|[趣味プロジェクトをElixirDesktopで作るためのプロダクトマネジメント](https://qiita.com/the_haigo/items/e9976202d5c0a9c625ce)<br>@the_haigo|2024-11-22|3|
+|2|[Advent of code 2015 Day 7 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/2d31d32cb2f8163254a4)<br>@RyoWakabayashi|2024-11-22|2|
+|3|[【Nerves】M5Stack Core MP135にポーティングしてみた(準備編)](https://qiita.com/GeekMasahiro/items/dd214725bc1849b355ef)<br>@GeekMasahiro|2024-11-23|1|
+|4|[Trial and Error My Journey Porting Nerves to the M5Stack Core MP135](https://qiita.com/GeekMasahiro/items/a80b00d5035394f490d9)<br>@GeekMasahiro|2024-11-23|1|
+|5|[Advent of code 2015 Day 7 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/818683e0831e5dadf2b7)<br>@RyoWakabayashi|2024-11-22|1|
+|6|[ilasmでstack machine その54](https://qiita.com/ohisama@github/items/f0e73c605e4f348b4acd)<br>@ohisama@github|2024-11-23|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2024-11-22|81|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2024-11-23|81|
 |2|[ExcelからElixirマスター番外編：なぜElixirや関数型は「難しい」と感じるのか？](https://qiita.com/piacerex/items/8fad067885aed73bf789)<br>@piacerex|2024-10-26|62|
-|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2024-11-23|60|
-|4|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2024-11-22|37|
-|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2024-11-22|23|
-|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2024-11-23|20|
+|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2024-11-24|60|
+|4|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2024-11-23|37|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2024-11-23|23|
+|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2024-11-24|20|
 |7|[ElixirDesktop iOS でカメラ撮影](https://qiita.com/RyoWakabayashi/items/554a88cb35f24ec594ca)<br>@RyoWakabayashi|2024-11-03|16|
-|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2024-11-22|15|
+|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2024-11-23|15|
 |9|[10年を超えて繋がる成長の旅──転職活動と世界平和へのエンジニア魂](https://qiita.com/torifukukaiou/items/ced535d0803750e0ae40)<br>@torifukukaiou|2024-11-22|13|
-|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2024-11-22|11|
-|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2024-11-23|11|
+|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2024-11-23|11|
+|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2024-11-24|11|
 |12|[ElixirとDesktopSetupを使用し爆速でモバイルアプリを作成する](https://qiita.com/the_haigo/items/f419bda951bb60145556)<br>@the_haigo|2024-10-29|10|
-|13|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2024-11-22|9|
+|13|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2024-11-23|9|
 |14|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2024-11-22|9|
-|15|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2024-11-22|9|
-|16|[アドベントカレンダーの完走賞を獲得するコツを教えます (2024年版)](https://qiita.com/torifukukaiou/items/8eedb573b026bf53dbbb)<br>@torifukukaiou|2024-11-06|9|
-|17|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2024-11-23|8|
-|18|[技術書典17にElixirDesktopの本を書いた話](https://qiita.com/the_haigo/items/59ab9e488ad9e2e63ce3)<br>@the_haigo|2024-11-06|8|
-|19|[【イベントレポート】モバチキ 〜Mobile Tips 共有会〜 #6](https://qiita.com/RyoWakabayashi/items/9231fd9dfa02d205e5bf)<br>@RyoWakabayashi|2024-11-05|8|
-|20|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2024-11-22|7|
+|15|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2024-11-23|9|
+|16|[Webの技術スタックでモバイルアプリを開発できるElixirDesktopとは？](https://qiita.com/the_haigo/items/4bc4a0b55c663f3b270f)<br>@the_haigo|2024-11-23|9|
+|17|[アドベントカレンダーの完走賞を獲得するコツを教えます (2024年版)](https://qiita.com/torifukukaiou/items/8eedb573b026bf53dbbb)<br>@torifukukaiou|2024-11-06|9|
+|18|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2024-11-24|8|
+|19|[技術書典17にElixirDesktopの本を書いた話](https://qiita.com/the_haigo/items/59ab9e488ad9e2e63ce3)<br>@the_haigo|2024-11-06|8|
+|20|[【イベントレポート】モバチキ 〜Mobile Tips 共有会〜 #6](https://qiita.com/RyoWakabayashi/items/9231fd9dfa02d205e5bf)<br>@RyoWakabayashi|2024-11-05|8|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
