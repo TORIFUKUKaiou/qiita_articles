@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Claris
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2024-12-04T08:00:14+09:00'
+updated_at: '2024-12-05T08:00:15+09:00'
 id: 2a630ab5ad6b9bd427a9
 organization_url_name: fukuokaex
 slide: false
@@ -50,7 +50,7 @@ https://qiita.com/official-events/eeadea1de45a11be944e
 |5|[Slack からtrello のカード作成をClaris Connect を使って実現する](https://qiita.com/fussy113/items/3db56413163aaf7d1e8d)<br>@fussy113|2022-07-17|2023-06-15|6|
 |6|[Claris Connect で LINE WORKS ネコボット作ったにゃー (LINE WORKS API 2.0)](https://qiita.com/iwaohig/items/7a6e9ba8fc4596b73872)<br>@iwaohig|2022-07-17|2022-07-21|4|
 |7|[Claris Connectで小説家になろう更新通知Discord botを作る](https://qiita.com/PAiDoX/items/792190fa69635a34f633)<br>@PAiDoX|2022-06-08|2022-06-08|2|
-|8|[【毎日自動更新】Claris Connect を使った SaaS 連携ユースケースを紹介しよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/2a630ab5ad6b9bd427a9)<br>@torifukukaiou|2022-06-08|2024-12-03|2|
+|8|[【毎日自動更新】Claris Connect を使った SaaS 連携ユースケースを紹介しよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/2a630ab5ad6b9bd427a9)<br>@torifukukaiou|2022-06-08|2024-12-04|2|
 |9|[Claris Connect を使って、問合せメールを決まったところに蓄積する](https://qiita.com/DokiDoki/items/ff6b607372e063d0d832)<br>@DokiDoki|2022-07-18|2022-07-18|0|
 |10|[Claris Connect を使ってみようと思ったけど秒殺で無理でした。(Salesforceとfreeeの連携）](https://qiita.com/Keiji_otsubo/items/400e403dba6c56c5cfb9)<br>@Keiji_otsubo|2022-07-18|2023-02-24|0|
 
