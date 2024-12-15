@@ -6,7 +6,7 @@ tags:
   - AdventofCode
   - 闘魂
 private: false
-updated_at: '2024-12-04T05:33:37+09:00'
+updated_at: '2024-12-14T09:45:18+09:00'
 id: 2b02ac5054b0bfe5817f
 organization_url_name: haw
 slide: false
@@ -237,6 +237,14 @@ Advent Of Codeを解くことは、まさに**闘魂**活動です。
 # 参考記事
 
 https://qiita.com/RyoWakabayashi/items/bc51e2579445ec5c3102
+
+---
+
+# GitHub
+
+GitHubにもリポジトリ[livebooks](https://github.com/TORIFUKUKaiou/livebooks)をあげておきます。
+
+https://github.com/TORIFUKUKaiou/livebooks
 
 ---
 

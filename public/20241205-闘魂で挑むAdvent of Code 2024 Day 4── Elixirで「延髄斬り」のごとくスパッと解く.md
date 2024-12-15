@@ -6,7 +6,7 @@ tags:
   - AdventofCode
   - 闘魂
 private: false
-updated_at: '2024-12-09T10:08:01+09:00'
+updated_at: '2024-12-14T09:44:09+09:00'
 id: 9037a3bb0efd68c9ecc8
 organization_url_name: haw
 slide: false
@@ -308,6 +308,14 @@ https://qiita.com/RyoWakabayashi/items/53012bffad0de552ce8d
 
 
 https://qiita.com/RyoWakabayashi/items/1cf1f65e6cd394ada32d
+
+---
+
+# GitHub
+
+GitHubにもリポジトリ[livebooks](https://github.com/TORIFUKUKaiou/livebooks)をあげておきます。
+
+https://github.com/TORIFUKUKaiou/livebooks
 
 ---
 
