@@ -7,9 +7,9 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2024-12-15T23:30:09+09:00'
+updated_at: '2024-12-16T22:01:02+09:00'
 id: bc4cdcd7025bce09bffe
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
@@ -164,14 +164,14 @@ Elixirのインストールから始まるので立ち上がるまでに4分9秒
 
 以下、先程とは手順の変わるところのみを示します。
 
-1. `/home/vscode/livebook/config/prod.exs`を編集
+~~1. `/home/vscode/livebook/config/prod.exs`を編集~~
 
-    心得のある方ならおわかりだと思います。ロードバランサー的なインターネットと接する前段のsomethingからPhoenixアプリ（ここではLivebook）へアクセスできるように、IPの設定を変えます。変更箇所は以下です。`/home/vscode/livebook/config/prod.exs`を編集します。`{127, 0, 0, 1}`を`{0, 0, 0, 0}`に変えます。（※ ロードバランサー的なもののホスト名はわかるので、それのIPを`nslookup`で引いてみて、そのIPを設定することを試みてみましたが、Phoenixが立ち上がりませんでした）
+~~心得のある方ならおわかりだと思います。ロードバランサー的なインターネットと接する前段のsomethingからPhoenixアプリ（ここではLivebook）へアクセスできるように、IPの設定を変えます。変更箇所は以下です。`/home/vscode/livebook/config/prod.exs`を編集します。`{127, 0, 0, 1}`を`{0, 0, 0, 0}`に変えます。（※ ロードバランサー的なもののホスト名はわかるので、それのIPを`nslookup`で引いてみて、そのIPを設定することを試みてみましたが、Phoenixが立ち上がりませんでした）~~
 
-    ![スクリーンショット 2024-12-15 11.02.26.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3dfc6b13-906b-b786-7a62-b77fec401958.png)
+_【2024-12-16更新】 Dockerfile内で自動的に書き換えることにしました。_
 
 
-1. 【ターミナル】タブで、+ > 【bash】という具合にコマンドを打てる状態にして、`mix phx.server`でLivebookを起動し、`token`の値を控えておく(`token`の値は起動の都度変わりますので堂々と公開しています）
+1. 準備が整うと自動的に【ターミナル】タブで、`mix phx.server`でLivebookが起動しますので、`token`の値を控えておく(`token`の値は起動の都度変わりますので堂々と公開しています）
 
 
     ![スクリーンショット 2024-12-15 11.29.50.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/4e81de40-6070-3cba-c214-b5a9a5feb1d1.png)
@@ -207,7 +207,8 @@ Dockerイメージは公式が使っているものと同じです。
 - ElixirとErlangをインストール
     - 「[Phoenix公式ページのデザインが刷新！変化した点を徹底解説](https://qiita.com/torifukukaiou/items/6c9025039ce2843209dd)」で紹介したElixir公式がメンテナンスしている[インストールスクリプト](https://new.phoenixframework.org/myapp)を「**早速**」利用
 - Livebookをgit clone, mix deps.get, mix compileまで実施済み
-- `mix phx.server`を自分で打ち込んで実行してもらうことで、`token`が自動生成され、ご自身で確認できるようになる
+- ロードバランサー的なインターネットと接する前段のsomethingからPhoenixアプリ（ここではLivebook）へアクセスできるように、IPの設定を変えます。`sed`で`/home/vscode/livebook/config/prod.exs`を編集しています
+- `mix phx.server`を実行し、その結果がターミナルに表示されることで、自動生成された`token`をご自身で確認できるようになる
 
 ざっくりこんなところです。
 
