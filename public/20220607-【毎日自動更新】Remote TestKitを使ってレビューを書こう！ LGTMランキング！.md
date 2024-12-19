@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_NTTレゾナント
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2024-12-18T08:00:30+09:00'
+updated_at: '2024-12-19T08:00:29+09:00'
 id: b4abf0735dad68e0cc11
 organization_url_name: fukuokaex
 slide: false
@@ -45,11 +45,11 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 |---|---|---|---|---:|
 |1|[Remote Test Kitの実務での使い方と所感](https://qiita.com/moromi25/items/e7a08bbedebdb57c25d7)<br>@moromi25|2022-07-16|2022-12-15|15|
 |2|[クラウド上で実機スマホをレンタルできるRemote TestKitを触ってみた](https://qiita.com/ohakutsu/items/c94d89ed7d91b366a464)<br>@ohakutsu|2022-07-03|2022-07-05|15|
-|3|[クラウドでの実機検証サービスの考察 ~Remote TestKitの魅力について~](https://qiita.com/yutaroud/items/90e60c256e7fb58a96d2)<br>@yutaroud|2022-07-14|2022-07-14|10|
+|3|[クラウドでの実機検証サービスの考察 ~Remote TestKitの魅力について~](https://qiita.com/yutaroud/items/90e60c256e7fb58a96d2)<br>@yutaroud|2022-07-14|2022-07-14|11|
 |4|[Remote TestKit + React Native + Expo(EAS build)で実機デバッグを加速する](https://qiita.com/hareruya-maro/items/9e304f8b4f7a595595dd)<br>@hareruya-maro|2022-07-14|2022-07-14|9|
 |5|[風変わりなデバイスでも表示崩れが起きてないか確認したい→Remote TestKitが便利そう](https://qiita.com/xrxoxcxox/items/890f8e3607d704ab0275)<br>@xrxoxcxox|2022-07-18|2022-07-18|4|
 |6|[「Remote TestKit」Appium連携とThriftAPIチュートリアルを試してみた](https://qiita.com/weldar0509/items/4d2e2f9abbf98f315b38)<br>@weldar0509|2022-07-18|2022-09-15|4|
-|7|[【毎日自動更新】Remote TestKitを使ってレビューを書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b4abf0735dad68e0cc11)<br>@torifukukaiou|2022-06-07|2024-12-17|3|
+|7|[【毎日自動更新】Remote TestKitを使ってレビューを書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b4abf0735dad68e0cc11)<br>@torifukukaiou|2022-06-07|2024-12-18|3|
 |8|[AndroidやiOSの各機種・バージョンで検証したい人におすすめのRemote TestKit 〜HTMLメール作成の救世主〜](https://qiita.com/H40831/items/45921752267eb0288560)<br>@H40831|2022-06-28|2022-07-03|2|
 |9|[Remote TestKitで複数機種のテスト自動化やってみた](https://qiita.com/ak2ie/items/543549e825a60b417132)<br>@ak2ie|2022-07-10|2022-07-10|1|
 |10|[バグ検証におすすめ。クラウド上のスマホを借りれるサービスの感想。【RemoteTestKit】](https://qiita.com/ZozonTeq/items/c16c63d458c6fb795c26)<br>@ZozonTeq|2022-07-01|2022-07-05|1|
@@ -60,7 +60,7 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 |---|---|---:|---:|
 |1|@moromi25|1|15|
 |2|@ohakutsu|1|15|
-|3|@yutaroud|1|10|
+|3|@yutaroud|1|11|
 |4|@hareruya-maro|1|9|
 |5|@weldar0509|1|4|
 |6|@xrxoxcxox|1|4|
@@ -75,7 +75,7 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 |---|---|---:|---:|
 |1|@moromi25|15|1|
 |2|@ohakutsu|15|1|
-|3|@yutaroud|10|1|
+|3|@yutaroud|11|1|
 |4|@hareruya-maro|9|1|
 |5|@weldar0509|4|1|
 |6|@xrxoxcxox|4|1|
@@ -88,11 +88,11 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 # タグごとの記事数とLGTM数
 |No|tag|count|LGTM|
 |---|---|---:|---:|
-|1|[QiitaEngineerFesta_NTTレゾナント](https://qiita.com/tags/QiitaEngineerFesta_NTTレゾナント)|10|64|
-|2|[RemoteTestKit](https://qiita.com/tags/RemoteTestKit)|10|64|
-|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|7|49|
-|4|[Android](https://qiita.com/tags/Android)|5|43|
-|5|[iOS](https://qiita.com/tags/iOS)|5|43|
+|1|[QiitaEngineerFesta_NTTレゾナント](https://qiita.com/tags/QiitaEngineerFesta_NTTレゾナント)|10|65|
+|2|[RemoteTestKit](https://qiita.com/tags/RemoteTestKit)|10|65|
+|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|7|50|
+|4|[Android](https://qiita.com/tags/Android)|5|44|
+|5|[iOS](https://qiita.com/tags/iOS)|5|44|
 |6|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|1|3|
 |7|[E2Eテスト](https://qiita.com/tags/E2Eテスト)|1|4|
 |8|[Elixir](https://qiita.com/tags/Elixir)|1|3|
@@ -106,11 +106,11 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 # タグごとのLGTM数と記事数
 |No|tag|LGTM|count|
 |---|---|---:|---:|
-|1|[QiitaEngineerFesta_NTTレゾナント](https://qiita.com/tags/QiitaEngineerFesta_NTTレゾナント)|64|10|
-|2|[RemoteTestKit](https://qiita.com/tags/RemoteTestKit)|64|10|
-|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|49|7|
-|4|[Android](https://qiita.com/tags/Android)|43|5|
-|5|[iOS](https://qiita.com/tags/iOS)|43|5|
+|1|[QiitaEngineerFesta_NTTレゾナント](https://qiita.com/tags/QiitaEngineerFesta_NTTレゾナント)|65|10|
+|2|[RemoteTestKit](https://qiita.com/tags/RemoteTestKit)|65|10|
+|3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|50|7|
+|4|[Android](https://qiita.com/tags/Android)|44|5|
+|5|[iOS](https://qiita.com/tags/iOS)|44|5|
 |6|[expo](https://qiita.com/tags/expo)|9|1|
 |7|[reactnative](https://qiita.com/tags/reactnative)|9|1|
 |8|[E2Eテスト](https://qiita.com/tags/E2Eテスト)|4|1|
