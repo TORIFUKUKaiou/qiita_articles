@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2024-12-31T07:05:11+09:00'
+updated_at: '2024-12-31T09:05:26+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -137,91 +137,91 @@ ignorePublish: false
 |111|[ElixirでACID対応の軽量ファイルベースデータベース: CubDB v2.0](https://qiita.com/mnishiguchi/items/61031f5838efd94c44d2)<br>@mnishiguchi|2024-12-11|9|
 |112|[【TIPS】Kino.Text で等幅フォント（文字が同じ幅になるフォント）を使う](https://qiita.com/RyoWakabayashi/items/c54dda73f6dcebf4efe4)<br>@RyoWakabayashi|2024-12-08|9|
 |113|[Advent of code 2024 Day 7 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/bcb5bba71f3a06e79c52)<br>@RyoWakabayashi|2024-12-08|9|
-|114|[Nx のバックエンドとして EMLX を使用し、 EXLA や TorchX と比較する](https://qiita.com/RyoWakabayashi/items/150b35d97d0b1a70dccc)<br>@RyoWakabayashi|2024-12-26|9|
-|115|[ようこそQiita Advent Calendar 2025](https://qiita.com/torifukukaiou/items/3bc56af7aac1dd86d897)<br>@torifukukaiou|2024-12-27|9|
-|116|[Elixir で ArtNet パケットを Parse してみる](https://qiita.com/nasshu2916/items/d0fd5dfc9559d68f6255)<br>@nasshu2916|2024-12-23|9|
-|117|[Advent of code 2015 Day 15 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/6af8f84a73bd9c653e98)<br>@RyoWakabayashi|2024-11-27|8|
-|118|[Stringモジュールで遊んでみたシリーズ① -String.at ~ String.chunk の紹介](https://qiita.com/Alicesky2127/items/47fffc38711d7369beee)<br>@Alicesky2127|2024-12-15|8|
-|119|[Advent of code 2015 Day 7 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/818683e0831e5dadf2b7)<br>@RyoWakabayashi|2024-11-22|8|
-|120|[Advent of code 2015 Day 3 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/56f2e05684578258d7d5)<br>@RyoWakabayashi|2024-11-20|8|
-|121|[KinoStlViewer で Three.js による 3D コンテンツを表示する](https://qiita.com/RyoWakabayashi/items/8dc0a8a4e5473d3fb6f1)<br>@RyoWakabayashi|2024-11-18|8|
-|122|[KinoNiconico を使って Livebook 上でニコニコ動画を視聴する](https://qiita.com/RyoWakabayashi/items/9c98c8a14de006ffe0c0)<br>@RyoWakabayashi|2024-11-18|8|
-|123|[KinoLiveComponent を使って Livebook 上でコンポーネントを実装、表示する](https://qiita.com/RyoWakabayashi/items/93889634d1c80e3e640e)<br>@RyoWakabayashi|2024-11-18|8|
-|124|[KinoMemberane で音声ファイルの変換、再生、合成処理を視覚化する](https://qiita.com/RyoWakabayashi/items/e2dbb8746c49b43f6931)<br>@RyoWakabayashi|2024-11-14|8|
-|125|[KinoProgressBar で Livebook 上にプログレスバーを表示する](https://qiita.com/RyoWakabayashi/items/dcb54704c48f69c8db14)<br>@RyoWakabayashi|2024-11-13|8|
-|126|[DJコントローラーDDJ-FLX4を使ったElixirでのプログラム集](https://qiita.com/t-yamanashi/items/6200672d48ef9e7a9df6)<br>@t-yamanashi|2024-12-23|8|
-|127|[Stringモジュールで遊んでみたシリーズ⑤ -String.next_grapheme_size ~ String.printable? の紹介](https://qiita.com/Alicesky2127/items/a315148e966c9f103a7c)<br>@Alicesky2127|2024-12-15|8|
-|128|[DDJ-FLX4のPadで手ドラムマシンを作ろう](https://qiita.com/t-yamanashi/items/94245aacd99931f0a54c)<br>@t-yamanashi|2024-12-08|8|
-|129|[Elixirのチートシートを作ろう#6 Enumその２](https://qiita.com/nanbut14/items/a85794fe066b573746c8)<br>@nanbut14|2024-12-12|8|
-|130|[【TIPS】Elixir で配列から要素を取り出す全ての順列を取得する](https://qiita.com/RyoWakabayashi/items/1715ca5306b84616642b)<br>@RyoWakabayashi|2024-12-06|8|
-|131|[Advent of code 2024 Day 5 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/b578bdf6e96fdfef790b)<br>@RyoWakabayashi|2024-12-06|8|
-|132|[Advent of code 2015 Day 23 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/f5deb58b978a5e3291ef)<br>@RyoWakabayashi|2024-12-05|8|
-|133|[elixirでQuineを実装する](https://qiita.com/a_utsuki/items/264922f6afef06355ce9)<br>@a_utsuki|2024-12-09|8|
-|134|[Advent of code 2024 Day 4 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/53012bffad0de552ce8d)<br>@RyoWakabayashi|2024-12-04|8|
-|135|[【TIPS】マップリストにScikit-learnのimputerっぽい欠損値処理をする](https://qiita.com/piacerex/items/876f7cc8ddb0e8bd1721)<br>@piacerex|2024-12-03|8|
-|136|[Advent of code 2015 Day 20 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/d86917bac91ae836677f)<br>@RyoWakabayashi|2024-12-03|8|
-|137|[闘魂で挑むAdvent of Code 2024 Day 2── Elixirで「延髄斬り」のごとくスパッと解く](https://qiita.com/torifukukaiou/items/ff73c4b079871b788b4c)<br>@torifukukaiou|2024-12-14|8|
-|138|[ElixirDesktopで作るスマホアプリ Part 3 セッション管理周りの改修](https://qiita.com/the_haigo/items/9a1d04392878b7dd4718)<br>@the_haigo|2024-12-13|8|
-|139|[Advent of code 2024 Day 2 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/3c3c0710f6a9229f46b0)<br>@RyoWakabayashi|2024-12-02|8|
-|140|[ElixirDesktopで作るスマホアプリ Part 2 認証機能＋ExMachinaの導入](https://qiita.com/the_haigo/items/58d1cc8faaae8620807b)<br>@the_haigo|2024-12-01|8|
-|141|[Nerves × Raspberry Pi: USB-シリアルケーブルを簡単かつ安全に接続する方法](https://qiita.com/mnishiguchi/items/db574d3aac1653e9ffa3)<br>@mnishiguchi|2024-12-07|8|
-|142|[Nerves: NervesTime で時間管理](https://qiita.com/mnishiguchi/items/a712c149d16d03d7e0e3)<br>@mnishiguchi|2024-12-15|8|
-|143|[Elixirで簡単HTTPモック: ExVCRの基本と使い方](https://qiita.com/mnishiguchi/items/0259847baeab8e077c29)<br>@mnishiguchi|2024-12-15|8|
-|144|[Elixirのチートシートを作ろう #11 関数その１](https://qiita.com/nanbut14/items/d9c7205c885e110353f8)<br>@nanbut14|2024-12-17|8|
-|145|[GitHub CodespacesでElixir Livebookを爆速セットアップ！](https://qiita.com/torifukukaiou/items/bc4cdcd7025bce09bffe)<br>@torifukukaiou|2024-12-24|8|
-|146|[Phoenix公式ページのデザインが刷新！変化した点を徹底解説](https://qiita.com/torifukukaiou/items/6c9025039ce2843209dd)<br>@torifukukaiou|2024-12-16|8|
-|147|[Nerves: PropertyTable で効率的な状態管理を実現](https://qiita.com/mnishiguchi/items/98d3b0c7f06584333059)<br>@mnishiguchi|2024-12-14|8|
-|148|[ElixirDesktopで作るスマホアプリ Part 5 ネイティブブリッジを使って特定のURLをデフォルトブラウザで開く](https://qiita.com/the_haigo/items/5f8681015954c5ec21ec)<br>@the_haigo|2024-12-13|8|
-|149|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その４　portmidiとRayexの相性](https://qiita.com/t-yamanashi/items/e817a9d8fbd9792c16b5)<br>@t-yamanashi|2024-12-23|8|
-|150|[Elixir 1.18 のパラメータ化テストを試してみる](https://qiita.com/RyoWakabayashi/items/8082467348a2568b1d36)<br>@RyoWakabayashi|2024-12-12|8|
-|151|[Elixir 1.18 の型推論を試してみる](https://qiita.com/RyoWakabayashi/items/5f42f684f438a7e14dcd)<br>@RyoWakabayashi|2024-12-12|8|
-|152|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その３　ジョグの入力イベントを作る](https://qiita.com/t-yamanashi/items/87d734d7cf9f4b48b0ea)<br>@t-yamanashi|2024-12-23|8|
-|153|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その２　ゲームの画面の枠を作る](https://qiita.com/t-yamanashi/items/e1d4299cc18310f79c57)<br>@t-yamanashi|2024-12-23|8|
-|154|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その１　プロジェクト作成からライブラリ追加まで](https://qiita.com/t-yamanashi/items/fe2875d81710e2ddece8)<br>@t-yamanashi|2024-12-23|8|
-|155|[カスタム Nerves: デバイスドライバを特定する方法](https://qiita.com/mnishiguchi/items/0d26a09ecd3e3f02f411)<br>@mnishiguchi|2024-12-11|8|
-|156|[Elixirでraylibを使ってグラフィック描画してみる](https://qiita.com/t-yamanashi/items/d02c12f33fc18c585a4b)<br>@t-yamanashi|2024-12-10|8|
-|157|[Nerves システム最新リリースの概要 (v1.29.1)](https://qiita.com/mnishiguchi/items/ff720c8706b13ce29152)<br>@mnishiguchi|2024-12-09|8|
-|158|[Advent of code 2024 Day 8 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/dc7cb2a72a864a5bfcb6)<br>@RyoWakabayashi|2024-12-08|8|
-|159|[Advent of code 2024 Day 6 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/26af90614aefa7244cd2)<br>@RyoWakabayashi|2024-12-08|8|
-|160|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その10　最終回 　DDJ-FLX4がなくてもデバッグをする](https://qiita.com/t-yamanashi/items/5eeb35ac2e62b2567a96)<br>@t-yamanashi|2024-12-23|8|
-|161|[[Elixir] Stripeで従量課金を実現する](https://qiita.com/mokichi/items/3f0d6a92fd3e262ee9c5)<br>@mokichi|2024-12-23|8|
-|162|[Advent of code 2015 Day 13 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/a77920c48b9463611eb0)<br>@RyoWakabayashi|2024-11-26|7|
-|163|[Advent of code 2015 Day 8 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/6a4edaee445b29a8a298)<br>@RyoWakabayashi|2024-11-25|7|
-|164|[Advent of code 2015 Day 6 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/2e07c1dfa96e690a1d84)<br>@RyoWakabayashi|2024-11-20|7|
-|165|[Advent of code 2015 Day 4 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/b35cd4925350a1106cdb)<br>@RyoWakabayashi|2024-11-20|7|
-|166|[Advent of code 2015 Day 2 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/af0f539f04a15b6a4573)<br>@RyoWakabayashi|2024-11-20|7|
-|167|[iPhone 上の物体検出を ElixirDesktop + Evision で実装する](https://qiita.com/RyoWakabayashi/items/100617a772d8ec71adea)<br>@RyoWakabayashi|2024-11-18|7|
-|168|[Buildrootエラーで悩まされた結果、pkg-configの事がちょっとわかった話](https://qiita.com/GeekMasahiro/items/1d4f44fac335b0607f26)<br>@GeekMasahiro|2024-12-07|7|
-|169|[Nerves × Raspberry Pi: USB-シリアルケーブルを使ったデバッグ方法](https://qiita.com/mnishiguchi/items/34cb9787894024187625)<br>@mnishiguchi|2024-12-07|7|
-|170|[Advent of code 2015 Day 22 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/edfd5fdae38491074eec)<br>@RyoWakabayashi|2024-12-05|7|
-|171|[Advent of code 2015 Day 21 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/788a3e084cc1c65243e2)<br>@RyoWakabayashi|2024-12-06|7|
-|172|[【TIPS】マップリストにpandasのfillnaっぽい欠損値置換処理をする](https://qiita.com/piacerex/items/d4066d262bc791cab2f5)<br>@piacerex|2024-12-03|7|
-|173|[DateTimeモジュール で遊んでみたシリーズ番外編 -Livebookでtzdata導入](https://qiita.com/Alicesky2127/items/4ad2072cbca04193a3d4)<br>@Alicesky2127|2024-12-22|7|
-|174|[Elixirと闘魂でAIを教育！Reqで学ぶBitbucketリポジトリ取得術](https://qiita.com/torifukukaiou/items/a7e1ee05407ab37eb772)<br>@torifukukaiou|2024-12-19|7|
-|175|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その7 対策をする、そしてプロジェクトを3分割のつづきddj_server 編](https://qiita.com/t-yamanashi/items/7b147ceab43fdb0fb195)<br>@t-yamanashi|2024-12-23|7|
-|176|[Elixirのチートシートを作ろう #12 関数その2](https://qiita.com/nanbut14/items/214be782fc4bd4de1d37)<br>@nanbut14|2024-12-18|7|
-|177|[Elixir タプルとは？](https://qiita.com/Alicesky2127/items/8b119d6f48f8a5403185)<br>@Alicesky2127|2024-12-16|7|
-|178|[Nervesでローカルタイムとタイムゾーン管理: NervesTimeZones の活用法](https://qiita.com/mnishiguchi/items/6ebfb59b5d285ac7b3c1)<br>@mnishiguchi|2024-12-16|7|
-|179|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その5 対策をする、そしてプロジェクトを3分割](https://qiita.com/t-yamanashi/items/d648b9c183181aafd3a2)<br>@t-yamanashi|2024-12-23|7|
-|180|[Elixirのチートシートを作ろう #10 制御構造その２](https://qiita.com/nanbut14/items/ef5ec252f8666a5fc706)<br>@nanbut14|2024-12-16|7|
-|181|[Elixir Protocol: ポリモーフィズムを担当する強力な機能](https://qiita.com/mnishiguchi/items/b141a146b982e2378ae6)<br>@mnishiguchi|2024-12-15|7|
-|182|[NervesUEvent で Linux カーネルイベントを Elixir に活かす](https://qiita.com/mnishiguchi/items/c46cccc00b0dd91d3529)<br>@mnishiguchi|2024-12-14|7|
-|183|[Stringモジュールで遊んでみたシリーズ⑧ -String.split_at ~ String.to_charlist の紹介](https://qiita.com/Alicesky2127/items/40e74cd622653796df5c)<br>@Alicesky2127|2024-12-15|7|
-|184|[Nerves: Alarmist パッケージのご紹介](https://qiita.com/mnishiguchi/items/0abed6a86fc35400c3c6)<br>@mnishiguchi|2024-12-14|7|
-|185|[Elixirのチートシートを作ろう #9 制御構造その１](https://qiita.com/nanbut14/items/192660ea6f026d133ebe)<br>@nanbut14|2024-12-15|7|
-|186|[Elixir 1.18 の JSON エンコード/デコードを試してみる](https://qiita.com/RyoWakabayashi/items/3cbc81fedc1f987849ad)<br>@RyoWakabayashi|2024-12-12|7|
-|187|[Elixir 1.18 の mix format --migrate を試してみる](https://qiita.com/RyoWakabayashi/items/ca9c9a10cf61e51ddc72)<br>@RyoWakabayashi|2024-12-12|7|
-|188|[KinoBenchee で性能比較を視覚化する](https://qiita.com/RyoWakabayashi/items/1265be26c6f3617a0baa)<br>@RyoWakabayashi|2024-12-16|7|
-|189|[【TIPS】Elixir で整数の桁数を取得する](https://qiita.com/RyoWakabayashi/items/194addd1d49b569513d4)<br>@RyoWakabayashi|2024-12-16|7|
-|190|[Advent of code 2024 Day 11 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/60ad29e12c7793207bcc)<br>@RyoWakabayashi|2024-12-11|7|
-|191|[Advent of code 2024 Day 11 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/dede59042fbc676f5c4b)<br>@RyoWakabayashi|2024-12-11|7|
-|192|[Elixirのチートシートを作ろう#7 enumその3](https://qiita.com/nanbut14/items/a323b5695f1384c5ac2b)<br>@nanbut14|2024-12-12|7|
-|193|[Advent of code 2024 Day 9 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/9681174c1fb1e9e7b0d9)<br>@RyoWakabayashi|2024-12-11|7|
-|194|[ElixirからResoniteを操作するライブラリ作ってみた](https://qiita.com/t-yamanashi/items/6327c87aef2ffd7cde54)<br>@t-yamanashi|2024-12-10|7|
-|195|[Nerves公式にNerves Systems のドキュメントが追加されました](https://qiita.com/mnishiguchi/items/d0f887b773fb47c4f32d)<br>@mnishiguchi|2024-12-09|7|
-|196|[Elixir Port を使って C 言語プログラムと連携する](https://qiita.com/mnishiguchi/items/6e0c486cd5907348d321)<br>@mnishiguchi|2024-12-08|7|
-|197|[Advent of code 2024 Day 6 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/5d86e73950b199d0c97d)<br>@RyoWakabayashi|2024-12-08|7|
-|198|[ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ](https://qiita.com/zacky1972/items/960f67189705c388b3a7)<br>@zacky1972|2024-12-29|7|
+|114|[ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ](https://qiita.com/zacky1972/items/960f67189705c388b3a7)<br>@zacky1972|2024-12-29|9|
+|115|[Nx のバックエンドとして EMLX を使用し、 EXLA や TorchX と比較する](https://qiita.com/RyoWakabayashi/items/150b35d97d0b1a70dccc)<br>@RyoWakabayashi|2024-12-26|9|
+|116|[ようこそQiita Advent Calendar 2025](https://qiita.com/torifukukaiou/items/3bc56af7aac1dd86d897)<br>@torifukukaiou|2024-12-27|9|
+|117|[Elixir で ArtNet パケットを Parse してみる](https://qiita.com/nasshu2916/items/d0fd5dfc9559d68f6255)<br>@nasshu2916|2024-12-23|9|
+|118|[Advent of code 2015 Day 15 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/6af8f84a73bd9c653e98)<br>@RyoWakabayashi|2024-11-27|8|
+|119|[Stringモジュールで遊んでみたシリーズ① -String.at ~ String.chunk の紹介](https://qiita.com/Alicesky2127/items/47fffc38711d7369beee)<br>@Alicesky2127|2024-12-15|8|
+|120|[Advent of code 2015 Day 7 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/818683e0831e5dadf2b7)<br>@RyoWakabayashi|2024-11-22|8|
+|121|[Advent of code 2015 Day 3 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/56f2e05684578258d7d5)<br>@RyoWakabayashi|2024-11-20|8|
+|122|[KinoStlViewer で Three.js による 3D コンテンツを表示する](https://qiita.com/RyoWakabayashi/items/8dc0a8a4e5473d3fb6f1)<br>@RyoWakabayashi|2024-11-18|8|
+|123|[KinoNiconico を使って Livebook 上でニコニコ動画を視聴する](https://qiita.com/RyoWakabayashi/items/9c98c8a14de006ffe0c0)<br>@RyoWakabayashi|2024-11-18|8|
+|124|[KinoLiveComponent を使って Livebook 上でコンポーネントを実装、表示する](https://qiita.com/RyoWakabayashi/items/93889634d1c80e3e640e)<br>@RyoWakabayashi|2024-11-18|8|
+|125|[KinoMemberane で音声ファイルの変換、再生、合成処理を視覚化する](https://qiita.com/RyoWakabayashi/items/e2dbb8746c49b43f6931)<br>@RyoWakabayashi|2024-11-14|8|
+|126|[KinoProgressBar で Livebook 上にプログレスバーを表示する](https://qiita.com/RyoWakabayashi/items/dcb54704c48f69c8db14)<br>@RyoWakabayashi|2024-11-13|8|
+|127|[DJコントローラーDDJ-FLX4を使ったElixirでのプログラム集](https://qiita.com/t-yamanashi/items/6200672d48ef9e7a9df6)<br>@t-yamanashi|2024-12-23|8|
+|128|[Stringモジュールで遊んでみたシリーズ⑤ -String.next_grapheme_size ~ String.printable? の紹介](https://qiita.com/Alicesky2127/items/a315148e966c9f103a7c)<br>@Alicesky2127|2024-12-15|8|
+|129|[DDJ-FLX4のPadで手ドラムマシンを作ろう](https://qiita.com/t-yamanashi/items/94245aacd99931f0a54c)<br>@t-yamanashi|2024-12-08|8|
+|130|[Elixirのチートシートを作ろう#6 Enumその２](https://qiita.com/nanbut14/items/a85794fe066b573746c8)<br>@nanbut14|2024-12-12|8|
+|131|[【TIPS】Elixir で配列から要素を取り出す全ての順列を取得する](https://qiita.com/RyoWakabayashi/items/1715ca5306b84616642b)<br>@RyoWakabayashi|2024-12-06|8|
+|132|[Advent of code 2024 Day 5 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/b578bdf6e96fdfef790b)<br>@RyoWakabayashi|2024-12-06|8|
+|133|[Advent of code 2015 Day 23 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/f5deb58b978a5e3291ef)<br>@RyoWakabayashi|2024-12-05|8|
+|134|[elixirでQuineを実装する](https://qiita.com/a_utsuki/items/264922f6afef06355ce9)<br>@a_utsuki|2024-12-09|8|
+|135|[Advent of code 2024 Day 4 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/53012bffad0de552ce8d)<br>@RyoWakabayashi|2024-12-04|8|
+|136|[【TIPS】マップリストにScikit-learnのimputerっぽい欠損値処理をする](https://qiita.com/piacerex/items/876f7cc8ddb0e8bd1721)<br>@piacerex|2024-12-03|8|
+|137|[Advent of code 2015 Day 20 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/d86917bac91ae836677f)<br>@RyoWakabayashi|2024-12-03|8|
+|138|[闘魂で挑むAdvent of Code 2024 Day 2── Elixirで「延髄斬り」のごとくスパッと解く](https://qiita.com/torifukukaiou/items/ff73c4b079871b788b4c)<br>@torifukukaiou|2024-12-14|8|
+|139|[ElixirDesktopで作るスマホアプリ Part 3 セッション管理周りの改修](https://qiita.com/the_haigo/items/9a1d04392878b7dd4718)<br>@the_haigo|2024-12-13|8|
+|140|[Advent of code 2024 Day 2 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/3c3c0710f6a9229f46b0)<br>@RyoWakabayashi|2024-12-02|8|
+|141|[ElixirDesktopで作るスマホアプリ Part 2 認証機能＋ExMachinaの導入](https://qiita.com/the_haigo/items/58d1cc8faaae8620807b)<br>@the_haigo|2024-12-01|8|
+|142|[Nerves × Raspberry Pi: USB-シリアルケーブルを簡単かつ安全に接続する方法](https://qiita.com/mnishiguchi/items/db574d3aac1653e9ffa3)<br>@mnishiguchi|2024-12-07|8|
+|143|[Nerves: NervesTime で時間管理](https://qiita.com/mnishiguchi/items/a712c149d16d03d7e0e3)<br>@mnishiguchi|2024-12-15|8|
+|144|[Elixirで簡単HTTPモック: ExVCRの基本と使い方](https://qiita.com/mnishiguchi/items/0259847baeab8e077c29)<br>@mnishiguchi|2024-12-15|8|
+|145|[Elixirのチートシートを作ろう #11 関数その１](https://qiita.com/nanbut14/items/d9c7205c885e110353f8)<br>@nanbut14|2024-12-17|8|
+|146|[GitHub CodespacesでElixir Livebookを爆速セットアップ！](https://qiita.com/torifukukaiou/items/bc4cdcd7025bce09bffe)<br>@torifukukaiou|2024-12-24|8|
+|147|[Phoenix公式ページのデザインが刷新！変化した点を徹底解説](https://qiita.com/torifukukaiou/items/6c9025039ce2843209dd)<br>@torifukukaiou|2024-12-16|8|
+|148|[Nerves: PropertyTable で効率的な状態管理を実現](https://qiita.com/mnishiguchi/items/98d3b0c7f06584333059)<br>@mnishiguchi|2024-12-14|8|
+|149|[ElixirDesktopで作るスマホアプリ Part 5 ネイティブブリッジを使って特定のURLをデフォルトブラウザで開く](https://qiita.com/the_haigo/items/5f8681015954c5ec21ec)<br>@the_haigo|2024-12-13|8|
+|150|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その４　portmidiとRayexの相性](https://qiita.com/t-yamanashi/items/e817a9d8fbd9792c16b5)<br>@t-yamanashi|2024-12-23|8|
+|151|[Elixir 1.18 のパラメータ化テストを試してみる](https://qiita.com/RyoWakabayashi/items/8082467348a2568b1d36)<br>@RyoWakabayashi|2024-12-12|8|
+|152|[Elixir 1.18 の型推論を試してみる](https://qiita.com/RyoWakabayashi/items/5f42f684f438a7e14dcd)<br>@RyoWakabayashi|2024-12-12|8|
+|153|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その３　ジョグの入力イベントを作る](https://qiita.com/t-yamanashi/items/87d734d7cf9f4b48b0ea)<br>@t-yamanashi|2024-12-23|8|
+|154|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その２　ゲームの画面の枠を作る](https://qiita.com/t-yamanashi/items/e1d4299cc18310f79c57)<br>@t-yamanashi|2024-12-23|8|
+|155|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その１　プロジェクト作成からライブラリ追加まで](https://qiita.com/t-yamanashi/items/fe2875d81710e2ddece8)<br>@t-yamanashi|2024-12-23|8|
+|156|[カスタム Nerves: デバイスドライバを特定する方法](https://qiita.com/mnishiguchi/items/0d26a09ecd3e3f02f411)<br>@mnishiguchi|2024-12-11|8|
+|157|[Elixirでraylibを使ってグラフィック描画してみる](https://qiita.com/t-yamanashi/items/d02c12f33fc18c585a4b)<br>@t-yamanashi|2024-12-10|8|
+|158|[Nerves システム最新リリースの概要 (v1.29.1)](https://qiita.com/mnishiguchi/items/ff720c8706b13ce29152)<br>@mnishiguchi|2024-12-09|8|
+|159|[Advent of code 2024 Day 8 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/dc7cb2a72a864a5bfcb6)<br>@RyoWakabayashi|2024-12-08|8|
+|160|[Advent of code 2024 Day 6 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/26af90614aefa7244cd2)<br>@RyoWakabayashi|2024-12-08|8|
+|161|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その10　最終回 　DDJ-FLX4がなくてもデバッグをする](https://qiita.com/t-yamanashi/items/5eeb35ac2e62b2567a96)<br>@t-yamanashi|2024-12-23|8|
+|162|[[Elixir] Stripeで従量課金を実現する](https://qiita.com/mokichi/items/3f0d6a92fd3e262ee9c5)<br>@mokichi|2024-12-23|8|
+|163|[Advent of code 2015 Day 13 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/a77920c48b9463611eb0)<br>@RyoWakabayashi|2024-11-26|7|
+|164|[Advent of code 2015 Day 8 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/6a4edaee445b29a8a298)<br>@RyoWakabayashi|2024-11-25|7|
+|165|[Advent of code 2015 Day 6 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/2e07c1dfa96e690a1d84)<br>@RyoWakabayashi|2024-11-20|7|
+|166|[Advent of code 2015 Day 4 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/b35cd4925350a1106cdb)<br>@RyoWakabayashi|2024-11-20|7|
+|167|[Advent of code 2015 Day 2 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/af0f539f04a15b6a4573)<br>@RyoWakabayashi|2024-11-20|7|
+|168|[iPhone 上の物体検出を ElixirDesktop + Evision で実装する](https://qiita.com/RyoWakabayashi/items/100617a772d8ec71adea)<br>@RyoWakabayashi|2024-11-18|7|
+|169|[Buildrootエラーで悩まされた結果、pkg-configの事がちょっとわかった話](https://qiita.com/GeekMasahiro/items/1d4f44fac335b0607f26)<br>@GeekMasahiro|2024-12-07|7|
+|170|[Nerves × Raspberry Pi: USB-シリアルケーブルを使ったデバッグ方法](https://qiita.com/mnishiguchi/items/34cb9787894024187625)<br>@mnishiguchi|2024-12-07|7|
+|171|[Advent of code 2015 Day 22 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/edfd5fdae38491074eec)<br>@RyoWakabayashi|2024-12-05|7|
+|172|[Advent of code 2015 Day 21 Part 1 & Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/788a3e084cc1c65243e2)<br>@RyoWakabayashi|2024-12-06|7|
+|173|[【TIPS】マップリストにpandasのfillnaっぽい欠損値置換処理をする](https://qiita.com/piacerex/items/d4066d262bc791cab2f5)<br>@piacerex|2024-12-03|7|
+|174|[DateTimeモジュール で遊んでみたシリーズ番外編 -Livebookでtzdata導入](https://qiita.com/Alicesky2127/items/4ad2072cbca04193a3d4)<br>@Alicesky2127|2024-12-22|7|
+|175|[Elixirと闘魂でAIを教育！Reqで学ぶBitbucketリポジトリ取得術](https://qiita.com/torifukukaiou/items/a7e1ee05407ab37eb772)<br>@torifukukaiou|2024-12-19|7|
+|176|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その7 対策をする、そしてプロジェクトを3分割のつづきddj_server 編](https://qiita.com/t-yamanashi/items/7b147ceab43fdb0fb195)<br>@t-yamanashi|2024-12-23|7|
+|177|[Elixirのチートシートを作ろう #12 関数その2](https://qiita.com/nanbut14/items/214be782fc4bd4de1d37)<br>@nanbut14|2024-12-18|7|
+|178|[Elixir タプルとは？](https://qiita.com/Alicesky2127/items/8b119d6f48f8a5403185)<br>@Alicesky2127|2024-12-16|7|
+|179|[Nervesでローカルタイムとタイムゾーン管理: NervesTimeZones の活用法](https://qiita.com/mnishiguchi/items/6ebfb59b5d285ac7b3c1)<br>@mnishiguchi|2024-12-16|7|
+|180|[Elixirで作る「DDJ-FLX4のジョグ対応ブロックくずし」　その5 対策をする、そしてプロジェクトを3分割](https://qiita.com/t-yamanashi/items/d648b9c183181aafd3a2)<br>@t-yamanashi|2024-12-23|7|
+|181|[Elixirのチートシートを作ろう #10 制御構造その２](https://qiita.com/nanbut14/items/ef5ec252f8666a5fc706)<br>@nanbut14|2024-12-16|7|
+|182|[Elixir Protocol: ポリモーフィズムを担当する強力な機能](https://qiita.com/mnishiguchi/items/b141a146b982e2378ae6)<br>@mnishiguchi|2024-12-15|7|
+|183|[NervesUEvent で Linux カーネルイベントを Elixir に活かす](https://qiita.com/mnishiguchi/items/c46cccc00b0dd91d3529)<br>@mnishiguchi|2024-12-14|7|
+|184|[Stringモジュールで遊んでみたシリーズ⑧ -String.split_at ~ String.to_charlist の紹介](https://qiita.com/Alicesky2127/items/40e74cd622653796df5c)<br>@Alicesky2127|2024-12-15|7|
+|185|[Nerves: Alarmist パッケージのご紹介](https://qiita.com/mnishiguchi/items/0abed6a86fc35400c3c6)<br>@mnishiguchi|2024-12-14|7|
+|186|[Elixirのチートシートを作ろう #9 制御構造その１](https://qiita.com/nanbut14/items/192660ea6f026d133ebe)<br>@nanbut14|2024-12-15|7|
+|187|[Elixir 1.18 の JSON エンコード/デコードを試してみる](https://qiita.com/RyoWakabayashi/items/3cbc81fedc1f987849ad)<br>@RyoWakabayashi|2024-12-12|7|
+|188|[Elixir 1.18 の mix format --migrate を試してみる](https://qiita.com/RyoWakabayashi/items/ca9c9a10cf61e51ddc72)<br>@RyoWakabayashi|2024-12-12|7|
+|189|[KinoBenchee で性能比較を視覚化する](https://qiita.com/RyoWakabayashi/items/1265be26c6f3617a0baa)<br>@RyoWakabayashi|2024-12-16|7|
+|190|[【TIPS】Elixir で整数の桁数を取得する](https://qiita.com/RyoWakabayashi/items/194addd1d49b569513d4)<br>@RyoWakabayashi|2024-12-16|7|
+|191|[Advent of code 2024 Day 11 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/60ad29e12c7793207bcc)<br>@RyoWakabayashi|2024-12-11|7|
+|192|[Advent of code 2024 Day 11 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/dede59042fbc676f5c4b)<br>@RyoWakabayashi|2024-12-11|7|
+|193|[Elixirのチートシートを作ろう#7 enumその3](https://qiita.com/nanbut14/items/a323b5695f1384c5ac2b)<br>@nanbut14|2024-12-12|7|
+|194|[Advent of code 2024 Day 9 Part 2 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/9681174c1fb1e9e7b0d9)<br>@RyoWakabayashi|2024-12-11|7|
+|195|[ElixirからResoniteを操作するライブラリ作ってみた](https://qiita.com/t-yamanashi/items/6327c87aef2ffd7cde54)<br>@t-yamanashi|2024-12-10|7|
+|196|[Nerves公式にNerves Systems のドキュメントが追加されました](https://qiita.com/mnishiguchi/items/d0f887b773fb47c4f32d)<br>@mnishiguchi|2024-12-09|7|
+|197|[Elixir Port を使って C 言語プログラムと連携する](https://qiita.com/mnishiguchi/items/6e0c486cd5907348d321)<br>@mnishiguchi|2024-12-08|7|
+|198|[Advent of code 2024 Day 6 Part 1 を Livebook で楽しむ](https://qiita.com/RyoWakabayashi/items/5d86e73950b199d0c97d)<br>@RyoWakabayashi|2024-12-08|7|
 |199|[Elixirチートシートを作ろう、番外編その８ ETSに入門](https://qiita.com/nanbut14/items/ff67911aabd55589e79a)<br>@nanbut14|2024-12-26|7|
 |200|[Google Colaboratory 上の Livebook で YOLO Elixir による物体検出を実行する](https://qiita.com/RyoWakabayashi/items/aee929a3c7dcf97b0ee5)<br>@RyoWakabayashi|2024-12-26|7|
 |201|[【2024年12月】Google Colaboratory 上で mise から Erlang と Elixir をインストールして Livebook を起動する](https://qiita.com/RyoWakabayashi/items/4b689b7555593edd8519)<br>@RyoWakabayashi|2024-12-25|7|
@@ -354,7 +354,7 @@ ignorePublish: false
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ](https://qiita.com/zacky1972/items/960f67189705c388b3a7)<br>@zacky1972|2024-12-29|7|
+|1|[ElixirChipとElixirChip Liteで超低消費電力・高性能の世界へ](https://qiita.com/zacky1972/items/960f67189705c388b3a7)<br>@zacky1972|2024-12-29|9|
 |2|[Elixirでフィボナッチ数列をいろいろ書いてみた Part. 1](https://qiita.com/zacky1972/items/74f7ce9b6463862ea5bb)<br>@zacky1972|2024-12-30|6|
 |3|[iPhone&iPadでElixirを動かす](https://qiita.com/t-yamanashi/items/2882684ed8346e648587)<br>@t-yamanashi|2024-12-29|6|
 |4|[Elixirでフィボナッチ数列をいろいろ書いてみた Part. 2](https://qiita.com/zacky1972/items/fed96c37aef3a09da0c5)<br>@zacky1972|2024-12-30|5|
@@ -367,10 +367,10 @@ ignorePublish: false
 |11|[Elixirでフィボナッチ数列をいろいろ書いてみた Part. 4](https://qiita.com/zacky1972/items/70fec5829ad4e97bf872)<br>@zacky1972|2024-12-30|3|
 |12|[SME日記その16 Scalable Matrix Extension (SME)の研究の今後の展望についての技術的ポエム](https://qiita.com/zacky1972/items/34ff853daebaf24761a4)<br>@zacky1972|2024-12-29|3|
 |13|[DRP-AI日記その4 Elixirのインストール](https://qiita.com/zacky1972/items/922176433e54046b8338)<br>@zacky1972|2024-12-28|3|
-|14|[モジュールと名前付き関数](https://qiita.com/akiraarika932/items/c8e27c5681c84e734ecb)<br>@akiraarika932|2024-12-29|1|
-|15|[量子コンパイラを作る。 その9](https://qiita.com/ohisama@github/items/7fd8546891c3127df24c)<br>@ohisama@github|2024-12-29|1|
-|16|[SME日記その15 AppleBLASのSGEMMでSMEが使われているかを検証してみる Part.1](https://qiita.com/zacky1972/items/e6e8d8ebe4400c6ef737)<br>@zacky1972|2024-12-29|1|
-|17|[SME日記その14 AppleBLASのSSCALでSMEが使われているかを検証してみる Part.1](https://qiita.com/zacky1972/items/9b22e23cd18a4912b99a)<br>@zacky1972|2024-12-29|1|
+|14|[SME日記その15 AppleBLASのSGEMMでSMEが使われているかを検証してみる Part.1](https://qiita.com/zacky1972/items/e6e8d8ebe4400c6ef737)<br>@zacky1972|2024-12-29|2|
+|15|[SME日記その14 AppleBLASのSSCALでSMEが使われているかを検証してみる Part.1](https://qiita.com/zacky1972/items/9b22e23cd18a4912b99a)<br>@zacky1972|2024-12-29|2|
+|16|[モジュールと名前付き関数](https://qiita.com/akiraarika932/items/c8e27c5681c84e734ecb)<br>@akiraarika932|2024-12-29|1|
+|17|[量子コンパイラを作る。 その9](https://qiita.com/ohisama@github/items/7fd8546891c3127df24c)<br>@ohisama@github|2024-12-29|1|
 
 
 # 直近1ヶ月
