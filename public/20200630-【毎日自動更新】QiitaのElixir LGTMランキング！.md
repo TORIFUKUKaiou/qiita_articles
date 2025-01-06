@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-01-05T07:04:45+09:00'
+updated_at: '2025-01-06T07:06:16+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -16,44 +16,42 @@ ignorePublish: false
 
 
 # 総件数 
-5301件 :tada::tada::tada:
+5303件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[量子コンパイラを作る。 その17](https://qiita.com/ohisama@github/items/a312c417d134f5f1b026)<br>@ohisama@github|2025-01-03|2|
-|2|[量子コンパイラを作る。 その16](https://qiita.com/ohisama@github/items/4d65f7ab8790d94dfc74)<br>@ohisama@github|2025-01-03|2|
-|3|[量子コンパイラを作る。 その15](https://qiita.com/ohisama@github/items/fd279a0fd971fddadbf2)<br>@ohisama@github|2025-01-03|2|
-|4|[WSLへのCurses開発環境構築](https://qiita.com/nanbut14/items/6d10cdc00921de37dc34)<br>@nanbut14|2025-01-02|2|
-|5|[ElixirでAtCoder ABC384を楽しむ！PythonとRustと比較しながら学ぶ](https://qiita.com/torifukukaiou/items/7b75586af26ac7529d35)<br>@torifukukaiou|2025-01-02|2|
-|6|[DRP-AI日記その7 OpenBLASのSGEMMを実行してみる](https://qiita.com/zacky1972/items/bb2627d3c1d16d77a466)<br>@zacky1972|2025-01-04|1|
-|7|[量子コンパイラを作る。 その14](https://qiita.com/ohisama@github/items/5156e852d57e1f438c19)<br>@ohisama@github|2025-01-03|1|
-|8|[ExNcursesで遊ぼう。その１](https://qiita.com/nanbut14/items/6a1dc2dfb1818e237330)<br>@nanbut14|2025-01-04|0|
+|1|[エンジニアで英語が初めて役にたったと思った話〜Issueを書くことのすすめ](https://qiita.com/zacky1972/items/89902981a5cb5230cf59)<br>@zacky1972|2025-01-05|6|
+|2|[量子コンパイラを作る。 その17](https://qiita.com/ohisama@github/items/a312c417d134f5f1b026)<br>@ohisama@github|2025-01-03|3|
+|3|[量子コンパイラを作る。 その16](https://qiita.com/ohisama@github/items/4d65f7ab8790d94dfc74)<br>@ohisama@github|2025-01-03|3|
+|4|[SME日記その18 SMEが使えるかどうかをElixirから判定する](https://qiita.com/zacky1972/items/ab2ebbb0a23d5709efe0)<br>@zacky1972|2025-01-05|1|
+|5|[DRP-AI日記その7 OpenBLASのSGEMMを実行してみる](https://qiita.com/zacky1972/items/bb2627d3c1d16d77a466)<br>@zacky1972|2025-01-04|1|
+|6|[ExNcursesで遊ぼう。その１](https://qiita.com/nanbut14/items/6a1dc2dfb1818e237330)<br>@nanbut14|2025-01-04|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
 |1|[「なぜ私はElixirに賭けたか」のその先：プログラマとして体力／気力がゼロになってても全回復できる Elixirが奏でる、未来志向でSF的、サイバーパンクな世界へようこそ（今からElixirを始める説明付き）](https://qiita.com/piacerex/items/09876caa1e17169ec5e1)<br>@piacerex|2024-12-25|122|
-|2|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-01-04|81|
-|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-01-05|60|
+|2|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-01-05|81|
+|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-01-06|60|
 |4|[[翻訳] Real time communication at scale with Elixir at Discord](https://qiita.com/piacerex/items/5aad64f80815d569ae62)<br>@piacerex|2024-12-12|56|
-|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-01-04|37|
+|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-01-05|37|
 |6|[ElixirChipの鼓動① 君はElixir CPU＋リモートGPUによる高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/b99baebf284243fb6d6b)<br>@piacerex|2024-12-25|37|
-|7|[2023年の世界における生成AI発展から、2024年のElixir AI・LLMを占う](https://qiita.com/piacerex/items/d4867a67c67d6f701f77)<br>@piacerex|2024-12-21|30|
-|8|[Elixir/Phoenixをdocker環境で立ち上げてみる。](https://qiita.com/naritomo08/items/fecf4ace7b9ca9078102)<br>@naritomo08|2024-12-30|24|
-|9|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-01-04|23|
-|10|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-01-05|20|
-|11|[国内Elixirの動きをYouTubeから①1～3月（スマホネイティブアプリ開発、生成AI開発、Elixir入学式、Qiitaの中の人来訪） ※ここに無い活動もぜひコメントください](https://qiita.com/piacerex/items/16eb25d2fe91cf31464f)<br>@piacerex|2024-12-11|17|
-|12|[2024年のElixir①今年出たライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/17c5cab114f89f11ff68)<br>@piacerex|2024-12-18|17|
-|13|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-01-04|15|
-|14|[起業するならElixirシリーズSTEP7.メディアを狙え](https://qiita.com/Yoosuke/items/a189163acf8a1306df7a)<br>@Yoosuke|2024-12-07|14|
-|15|[Livebook で kino_benchee (WIP)を動かしてみた](https://qiita.com/RyoWakabayashi/items/afbd4d2187368346d5a9)<br>@RyoWakabayashi|2024-12-12|13|
-|16|[リハビリアプリを作ろう（その５）](https://qiita.com/t-yamanashi/items/bcc044ce173d1dfd39a8)<br>@t-yamanashi|2024-12-13|13|
-|17|[アドベントカレンダーの完走賞を獲得するコツを教えます (2024年版)](https://qiita.com/torifukukaiou/items/8eedb573b026bf53dbbb)<br>@torifukukaiou|2024-12-25|13|
-|18|[2024年のElixir②今年、更新されたライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/78fc907c0b44cf3dda15)<br>@piacerex|2024-12-18|13|
-|19|[起業するならElixirシリーズSTEP6.リスト化](https://qiita.com/Yoosuke/items/2536d27937588bb129bb)<br>@Yoosuke|2024-12-06|13|
-|20|[ElixirでPAY.JPのライブラリ作成シリーズ② Let it crash](https://qiita.com/Yoosuke/items/2b5abd87393f1cc0307a)<br>@Yoosuke|2024-12-06|13|
+|7|[Elixir Zen スタイルプログラミング講座](https://qiita.com/zacky1972/items/619f39cc77fbb52b1bbf)<br>@zacky1972|2025-01-05|33|
+|8|[2023年の世界における生成AI発展から、2024年のElixir AI・LLMを占う](https://qiita.com/piacerex/items/d4867a67c67d6f701f77)<br>@piacerex|2024-12-21|30|
+|9|[オープンソースソフトウェア(OSS)へのIssueの書き方〜Elixirの例を題材に](https://qiita.com/zacky1972/items/6dc0485884d24263df97)<br>@zacky1972|2025-01-05|26|
+|10|[Elixir/Phoenixをdocker環境で立ち上げてみる。](https://qiita.com/naritomo08/items/fecf4ace7b9ca9078102)<br>@naritomo08|2024-12-30|24|
+|11|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-01-05|23|
+|12|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-01-06|20|
+|13|[国内Elixirの動きをYouTubeから①1～3月（スマホネイティブアプリ開発、生成AI開発、Elixir入学式、Qiitaの中の人来訪） ※ここに無い活動もぜひコメントください](https://qiita.com/piacerex/items/16eb25d2fe91cf31464f)<br>@piacerex|2024-12-11|17|
+|14|[2024年のElixir①今年出たライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/17c5cab114f89f11ff68)<br>@piacerex|2024-12-18|17|
+|15|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-01-05|15|
+|16|[Livebook で kino_benchee (WIP)を動かしてみた](https://qiita.com/RyoWakabayashi/items/afbd4d2187368346d5a9)<br>@RyoWakabayashi|2024-12-12|13|
+|17|[リハビリアプリを作ろう（その５）](https://qiita.com/t-yamanashi/items/bcc044ce173d1dfd39a8)<br>@t-yamanashi|2024-12-13|13|
+|18|[アドベントカレンダーの完走賞を獲得するコツを教えます (2024年版)](https://qiita.com/torifukukaiou/items/8eedb573b026bf53dbbb)<br>@torifukukaiou|2024-12-25|13|
+|19|[2024年のElixir②今年、更新されたライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/78fc907c0b44cf3dda15)<br>@piacerex|2024-12-18|13|
+|20|[誰か、RustとElixirの得失を教えて](https://qiita.com/kaizen_nagoya/items/01855d608a55ca1dc1c8)<br>@kaizen_nagoya|2024-12-28|13|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
