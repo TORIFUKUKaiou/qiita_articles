@@ -7,9 +7,9 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2024-12-31T21:04:13+09:00'
+updated_at: '2025-01-07T10:01:00+09:00'
 id: 5c096a9e6846beaeda3c
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
