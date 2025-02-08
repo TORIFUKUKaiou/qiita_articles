@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-02-07T07:05:16+09:00'
+updated_at: '2025-02-08T07:05:15+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -23,32 +23,31 @@ ignorePublish: false
 |---|---|---|---:|
 |1|[LiveViewから各NativeのUI部分をレンダリングするLiveViewNativeの紹介](https://qiita.com/the_haigo/items/478d861171a5d3c40510)<br>@the_haigo|2025-02-05|3|
 |2|[LiveViewNative Flutter超入門~PhoenixサーバーからFlutterのUIをレンダリング~](https://qiita.com/the_haigo/items/97189f01327e38ad36d1)<br>@the_haigo|2025-02-05|3|
-|3|[LiveViewNative SwiftUI超入門~PhoenixサーバーからiOSアプリのSwiftUIをレンダリング~](https://qiita.com/the_haigo/items/8ddbbda9d6be69b2609e)<br>@the_haigo|2025-02-04|2|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-02-06|81|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-02-07|60|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-02-06|37|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-02-07|81|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-02-08|60|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-02-07|37|
 |4|[2023年の世界における生成AI発展から、2024年のElixir AI・LLMを占う](https://qiita.com/piacerex/items/d4867a67c67d6f701f77)<br>@piacerex|2025-01-23|30|
-|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-02-06|23|
-|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-02-07|20|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-02-07|23|
+|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-02-08|20|
 |7|[2024年のElixir①今年出たライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/17c5cab114f89f11ff68)<br>@piacerex|2025-01-17|18|
 |8|[闘魂Elixir ── 25. 闘魂Elixirは終わらない　明日からはAdvent Calendar 2023がはじまる](https://qiita.com/torifukukaiou/items/44db8a4997812518730a)<br>@torifukukaiou|2025-01-22|17|
-|9|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-02-06|15|
+|9|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-02-07|15|
 |10|[2024年のElixir②今年、更新されたライブラリ／FW編（最新Elixirのキャッチアップと、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/78fc907c0b44cf3dda15)<br>@piacerex|2025-01-17|14|
 |11|[2024年のElixir③Livebook＋プラグイン編（最新Elixirのキャッチアップや、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/9f2d465af90f76d08ade)<br>@piacerex|2025-01-17|13|
 |12|[②Elixirエッジコンピューティング：Elixiが叶えるエッジコンピューティングで最も重要なこと](https://qiita.com/piacerex/items/979cfa7575b880144c4c)<br>@piacerex|2025-01-17|13|
-|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-02-06|11|
-|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-02-07|11|
+|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-02-07|11|
+|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-02-08|11|
 |15|[ElixirChipの鼓動③ 70年間続くノイマン型の闇を抜けて ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/208fdfb40646063bc0f0)<br>@piacerex|2025-02-07|11|
 |16|[2024年のElixir④クラウドライブラリ編（最新Elixirのキャッチアップや、アドカレのネタ探しに読んでください）](https://qiita.com/piacerex/items/3450ac62a03da69b3327)<br>@piacerex|2025-01-17|10|
 |17|[Livebook でベクトル検索、全文検索、グラフ検索によるハイブリッド RAG を実装する](https://qiita.com/RyoWakabayashi/items/6f5d3976509e1a89be76)<br>@RyoWakabayashi|2025-01-10|10|
-|18|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-02-06|9|
-|19|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-02-06|9|
-|20|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2025-02-06|9|
+|18|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-02-07|9|
+|19|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-02-07|9|
+|20|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2025-02-07|9|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
