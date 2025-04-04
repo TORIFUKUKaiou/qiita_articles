@@ -6,7 +6,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-03-22T04:56:10+09:00'
+updated_at: '2025-04-04T07:47:37+09:00'
 id: 3e94dd8bd1ec296eded3
 organization_url_name: haw
 slide: false
@@ -99,7 +99,7 @@ AWSのマネージドサービスが正義だろうと信じて、最後まで�
 「**オレが受からなかったら、誰が受かるんだ!!!**」という気持ちで最後まであきらめずに、選択肢を絞りこんで行きました。
 
 ただひとつ言えることは、**試験に申し込み、試験会場に行き、解答することでしか、合格の果実はもぎとれません。**
-試験に申し込んだあなた（私）は、合格への階段を一歩すでに上っています！
+試験に申し込んだあなた（私）は、合格への階段をすでに一段のぼっています！
 
 
 ## 身分証明書は2つ持っていきましょう
@@ -117,7 +117,7 @@ AWSのマネージドサービスが正義だろうと信じて、最後まで�
 
 - 模擬試験「[AWS Certified Solutions Architect – Associate Official Practice Question Set (SAA-C03 - 日本語)](https://explore.skillbuilder.aws/learn/courses/13269/aws-certified-solutions-architect-associate-official-practice-question-set-saa-c03-ri-ben-yu)」を繰り返し解いて、独特の問題文の言い回しに慣れる (ただし全く同じ問題は出題されませんでした)
 - [試験問題サンプル](https://d1.awsstatic.com/ja_JP/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Sample-Questions.pdf)を繰り返し解く (こちらかも全く同じ問題は出題されなかったように思います）
-- 書籍『[AWS認定資格試験テキスト　AWS認定ソリューションアーキテクト - アソシエイト　改訂第3版 (ＡＷＳ認定資格試験テキスト)](https://www.amazon.co.jp/dp/4815617945)』を通読しておく(触ったことがないAWSのサービスは、概要だけでも頭に入れておくと、正解を選べることがあるかもしれません。正解だったかどうかは不明ですが、問題文の「ノード」だったか「エッジ」だったかで使ったことがないデータベースサービスを選びました）
+- 書籍『[AWS認定資格試験テキスト　AWS認定ソリューションアーキテクト - アソシエイト　改訂第3版 (ＡＷＳ認定資格試験テキスト)](https://www.amazon.co.jp/dp/4815617945)』を通読しておく(触ったことがないAWSのサービスは、概要だけでも頭に入れておくと、正解を選べることがあるかもしれません。問題文の「ノード」だったか「エッジ」だったかで使ったことがないデータベースサービスを選ぶことができました。正解だったかどうかは不明です。）
 
 # おわりに
 
