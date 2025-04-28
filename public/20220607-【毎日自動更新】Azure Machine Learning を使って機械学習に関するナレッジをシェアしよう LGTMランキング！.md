@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Azure
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-04-27T08:00:09+09:00'
+updated_at: '2025-04-28T08:00:10+09:00'
 id: 7194a4352af5ba780e03
 organization_url_name: fukuokaex
 slide: false
@@ -50,7 +50,7 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |5|[Azure ML Python SDK v2 で AutoML を試してみた](https://qiita.com/aical/items/eee4fc33f206855c84fd)<br>@aical|2022-06-24|2022-06-24|6|
 |6|[Azure Machine LearningのAutoMLで時系列予測を試してみた~②モデル評価編~](https://qiita.com/tmiyata25/items/47e9b9f55242c1c548d1)<br>@tmiyata25|2022-06-16|2022-06-16|6|
 |7|[自分の顔と芸能人がどれくらい似ているか画像判断処理をやってみた（Power Apps × Azure Custom Vison ）](https://qiita.com/hide6974/items/40d6b3d2998a1a21876c)<br>@hide6974|2022-06-11|2022-06-11|5|
-|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2025-04-26|5|
+|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2025-04-27|5|
 |9|[【part2】Cloud Skill Challenge を題材に Azure Machine Learning × Azure DevOpsで MLOpsの扉を開いた - 分類モデル](https://qiita.com/ryoma-nagata/items/e647d7189cb1ae6b7f5d)<br>@ryoma-nagata|2022-07-08|2022-07-13|4|
 |10|[[Microsoft Build 2022 最新情報] Azure Machine Learningの新しい機能、Responsible AI Dashboardを試してみる](https://qiita.com/mochan_tk/items/adddc6aed3ea4826ed9e)<br>@mochan_tk|2022-07-07|2022-07-18|4|
 |11|[Github Actions + Azure ML CLI v2 で機械学習ジョブの CD を試みる](https://qiita.com/ShuntaIto/items/222b7a5bdb6d9996515b)<br>@ShuntaIto|2022-06-09|2022-06-09|4|
