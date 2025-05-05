@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2024-10-26T13:59:03+09:00'
+updated_at: '2025-05-04T14:48:33+09:00'
 id: 5dd716cb04db9b46bc92
 organization_url_name: haw
 slide: false
@@ -24,7 +24,7 @@ ignorePublish: false
 
 また月末の最終金曜日は、社内ハッカソン、その名も[ハウッカソン](https://www.haw.co.jp/office/hawckathon/)を実施しており、その成果物でもあります。
 
-## 1. [GitHub Codespaces](https://github.co.jp/features/codespaces)とは？
+## 1. GitHub Codespacesとは？
 
 [GitHub Codespaces](https://github.co.jp/features/codespaces)は、クラウド上で完全な開発環境を即座に立ち上げることができるサービスです。ローカルにソフトウェアをインストールすることなく、どこからでもブラウザを通じて開発が可能になります。特にチームでの協働や、素早いプロトタイプ作成に非常に有効です。
 
@@ -32,11 +32,11 @@ ignorePublish: false
 
 https://docs.github.com/ja/billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
 
-## 2. [Phoenix](https://www.phoenixframework.org/)とは？
+## 2. Phoenixとは？
 
 [Phoenix](https://www.phoenixframework.org/)は、[Elixir](https://elixir-lang.org/)言語で構築されたWebアプリケーションフレームワークであり、高いパフォーマンスとリアルタイム機能が特徴です。スケーラブルなアプリケーション開発に適しており、現代のWebアプリケーションに求められる要件を十分に満たしています。
 
-## 3. [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)とは？
+## 3. Developing inside a Container とは？
 
 [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers) は、開発環境をコンテナ化することで、どこでも一貫した開発環境を提供する仕組みです。[Visual Studio Code](https://code.visualstudio.com/)と[Docker](https://www.docker.com/ja-jp/)を使用して、ローカル環境や異なるマシン間でも同じ設定を使用できるため、依存関係や構成の違いに悩むことなく開発を進めることができます。
 
@@ -57,25 +57,27 @@ Javaでの開発サンプル、Ruby on Railsでの開発サンプル、Pythonで
 
 ここがこの記事のポイント、レゾンデートル（存在意義）です。他にもうだうだ（[ChatGPT Plus](https://openai.com/index/chatgpt-plus/)が）書いていますが、この記事からあなたが得るべき知見はここだけです。
 
-## 5. [phx_devcontainer](https://github.com/TORIFUKUKaiou/phx_devcontainer) を作りました
+## 5. phx_devcontainer を作りました
 
 [elixir-phoenix-postgres](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/elixir-phoenix-postgres) をベースに[phx_devcontainer](https://github.com/TORIFUKUKaiou/phx_devcontainer) を作りました。
 公開しておりますのでご自由にお使いください。
 
-一点解決できていない問題は、Ubuntuのnoble (24) バージョンのDockerイメージを指定するとうまく動かないことです。
-そのうち気がむいたら解決したいと思っています（あくまでも思っています）。
+~~一点解決できていない問題は、Ubuntuのnoble (24) バージョンのDockerイメージを指定するとうまく動かないことです。~~
+~~そのうち気がむいたら解決したいと思っています（あくまでも思っています）。~~
+**Ubuntu 24.04に対応しています。（2025年5月4日げんざ）**
 
-## 6. [phx_devcontainer](https://github.com/TORIFUKUKaiou/phx_devcontainer) を利用して[Phoenix](https://www.phoenixframework.org/)アプリケーションを開発する
+## 6. phx_devcontainer を利用してPhoenixアプリケーションを開発する
 
 [phx_devcontainer](https://github.com/TORIFUKUKaiou/phx_devcontainer) を利用して[Phoenix](https://www.phoenixframework.org/)アプリケーションを開発する手順を説明します。
 
 
-### Create a codespace on main
+### Open in a codespace
 
-![スクリーンショット 2024-10-25 15.22.06.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/ad05abe8-e048-20d2-8b72-569404062e5a.png)
+![スクリーンショット 2025-05-04 14.21.26.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/79aedae8-2e70-4011-aaf8-4c044fcb6991.png)
+
 
 1. https://github.com/TORIFUKUKaiou/phx_devcontainer を開きます
-1. Code > Codespaces > Create a codespace on main
+1. Use this template > Open in a codespace
 
 これだけです。
 
@@ -84,7 +86,7 @@ Javaでの開発サンプル、Ruby on Railsでの開発サンプル、Pythonで
 
 
 少し待つと、以下のように、Codespaceでの開発環境がセットアップされます。
-裏で、 `docker build` で終わり、意識することもなく `docker compose up` でコンテナの立ち上げが自動でされているものと思われます。
+裏で、 `docker build` が終わり、意識することもなく `docker compose up` でコンテナの立ち上げが自動でされているものと思われます。
 
 ![スクリーンショット 2024-10-25 15.32.13.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/b120b265-6e67-b4ee-f1ea-e74a236cf816.png)
 
@@ -104,10 +106,11 @@ mix setup
 - `--app` オプションと `--module` オプションを使うことで、プロジェクトの名前やモジュール名を自由に指定できます
 - `mix phx.new`で `--app`オプションと`--module` オプションを指定しているのは、付けずに `mix phx.new .`と実行するとカレントディレクトリの `workspace` になっちゃうからです
 - `mix phx.new hello` と`hello`プロジェクト（フォルダ）を作成する方法も選択肢のひとつです
-    - [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)プラグインがルートに `mix.exs` が存在することを期待しているので、「Elixir LS: Project Dir」を設定してあげる必要があります
-    - 設定しないと、シンタックスハイライトの色が付きません
-    - 設定方法は、 [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)プラグインの設定で、ワークスペース限定設定において「Elixir LS: Project Dir」に相対パス（例: `./hello`）を入れておけばよいでしょう
-    - 正確な情報ではありませんが、設定を変えても即座に反映されないことがありましたので、一度Codespaceを停止させて、もう一度立ち上げ直すと反映されました
+    - ~~[ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)プラグインがルートに `mix.exs` が存在することを期待しているので、「Elixir LS: Project Dir」を設定してあげる必要があります~~
+    - ~~設定しないと、シンタックスハイライトの色が付きません~~
+    - ~~設定方法は、 [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)プラグインの設定で、ワークスペース限定設定において「Elixir LS: Project Dir」に相対パス（例: `./hello`）を入れておけばよいでしょう~~
+    - ~~正確な情報ではありませんが、設定を変えても即座に反映されないことがありましたので、一度Codespaceを停止させて、もう一度立ち上げ直すと反映されました~~
+    - 2025-05-04現在特に何もせずとも、`workspace/hello`フォルダでもシンタックスハイライトが効くようになっています
 
 ![スクリーンショット 2024-10-25 15.41.25.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d8d010e1-d760-db44-6e47-bcdc25b9dd84.png)
 
@@ -123,6 +126,11 @@ mix phx.server
 
 右下のほうの「ブラウザーで開く」緑ボタンを **迷わず** 押しましょう！
 見事に[Phoenix](https://www.phoenixframework.org/)アプリケーションが立ち上がります！！！
+
+:::note warn
+もしブラウザから接続ができない場合には、ポートタブにて4000番ポートの「表示範囲」を一度`Public`にしてすぐに`Private`に戻してから、Phoenixアプリのページをリロードしてみてください。私はこれで解消しています。
+:::
+
 
 ![スクリーンショット 2024-10-25 15.48.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d75ea1a6-e17b-3a1e-5ff7-7072104b7a24.png)
 
