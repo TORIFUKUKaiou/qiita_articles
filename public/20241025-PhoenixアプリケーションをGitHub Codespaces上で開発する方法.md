@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-05-04T14:48:33+09:00'
+updated_at: '2025-05-15T00:13:37+09:00'
 id: 5dd716cb04db9b46bc92
 organization_url_name: haw
 slide: false
@@ -64,7 +64,7 @@ Javaでの開発サンプル、Ruby on Railsでの開発サンプル、Pythonで
 
 ~~一点解決できていない問題は、Ubuntuのnoble (24) バージョンのDockerイメージを指定するとうまく動かないことです。~~
 ~~そのうち気がむいたら解決したいと思っています（あくまでも思っています）。~~
-**Ubuntu 24.04に対応しています。（2025年5月4日げんざ）**
+**Ubuntu 24.04に対応しています。（2025年5月4日現在）**
 
 ## 6. phx_devcontainer を利用してPhoenixアプリケーションを開発する
 
@@ -134,7 +134,18 @@ mix phx.server
 
 ![スクリーンショット 2024-10-25 15.48.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d75ea1a6-e17b-3a1e-5ff7-7072104b7a24.png)
 
+## Tips
 
+Tipsです。
+
+### ファイルをSaveしたときに意図しないフォーマットがされて困ります。(20代男性)
+
+PhoenixプロジェクトのルートをVSCodeで表示するのが吉です。(File > Open folder...) 
+もしくは、`elixirLS.projectDir`でルートを設定する方法もあります。
+
+なぜかというとこれらをしていない場合、`router.ex`やマイグレーションファイルが意図していないフォーマットをされてしまいます。これらのファイルは関数呼び出しでは、`( )`無しで書いてあります。その後も`( )`無しのままが好まれるでしょう。しかし、この設定をしないと軒並み、編集してファイルを保存したあとに`( )`付きの形に保存されてしまいます。
+
+まあ、私が`"editor.formatOnSave": true`の設定をデフォルトでdevconatinerの設定に組み込んでいるせいであるとも言えます。
 
 ## 7. 結論
 
