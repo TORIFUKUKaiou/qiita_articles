@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-05-23T07:04:21+09:00'
+updated_at: '2025-05-23T09:07:06+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -33,7 +33,7 @@ ignorePublish: false
 |5|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-05-23|20|
 |6|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-05-21|15|
 |7|[闘魂Elixir ── たくさんのファイルに同じコマンドを実行したい（たとえば画像ファイルの変換を楽しむ）](https://qiita.com/torifukukaiou/items/bc1f642805e83f1c6dac)<br>@torifukukaiou|2025-05-06|13|
-|8|[Tidewave Phoenix で、開発中のアプリケーションとAIチャットが一体化](https://qiita.com/RyoWakabayashi/items/a8f39f14781e7f51b6ee)<br>@RyoWakabayashi|2025-05-05|12|
+|8|[Tidewave Phoenix で、開発中のアプリケーションとAIチャットが一体化](https://qiita.com/RyoWakabayashi/items/a8f39f14781e7f51b6ee)<br>@RyoWakabayashi|2025-05-05|13|
 |9|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-05-22|11|
 |10|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-05-23|11|
 |11|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-05-22|9|

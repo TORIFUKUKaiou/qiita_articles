@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Zoom
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-05-22T08:00:32+09:00'
+updated_at: '2025-05-24T08:00:36+09:00'
 id: 3b232899320ee2f1ceec
 organization_url_name: fukuokaex
 slide: false
@@ -47,15 +47,15 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |2|[突発的に会議を開催する「突然の会議ジェネレーター」を、ZoomとGoogleCalendarとSlackのAPIを使って作った](https://qiita.com/hareruya-maro/items/72757ec50dc26039e6fb)<br>@hareruya-maro|2022-06-06|2022-06-09|28|
 |3|[ZOOMの日本語音声を無料で英語に翻訳した字幕をつける。](https://qiita.com/shigeshigeshige/items/ffffd4ea9e29895c5135)<br>@shigeshigeshige|2022-06-01|2022-06-01|19|
 |4|[【Zoom】SDKを使って会議の参加時・退出時にポップアップを表示してみた](https://qiita.com/Aichi_Lover/items/119e1beb963b3bfe7287)<br>@Aichi_Lover|2022-06-22|2022-06-22|13|
-|5|[Zoom Meeting SDKでなんちゃってボイスチェンジャー](https://qiita.com/wok/items/08c9505d5c3c95d8956d)<br>@wok|2022-07-14|2022-08-01|7|
-|6|[ 【Zoom Video SDK】初心者による導入メモ - iOS/SwiftUI編](https://qiita.com/yuppejp/items/a99ad6a8e2c4b0788868)<br>@yuppejp|2022-06-25|2022-06-25|7|
+|5|[ 【Zoom Video SDK】初心者による導入メモ - iOS/SwiftUI編](https://qiita.com/yuppejp/items/a99ad6a8e2c4b0788868)<br>@yuppejp|2022-06-25|2022-06-25|8|
+|6|[Zoom Meeting SDKでなんちゃってボイスチェンジャー](https://qiita.com/wok/items/08c9505d5c3c95d8956d)<br>@wok|2022-07-14|2022-08-01|7|
 |7|[Zoom Meeting SDKとVosk browserでZoom会議のリアルタイム文字起こし](https://qiita.com/wok/items/e83c49c530354a7b8b42)<br>@wok|2022-07-16|2022-08-01|6|
 |8|[Zoom Meeting SDKでタイムキーパーちゃんを作る](https://qiita.com/wok/items/205c086f19a7ff73718d)<br>@wok|2022-07-11|2022-08-01|6|
 |9|[Next.jsでZoom Video SDKとAPIを試してみる](https://qiita.com/mikan3rd/items/4bdbc318a11f612e2108)<br>@mikan3rd|2022-07-18|2022-07-18|5|
 |10|[pythonでZoom APIを触ってみた](https://qiita.com/shinkoma/items/1c3e68db47732543e400)<br>@shinkoma|2022-07-15|2022-07-15|5|
 |11|[【Zoom Meeting SDK】TouchDesignerによるZoomオペレーションシステム](https://qiita.com/isikic/items/967c67e14e0b69ee54b6)<br>@isikic|2022-07-10|2022-08-21|5|
 |12|[【Zoom API】クラウド録画をPHPで一括ダウンロードする](https://qiita.com/KeiOTN/items/f9a858b1e0ae12c6c61e)<br>@KeiOTN|2022-06-22|2022-06-22|5|
-|13|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2025-05-21|5|
+|13|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2025-05-22|5|
 |14|[Zoom Video SDKを使用したロボットの遠隔監視システムを作ってみる。](https://qiita.com/takahiro19981013/items/0dfe46688d5d4e4fc0d5)<br>@takahiro19981013|2022-07-18|2022-12-22|4|
 |15|[Zoom Meeting SDKをつかって会議にアバターで参加する](https://qiita.com/wok/items/1bccd567e844ac4e8979)<br>@wok|2022-07-13|2022-08-01|4|
 |16|[Zoom Meeting SDKでアバターにいろいろしゃべらせる](https://qiita.com/wok/items/0450c8620f11a371bd8b)<br>@wok|2022-07-12|2022-08-01|4|
@@ -81,7 +81,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |No|user|count|LGTM|
 |---|---|---:|---:|
 |1|@wok|6|30|
-|2|@yuppejp|4|11|
+|2|@yuppejp|4|12|
 |3|@hareruya-maro|2|56|
 |4|@kieaiaarh|2|6|
 |5|@shigeshigeshige|1|19|
@@ -111,7 +111,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |2|@wok|30|6|
 |3|@shigeshigeshige|19|1|
 |4|@Aichi_Lover|13|1|
-|5|@yuppejp|11|4|
+|5|@yuppejp|12|4|
 |6|@kieaiaarh|6|2|
 |7|@KeiOTN|5|1|
 |8|@isikic|5|1|
@@ -134,8 +134,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとの記事数とLGTM数
 |No|tag|count|LGTM|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|32|174|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|174|
+|1|[Zoom](https://qiita.com/tags/Zoom)|32|175|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|32|175|
 |3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|9|50|
 |4|[ZoomAPI](https://qiita.com/tags/ZoomAPI)|4|11|
 |5|[初心者](https://qiita.com/tags/初心者)|2|17|
@@ -157,7 +157,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |21|[Swift](https://qiita.com/tags/Swift)|1|3|
 |22|[AdventCalendar2022](https://qiita.com/tags/AdventCalendar2022)|1|5|
 |23|[Android](https://qiita.com/tags/Android)|1|1|
-|24|[SwiftUI](https://qiita.com/tags/SwiftUI)|1|7|
+|24|[SwiftUI](https://qiita.com/tags/SwiftUI)|1|8|
 |25|[Next.js](https://qiita.com/tags/Next.js)|1|5|
 |26|[React](https://qiita.com/tags/React)|1|5|
 |27|[JetpackCompose](https://qiita.com/tags/JetpackCompose)|1|0|
@@ -185,8 +185,8 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 # タグごとのLGTM数と記事数
 |No|tag|LGTM|count|
 |---|---|---:|---:|
-|1|[Zoom](https://qiita.com/tags/Zoom)|174|32|
-|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|174|32|
+|1|[Zoom](https://qiita.com/tags/Zoom)|175|32|
+|2|[QiitaEngineerFesta_Zoom](https://qiita.com/tags/QiitaEngineerFesta_Zoom)|175|32|
 |3|[QiitaEngineerFesta2022](https://qiita.com/tags/QiitaEngineerFesta2022)|50|9|
 |4|[ClarisConnect](https://qiita.com/tags/ClarisConnect)|28|1|
 |5|[slackbot](https://qiita.com/tags/slackbot)|28|1|
@@ -199,7 +199,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |12|[初心者](https://qiita.com/tags/初心者)|17|2|
 |13|[備忘録](https://qiita.com/tags/備忘録)|13|1|
 |14|[ZoomAPI](https://qiita.com/tags/ZoomAPI)|11|4|
-|15|[SwiftUI](https://qiita.com/tags/SwiftUI)|7|1|
+|15|[SwiftUI](https://qiita.com/tags/SwiftUI)|8|1|
 |16|[ZoomMeetingSDK](https://qiita.com/tags/ZoomMeetingSDK)|7|2|
 |17|[Rails](https://qiita.com/tags/Rails)|6|2|
 |18|[pyzoom](https://qiita.com/tags/pyzoom)|5|1|
