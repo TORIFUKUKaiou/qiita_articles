@@ -8,7 +8,7 @@ tags:
   - Nerves
   - QiitaAzure
 private: false
-updated_at: '2025-05-30T09:05:04+09:00'
+updated_at: '2025-05-31T09:05:03+09:00'
 id: 2db585bf7dbe39ed6f5d
 organization_url_name: fukuokaex
 slide: false
@@ -48,7 +48,7 @@ https://qiita.com/official-events/8bc3780a142f8ee8effa
 |13|[Azure Kubernetes Service(AKS)でPodからAzureリソースにアクセスする](https://qiita.com/ueba-yuki/items/aecf6b0524651b799f77)<br>@ueba-yuki|2021-10-25|2021-10-25|3|
 |14|[プライベートでマルチテナントな AKS(Azure Kubernetes Service) を構築・運用する上で困ったこと](https://qiita.com/sabure500/items/e813d66c2716fd7868b8)<br>@sabure500|2021-10-30|2021-11-09|2|
 |15|[Azur IoT Edgeインストールと設定の公式構成ツール](https://qiita.com/motoJinC25/items/ee84a9173e03766b60c7)<br>@motoJinC25|2021-10-26|2021-10-26|2|
-|16|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2025-05-29|2|
+|16|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2025-05-30|2|
 |17|[Jetson NanoとAzure IoT Edgeランタイムのインストール](https://qiita.com/motoJinC25/items/14f9a28bd6983121411c)<br>@motoJinC25|2021-10-25|2021-10-26|2|
 |18|[Azure Kubernetes Serviceを使ってみた](https://qiita.com/rk05231977/items/744e144cae8f253cf3ba)<br>@rk05231977|2021-10-25|2021-10-27|2|
 |19|[M5Stack Core 2で始めるAzure IoT Hub入門（その４）](https://qiita.com/hatsune_/items/3ebcba2384f6e302fafd)<br>@hatsune_|2021-10-10|2021-10-10|2|
