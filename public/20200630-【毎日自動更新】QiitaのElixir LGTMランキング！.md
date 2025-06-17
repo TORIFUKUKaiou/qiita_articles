@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-06-16T05:09:27+09:00'
+updated_at: '2025-06-17T07:04:18+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -22,30 +22,29 @@ ignorePublish: false
 |No|title|created_at|LGTM|
 |---|---|---|---:|
 |1|[最終的に選ばれる「生成AIフレンドリー言語」候補（2025年時点）](https://qiita.com/GeekMasahiro/items/eeb43c601b41b34c8172)<br>@GeekMasahiro|2025-06-14|2|
-|2|[Amazon Q CLI に Phoenix LiveView でゲームを作ってもらいました](https://qiita.com/RyoWakabayashi/items/5f1c327ad6b6a699e5d6)<br>@RyoWakabayashi|2025-06-14|2|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
 |1|[ExcelからElixir入門①：データ並替え／絞り込み](https://qiita.com/piacerex/items/6714e1440e3f25fb46a1)<br>@piacerex|2025-06-14|284|
-|2|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-06-15|82|
-|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-06-16|60|
-|4|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-06-15|37|
-|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-06-15|23|
-|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-06-15|20|
+|2|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-06-16|82|
+|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-06-17|60|
+|4|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-06-16|37|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-06-16|23|
+|6|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-06-17|20|
 |7|[Elixir/PhoenixとNeosVRを連携させる。](https://qiita.com/naritomo08/items/5f04266424ec46312122)<br>@naritomo08|2025-06-06|19|
 |8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-06-15|15|
 |9|[Phoenixサイト作成アラカルト](https://qiita.com/naritomo08/items/1284f64ced1baeda9c03)<br>@naritomo08|2025-06-06|15|
-|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-06-15|11|
-|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-06-16|11|
+|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-06-16|11|
+|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-06-17|11|
 |12|[Apple Silicon Mac + Rosetta 2 + Dockerで arm64(aarch64)/x86_64 とmacOS/Linuxの組み合わせで自動テストする方法(Elixirだけじゃなく汎用の方法も紹介するよ)](https://qiita.com/zacky1972/items/c8410e6cc3bb76b4b437)<br>@zacky1972|2025-05-27|10|
-|13|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-06-15|9|
+|13|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-06-16|9|
 |14|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-06-10|9|
 |15|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2025-06-15|9|
 |16|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2025-06-15|8|
-|17|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2025-06-15|7|
-|18|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2025-06-15|7|
+|17|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2025-06-16|7|
+|18|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2025-06-16|7|
 |19|[Sync Solvedを実現するElectricSQLをPhoenixに組み込んでモバイルアプリのSyncがSolvedした話](https://qiita.com/the_haigo/items/8a912f53108a7ef4a2e1)<br>@the_haigo|2025-06-11|7|
 |20|[CopilotにTidewaveを与えたら、デバックが楽ちんだった経験談](https://qiita.com/GeekMasahiro/items/a7ddf183a51807184324)<br>@GeekMasahiro|2025-05-18|7|
 
