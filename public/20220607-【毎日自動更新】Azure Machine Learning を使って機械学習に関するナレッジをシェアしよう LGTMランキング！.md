@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Azure
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-06-21T08:00:10+09:00'
+updated_at: '2025-06-22T08:00:11+09:00'
 id: 7194a4352af5ba780e03
 organization_url_name: fukuokaex
 slide: false
@@ -50,9 +50,9 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |5|[Azure ML Python SDK v2 で AutoML を試してみた](https://qiita.com/aical/items/eee4fc33f206855c84fd)<br>@aical|2022-06-24|2022-06-24|6|
 |6|[Azure Machine LearningのAutoMLで時系列予測を試してみた~②モデル評価編~](https://qiita.com/tmiyata25/items/47e9b9f55242c1c548d1)<br>@tmiyata25|2022-06-16|2022-06-16|6|
 |7|[自分の顔と芸能人がどれくらい似ているか画像判断処理をやってみた（Power Apps × Azure Custom Vison ）](https://qiita.com/hide6974/items/40d6b3d2998a1a21876c)<br>@hide6974|2022-06-11|2022-06-11|5|
-|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2025-06-20|5|
+|8|[【毎日自動更新】Azure Machine Learning を使って機械学習に関するナレッジをシェアしよう LGTMランキング！](https://qiita.com/torifukukaiou/items/7194a4352af5ba780e03)<br>@torifukukaiou|2022-06-07|2025-06-21|5|
 |9|[【part2】Cloud Skill Challenge を題材に Azure Machine Learning × Azure DevOpsで MLOpsの扉を開いた - 分類モデル](https://qiita.com/ryoma-nagata/items/e647d7189cb1ae6b7f5d)<br>@ryoma-nagata|2022-07-08|2022-07-13|4|
-|10|[[Microsoft Build 2022 最新情報] Azure Machine Learningの新しい機能、Responsible AI Dashboardを試してみる](https://qiita.com/mochan_tk/items/adddc6aed3ea4826ed9e)<br>@mochan_tk|2022-07-07|2022-07-18|4|
+|10|[[Microsoft Build 2022 最新情報] Azure Machine Learningの新しい機能、Responsible AI Dashboardを試してみる](https://qiita.com/kawamoto_liner/items/adddc6aed3ea4826ed9e)<br>@kawamoto_liner|2022-07-07|2022-07-18|4|
 |11|[Github Actions + Azure ML CLI v2 で機械学習ジョブの CD を試みる](https://qiita.com/ShuntaIto/items/222b7a5bdb6d9996515b)<br>@ShuntaIto|2022-06-09|2022-06-09|4|
 |12|[Azure Machine Learning に入門する方法](https://qiita.com/kexi/items/103c428dbf093335f8b9)<br>@kexi|2022-07-18|2022-07-18|3|
 |13|[Azure Machine Learning CLI v2 でハイパーパラメーターチューニングジョブを投げてみる](https://qiita.com/ShuntaIto/items/19587eb40e5509d1e26b)<br>@ShuntaIto|2022-06-08|2022-06-09|3|
@@ -71,7 +71,7 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |5|@ryokita|1|14|
 |6|@hide6974|1|5|
 |7|@torifukukaiou|1|5|
-|8|@mochan_tk|1|4|
+|8|@kawamoto_liner|1|4|
 |9|@kexi|1|3|
 |10|@kaizen_nagoya|1|0|
 
@@ -86,7 +86,7 @@ https://qiita.com/official-events/602a6d1bb63c59538170
 |5|@aical|6|2|
 |6|@hide6974|5|1|
 |7|@torifukukaiou|5|1|
-|8|@mochan_tk|4|1|
+|8|@kawamoto_liner|4|1|
 |9|@kexi|3|1|
 |10|@kaizen_nagoya|0|1|
 
