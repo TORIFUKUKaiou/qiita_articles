@@ -7,12 +7,21 @@ tags:
   - 闘魂
   - AdventCalendar2024
 private: false
-updated_at: '2024-08-10T21:56:05+09:00'
+updated_at: '2025-06-24T00:03:14+09:00'
 id: 9ea1d1652d08d330a2ce
 organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
+:::note alert
+【2025/06/24追記】
+
+org:haw
+のようなクエリで検索した方が効率的です！！！
+
+https://help.qiita.com/ja/articles/qiita-search-options
+:::
+
 # はじめに
 
 私達、[ハウインターナショナル](https://www.haw.co.jp/)は、Qiita Organizationを利用させていただいております。
@@ -222,3 +231,13 @@ iex> Main.output_markdown |> IO.puts
 
 **APIあるよ！** の情報をお持ちの方はぜひコメント欄でお知らせください！
 お便りお待ちしています。
+
+
+:::note alert
+【2025/06/24追記】
+
+org:haw
+のようなクエリで検索した方が効率的です！！！
+
+https://help.qiita.com/ja/articles/qiita-search-options
+:::
