@@ -1,5 +1,5 @@
 ---
-title: 闘魂Elixir ーー AtCoder Beginner Contest 441(A)をElixirとRustで楽しむ
+title: 闘魂Elixir ーー AtCoder Beginner Contest 411(A)をElixirとRustで楽しむ
 tags:
   - Rust
   - AtCoder
@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-06-25T11:37:11+09:00'
+updated_at: '2025-06-27T00:42:23+09:00'
 id: 34dc35babe3ef3f0efc3
 organization_url_name: haw
 slide: false
