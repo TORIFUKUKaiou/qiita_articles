@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-07-01T07:04:21+09:00'
+updated_at: '2025-07-02T05:11:08+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -16,24 +16,23 @@ ignorePublish: false
 
 
 # 総件数 
-5429件 :tada::tada::tada:
+5434件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[闘魂Elixir ーー AtCoder Beginner Contest 401(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/f8ee3972c096d10f1cbb)<br>@torifukukaiou|2025-06-30|4|
-|2|[闘魂Elixir ーー AtCoder Beginner Contest 400(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/3ac892445875cdf9bd8c)<br>@torifukukaiou|2025-06-30|3|
-|3|[闘魂Elixir ーー AtCoder Beginner Contest 401(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/08b791a58f39cf4854b8)<br>@torifukukaiou|2025-06-29|3|
-|4|[CodexでElixir通ったぞ！……と思ったら`mix deps.get`はできなかった話](https://qiita.com/torifukukaiou/items/9321c01677f85cd9e33b)<br>@torifukukaiou|2025-06-29|3|
-|5|[闘魂Elixir ーー AtCoder Beginner Contest 402(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/1dafc4e8621adb1072ad)<br>@torifukukaiou|2025-06-29|3|
-|6|[闘魂Elixir ーー AtCoder Beginner Contest 402(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/0a8f96279be39315fe66)<br>@torifukukaiou|2025-06-29|3|
-|7|[闘魂Elixir ーー AtCoder Beginner Contest 403(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/c3b2a4e60265b1920610)<br>@torifukukaiou|2025-06-28|3|
-|8|[闘魂Elixir ーー AtCoder Beginner Contest 403(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/777ced7b4d03f47cdd29)<br>@torifukukaiou|2025-06-28|3|
-|9|[闘魂Elixir ーー AtCoder Beginner Contest 404(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/0fc3e9491cf637083952)<br>@torifukukaiou|2025-06-28|3|
-|10|[闘魂Elixir ーー AtCoder Beginner Contest 405(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/11357f597605ea3834c1)<br>@torifukukaiou|2025-06-28|3|
-|11|[闘魂Elixir ーー AtCoder Beginner Contest 405(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/9d4d1bbebfde75a09827)<br>@torifukukaiou|2025-06-28|3|
-|12|[闘魂Elixir ーー AtCoder Beginner Contest 400(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/4ca3af6f9195c7024a19)<br>@torifukukaiou|2025-06-30|2|
-|13|[闘魂Elixir: クライアント証明書付きでHTTP POSTでアクセストークンを30個発行してみた（Tapyrus API編）](https://qiita.com/torifukukaiou/items/1968b20b240001c40700)<br>@torifukukaiou|2025-06-28|2|
+|1|[闘魂Elixir ーー AtCoder Beginner Contest 400(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/4ca3af6f9195c7024a19)<br>@torifukukaiou|2025-06-30|5|
+|2|[闘魂Elixir ーー AtCoder Beginner Contest 400(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/3ac892445875cdf9bd8c)<br>@torifukukaiou|2025-06-30|5|
+|3|[闘魂Elixir ーー AtCoder Beginner Contest 401(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/f8ee3972c096d10f1cbb)<br>@torifukukaiou|2025-06-30|5|
+|4|[CodexでElixir通ったぞ！……と思ったら`mix deps.get`はできなかった話](https://qiita.com/torifukukaiou/items/9321c01677f85cd9e33b)<br>@torifukukaiou|2025-06-29|5|
+|5|[闘魂Elixir ーー AtCoder Beginner Contest 402(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/1dafc4e8621adb1072ad)<br>@torifukukaiou|2025-06-29|5|
+|6|[闘魂Elixir ーー AtCoder Beginner Contest 402(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/0a8f96279be39315fe66)<br>@torifukukaiou|2025-06-29|5|
+|7|[並びが違うだけ？ 実質同じファイルかをPythonとElixirでスマートに検証する方法](https://qiita.com/torifukukaiou/items/fb42f8d6dc98d7d56760)<br>@torifukukaiou|2025-07-01|4|
+|8|[闘魂Elixir ーー AtCoder Beginner Contest 401(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/08b791a58f39cf4854b8)<br>@torifukukaiou|2025-06-29|4|
+|9|[闘魂Elixir ーー AtCoder Beginner Contest 399(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/ad7be0c37b9e9fb527ae)<br>@torifukukaiou|2025-07-01|3|
+|10|[闘魂Elixir ーー AtCoder Beginner Contest 399(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/3697c69b1a7a37a6035b)<br>@torifukukaiou|2025-07-01|2|
+|11|[闘魂Elixir ーー AtCoder Beginner Contest 398(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/6ff7da98e2ceb6ee694b)<br>@torifukukaiou|2025-07-01|0|
+|12|[闘魂Elixir ーー AtCoder Beginner Contest 398(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/69338a3573cfe7f03f97)<br>@torifukukaiou|2025-07-01|0|
 
 
 # 直近1ヶ月
@@ -41,24 +40,24 @@ ignorePublish: false
 |---|---|---|---:|
 |1|[ExcelからElixir入門①：データ並替え／絞り込み](https://qiita.com/piacerex/items/6714e1440e3f25fb46a1)<br>@piacerex|2025-06-14|284|
 |2|[「なぜ私はElixirに賭けたか」のその先：プログラマとして体力／気力がゼロになってても全回復できる Elixirが奏でる、未来志向でSF的、サイバーパンクな世界へようこそ（今からElixirを始める説明付き）](https://qiita.com/piacerex/items/09876caa1e17169ec5e1)<br>@piacerex|2025-06-17|129|
-|3|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-06-30|81|
-|4|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-07-01|60|
-|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-06-30|37|
-|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-06-30|23|
+|3|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-07-01|81|
+|4|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-07-02|60|
+|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-07-01|37|
+|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-07-01|23|
 |7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-07-01|20|
 |8|[Elixir/PhoenixとNeosVRを連携させる。](https://qiita.com/naritomo08/items/5f04266424ec46312122)<br>@naritomo08|2025-06-06|19|
-|9|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-06-28|15|
+|9|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-07-01|15|
 |10|[Phoenixサイト作成アラカルト](https://qiita.com/naritomo08/items/1284f64ced1baeda9c03)<br>@naritomo08|2025-06-06|15|
 |11|[Amazon Q CLI に Phoenix LiveView でゲームを作ってもらいました](https://qiita.com/RyoWakabayashi/items/5f1c327ad6b6a699e5d6)<br>@RyoWakabayashi|2025-06-14|13|
-|12|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-06-30|11|
-|13|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-07-01|11|
-|14|[Google Colab + Livebook + Pythonx + StableDiffusion で画像生成する](https://qiita.com/RyoWakabayashi/items/7f761119d30022e7dcdb)<br>@RyoWakabayashi|2025-06-20|10|
-|15|[Amazon Q CLI x Phoenix LiveView × 闘魂：最速でTic Tac Toeを爆誕させた話](https://qiita.com/torifukukaiou/items/30f43217a6b98058ae28)<br>@torifukukaiou|2025-06-17|10|
-|16|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-06-30|9|
+|12|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-07-01|11|
+|13|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-07-02|11|
+|14|[Amazon Q CLI x Phoenix LiveView × 闘魂：最速でTic Tac Toeを爆誕させた話](https://qiita.com/torifukukaiou/items/30f43217a6b98058ae28)<br>@torifukukaiou|2025-06-17|11|
+|15|[Google Colab + Livebook + Pythonx + StableDiffusion で画像生成する](https://qiita.com/RyoWakabayashi/items/7f761119d30022e7dcdb)<br>@RyoWakabayashi|2025-06-20|10|
+|16|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-07-01|9|
 |17|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-06-29|9|
 |18|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2025-06-30|9|
 |19|[闘魂Phoenix道場：MySQLをDockerで立ち上げるッ！！！ Phoenixアプリから使わせていただく](https://qiita.com/torifukukaiou/items/c363a5104125c7a6203b)<br>@torifukukaiou|2025-06-20|9|
-|20|[Livebook で Elixir の Evision 、 Image の画像と Python の OpenCV 、 Pillow の画像を相互変換する](https://qiita.com/RyoWakabayashi/items/9f6194ddc930be15e901)<br>@RyoWakabayashi|2025-06-01|9|
+|20|[Sync Solvedを実現するElectricSQLをPhoenixに組み込んでモバイルアプリのSyncがSolvedした話](https://qiita.com/the_haigo/items/8a912f53108a7ef4a2e1)<br>@the_haigo|2025-06-11|9|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:

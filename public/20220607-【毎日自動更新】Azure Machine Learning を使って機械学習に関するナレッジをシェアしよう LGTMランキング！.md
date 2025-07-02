@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Azure
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-07-01T08:01:37+09:00'
+updated_at: '2025-07-02T08:00:10+09:00'
 id: 7194a4352af5ba780e03
 organization_url_name: fukuokaex
 slide: false
