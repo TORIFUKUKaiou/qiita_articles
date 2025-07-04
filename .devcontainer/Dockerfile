@@ -57,7 +57,7 @@ RUN su ${USERNAME} -c "mix local.hex --force \
 # [Optional] Uncomment this line to install additional package.
 # RUN  mix ...
 
-COPY --chown=node:node credentials.json /home/node/.config/qiita-cli/credentials.json
+# COPY --chown=node:node credentials.json /home/node/.config/qiita-cli/credentials.json
 
 RUN yarn install
 
