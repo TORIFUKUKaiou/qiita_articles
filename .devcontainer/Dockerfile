@@ -21,7 +21,7 @@ RUN su ${USERNAME} -c "echo 'export PATH=/home/${USERNAME}/.elixir-install/insta
 
 RUN su ${USERNAME} -c "source /home/${USERNAME}/.profile \
   && mix local.hex --force \
-  && mix local.rebar --force
+  && mix local.rebar --force"
 
 # Install Node.js and npm
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
