@@ -59,6 +59,6 @@ RUN su ${USERNAME} -c "mix local.hex --force \
 
 # COPY --chown=node:node credentials.json /home/node/.config/qiita-cli/credentials.json
 
-RUN yarn install
+# RUN yarn install
 
 # CMD ["npx", "qiita", "preview"]
