@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/devcontainers/base:${VARIANT}
 
 # This Dockerfile adds a non-root user with sudo access. Update the “remoteUser” property in
 # devcontainer.json to use it. More info: https://aka.ms/vscode-remote/containers/non-root-user.
-ARG USERNAME=node
+ARG USERNAME=vscode
 
 # Install needed packages and setup non-root user. Use a separate RUN statement to add your own dependencies.
 RUN apt-get update && apt-get install -y xz-utils build-essential inotify-tools git curl unzip sed ca-certificates gnupg
