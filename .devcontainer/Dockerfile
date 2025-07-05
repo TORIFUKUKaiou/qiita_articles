@@ -61,4 +61,4 @@ RUN su ${USERNAME} -c "mix local.hex --force \
 
 RUN yarn install
 
-CMD ["npx", "qiita", "preview"]
+# CMD ["npx", "qiita", "preview"]
