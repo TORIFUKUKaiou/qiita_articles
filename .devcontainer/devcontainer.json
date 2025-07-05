@@ -4,10 +4,9 @@
 	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
-	"build": {
-		// Path is relative to the devcontainer.json file.
-		"dockerfile": "Dockerfile"
-	},
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/qiita_articles",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -16,7 +15,8 @@
 	"forwardPorts": [8888],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npx qiita preview",
+	"postCreateCommand": "npm install",
+	"postStartCommand": "chmod +x /workspaces/qiita_articles/init.sh && /workspaces/qiita_articles/init.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
@@ -34,5 +34,5 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
-	"remoteUser": "node"
+	"remoteUser": "vscode"
 }
