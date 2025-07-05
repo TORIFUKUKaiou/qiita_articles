@@ -8,6 +8,10 @@ https://qiita.com/torifukukaiou
 私はRapberry Pi 2の上でイゴかしているNervesアプリケーションで一部の記事を自動更新しています。  
 記事の変更は、 `.github/workflows/pull.yml` で一日一回取り込むことにしています。  
 
+# 環境変数
+
+- QIITA_TOKEN
+
 # このリポジトリはいつ動かすのか
 
 Qiitaに記事を投稿（闘魂）する際は、 `npx qiita preview` にてQiita Previewから書くこともできますが、Qiita上で直接書くことにしています。  
@@ -20,10 +24,10 @@ Qiitaに記事を投稿（闘魂）する際は、 `npx qiita preview` にてQii
 # Codespacesで (こちらのほうが私は楽)
 
 Code > Codespaces > create a codespace on main  
-`.devcontainer/credentials.json` が存在しないので、ビルドが失敗しリカバリーモードで立ち上がります。  
-`.devcontainer/credentials.json` を配置して、もちろん中身は適切な値を設定したうえで、リビルドするとよいです。  
+~~`.devcontainer/credentials.json` が存在しないので、ビルドが失敗しリカバリーモードで立ち上がります。~~  
+~~`.devcontainer/credentials.json` を配置して、もちろん中身は適切な値を設定したうえで、リビルドするとよいです。~~  
 
-自動で `npx qiita preview` するはずです。もし立ち上がらなければターミナルで手動でコマンドを実行すればよいです。  
+~~自動で `npx qiita preview` するはずです。もし立ち上がらなければターミナルで手動でコマンドを実行すればよいです。~~  
 
 最新の `main` からCodespaceを起動した場合は不要ですが、前述のように `main` ブランチには「闘魂注入」という名のコミットメッセージで、危ぶむことなく歩を進めて、どんどん道を進んでいるので、停止したCodespaceを再度立ち上げて作業する場合には、 `git fetch origin; git rebase origin/main` とでもやって最新に追いつくとよいでしょう。  
 
@@ -37,6 +41,10 @@ QIITA_TOKEN="your token" elixir bin/normalize-filenames.exs
 
 使い方は`.devcontainer/credentials.json`を配置した状態で「Reopen in Container」です。  
 （credentials.jsonはそもそもどうやってつくったかというと、ホストで`npx qiita login`をして、ホストの`~/.config/qiita-cli/credentials.json`からコピーしています）  
+
+※ Apple M2 Proでは動いていない。  
+ベースイメージを `mcr.microsoft.com/devcontainers/base:ubuntu-24.04`にしているせいか、 イメージの構築の際に、`apt-get update or install` でコケる。  
+GitHub上のCodespaceでは正常に起動できるので、それでよしとして、深く追っていない。  
 
 `credentials.json`はこんな感じです。  
 
