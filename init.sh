@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-mkdir -p /home/node/.config/qiita-cli
-cat <<EOF > /home/node/.config/qiita-cli/credentials.json
+mkdir -p /home/vscode/.config/qiita-cli
+cat <<EOF > /home/vscode/.config/qiita-cli/credentials.json
 {
   "default": "qiita",
   "credentials": [
