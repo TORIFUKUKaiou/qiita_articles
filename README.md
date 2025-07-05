@@ -71,7 +71,8 @@ devcontainer exec npx qiita preview
 
 ## .mdファイルのリネーム
 
-`bin` 配下を参照  
+`bin` 配下を参照    
+`.github/workflows/rename.yml` で自動的にリネームする道を歩んでいます!!!  
 
 
 # Qiita CLIのアップデート
