@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-07-09T07:06:50+09:00'
+updated_at: '2025-07-10T05:04:08+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -21,13 +21,12 @@ ignorePublish: false
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[闘魂Elixir ーー AtCoder Beginner Contest 389(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/46f9e29502efa4ffaf05)<br>@torifukukaiou|2025-07-07|4|
-|2|[闘魂Elixir ーー AtCoder Beginner Contest 389(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/dc1e209aabd5afba6966)<br>@torifukukaiou|2025-07-08|3|
+|1|[闘魂Elixir ーー AtCoder Beginner Contest 389(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/dc1e209aabd5afba6966)<br>@torifukukaiou|2025-07-08|4|
+|2|[闘魂Elixir ーー AtCoder Beginner Contest 389(A)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/46f9e29502efa4ffaf05)<br>@torifukukaiou|2025-07-07|4|
 |3|[Elixirで学ぶ Merkle Tree：ローカル更新と部分的再ハッシュ](https://qiita.com/mnishiguchi/items/c161613aec53f27f3e5b)<br>@mnishiguchi|2025-07-07|3|
 |4|[闘魂Elixir ーー AtCoder Beginner Contest 391(B)をElixirとRustで楽しむ](https://qiita.com/torifukukaiou/items/2222fc0a204d52bd05dd)<br>@torifukukaiou|2025-07-07|3|
-|5|[「全部まとめてハッシュ」では不十分？Elixir で学ぶ Merkle Tree の強み](https://qiita.com/mnishiguchi/items/ab1049c01800594f2040)<br>@mnishiguchi|2025-07-07|3|
-|6|[Elixirで学ぶ Merkle Tree: 奇数ノード対応（CVE-2012-2459）](https://qiita.com/mnishiguchi/items/66aec108d243f4ecb856)<br>@mnishiguchi|2025-07-08|2|
-|7|[Elixirで学ぶ Merkle Tree：兄弟ノードだけで包含証明](https://qiita.com/mnishiguchi/items/bef008fb55d6e55e5e11)<br>@mnishiguchi|2025-07-08|2|
+|5|[Elixirで学ぶ Merkle Tree: 奇数ノード対応（CVE-2012-2459）](https://qiita.com/mnishiguchi/items/66aec108d243f4ecb856)<br>@mnishiguchi|2025-07-09|2|
+|6|[Elixirで学ぶ Merkle Tree：兄弟ノードだけで包含証明](https://qiita.com/mnishiguchi/items/bef008fb55d6e55e5e11)<br>@mnishiguchi|2025-07-08|2|
 
 
 # 直近1ヶ月
@@ -35,18 +34,18 @@ ignorePublish: false
 |---|---|---|---:|
 |1|[ExcelからElixir入門①：データ並替え／絞り込み](https://qiita.com/piacerex/items/6714e1440e3f25fb46a1)<br>@piacerex|2025-06-14|284|
 |2|[「なぜ私はElixirに賭けたか」のその先：プログラマとして体力／気力がゼロになってても全回復できる Elixirが奏でる、未来志向でSF的、サイバーパンクな世界へようこそ（今からElixirを始める説明付き）](https://qiita.com/piacerex/items/09876caa1e17169ec5e1)<br>@piacerex|2025-06-17|130|
-|3|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-07-08|81|
+|3|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-07-09|81|
 |4|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-07-09|60|
-|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-07-08|37|
-|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-07-08|23|
+|5|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-07-09|37|
+|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-07-09|23|
 |7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-07-09|20|
-|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-07-07|15|
+|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-07-09|15|
 |9|[Amazon Q CLI に Phoenix LiveView でゲームを作ってもらいました](https://qiita.com/RyoWakabayashi/items/5f1c327ad6b6a699e5d6)<br>@RyoWakabayashi|2025-06-14|13|
 |10|[Amazon Q CLI x Phoenix LiveView × 闘魂：最速でTic Tac Toeを爆誕させた話](https://qiita.com/torifukukaiou/items/30f43217a6b98058ae28)<br>@torifukukaiou|2025-06-17|12|
-|11|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-07-08|11|
+|11|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-07-09|11|
 |12|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-07-09|11|
 |13|[Google Colab + Livebook + Pythonx + StableDiffusion で画像生成する](https://qiita.com/RyoWakabayashi/items/7f761119d30022e7dcdb)<br>@RyoWakabayashi|2025-06-20|11|
-|14|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-07-08|9|
+|14|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-07-09|9|
 |15|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-06-29|9|
 |16|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2025-07-08|9|
 |17|[闘魂Phoenix道場：MySQLをDockerで立ち上げるッ！！！ Phoenixアプリから使わせていただく](https://qiita.com/torifukukaiou/items/c363a5104125c7a6203b)<br>@torifukukaiou|2025-06-20|9|
@@ -58,7 +57,7 @@ ignorePublish: false
 # 全期間 :confetti_ball::military_medal::confetti_ball:
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[[翻訳] Elixir - 次に来る大物Web言語](https://qiita.com/HirofumiTamori/items/0dfdbada30c7d8f183fd)<br>@HirofumiTamori|2016-08-30|1,380|
+|1|[[翻訳] Elixir - 次に来る大物Web言語](https://qiita.com/HirofumiTamori/items/0dfdbada30c7d8f183fd)<br>@HirofumiTamori|2016-08-30|1,379|
 |2|[リアルタイムウェブな観点からElixir / Phoenix について](https://qiita.com/mizchi/items/e38d3f0461fe316021f7)<br>@mizchi|2016-10-06|717|
 |3|[[翻訳] なぜ私はElixirに賭けたか - メンテナンスプログラマになりたくなければ君もそうしろ](https://qiita.com/HirofumiTamori/items/2e4fd9e70e5358e34d98)<br>@HirofumiTamori|2015-06-01|590|
 |4|[Elixir 基礎文法最速マスター](https://qiita.com/niku/items/729ece76d78057b58271)<br>@niku|2020-05-03|467|
