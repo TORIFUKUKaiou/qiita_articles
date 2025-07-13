@@ -7,12 +7,17 @@ tags:
   - 闘魂
   - AmazonQ
 private: false
-updated_at: '2025-06-17T18:00:22+09:00'
+updated_at: '2025-07-12T22:32:41+09:00'
 id: 30f43217a6b98058ae28
 organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
+:::note info
+㊗️ Tシャツをいただけました :tada::tada::tada:
+ありがとうーーーッ！！！　ございます。
+:::
+
 
 # はじめに
 
