@@ -1,12 +1,12 @@
 ---
-title: 389倍の差！ ElixirでO(n)の罠にハマった話 - MapとListの性能差が想像以上だった件
+title: 900倍の差！ ElixirでO(n)の罠にハマった話 - MapとListの性能差が想像以上だった件
 tags:
   - Elixir
   - ポエム
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-07-13T08:05:19+09:00'
+updated_at: '2025-07-13T10:04:46+09:00'
 id: 96bd52f314768cb16e89
 organization_url_name: fukuokaex
 slide: false
@@ -74,7 +74,7 @@ end
 
 問題の原因は明らかでした。`Enum.find/2`による線形検索です。
 
-そこで、MapによるO(log n)検索に変更しました。
+そこで、Mapによる $O(\log n)$ 検索に変更しました。
 
 ```elixir
 defmodule UserManager2 do
@@ -117,7 +117,11 @@ end
 
 「どれくらい違うんだろう？」と思い、しっかりベンチマークを取ってみました。
 
+@zacky1972 先生から、[有益なコメント](https://qiita.com/torifukukaiou/items/96bd52f314768cb16e89#comment-73001ccb84cd6a5a7552)をいただきました。御礼申し上げます。
+
 ```elixir
+Mix.install([{:benchee, "~> 1.4"}])
+
 defmodule UserBenchmark do
   def run_benchmark do
     # テストデータサイズ
@@ -146,36 +150,21 @@ defmodule UserBenchmark do
           "user_#{:rand.uniform(size)}"
         end)
       
-      # O(n)版のベンチマーク
-      {time1, _} = :timer.tc(fn ->
-        Enum.each(search_targets, fn target ->
-          UserManager.find_user(manager1, target)
-        end)
-      end)
-      
-      # O(log n)版のベンチマーク
-      {time2, _} = :timer.tc(fn ->
-        Enum.each(search_targets, fn target ->
-          UserManager2.find_user(manager2, target)
-        end)
-      end)
-      
-      time1_ms = time1 / 1000
-      time2_ms = time2 / 1000
-      improvement = time1_ms / time2_ms
-      
-      IO.puts("O(n)版（List）: #{Float.round(time1_ms, 4)}ms")
-      IO.puts("O(log n)版（Map）: #{Float.round(time2_ms, 4)}ms")
-      IO.puts("改善倍率: #{Float.round(improvement, 1)}倍高速化")
-      
+      Benchee.run(
+        %{
+          "List O(n)" => fn -> Enum.each(search_targets, fn target -> UserManager.find_user(manager1, target) end) end,
+          "Map O(log n)" => fn -> Enum.each(search_targets, fn target -> UserManager2.find_user(manager2, target) end) end
+        }
+      )
+
+      IO.puts(String.duplicate("=", 25))
+
       # プロセスを終了
       GenServer.stop(manager1)
       GenServer.stop(manager2)
     end)
   end
 end
-
-UserBenchmark.run_benchmark()
 ```
 
 # 結果に愕然とした
@@ -184,43 +173,179 @@ UserBenchmark.run_benchmark()
 
 ```
 === テストサイズ: 1000ユーザー ===
-O(n)版（List）: 16.939ms
-O(log n)版（Map）: 1.777ms
-改善倍率: 9.5倍高速化
+Operating System: macOS
+CPU Information: Apple M2 Pro
+Number of Available Cores: 10
+Available memory: 32 GB
+Elixir 1.18.3
+Erlang 27.3.3
+JIT enabled: true
+
+Benchmark suite executing with the following configuration:
+warmup: 2 s
+time: 5 s
+memory time: 0 ns
+reduction time: 0 ns
+parallel: 1
+inputs: none specified
+Estimated total run time: 14 s
+
+Benchmarking List O(n) ...
+Benchmarking Map O(log n) ...
+Calculating statistics...
+Formatting results...
+
+Name                   ips        average  deviation         median         99th %
+Map O(log n)        846.50        1.18 ms    ±45.39%        0.90 ms        2.37 ms
+List O(n)           122.26        8.18 ms     ±4.17%        8.13 ms        8.76 ms
+
+Comparison: 
+Map O(log n)        846.50
+List O(n)           122.26 - 6.92x slower +7.00 ms
+=========================
 
 === テストサイズ: 5000ユーザー ===
-O(n)版（List）: 41.449ms
-O(log n)版（Map）: 1.064ms
-改善倍率: 39.0倍高速化
+Operating System: macOS
+CPU Information: Apple M2 Pro
+Number of Available Cores: 10
+Available memory: 32 GB
+Elixir 1.18.3
+Erlang 27.3.3
+JIT enabled: true
+
+Benchmark suite executing with the following configuration:
+warmup: 2 s
+time: 5 s
+memory time: 0 ns
+reduction time: 0 ns
+parallel: 1
+inputs: none specified
+Estimated total run time: 14 s
+
+Benchmarking List O(n) ...
+Benchmarking Map O(log n) ...
+Calculating statistics...
+Formatting results...
+
+Name                   ips        average  deviation         median         99th %
+Map O(log n)        1.08 K        0.93 ms     ±4.04%        0.92 ms        1.00 ms
+List O(n)         0.0271 K       36.94 ms     ±1.07%       36.86 ms       39.35 ms
+
+Comparison: 
+Map O(log n)        1.08 K
+List O(n)         0.0271 K - 39.83x slower +36.02 ms
+=========================
 
 === テストサイズ: 10000ユーザー ===
-O(n)版（List）: 74.261ms
-O(log n)版（Map）: 1.014ms
-改善倍率: 73.2倍高速化
+Operating System: macOS
+CPU Information: Apple M2 Pro
+Number of Available Cores: 10
+Available memory: 32 GB
+Elixir 1.18.3
+Erlang 27.3.3
+JIT enabled: true
+
+Benchmark suite executing with the following configuration:
+warmup: 2 s
+time: 5 s
+memory time: 0 ns
+reduction time: 0 ns
+parallel: 1
+inputs: none specified
+Estimated total run time: 14 s
+
+Benchmarking List O(n) ...
+Benchmarking Map O(log n) ...
+Calculating statistics...
+Formatting results...
+
+Name                   ips        average  deviation         median         99th %
+Map O(log n)        458.73        2.18 ms     ±6.15%        2.09 ms        2.43 ms
+List O(n)            12.63       79.20 ms    ±11.35%       75.53 ms      106.99 ms
+
+Comparison: 
+Map O(log n)        458.73
+List O(n)            12.63 - 36.33x slower +77.02 ms
+=========================
 
 === テストサイズ: 50000ユーザー ===
-O(n)版（List）: 366.682ms
-O(log n)版（Map）: 1.108ms
-改善倍率: 330.9倍高速化
+Operating System: macOS
+CPU Information: Apple M2 Pro
+Number of Available Cores: 10
+Available memory: 32 GB
+Elixir 1.18.3
+Erlang 27.3.3
+JIT enabled: true
+
+Benchmark suite executing with the following configuration:
+warmup: 2 s
+time: 5 s
+memory time: 0 ns
+reduction time: 0 ns
+parallel: 1
+inputs: none specified
+Estimated total run time: 14 s
+
+Benchmarking List O(n) ...
+Benchmarking Map O(log n) ...
+Calculating statistics...
+Formatting results...
+
+Name                   ips        average  deviation         median         99th %
+Map O(log n)        1.02 K        0.98 ms    ±22.30%        0.93 ms        2.33 ms
+List O(n)        0.00248 K      403.24 ms    ±15.41%      359.60 ms      500.73 ms
+
+Comparison: 
+Map O(log n)        1.02 K
+List O(n)        0.00248 K - 412.49x slower +402.27 ms
+=========================
 
 === テストサイズ: 100000ユーザー ===
-O(n)版（List）: 743.424ms
-O(log n)版（Map）: 1.908ms
-改善倍率: 389.6倍高速化
+Operating System: macOS
+CPU Information: Apple M2 Pro
+Number of Available Cores: 10
+Available memory: 32 GB
+Elixir 1.18.3
+Erlang 27.3.3
+JIT enabled: true
+
+Benchmark suite executing with the following configuration:
+warmup: 2 s
+time: 5 s
+memory time: 0 ns
+reduction time: 0 ns
+parallel: 1
+inputs: none specified
+Estimated total run time: 14 s
+
+Benchmarking List O(n) ...
+Benchmarking Map O(log n) ...
+Calculating statistics...
+Formatting results...
+
+Name                   ips        average  deviation         median         99th %
+Map O(log n)        1.08 K        0.93 ms     ±2.19%        0.92 ms        0.99 ms
+List O(n)        0.00119 K      837.07 ms    ±14.28%      805.58 ms     1004.54 ms
+
+Comparison: 
+Map O(log n)        1.08 K
+List O(n)        0.00119 K - 900.65x slower +836.15 ms
+=========================
 ```
 
-| ユーザー数 | O(n)版（List） | O(log n)版（Map） | 高速化倍率 |
+| ユーザー数 | $O(n)$ 版（List） ips | $O(\log n)$ 版（Map） ips | 高速化倍率 |
 |------------|----------------|---------------|-------------|
-| 1,000      | 16.9 ms        | 1.7 ms        | 9.5倍       |
-| 5,000      | 41.4 ms        | 1.0 ms        | 39.0倍      |
-| 10,000     | 74.2 ms        | 1.0 ms        | 73.2倍      |
-| 50,000     | 366.6 ms       | 1.1 ms        | 330.9倍     |
-| 100,000    | 743.4 ms       | 1.9 ms        | 389.6倍     |
+| 1,000      | 122.26        | 846.50        | 6.9倍       |
+| 5,000      | 0.0271 K         | 1.08 K        | 39.8倍      |
+| 10,000     | 12.63        | 458.73        | 36.3倍      |
+| 50,000     | 0.00248 K       | 1.08 K         | 412.4倍     |
+| 100,000    | 0.00119 K       | 1.08 K        | 900.6倍     |
 
-![benchmark_list_vs_map_en.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/cbecdb36-e738-449b-bfac-50de9484fe3a.png)
+※ ips = Iterations per Second
 
-※ 図中: O(1) は、 O(log n)の誤りです。  
+ ![eb8b32cb-21b2-447e-b394-6f58a5e94b8d.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/29e8d741-9dba-4ec4-8bdc-f2dddfccaee4.png)
 
+ユーザー数が増加しても Map の性能（ips）が安定して高く、List は急激に低下する様子を明示しています。  
 
 **想像以上でした。**
 
@@ -228,30 +353,30 @@ O(log n)版（Map）: 1.908ms
 
 ## 1. 線形増加の恐怖
 
-- 1000ユーザー: 約17ms → まあ許容範囲
-- 10000ユーザー: 約74ms → ちょっと遅い
-- 50000ユーザー: 約367ms → 体感できる遅さ
-- 100000ユーザー: 約743ms → 完全にアウト
+- 1000ユーザー: 約8ms → まあ許容範囲
+- 10000ユーザー: 約79ms → ちょっと遅い
+- 50000ユーザー: 約403ms → 体感できる遅さ
+- 100000ユーザー: 約843ms → 完全にアウト
 
 ## 2. 改善倍率の驚異
 
 - 1000ユーザーで9.5倍
-- 50000ユーザーで330.9倍
-- 100000ユーザーで389.6倍
+- 50000ユーザーで402.2倍
+- 100000ユーザーで900.6倍
 
 ## 3. Map版の安定性
 
-データサイズが100倍になっても、Map版の処理時間はほぼ一定（約1-2ms）。これがO(log n)の威力です。
+データサイズが100倍になっても、Map版の処理時間はほぼ一定（約1ms）。これが $O(\log n)$ の威力です。
 
 # 実用的な影響
 
 この数値を実際のWebアプリケーションに置き換えて考えてみると：
 
 **1000回の検索 = 1000人のユーザーが同時にログインしようとした場合**
-- 50000ユーザー登録済みの場合：**367ms vs 1.1ms**
-- 100000ユーザー登録済みの場合：**743ms vs 1.9ms**
+- 50000ユーザー登録済みの場合：**367ms vs 0.93ms**
+- 100000ユーザー登録済みの場合：**743ms vs 0.94ms**
 
-O(n)版だと、ユーザー数が増えるほど全体のレスポンスが悪化し、最悪の場合タイムアウトも発生します。
+$O(n)$ 版だと、ユーザー数が増えるほど全体のレスポンスが悪化し、最悪の場合タイムアウトも発生します。
 
 # 学んだこと
 
@@ -261,7 +386,7 @@ O(n)版だと、ユーザー数が増えるほど全体のレスポンスが悪�
 
 ## 2. 理論と実践の乖離
 
-「O(n)とO(log n)の違い」を頭では理解していても、実際の数値を見ると改めて驚かされます。
+「$O(n)$と$O(\log n)$の違い」を頭では理解していても、実際の数値を見ると改めて驚かされます。
 
 ## 3. スケーラビリティの考慮
 
@@ -273,7 +398,7 @@ O(n)版だと、ユーザー数が増えるほど全体のレスポンスが悪�
 今回の経験で改めて感じたのは：
 
 1. **データ構造の選択は性能に直結する**
-2. **O(n)の罠は身近に潜んでいる**
+2. **$O(n)$の罠は身近に潜んでいる**
 3. **実際の数値で検証することの大切さ**
 4. **スケーラビリティを最初から考慮する重要性**
 
@@ -285,6 +410,6 @@ Elixirを使っている皆さんも、特にGenServerで状態管理をする�
 
 ---
 
-*この記事が誰かの「O(n)の罠」回避に役立てば幸いです！*
+*この記事が誰かの「$O(n)$の罠」回避に役立てば幸いです！*
 
 ![ChatGPT Image 2025年7月12日 10_22_33.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/eeeae009-3577-4a87-aeba-6f6adce8d4f9.png)
