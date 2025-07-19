@@ -1,5 +1,5 @@
 ---
-title: macの起動オプションでの起動でディスクユーティリティでFirst Aidしたらレインボー30分
+title: "macの起動オプションでの起動でディスクユーティリティでFirst Aidしたらレインボー\U0001F30830分"
 tags:
   - Mac
   - Elixir
@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-07-15T22:23:45+09:00'
+updated_at: '2025-07-19T00:17:52+09:00'
 id: dcff45f4146f8d58cf04
 organization_url_name: fukuokaex
 slide: false
