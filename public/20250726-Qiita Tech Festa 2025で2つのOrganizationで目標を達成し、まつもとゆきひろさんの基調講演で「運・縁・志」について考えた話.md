@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - QiitaTechFesta2025
 private: false
-updated_at: '2025-07-26T12:37:06+09:00'
+updated_at: '2025-07-27T13:49:09+09:00'
 id: 576f5cf1bea4d42fe892
 organization_url_name: fukuokaex
 slide: false
@@ -116,7 +116,7 @@ ElixirはRubyの「弟分」と言われることがあります。最も有名�
 
 今回のTech Festaで大量投稿したAtCoder記事は、ElixirとRustで解いていたので、何かしら縁を感じます。
 
-そして好きが講じて、あのサインをもらった当時では考えられなかったことです。私も技術書の著者という末席を汚すまでになれました。
+そして好きが高じて、あのサインをもらった当時では考えられなかったことです。私も技術書の著者という末席を汚すまでになれました。
 
 [Elixir実践入門](https://gihyo.jp/book/2024/978-4-297-14014-4)
 
