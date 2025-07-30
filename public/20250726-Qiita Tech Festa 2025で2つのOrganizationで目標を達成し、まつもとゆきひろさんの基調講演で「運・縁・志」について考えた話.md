@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - QiitaTechFesta2025
 private: false
-updated_at: '2025-07-27T13:49:09+09:00'
+updated_at: '2025-07-29T22:34:40+09:00'
 id: 576f5cf1bea4d42fe892
 organization_url_name: fukuokaex
 slide: false
@@ -25,7 +25,13 @@ ignorePublish: false
 https://qiita.com/tech-festa/2025/award
 
 
-今回は、そのときの体験談と、発表会での[まつもとゆきひろ](https://x.com/yukihiro_matz)さんの基調講演が素晴らしくて、書きたいことがあふれだしました。その一部を記事としてご披露します。
+今回は、そのときの体験談と、発表会での[まつもとゆきひろ](https://x.com/yukihiro_matz)さんによるとっても貴重な基調講演が素晴らしくて、書きたいことがあふれだしました。その一部を記事としてご披露します。
+
+## YouTube
+
+[まつもとゆきひろの作り方_まつもと ゆきひろ氏](https://www.youtube.com/watch?v=nEgRn19x4EE&t=2336s)
+
+https://www.youtube.com/watch?v=nEgRn19x4EE&t=2336s
 
 # 大量投稿作戦（ちょっと卑怯？）
 
