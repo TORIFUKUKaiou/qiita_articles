@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-07-31T19:11:14+09:00'
+updated_at: '2025-08-01T14:38:31+09:00'
 id: 18f0745d9b4b563c58c4
 organization_url_name: haw
 slide: false
@@ -37,6 +37,11 @@ ignorePublish: false
 | 午後  |  [AWS Builders Online Series](https://aws.amazon.com/jp/events/builders-online-series/) に参加 |
 
 
+[AWS Builders Online Series](https://aws.amazon.com/jp/events/builders-online-series/) はご都合が合わずに不参加であった方も、しばらくの間は後から登録することで、観られるようです。
+
+https://builders-apj.virtual.awsevents.com/
+
+https://x.com/YukkiTakahashi/status/1950913648471523483
 
 
 ---
