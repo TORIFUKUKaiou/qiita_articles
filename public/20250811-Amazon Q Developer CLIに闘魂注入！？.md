@@ -7,12 +7,14 @@ tags:
   - AmazonQ
   - AmazonQCLI
 private: false
-updated_at: '2025-08-11T22:19:15+09:00'
+updated_at: '2025-08-12T11:05:38+09:00'
 id: f2768a6704e0e86ad8da
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
+English: [Injecting Toukon (Self-Mastery Spirit) into Amazon Q Developer CLI!?](https://dev.to/torifukukaiou/injecting-toukon-self-mastery-spirit-into-amazon-q-cli-3ddb)
+
 ## はじめに
 
 [Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli)をご存知でしょうか。`q`とターミナルに打ち込んで、チャットしながら開発を進めるAIツールです。  
@@ -74,24 +76,25 @@ q theme palenight
 [Fig](https://github.com/withfig/fig)のGitHubリポジトリはPublic Archiveされており、[公式ページ](https://fig.io/)には、「Fig has been sunset, migrate to Amazon Q」と書いてありました。Public Archiveされたリポジトリの案内には、[amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)で手に入るとのことでしたので、まずは[amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)を解析してみることにしました。  
 
 
-## 第三章：Amazon Q との対話
+## 第三章：Amazon Q Developer CLIとの対話
 
 [amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)を解析してみます。  
 
-奇しくも、Amazon Q CLI のコードを解析するのは Amazon Q CLI自身にやってもらいました。  
-「君は自分自身を解析できるのか？」  
+奇しくも、Amazon Q Developer CLI のコードを解析するのは Amazon Q Developer CLI自身にやってもらいました。  
+「**君は自分自身を解析できるのか？**」  
 AIとの奇妙な共同作業が始まりました。  
+小宇宙（コスモ）を感じました。  
 
-しかし、調査は難航します。[Fig](https://github.com/withfig/fig)の形跡らしきものが見つかりません。`theme`サブコマンドまでの道のりは遠そうです。  
+しかし、調査は難航をきわめます。[Fig](https://github.com/withfig/fig)の形跡らしきものが見つかりません。`theme`サブコマンドまでの道のりは遠そうです。  
 
 
 ## 第四章：autocomplete リポジトリの発見
 
 それは険しい道のりでした。いばらの道でした。しかし、猪木さんがおっしゃったように笑って歩きました。  
-Amazon Q CLIが頑張ってくれました。  
+Amazon Q Developer CLIが頑張ってくれました。  
 [amazon-q-developer-cli/crates/chat-cli/src/cli/feed.json](https://github.com/aws/amazon-q-developer-cli/blob/5ba7b8db9f3d8203c6578c9c1bf22127959bf70e/crates/chat-cli/src/cli/feed.json) の中に、[amazon-q-developer-cli-autocomplete](https://github.com/aws/amazon-q-developer-cli-autocomplete)リポジトリへの参照が大量に見つかりました。
 
-ここまでくれば、あとは楽勝です。ついに発見ましたよ！[amazon-q-developer-cli-autocomplete](https://github.com/aws/amazon-q-developer-cli-autocomplete)の中に。
+ここまでくれば、あとは楽勝です。ついに発見しましたよ！[amazon-q-developer-cli-autocomplete](https://github.com/aws/amazon-q-developer-cli-autocomplete)の中に。
 [build.py の718行目](https://github.com/aws/amazon-q-developer-cli-autocomplete/blob/e44ee53d76813a5ef107dcd0d6181b089cb5b2f2/build-scripts/build.py#L718)に隠された真実：
 
 https://github.com/aws/amazon-q-developer-cli-autocomplete/blob/e44ee53d76813a5ef107dcd0d6181b089cb5b2f2/build-scripts/build.py#L718
@@ -100,7 +103,7 @@ _（↑↑↑ Qiitaさんの最近のアップデートで入った機能です�
 
 [Fig](https://github.com/withfig/fig)のテーマを集めたリポジトリからコピーしていることを発見しました。  
 
-世界的なソフトウェアの心臓部に、闘魂を注入する道筋が見えてきました。  
+世界的なソフトウェアの心臓部（否、上っ面？）に、闘魂を注入する道筋が見えてきました。  
 
 
 ## 第五章：闘魂の実装
@@ -178,7 +181,7 @@ EOF
 ## エピローグ：世界への闘魂注入
 
 [プルリクエスト #37](https://github.com/withfig/themes/pull/37) を送りました。  
-マージされれば、世界中の開発者が **闘魂** を体験できます。取り込まれれば、どこかのリリースタイミングでビルドフローに乗ると思いますので、私のように危険かつ過激なことをしなくても、みなさまの手もとでも`q theme toukon`とすれば、 **闘魂注入** が可能となります。放置されたテーマのプルリクが順番待ちをしているので、マージされるのは難しいだろうとは思います。 
+マージされれば、世界中の開発者が **闘魂** を体験できます。取り込まれれば、どこかのリリースタイミングでビルドフローに乗ると思いますので、私のように **危険かつ過激** なことをしなくても、みなさまの手もとでも`q theme toukon`とすれば、 **闘魂注入** が可能となります。放置されたテーマのプルリクが順番待ちをしているので、マージされるのは難しいだろうとは思います。 
 
 [Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli) というツールを使って、[Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli) を解析し、そして [Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli)  に **闘魂を注入** するまでの物語でした。
 
