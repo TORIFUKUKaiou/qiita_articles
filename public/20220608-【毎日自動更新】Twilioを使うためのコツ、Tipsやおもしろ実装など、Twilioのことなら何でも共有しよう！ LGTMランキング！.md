@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Twilio
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-08-18T08:01:58+09:00'
+updated_at: '2025-08-19T08:00:23+09:00'
 id: 7f9141f7b943ccb2edff
 organization_url_name: fukuokaex
 slide: false
