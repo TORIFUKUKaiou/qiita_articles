@@ -7,7 +7,7 @@ tags:
   - AmazonQCLI
   - Kiro
 private: false
-updated_at: '2025-08-18T19:59:24+09:00'
+updated_at: '2025-08-20T08:58:40+09:00'
 id: cca725c15c4922133a36
 organization_url_name: haw
 slide: false
@@ -350,6 +350,17 @@ Macの標準ターミナルで`q chat`セッションをはじめると、ター
 
 もし、何らかの事情により、どうしても異なるディレクトリで話を引き継がせたければ、元ディレクトリに「他のGenerative AIにこのあとのことを任せたいです。引き継ぎ用のプロンプトを書いてください。」とでも指示すれば、Claudeどうしでの話が通じる無駄のない、一貫性をもった、整理された引き継ぎ文章を得られます。
 
+#### 💡 `q chat`チャットセッション内での改行は、 Ctl + j
+
+`q chat`チャットセッション内での改行したくなることがあります。
+そんな時は、`Ctl + j`です。
+
+#### 💡 `q chat`チャットセッション内でのコマンド実行は、 !
+
+`q chat`チャットセッション内でのコマンドを実行したくなることがあります。
+そんな時は、`!`です。たとえば、`!git status`という具合です。
+`q chat`チャットセッション内で、旧Figが動きだしたら最高の体験かもしれません。
+
 #### 💡 Amazon Q Developer ワークショップ - Q-Words アプリ構築
 
 Amazon Q Developer CLIの良さを本編ではお伝えしました。
@@ -586,5 +597,5 @@ Claudeは素直です。素直に役を演じてくれます。そんな印象�
   - T4-4: 今日から GenU で実現する生成 AI アプリケーション
   - T2-1: AWS 自動化入門
   - T2-4: Amazon Q Developer で変える開発スタイル
-
+- [Claude Code全盛期だからこそ伝えたい、Amazon Q Developer CLIのススメ](https://qiita.com/papi_tokei/items/38694b099d266260e57c)
 
