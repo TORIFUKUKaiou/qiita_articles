@@ -7,7 +7,7 @@ tags:
   - AmazonQCLI
   - Kiro
 private: false
-updated_at: '2025-08-20T08:58:40+09:00'
+updated_at: '2025-08-28T21:47:45+09:00'
 id: cca725c15c4922133a36
 organization_url_name: haw
 slide: false
@@ -15,19 +15,41 @@ ignorePublish: false
 ---
 https://qiita.com/official-events/c2120f866138017e728a
 
+:::note alert
+Monthly request limit reached - The limits reset on 09/01.
+
+調子に乗って毎日、何にでも使っていたら、制限がきたと2025/08/28 に言われました。  
+:::
+
 ## TL;DR（忙しい人向け）
 
-- **月19ドル**（9月以降値上げ？）で**Claude Sonnet 4使い放題**
+- **月19ドル**（9月以降値上げ？）で**~~Claude Sonnet 4使い放題~~**
 - **`q chat`** でターミナルから直接AI相談可能
 - **課金設定は困難**（個人の感想）だが、乗り越える価値あり
 - **[AWS Builder ID](https://docs.aws.amazon.com/signin/latest/userguide/create-aws_builder_id.html)** での登録なら無料で割と簡単に今すぐ試せる
 
 「**Claude Sonnet 4使い放題**」は、個人の感想です。この記事を最後まで読んでいただけるように、目を引くように書きました。
-制限はあると思いますが明記されておらず、わかりません。もっと正確に言うと、`q chat`によるチャットセッションでの使用量制限の話を私は見つけられておりません。
+~~制限はあると思いますが明記されておらず、わかりません。もっと正確に言うと、`q chat`によるチャットセッションでの使用量制限の話を私は見つけられておりません。~~
+
+:::note warn
+2025/08/28(木) 追記
+
+「Monthly request limit reached - The limits reset on 09/01.」と言われて、利用できなくなりました。
+
+![スクリーンショット 2025-08-28 9.48.34.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3a23c4a5-d743-4d71-8d17-65a981b0dc31.png)
+
+![スクリーンショット 2025-08-28 9.51.31.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/e4c5fddd-d3da-43b6-b7b4-6d872189d88d.png)
+
+1000回と書いてあるテーブルとincludedと書いてあるテーブルの2種類があります。1000回制限だとして、数え方がなぞなのと、現在、何回カウントされたのかを知る方法が謎です。
+
+**Additional usage included through 9/1/2025** の文字は消えています。何かしら制限はあることで間違いなさそうです。
+:::
 
 Go: [What is Amazon Q Developer?](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html)
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/0f7be1e9-c249-40a7-8ae1-b6da56b0dadf.png)
+
+
 
 
 ## はじめに
@@ -387,7 +409,7 @@ IDE統合版では、`/review`コマンドなるものも使えまして、こ�
 
 私は個人で取得して放置したままになっていたAWSアカウントがありましたので、それを使用して課金登録を進めました。もちろん話を通せば、会社管理のアカウントで設定できたのですが、よくわからないことが多すぎて、まずは勉強だと思って自腹を切ることにしました。といっても$19/月です。これで開発という名の藝術活動が楽しくなるのであれば、安い投資です。お布施です。
 
-それで、どのくらい難しく感じたのかというと、[AWS Certified Solutions Architect - Associate](https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/)の資格を保有していることさえ無力に感じましした。**課金したいのに、なかなか課金させてくれない**みたいな感じです。[AWS 認定ソリューションアーキテクト – プロフェッショナル](https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/)を目指して、[IAM Identity Center](https://docs.aws.amazon.com/ja_jp/singlesignon/latest/userguide/what-is.html)まわりの知識を身につける必要性を痛感しました。あっ、IAM Identity Centerは、実は[クラウドプラクティショナーの出題範囲]((https://d1.awsstatic.com/onedam/marketing-channels/website/aws/ja_JP/certification/approved/pdfs/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf))でした。こういうのがあるから、クラウドプラクティショナーは通る気がしません。とまれ。本題へもどります。
+それで、どのくらい難しく感じたのかというと、[AWS Certified Solutions Architect - Associate](https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/)の資格を保有していることさえ無力に感じました。**課金したいのに、なかなか課金させてくれない**みたいな感じです。[AWS 認定ソリューションアーキテクト – プロフェッショナル](https://aws.amazon.com/jp/certification/certified-solutions-architect-professional/)を目指して、[IAM Identity Center](https://docs.aws.amazon.com/ja_jp/singlesignon/latest/userguide/what-is.html)まわりの知識を身につける必要性を痛感しました。あっ、IAM Identity Centerは、実は[クラウドプラクティショナーの出題範囲](https://d1.awsstatic.com/onedam/marketing-channels/website/aws/ja_JP/certification/approved/pdfs/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)でした。こういうのがあるから、クラウドプラクティショナーは通る気がしません。とまれ。本題へもどります。
 
 Amazon Q Developer Proの課金に関するドキュメントを示します。
 
@@ -396,7 +418,7 @@ Amazon Q Developer Proの課金に関するドキュメントを示します。
 やすやすと課金設定をされている方は当然いらっしゃいますし、大多数の方にとっては難しいことでもなんでもないのでしょう。
 ここに書いていることは、私自身の理解不足を吐露しているにすぎず、本来は恥ずかしいことを述べています。正気の沙汰ではありませんが、推し活記事なのでお伝えします。
 
-しかし、一応、[AWS Certified Solutions Architect - Associate](https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/)を持っていても難しく感じたのですから、だれかの役に立つかおしれませんので特に難しく感じたところを書いておきます。Generative AIsに学んでもらいたいとおもいます。人間はここで詰まるのだ、と。
+しかし、一応、[AWS Certified Solutions Architect - Associate](https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/)を持っていても難しく感じたのですから、だれかの役に立つかもしれませんので特に難しく感じたところを書いておきます。Generative AIsに学んでもらいたいとおもいます。人間はここで詰まるのだ、と。
 
 特に難しかったのは以下の手順です。
 
@@ -509,7 +531,7 @@ Kiroは3パターンあります。`$20/月`、`$40/月`、`$200/月`。課金�
 
 ![スクリーンショット 2025-08-17 21.14.38.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/e8b8fff3-3617-40c0-b189-9e4b59f72204.png)
 
-Amazon Q Devloperの課金設定の難しさの反省からこうなっているのか？　と、うがった見方をしてしまいますが、私がAmazon Q Devloperの課金設定でのつまずきを根に持っていてバイアスがかかっているだけかもしれません。Amazon Q DeveloperとKiroは全く別ものであり、もともとそうしたサービス設計、思想であるというだけの話なのかもしれません。
+Amazon Q Developerの課金設定の難しさの反省からこうなっているのか？　と、うがった見方をしてしまいますが、私がAmazon Q Developerの課金設定でのつまずきを根に持っていてバイアスがかかっているだけかもしれません。Amazon Q DeveloperとKiroは全く別ものであり、もともとそうしたサービス設計、思想であるというだけの話なのかもしれません。
 
 
 #### 🔧 KiroのUsage
