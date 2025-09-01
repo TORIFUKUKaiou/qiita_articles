@@ -1,5 +1,5 @@
 ---
-title: 【月19ドル】Amazon Q Developer CLIが好きです（9月以降は値上げ？）
+title: 【月19ドル】Amazon Q Developer CLI(Claude Sonnet 4)が好きです（9月以降は値上げ？）
 tags:
   - AWS
   - AmazonQDeveloper
@@ -7,7 +7,7 @@ tags:
   - AmazonQCLI
   - Kiro
 private: false
-updated_at: '2025-08-28T21:47:45+09:00'
+updated_at: '2025-08-31T17:30:35+09:00'
 id: cca725c15c4922133a36
 organization_url_name: haw
 slide: false
@@ -40,7 +40,7 @@ Monthly request limit reached - The limits reset on 09/01.
 
 ![スクリーンショット 2025-08-28 9.51.31.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/e4c5fddd-d3da-43b6-b7b4-6d872189d88d.png)
 
-1000回と書いてあるテーブルとincludedと書いてあるテーブルの2種類があります。1000回制限だとして、数え方がなぞなのと、現在、何回カウントされたのかを知る方法が謎です。
+1000回と書いてあるテーブルとincludedと書いてあるテーブルの2種類があります。1000回制限だとして、数え方が謎なのと、現在、何回カウントされたのかを知る方法が謎です。
 
 **Additional usage included through 9/1/2025** の文字は消えています。何かしら制限はあることで間違いなさそうです。
 :::
@@ -621,3 +621,5 @@ Claudeは素直です。素直に役を演じてくれます。そんな印象�
   - T2-4: Amazon Q Developer で変える開発スタイル
 - [Claude Code全盛期だからこそ伝えたい、Amazon Q Developer CLIのススメ](https://qiita.com/papi_tokei/items/38694b099d266260e57c)
 
+
+https://zenn.dev/torifukukaiou/articles/9240f95973d7d3
