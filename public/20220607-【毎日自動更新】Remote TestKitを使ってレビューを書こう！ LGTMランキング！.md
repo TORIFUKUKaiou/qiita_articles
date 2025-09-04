@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_NTTレゾナント
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2025-09-03T08:00:31+09:00'
+updated_at: '2025-09-04T08:00:29+09:00'
 id: b4abf0735dad68e0cc11
 organization_url_name: fukuokaex
 slide: false
@@ -49,7 +49,7 @@ https://qiita.com/official-events/f0e8b25feb05af6326b3
 |4|[Remote TestKit + React Native + Expo(EAS build)で実機デバッグを加速する](https://qiita.com/hareruya-maro/items/9e304f8b4f7a595595dd)<br>@hareruya-maro|2022-07-14|2022-07-14|9|
 |5|[風変わりなデバイスでも表示崩れが起きてないか確認したい→Remote TestKitが便利そう](https://qiita.com/kskwtnk/items/890f8e3607d704ab0275)<br>@kskwtnk|2022-07-18|2022-07-18|4|
 |6|[「Remote TestKit」Appium連携とThriftAPIチュートリアルを試してみた](https://qiita.com/weldar0509/items/4d2e2f9abbf98f315b38)<br>@weldar0509|2022-07-18|2022-09-15|4|
-|7|[【毎日自動更新】Remote TestKitを使ってレビューを書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b4abf0735dad68e0cc11)<br>@torifukukaiou|2022-06-07|2025-09-02|3|
+|7|[【毎日自動更新】Remote TestKitを使ってレビューを書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b4abf0735dad68e0cc11)<br>@torifukukaiou|2022-06-07|2025-09-03|3|
 |8|[Remote TestKitで複数機種のテスト自動化やってみた](https://qiita.com/ak2ie/items/543549e825a60b417132)<br>@ak2ie|2022-07-10|2022-07-10|2|
 |9|[AndroidやiOSの各機種・バージョンで検証したい人におすすめのRemote TestKit 〜HTMLメール作成の救世主〜](https://qiita.com/H40831/items/45921752267eb0288560)<br>@H40831|2022-06-28|2022-07-03|2|
 |10|[バグ検証におすすめ。クラウド上のスマホを借りれるサービスの感想。【RemoteTestKit】](https://qiita.com/ZozonTeq/items/c16c63d458c6fb795c26)<br>@ZozonTeq|2022-07-01|2022-07-05|1|
