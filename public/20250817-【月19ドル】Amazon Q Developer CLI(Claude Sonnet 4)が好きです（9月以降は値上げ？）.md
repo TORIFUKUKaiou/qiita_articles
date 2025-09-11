@@ -4,8 +4,8 @@ tags:
   - AWS
   - AmazonQDeveloper
   - AmazonQDeveloperCLI
-  - AmazonQCLI
   - Kiro
+  - AIではなく人間が書いてます
 private: false
 updated_at: '2025-08-31T17:30:35+09:00'
 id: cca725c15c4922133a36

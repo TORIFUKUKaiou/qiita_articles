@@ -5,7 +5,7 @@ tags:
   - 猪木
   - 闘魂
   - AmazonQ
-  - AmazonQCLI
+  - AIではなく人間が書いてます
 private: false
 updated_at: '2025-08-12T11:05:38+09:00'
 id: f2768a6704e0e86ad8da

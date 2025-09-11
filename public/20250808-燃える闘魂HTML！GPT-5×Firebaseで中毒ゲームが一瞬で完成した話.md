@@ -1,11 +1,11 @@
 ---
 title: 燃える闘魂HTML！GPT-5×Firebaseで中毒ゲームが一瞬で完成した話
 tags:
-  - ポエム
   - Firebase
   - 猪木
   - 闘魂
   - GPT-5
+  - AIではなく人間が書いてます
 private: false
 updated_at: '2025-08-08T18:24:47+09:00'
 id: 7eada472173c6da298f9

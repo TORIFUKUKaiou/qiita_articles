@@ -3,9 +3,9 @@ title: 社内ハッカソンでAWS Builders Online Seriesに参加してみた -
 tags:
   - AWS
   - ハッカソン
-  - ポエム
   - 猪木
   - 闘魂
+  - AIではなく人間が書いてます
 private: false
 updated_at: '2025-08-01T14:38:31+09:00'
 id: 18f0745d9b4b563c58c4

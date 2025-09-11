@@ -4,8 +4,8 @@ tags:
   - Rust
   - AtCoder
   - Elixir
-  - 猪木
   - 闘魂
+  - AIではなく人間が書いてます
 private: false
 updated_at: '2025-07-27T21:53:50+09:00'
 id: adb81ca1248c57ee3ff5
