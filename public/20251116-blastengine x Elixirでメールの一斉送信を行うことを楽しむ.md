@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-11-16T10:12:32+09:00'
+updated_at: '2025-11-18T09:31:49+09:00'
 id: cecb955871df313149aa
 organization_url_name: null
 slide: false
@@ -232,7 +232,7 @@ Blastengine.bulk_commit_immediate(delivery_id)
 
 とても美しいと感じております。
 動かし方は、`blastengine.exs`ファイルを作成し、冒頭のDockerコンテナで動かす例を参考に実行してください。
-ちなみに、宛先の`sample@example.com`と`sample2@example.com`は架空のメールアドレスです。
+ちなみに、宛先（To）の`sample@example.com`と`sample2@example.com`は架空のメールアドレスです。
 
 ## さいごに
 Elixirを使って、メールの一斉送信をしました。APIは、[blastengine](https://blastengine.jp/)を利用させていただきました。
