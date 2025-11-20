@@ -4,7 +4,7 @@ tags:
   - AWS
   - AmazonQ
   - AmazonQCLI
-  - AIではなく人間が書いてます
+  - Kiro
   - KiroCLI
 private: false
 updated_at: '2025-11-19T08:26:13+09:00'
