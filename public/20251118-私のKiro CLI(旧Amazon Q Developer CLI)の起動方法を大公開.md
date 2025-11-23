@@ -7,9 +7,9 @@ tags:
   - Kiro
   - KiroCLI
 private: false
-updated_at: '2025-11-19T08:26:13+09:00'
+updated_at: '2025-11-22T14:55:22+09:00'
 id: b23538894e706a000410
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
@@ -97,14 +97,14 @@ Amazon Q Developer CLIは、Codex CLIに似ています。私は利用したこ�
 
 **Amazon Q Developer CLIは、Kiro CLIになりました。**
 
-### 最大の魅力は月額の安さでほぼ体感使い放題 => 過去の話です => 10,000回です
+### 最大の魅力は月額の安さでほぼ体感使い放題 => 過去の話です => おおよそ1,000回です
 $19/月です。
 
 昔話をします。あくまでも昔話です。
 体感ほぼ使い放題です。
 いきなりタイトルと矛盾しますが、使い放題かというと残念ながら上限はあります。私はひっかかったことがあります。それでも月末のわずかな日数だったのでなんとか乗り切りました。どうでもいいチャットでもなんでもかんでもAmazon Q Developer CLIに放り込んでいました。さすがに使い放題ではありませんでした。
 
-最新情報は、「Included (with limits)」で、その回数は下記ドキュメントによると、月あたりの上限は10,000回のようです。
+最新情報は、「Included (with limits)」で、その回数は下記ドキュメントによると、月あたりの上限はおおよそ1,000回のようです。(**equivalent of roughly 1,000 user input**を意訳しました)
 
 https://docs.aws.amazon.com/general/latest/gr/amazonqdev.html#amazonqdev_quotas_pro
 

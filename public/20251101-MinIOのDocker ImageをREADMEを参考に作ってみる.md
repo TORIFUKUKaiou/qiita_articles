@@ -7,9 +7,9 @@ tags:
   - AdventCalendar2025
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-11-01T14:16:43+09:00'
+updated_at: '2025-11-22T12:02:04+09:00'
 id: 70e55a438bdaea0b09ea
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---

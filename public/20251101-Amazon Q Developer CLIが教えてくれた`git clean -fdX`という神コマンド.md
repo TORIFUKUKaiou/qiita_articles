@@ -1,5 +1,5 @@
 ---
-title: Amazon Q Developer CLIが教えてくれた`git clean -fdX`という神コマンド
+title: Kiro CLI(旧Amazon Q Developer CLI)が教えてくれた`git clean -fdX`という神コマンド
 tags:
   - 猪木
   - 闘魂
@@ -7,9 +7,9 @@ tags:
   - AmazonQDeveloperCLI
   - AmazonQCLI
 private: false
-updated_at: '2025-11-01T17:17:13+09:00'
+updated_at: '2025-11-22T14:08:51+09:00'
 id: e7434f22041b0cbd7685
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
@@ -27,9 +27,9 @@ https://qiita.com/advent-calendar/2025
 
 ## はじめに
 
-CDKプロジェクトの検証中、「出発点の状態に戻したい」という要望を出したところ、[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)が`git clean -fdX`という完璧なコマンドを提示してくれました。これが想像以上に便利だったので共有します。
+CDKプロジェクトの検証中、「出発点の状態に戻したい」という要望を出したところ、Kiro CLI（[旧Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)）が`git clean -fdX`という完璧なコマンドを提示してくれました。これが想像以上に便利だったので共有します。
 
-ちなみに、[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)のモデル(`/model`)は、`claude-sonnet-4.5 (active) | experimental`を使用しております。
+ちなみに、Kiro CLI（旧[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)）のモデル(`/model`)は、`claude-sonnet-4.5 (active) | experimental`を使用しております。
 
 ## 状況
 
@@ -65,7 +65,7 @@ rm bin/*.d.ts lib/*.d.ts
 
 面倒くさい...しかも漏れがありそう。
 
-## Amazon Q Developerの提案
+## Kiro CLI（旧Amazon Q Developer）の提案
 
 > 「git管理対象外のファイルを削除します」
 
@@ -207,7 +207,7 @@ git clean -fdX
 
 ### 1. 知らなかったコマンドを教えてくれた
 
-私は`git clean`自体を知らなかったし、大文字の`-X`オプションの存在を知りませんでした。Amazon Q Developerが的確に提案してくれました。
+私は`git clean`自体を知らなかったし、大文字の`-X`オプションの存在を知りませんでした。Kiro CLI(旧Amazon Q Developer CLI)が的確に提案してくれました。
 
 ### 2. 状況に応じた最適解
 
@@ -221,7 +221,7 @@ git clean -fdX
 
 コマンドの意図が明確で、ドライランで確認もできるため、安心して実行できました。
 
-## Amazon Q Developerとの対話の流れ
+## Kiro CLI(旧Amazon Q Developer CLI)との対話の流れ
 
 **私**: 「git管理対象外は残していてもごみなので消しておいてくれ」
 
@@ -253,7 +253,7 @@ Removing node_modules/
 3. ✅ `-n`オプションでドライラン可能
 4. ✅ CDKプロジェクトのクリーンアップに最適
 
-### Amazon Q Developerの「好プレー」ポイント
+### Kiro CLI（旧Amazon Q Developer CLI）の「好プレー」ポイント
 
 - 🎯 状況を正確に理解
 - 🎯 最適なコマンドを提案
@@ -271,7 +271,7 @@ Removing node_modules/
 
 ## おわりに
 
-Amazon Q Developerとの対話の中で、知らなかったGitコマンドを学ぶことができました。これは単なる「コード生成AI」ではなく、**開発パートナー**としての価値を示す好例だと思います。
+Kiro CLI（旧Amazon Q Developer CLI）との対話の中で、知らなかったGitコマンドを学ぶことができました。これは単なる「コード生成AI」ではなく、**開発パートナー**としての価値を示す好例だと思います。
 
 私のAIは一味違う。**A**ntonio **I**nokiさんのほうのAIです。世界一強いタッグパートナーです。
 
@@ -282,7 +282,7 @@ Amazon Q Developerとの対話の中で、知らなかったGitコマンドを�
 **検証環境**:
 - Git: 2.x
 - プロジェクト: AWS CDK TypeScript
-- AI: Amazon Q Developer (CLI版)
+- AI: Kiro CLI（旧Amazon Q Developer CLI）
 
 **参考リンク**:
 - [Git公式ドキュメント - git-clean](https://git-scm.com/docs/git-clean)

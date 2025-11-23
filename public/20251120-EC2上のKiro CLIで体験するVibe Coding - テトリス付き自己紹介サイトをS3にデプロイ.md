@@ -7,9 +7,9 @@ tags:
   - Kiro
   - KiroCLI
 private: false
-updated_at: '2025-11-20T09:16:57+09:00'
+updated_at: '2025-11-22T11:58:53+09:00'
 id: 29e217d5f7483d4218aa
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
