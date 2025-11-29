@@ -7,7 +7,7 @@ tags:
   - Kiro
   - KiroCLI
 private: false
-updated_at: '2025-11-22T14:55:22+09:00'
+updated_at: '2025-11-28T11:29:42+09:00'
 id: b23538894e706a000410
 organization_url_name: haw
 slide: false
@@ -78,14 +78,20 @@ ignorePublish: false
 Kiro CLI(旧Amazon Q Developer CLI)の起動方法を大公開します。
 AWS MCP Serversはがんがん使って欲しいので、trust(信頼)しておきます。
 
-```bash
-kiro-cli chat --resume --trust-tools=@aws-knowledge-mcp-server/aws___read_documentation,@aws-knowledge-mcp-server/aws___recommend,@aws-knowledge-mcp-server/aws___search_documentation,@aws-knowledge-mcp-server/aws___list_regions,@aws-knowledge-mcp-server/aws___get_regional_availability,@awslabs.aws-documentation-mcp-server/read_documentation,@awslabs.aws-documentation-mcp-server/recommend,@awslabs.aws-documentation-mcp-server/search_documentation
-```
+`kiro-cli chat --resume --trust-tools=@aws-knowledge-mcp-server/aws___read_documentation,@aws-knowledge-mcp-server/aws___recommend,@aws-knowledge-mcp-server/aws___search_documentation,@aws-knowledge-mcp-server/aws___list_regions,@aws-knowledge-mcp-server/aws___get_regional_availability,@awslabs.aws-documentation-mcp-server/read_documentation,@awslabs.aws-documentation-mcp-server/recommend,@awslabs.aws-documentation-mcp-server/search_documentation,@awslabs.cdk-mcp-server/CDKGeneralGuidance,@awslabs.cdk-mcp-server/CheckCDKNagSuppressions,@awslabs.cdk-mcp-server/ExplainCDKNagRule,@awslabs.cdk-mcp-server/GenerateBedrockAgentSchema,@awslabs.cdk-mcp-server/GetAwsSolutionsConstructPattern,@awslabs.cdk-mcp-server/LambdaLayerDocumentationProvider,@awslabs.cdk-mcp-server/SearchGenAICDKConstructs`
+
+:::note info
+`--trust-tools`に指定するものの書き方はなにやら難しそうにみえます。私があげたもの以外のMCP Serverを追加した場合のTipsとしてどのように書けばよいのかのコツを示します。これがこの記事のレゾンデートルかもしれません。
+
+一度Kiro CLIを立ち上げて、`/tools`すれば見えてきます。Don't think. Feelです。
+:::
 
 
 :::note warn
 単なる思い出ですが、`q`で起動していたのがもはや懐かしいです。
 :::
+
+
 
 ## Kiro CLI(旧Amazon Q Developer CLI)とは?
 説明が前後しますが、Kiro CLIの説明をします。
