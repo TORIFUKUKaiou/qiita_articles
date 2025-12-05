@@ -7,7 +7,7 @@ tags:
   - LINEmessagingAPI
   - uv(astral-sh)
 private: false
-updated_at: '2025-12-03T22:38:08+09:00'
+updated_at: '2025-12-04T14:39:52+09:00'
 id: 822bec463a6ff418ad2b
 organization_url_name: null
 slide: false
@@ -54,6 +54,9 @@ sequenceDiagram
     end
     C->>P: メッセージ送信
     P->>F: Webhook POST /callback
+    rect rgba(255, 200, 200, 0.3)
+        Note over F: Pythonプログラム実行<br/>handle_text_message()
+    end
     F->>P: Reply API 呼び出し
     P->>C: Echo 応答
 ```
@@ -92,8 +95,16 @@ LINE Developers で Messaging API チャネルを作成し、以下の2つを取
 
 - [Messaging APIを始めよう](https://developers.line.biz/ja/docs/messaging-api/getting-started/)
 
+上から順に「2-3」まで進めてください。
 
-## 2. 3分クッキング：Codespaces で即起動
+---
+
+次に以下の手順を参考に、［あいさつメッセージ］や［応答メッセージ］の設定を［オフ］にしておいてください。
+
+- [LINE Official Account Managerでの設定](https://developers.line.biz/ja/docs/messaging-api/building-bot/#line-manager-settings)
+
+
+## 2. 「3分クッキング：Codespaces で即起動」
 
 ### 2-1. テンプレートリポジトリから起動
 
@@ -105,6 +116,16 @@ LINE Developers で Messaging API チャネルを作成し、以下の2つを取
 
 しばらく待つと devcontainer が立ち上がり、Python 3.14 + uv + FastAPI の環境が自動構築されます。  
 ※ LINE Bot SDK は執筆時点で pydantic v1 系を使っているため、Python 3.14 では警告が 1 行表示されますが、動作には影響しません（無視して問題ありません）。
+
+#### Python 3.14
+プログラミング言語。読みやすく、初心者にも優しい。AI、Web開発、データ分析など幅広く使われる。
+
+#### uv
+Pythonのパッケージ管理ツール。依存関係のインストールや仮想環境の管理を担当。
+
+#### FastAPI
+PythonでWeb APIを作るフレームワーク。LINE Botのような外部サービスとの連携に最適。
+
 
 ### 2-2. 環境変数の設定
 
@@ -157,6 +178,11 @@ uv run uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 起動すると、画面右下に「ポート 8000 が転送されました」という通知が出ます。
 
+アプリケーションのコードは、`app/main.py`です。左のエクスプローラメニューから開いてみましょう。ちなみに、`app/main.py`は、`app`はディレクトリで、その下に`main.py`ファイルがあるということを表しています。覚えておきましょう。
+
+これまで学んできた基礎よりはずいぶん複雑で難しそうに見えるかもしれませんが、似た部分もあるはずです。ポイントは、 `handle_text_message` 関数です。 **Don't think. Feel!** です。なんとなく似ている部分があることをつかんでもらえばまずはOKです。
+
+
 ### 2-4. Webhook URL の設定
 
 1. VS Code の **「PORTS」** タブを開く
@@ -164,23 +190,49 @@ uv run uvicorn app.main:app --host 0.0.0.0 --port 8000
 3. 表示された URL（例：`https://xxxx-8000.app.github.dev`）をコピー
 4. URL の末尾に `/callback` を追加（例：`https://xxxx-8000.app.github.dev/callback`）
 5. LINE Developers の「Webhook URL」に貼り付け
-6. **「Use webhook」を ON** にして **「Verify」** をクリック
+6. **「Use webhook」を ON** にして **「検証（Verify）」** をクリック
 7. 動作確認が終わったら、PORTS タブでポートを **「Private」** に戻しておく（公開しっぱなしだと第三者から叩かれる恐れがあります）
 
 ### 2-5. 動作確認
 
-LINE で Bot を友だち追加し、メッセージを送信してみましょう。
+LINE で Bot を友だち追加し、メッセージを送信してみましょう。  
+友だち追加は、Messaging API設定のQRコードを読み込んでください。（自動で「友だち」追加されているかもしれません。見つからない場合には、QRコードを読み込むと確実です）  
 
 ```
 あなた: こんにちは
 Bot: Echo: こんにちは
 ```
 
-**おめでとうございます！3分で LINE Bot が動きました！** 🎉
+**おめでとうございます！3分クッキングのように LINE Bot が動きました！** 🎉
+
+### 2-6. Codespaces 運用上の注意
+
+**自動停止について**
+
+Codespaces は無操作30分で自動停止します。
+
+**再開手順**：
+1. [GitHub Codespaces](https://github.com/codespaces) にアクセス
+2. 停止中の Codespace の「...」（3点リーダー）をクリック
+3. **「🌐Open in Browser」** を選択
+
+**再開後の重要な作業**：
+1. ターミナルで `uv run uvicorn app.main:app --host 0.0.0.0 --port 8000` を実行
+2. ポート `8000` を **「Public」** に変更
+3. **新しいURL**（`https://xxxx-8000.app.github.dev`）をコピー
+4. LINE Developers の **Webhook URL を更新**（末尾に `/callback` を忘れずに）
+
+停止・再開するたびにURLが変わるため、Webhook URLの更新が必須です。
+
+**環境の自動削除について**
+
+未使用連続30日間で Codespace 環境自体が削除されます。定期的にアクセスして環境を維持しましょう。
 
 ## 3. 【上級編】素のLinuxから環境構築
 
 「devcontainer の裏側を理解したい」「環境を作る楽しみを味わいたい」という方向けです。
+
+ここは飛ばしても大丈夫です。LINEボットの動作を変更してみたい方は、次の「[4. おうむ返しカスタマイズ集](https://qiita.com/torifukukaiou/items/822bec463a6ff418ad2b#4-%E3%81%8A%E3%81%86%E3%82%80%E8%BF%94%E3%81%97%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA%E9%9B%86)」へ進んでください。
 
 ### 3-1. Blank Codespace の起動
 
