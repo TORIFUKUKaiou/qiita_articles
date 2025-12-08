@@ -7,9 +7,9 @@ tags:
   - mise
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-04T21:15:16+09:00'
+updated_at: '2025-12-07T10:51:31+09:00'
 id: f9884c0c71f2cc817fa6
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
