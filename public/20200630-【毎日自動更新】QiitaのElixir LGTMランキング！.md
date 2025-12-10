@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2025-12-09T07:04:47+09:00'
+updated_at: '2025-12-10T07:03:51+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -25,46 +25,46 @@ ignorePublish: false
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
 |1|[音声で会話できるローカルLLM AIボットをElixir／LiveViewで作ってみた](https://qiita.com/piacerex/items/ef80e90f8a8f402ed4d5)<br>@piacerex|2025-12-07|13|
-|2|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2025-12-08|11|
-|3|[Elixir で Open JTalk を使い、IEx に日本語をしゃべらせてみた](https://qiita.com/mnishiguchi/items/becc3c1fa35958921965)<br>@mnishiguchi|2025-11-09|11|
-|4|[Elixirのパイプ演算子は川の流れの如く](https://qiita.com/torifukukaiou/items/d9656e75011fb8ce4787)<br>@torifukukaiou|2025-11-22|11|
-|5|[VibeコーデイングこそElixirで練習すると良い理由](https://qiita.com/Yoosuke/items/9c62861b7383ef103b5f)<br>@Yoosuke|2025-12-02|10|
-|6|[LiveViewとthree.jsを使ってアニメーションを作ろう](https://qiita.com/t-yamanashi/items/261a2371057360869660)<br>@t-yamanashi|2025-11-21|9|
-|7|[ElixirでS3を操る - EC2のIAMロールで画像アップロード実装](https://qiita.com/torifukukaiou/items/769b889e6561a87bf2a8)<br>@torifukukaiou|2025-11-22|9|
-|8|[ElixirDesktopの環境構築 2025 Mac編](https://qiita.com/the_haigo/items/60e9f386ad695b8326f1)<br>@the_haigo|2025-12-03|9|
-|9|[「fukuoka.ex：福岡Elixirコミュ」は、Advanced Organizationなのです🎉🎉🎉](https://qiita.com/torifukukaiou/items/736b52134de18fec842f)<br>@torifukukaiou|2025-12-04|9|
-|10|[Web技術を再利用してモバイル開発コストを最小化するElixirDesktopとは？](https://qiita.com/the_haigo/items/ef067e7cda82f2bf7dfb)<br>@the_haigo|2025-11-21|9|
-|11|[APIの呼び出しからシステム構築まで：大量翻訳における技術的課題](https://qiita.com/shuirong/items/6d94da5d21585ca4b948)<br>@shuirong|2025-12-01|9|
-|12|[アドベントカレンダーは26記事目からが本番](https://qiita.com/torifukukaiou/items/4d1d6b575ea93909134e)<br>@torifukukaiou|2025-12-07|8|
-|13|[人工無脳Eliちゃん（16）初号機を作る　〜Ollama + Voicevox + three.jsでAIアバターを喋らせる〜](https://qiita.com/t-yamanashi/items/7eba9161342ffde298c1)<br>@t-yamanashi|2025-11-21|8|
-|14|[Advent of Code 2024 Day 8をElixirで解く: Resonant Collinearity](https://qiita.com/torifukukaiou/items/e260e0e3e457d4d45302)<br>@torifukukaiou|2025-11-22|8|
-|15|[Elixirでゼロから学ぶ生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-08|7|
-|16|[AIコーディングツール Tidewaveを使ってアプリを作ってもらう](https://qiita.com/the_haigo/items/5d4dbb63ee5595ced33a)<br>@the_haigo|2025-12-05|7|
-|17|[【2025年版】Ubuntu 24.04 Elixir／Phoenix最短インストール手順（ベアメタル or mise）](https://qiita.com/piacerex/items/e45d89321d6f6f55d142)<br>@piacerex|2025-12-06|7|
-|18|[ちょっと便利かも、Provisioning information](https://qiita.com/matsujirushi/items/5a09c8598c5bae11c1e6)<br>@matsujirushi|2025-12-01|7|
-|19|[Advent of Code 2025 Day 2: Gift Shop をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/74b1872c7ab3fedde968)<br>@torifukukaiou|2025-12-07|6|
-|20|[Advent of Code 2025 Day 1: Secret Entrance をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/c35348d85b328eddaa14)<br>@torifukukaiou|2025-12-07|6|
-|21|[Phoenix1.8でのコンポーネント事情](https://qiita.com/the_haigo/items/458a0ca68de881f37b20)<br>@the_haigo|2025-12-01|6|
-|22|[AtomVM Raspberry Pi Picoのファームをビルドしてブートを高速化する](https://qiita.com/t-yamanashi/items/05349e212b2b8c6f5f8a)<br>@t-yamanashi|2025-11-25|6|
-|23|[AtomVMをUbuntu24.04で動かす](https://qiita.com/t-yamanashi/items/75a9e33b4222dbdb5f77)<br>@t-yamanashi|2025-11-22|6|
-|24|[ElixirDesktopの環境構築 2025 Ubuntu(WSL2)編](https://qiita.com/the_haigo/items/2cd9dc659c1a7b358a27)<br>@the_haigo|2025-12-03|6|
-|25|[Elixir合宿2025 in 湯布院レポート](https://qiita.com/nako_sleep_9h/items/532b53848bf6207b48e9)<br>@nako_sleep_9h|2025-11-19|6|
-|26|[MLXをElixirで使うEMLXを使ってMacのGPUで爆速生成AI](https://qiita.com/the_haigo/items/d1666179da5b21700c0f)<br>@the_haigo|2025-12-01|6|
-|27|[mise で fwup をインストールする](https://qiita.com/mnishiguchi/items/d9481735ca8f31cdb22e)<br>@mnishiguchi|2025-11-09|6|
-|28|[Phoenix1.8の既存の認証機能に乗せる2FA実装](https://qiita.com/the_haigo/items/49d934363407a272f77d)<br>@the_haigo|2025-12-02|6|
-|29|[Elixir(AtomVM)非同期Lチカ LEDごとプロセスを作る　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/5bf3f6af6a3f441cabc4)<br>@t-yamanashi|2025-12-07|5|
-|30|[Elixirプロセス間通信／分散／並行は23種類もあるってご存じでした？](https://qiita.com/piacerex/items/addad997095dcc1dca1c)<br>@piacerex|2025-12-07|5|
-|31|[Elixirを変数（Map）管理をしてVR(Resonite)でも使える仕組みを作ってみた](https://qiita.com/t-yamanashi/items/08a0d0a265885098662d)<br>@t-yamanashi|2025-12-07|5|
-|32|[Elixir 製 Modbus ライブラリ Modbuzz の紹介](https://qiita.com/pojiro/items/ac51cf32905b4d1536d5)<br>@pojiro|2025-12-07|5|
-|33|[LiveViewの非同期処理を検討してみる](https://qiita.com/t-yamanashi/items/87b1e7c6e76042b86cf9)<br>@t-yamanashi|2025-12-06|5|
-|34|[ElixirDesktopのジェネレータライブラリDesktopSetupをChatGPTとアップデートした話](https://qiita.com/the_haigo/items/40ae9eb1ad78183de58b)<br>@the_haigo|2025-12-02|5|
-|35|[Nerves.Runtime.KV の実装から学ぶ遅延読み込み GenServer](https://qiita.com/mnishiguchi/items/60b0560e556361c0468b)<br>@mnishiguchi|2025-12-02|5|
-|36|[Nerves on RPi5: OTA 後のブート時に SPI 初期化が早すぎる問題](https://qiita.com/mnishiguchi/items/d78f8c510a6c9d481387)<br>@mnishiguchi|2025-12-02|5|
-|37|[Elixir(AtomVM)でI2Cを使ってLCD制御　〜  アンチパターンもあるよ 〜](https://qiita.com/t-yamanashi/items/bd50d72ca30e5fe1d104)<br>@t-yamanashi|2025-11-30|5|
-|38|[ExAtomVMでElixirの関数の互換性を確認してみる](https://qiita.com/t-yamanashi/items/4c21037ca75c1d9037bd)<br>@t-yamanashi|2025-11-26|5|
-|39|[Elixir(AtomVM)でLチカ　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/fd2a1eabe6aef889102a)<br>@t-yamanashi|2025-11-24|5|
-|40|[本格わら納豆づくりで関数型プログラミング言語ElixirのIoTフレームワークNervesを活用した話](https://qiita.com/torifukukaiou/items/925065aab28f24975cd3)<br>@torifukukaiou|2025-12-06|4|
-|41|[Phoenix アプリケーションのローカル環境でのトレースを OpenTelemetry + Jaeger で気軽に可視化する](https://qiita.com/koyo-miyamura/items/027ff65d7c2231e78bfe)<br>@koyo-miyamura|2025-12-08|4|
+|2|[Elixirでゼロから学ぶ生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-09|11|
+|3|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2025-12-09|11|
+|4|[Elixir で Open JTalk を使い、IEx に日本語をしゃべらせてみた](https://qiita.com/mnishiguchi/items/becc3c1fa35958921965)<br>@mnishiguchi|2025-11-09|11|
+|5|[Elixirのパイプ演算子は川の流れの如く](https://qiita.com/torifukukaiou/items/d9656e75011fb8ce4787)<br>@torifukukaiou|2025-11-22|11|
+|6|[VibeコーデイングこそElixirで練習すると良い理由](https://qiita.com/Yoosuke/items/9c62861b7383ef103b5f)<br>@Yoosuke|2025-12-02|10|
+|7|[人工無脳Eliちゃん（16）初号機を作る　〜Ollama + Voicevox + three.jsでAIアバターを喋らせる〜](https://qiita.com/t-yamanashi/items/7eba9161342ffde298c1)<br>@t-yamanashi|2025-11-21|9|
+|8|[LiveViewとthree.jsを使ってアニメーションを作ろう](https://qiita.com/t-yamanashi/items/261a2371057360869660)<br>@t-yamanashi|2025-11-21|9|
+|9|[ElixirでS3を操る - EC2のIAMロールで画像アップロード実装](https://qiita.com/torifukukaiou/items/769b889e6561a87bf2a8)<br>@torifukukaiou|2025-11-22|9|
+|10|[ElixirDesktopの環境構築 2025 Mac編](https://qiita.com/the_haigo/items/60e9f386ad695b8326f1)<br>@the_haigo|2025-12-03|9|
+|11|[「fukuoka.ex：福岡Elixirコミュ」は、Advanced Organizationなのです🎉🎉🎉](https://qiita.com/torifukukaiou/items/736b52134de18fec842f)<br>@torifukukaiou|2025-12-04|9|
+|12|[Web技術を再利用してモバイル開発コストを最小化するElixirDesktopとは？](https://qiita.com/the_haigo/items/ef067e7cda82f2bf7dfb)<br>@the_haigo|2025-11-21|9|
+|13|[APIの呼び出しからシステム構築まで：大量翻訳における技術的課題](https://qiita.com/shuirong/items/6d94da5d21585ca4b948)<br>@shuirong|2025-12-01|9|
+|14|[アドベントカレンダーは26記事目からが本番](https://qiita.com/torifukukaiou/items/4d1d6b575ea93909134e)<br>@torifukukaiou|2025-12-07|8|
+|15|[AIコーディングツール Tidewaveを使ってアプリを作ってもらう](https://qiita.com/the_haigo/items/5d4dbb63ee5595ced33a)<br>@the_haigo|2025-12-05|8|
+|16|[Advent of Code 2024 Day 8をElixirで解く: Resonant Collinearity](https://qiita.com/torifukukaiou/items/e260e0e3e457d4d45302)<br>@torifukukaiou|2025-11-22|8|
+|17|[Advent of Code 2025 Day 2: Gift Shop をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/74b1872c7ab3fedde968)<br>@torifukukaiou|2025-12-07|7|
+|18|[Advent of Code 2025 Day 1: Secret Entrance をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/c35348d85b328eddaa14)<br>@torifukukaiou|2025-12-07|7|
+|19|[Elixir(AtomVM)非同期Lチカ LEDごとプロセスを作る　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/5bf3f6af6a3f441cabc4)<br>@t-yamanashi|2025-12-07|7|
+|20|[Phoenix アプリケーションのローカル環境でのトレースを OpenTelemetry + Jaeger で気軽に可視化する](https://qiita.com/koyo-miyamura/items/027ff65d7c2231e78bfe)<br>@koyo-miyamura|2025-12-08|7|
+|21|[ElixirDesktopのジェネレータライブラリDesktopSetupをChatGPTとアップデートした話](https://qiita.com/the_haigo/items/40ae9eb1ad78183de58b)<br>@the_haigo|2025-12-02|7|
+|22|[【2025年版】Ubuntu 24.04 Elixir／Phoenix最短インストール手順（ベアメタル or mise）](https://qiita.com/piacerex/items/e45d89321d6f6f55d142)<br>@piacerex|2025-12-06|7|
+|23|[ちょっと便利かも、Provisioning information](https://qiita.com/matsujirushi/items/5a09c8598c5bae11c1e6)<br>@matsujirushi|2025-12-01|7|
+|24|[AtomVM Raspberry Pi Picoのファームをビルドしてブートを高速化する](https://qiita.com/t-yamanashi/items/05349e212b2b8c6f5f8a)<br>@t-yamanashi|2025-11-25|7|
+|25|[Phoenix1.8の既存の認証機能に乗せる2FA実装](https://qiita.com/the_haigo/items/49d934363407a272f77d)<br>@the_haigo|2025-12-02|7|
+|26|[Elixirプロセス間通信／分散／並行は23種類もあるってご存じでした？](https://qiita.com/piacerex/items/addad997095dcc1dca1c)<br>@piacerex|2025-12-07|6|
+|27|[Elixirを変数（Map）管理をしてVR(Resonite)でも使える仕組みを作ってみた](https://qiita.com/t-yamanashi/items/08a0d0a265885098662d)<br>@t-yamanashi|2025-12-07|6|
+|28|[Phoenix1.8でのコンポーネント事情](https://qiita.com/the_haigo/items/458a0ca68de881f37b20)<br>@the_haigo|2025-12-01|6|
+|29|[ExAtomVMでElixirの関数の互換性を確認してみる](https://qiita.com/t-yamanashi/items/4c21037ca75c1d9037bd)<br>@t-yamanashi|2025-11-26|6|
+|30|[AtomVMをUbuntu24.04で動かす](https://qiita.com/t-yamanashi/items/75a9e33b4222dbdb5f77)<br>@t-yamanashi|2025-11-22|6|
+|31|[ElixirDesktopの環境構築 2025 Ubuntu(WSL2)編](https://qiita.com/the_haigo/items/2cd9dc659c1a7b358a27)<br>@the_haigo|2025-12-03|6|
+|32|[Elixir合宿2025 in 湯布院レポート](https://qiita.com/nako_sleep_9h/items/532b53848bf6207b48e9)<br>@nako_sleep_9h|2025-11-19|6|
+|33|[MLXをElixirで使うEMLXを使ってMacのGPUで爆速生成AI](https://qiita.com/the_haigo/items/d1666179da5b21700c0f)<br>@the_haigo|2025-12-01|6|
+|34|[mise で fwup をインストールする](https://qiita.com/mnishiguchi/items/d9481735ca8f31cdb22e)<br>@mnishiguchi|2025-11-09|6|
+|35|[Elixir 製 Modbus ライブラリ Modbuzz の紹介](https://qiita.com/pojiro/items/ac51cf32905b4d1536d5)<br>@pojiro|2025-12-07|5|
+|36|[LiveViewの非同期処理を検討してみる](https://qiita.com/t-yamanashi/items/87b1e7c6e76042b86cf9)<br>@t-yamanashi|2025-12-06|5|
+|37|[Nerves.Runtime.KV の実装から学ぶ遅延読み込み GenServer](https://qiita.com/mnishiguchi/items/60b0560e556361c0468b)<br>@mnishiguchi|2025-12-02|5|
+|38|[Nerves on RPi5: OTA 後のブート時に SPI 初期化が早すぎる問題](https://qiita.com/mnishiguchi/items/d78f8c510a6c9d481387)<br>@mnishiguchi|2025-12-02|5|
+|39|[Elixir(AtomVM)でI2Cを使ってLCD制御　〜  アンチパターンもあるよ 〜](https://qiita.com/t-yamanashi/items/bd50d72ca30e5fe1d104)<br>@t-yamanashi|2025-11-30|5|
+|40|[Elixir(AtomVM)でLチカ　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/fd2a1eabe6aef889102a)<br>@t-yamanashi|2025-11-24|5|
+|41|[本格わら納豆づくりで関数型プログラミング言語ElixirのIoTフレームワークNervesを活用した話](https://qiita.com/torifukukaiou/items/925065aab28f24975cd3)<br>@torifukukaiou|2025-12-06|4|
 |42|[miseでErlangのインストールが速くなった 🚀](https://qiita.com/torifukukaiou/items/f9884c0c71f2cc817fa6)<br>@torifukukaiou|2025-12-07|4|
 |43|[Elixirで作った3D表示のアプリが動きます 〜 そう、iPhoneならね 〜](https://qiita.com/t-yamanashi/items/0a2658a11bb009ab0751)<br>@t-yamanashi|2025-12-05|4|
 |44|[Elixir: charlist でのパス解析](https://qiita.com/mnishiguchi/items/75e886d9a794d8d45f46)<br>@mnishiguchi|2025-12-01|4|
@@ -73,75 +73,75 @@ ignorePublish: false
 |47|[Elixirでバージョン文字列を解析して分岐処理](https://qiita.com/mnishiguchi/items/2650281f1e9ce8eafb6d)<br>@mnishiguchi|2025-11-28|4|
 |48|[Elixir(AtomVM)でLチカ　〜 M5Stack CoreS3 〜](https://qiita.com/t-yamanashi/items/474b03ff20db2ee2b8c7)<br>@t-yamanashi|2025-11-28|4|
 |49|[Elixir/Nerves における MIX_TARGET の基礎](https://qiita.com/mnishiguchi/items/691125a057615438024d)<br>@mnishiguchi|2025-11-29|4|
-|50|[よく使う Nerves の mix タスクはどこで定義されている？](https://qiita.com/mnishiguchi/items/b24558a3e14c4ac6af7a)<br>@mnishiguchi|2025-12-07|4|
-|51|[NAS(DXP4800 Plus)にLivebookをインストールする](https://qiita.com/t-yamanashi/items/f261ae709eafb9aaa002)<br>@t-yamanashi|2025-11-21|4|
-|52|[Elixir: IExでCircuits.GPIOを試す](https://qiita.com/mnishiguchi/items/e1d418d4ae3a460fd465)<br>@mnishiguchi|2025-11-18|4|
-|53|[ LiveViewでLLM + VOICEVOXの非同期高速化](https://qiita.com/t-yamanashi/items/a903358067d851c19487)<br>@t-yamanashi|2025-12-08|3|
-|54|[実録 Nervesアプリで定期実行ができない！ cronの書き方を間違えているだけでした](https://qiita.com/torifukukaiou/items/eab541b850e17593deea)<br>@torifukukaiou|2025-12-04|3|
-|55|[LiveViewでVOICEVOXを楽に使う手段を作ってみた](https://qiita.com/t-yamanashi/items/ead0a57789d5647dc526)<br>@t-yamanashi|2025-12-03|3|
-|56|[血圧を記録するアプリを作る その３ 〜 血圧測定の結果を元にグラフを作る 〜](https://qiita.com/t-yamanashi/items/7c709a827dc24a9041e4)<br>@t-yamanashi|2025-12-02|3|
-|57|[血圧を記録するアプリを作る その１〜 LiveViewを使ってWeb画面を作る 〜](https://qiita.com/t-yamanashi/items/eeefe0339bd479871adb)<br>@t-yamanashi|2025-12-01|3|
-|58|[Elixirで画像解析して数値をCSV形式で取り込む 〜血圧計の写真をデータ化する 〜](https://qiita.com/t-yamanashi/items/501ecb8572a1492ae05e)<br>@t-yamanashi|2025-11-30|3|
-|59|[mise を使って Elixir の Mix コマンドを自動で実行する](https://qiita.com/mnishiguchi/items/85eb00c95450c6a5242e)<br>@mnishiguchi|2025-11-27|3|
-|60|[Elixir(AtomVM)でデジタルフラッグ　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/8f1fa23fcb7fa77cb07d)<br>@t-yamanashi|2025-11-27|3|
-|61|[NervesのOTAファームウェア更新：mix uploadとupload.sh](https://qiita.com/mnishiguchi/items/a2a50eb8e610210a2742)<br>@mnishiguchi|2025-11-25|3|
-|62|[H2O LLM Studioファインチューニングした結果をElixirで動かす](https://qiita.com/t-yamanashi/items/046fea1a60c2db48f665)<br>@t-yamanashi|2025-11-20|3|
-|63|[mix do で複数の Mix タスクを一度に実行する](https://qiita.com/mnishiguchi/items/5bf18f56df4ba648e256)<br>@mnishiguchi|2025-11-10|3|
-|64|[LiveViewでLLMを使う　〜非同期処理を対応する〜](https://qiita.com/t-yamanashi/items/d1d124f6dae097fa511d)<br>@t-yamanashi|2025-12-07|2|
-|65|[LiveView on Babylon.js でチュートリアルの2章やってみた その１](https://qiita.com/the_haigo/items/548969cb29411d2e4b1e)<br>@the_haigo|2025-12-06|2|
-|66|[LiveView on Babylon.js でチュートリアルの１章やってみた](https://qiita.com/the_haigo/items/43bfffd467f26f30d0fd)<br>@the_haigo|2025-12-06|2|
-|67|[ElixirDesktop製のスマホアプリでLiveView on Babylon.js](https://qiita.com/the_haigo/items/efd374ea19f9775d0e6b)<br>@the_haigo|2025-12-06|2|
-|68|[Elixir/Nerves と ATECC608 の現状メモ（2025年12月）](https://qiita.com/mnishiguchi/items/8a6a55194b96e6bb716e)<br>@mnishiguchi|2025-12-05|2|
-|69|[血圧を記録するアプリを作る その２ 〜 AIを使って血圧計の写真を元に値を入力する 〜](https://qiita.com/t-yamanashi/items/e44e4ddcb74600cf268b)<br>@t-yamanashi|2025-12-02|2|
-|70|[Elixirでカラー画像をグレースケールに変換する](https://qiita.com/t-yamanashi/items/4eb3d7ea378f0b42b674)<br>@t-yamanashi|2025-12-01|2|
-|71|[Hugging Face形式をgguf形式にしてElixirでOllamaを使う](https://qiita.com/t-yamanashi/items/ceaccc72bf4833ac1d15)<br>@t-yamanashi|2025-11-21|2|
-|72|[Advent of Code 2025 Day 3: Lobby をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/3e2474bab10c21bd4fd5)<br>@torifukukaiou|2025-12-08|1|
+|50|[Elixir(AtomVM)でデジタルフラッグ　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/8f1fa23fcb7fa77cb07d)<br>@t-yamanashi|2025-11-27|4|
+|51|[よく使う Nerves の mix タスクはどこで定義されている？](https://qiita.com/mnishiguchi/items/b24558a3e14c4ac6af7a)<br>@mnishiguchi|2025-12-07|4|
+|52|[NAS(DXP4800 Plus)にLivebookをインストールする](https://qiita.com/t-yamanashi/items/f261ae709eafb9aaa002)<br>@t-yamanashi|2025-11-21|4|
+|53|[Elixir: IExでCircuits.GPIOを試す](https://qiita.com/mnishiguchi/items/e1d418d4ae3a460fd465)<br>@mnishiguchi|2025-11-18|4|
+|54|[AtomVM 入門: 最新のソースコードからビルド (2025年12月)](https://qiita.com/mnishiguchi/items/d4ee6fbfa9d24378446f)<br>@mnishiguchi|2025-12-09|3|
+|55|[Advent of Code 2025 Day 3: Lobby をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/3e2474bab10c21bd4fd5)<br>@torifukukaiou|2025-12-08|3|
+|56|[ LiveViewでLLM + VOICEVOXの非同期高速化](https://qiita.com/t-yamanashi/items/a903358067d851c19487)<br>@t-yamanashi|2025-12-08|3|
+|57|[LiveViewでLLMを使う　〜非同期処理を対応する〜](https://qiita.com/t-yamanashi/items/d1d124f6dae097fa511d)<br>@t-yamanashi|2025-12-07|3|
+|58|[ElixirDesktop製のスマホアプリでLiveView on Babylon.js](https://qiita.com/the_haigo/items/efd374ea19f9775d0e6b)<br>@the_haigo|2025-12-06|3|
+|59|[実録 Nervesアプリで定期実行ができない！ cronの書き方を間違えているだけでした](https://qiita.com/torifukukaiou/items/eab541b850e17593deea)<br>@torifukukaiou|2025-12-04|3|
+|60|[LiveViewでVOICEVOXを楽に使う手段を作ってみた](https://qiita.com/t-yamanashi/items/ead0a57789d5647dc526)<br>@t-yamanashi|2025-12-03|3|
+|61|[血圧を記録するアプリを作る その３ 〜 血圧測定の結果を元にグラフを作る 〜](https://qiita.com/t-yamanashi/items/7c709a827dc24a9041e4)<br>@t-yamanashi|2025-12-02|3|
+|62|[血圧を記録するアプリを作る その１〜 LiveViewを使ってWeb画面を作る 〜](https://qiita.com/t-yamanashi/items/eeefe0339bd479871adb)<br>@t-yamanashi|2025-12-01|3|
+|63|[Elixirで画像解析して数値をCSV形式で取り込む 〜血圧計の写真をデータ化する 〜](https://qiita.com/t-yamanashi/items/501ecb8572a1492ae05e)<br>@t-yamanashi|2025-11-30|3|
+|64|[mise を使って Elixir の Mix コマンドを自動で実行する](https://qiita.com/mnishiguchi/items/85eb00c95450c6a5242e)<br>@mnishiguchi|2025-11-27|3|
+|65|[NervesのOTAファームウェア更新：mix uploadとupload.sh](https://qiita.com/mnishiguchi/items/a2a50eb8e610210a2742)<br>@mnishiguchi|2025-11-25|3|
+|66|[H2O LLM Studioファインチューニングした結果をElixirで動かす](https://qiita.com/t-yamanashi/items/046fea1a60c2db48f665)<br>@t-yamanashi|2025-11-20|3|
+|67|[mix do で複数の Mix タスクを一度に実行する](https://qiita.com/mnishiguchi/items/5bf18f56df4ba648e256)<br>@mnishiguchi|2025-11-10|3|
+|68|[LiveView on Babylon.js でチュートリアルの2章やってみた その１](https://qiita.com/the_haigo/items/548969cb29411d2e4b1e)<br>@the_haigo|2025-12-06|2|
+|69|[LiveView on Babylon.js でチュートリアルの１章やってみた](https://qiita.com/the_haigo/items/43bfffd467f26f30d0fd)<br>@the_haigo|2025-12-06|2|
+|70|[Elixir/Nerves と ATECC608 の現状メモ（2025年12月）](https://qiita.com/mnishiguchi/items/8a6a55194b96e6bb716e)<br>@mnishiguchi|2025-12-05|2|
+|71|[血圧を記録するアプリを作る その２ 〜 AIを使って血圧計の写真を元に値を入力する 〜](https://qiita.com/t-yamanashi/items/e44e4ddcb74600cf268b)<br>@t-yamanashi|2025-12-02|2|
+|72|[Elixirでカラー画像をグレースケールに変換する](https://qiita.com/t-yamanashi/items/4eb3d7ea378f0b42b674)<br>@t-yamanashi|2025-12-01|2|
+|73|[Hugging Face形式をgguf形式にしてElixirでOllamaを使う](https://qiita.com/t-yamanashi/items/ceaccc72bf4833ac1d15)<br>@t-yamanashi|2025-11-21|2|
+|74|[LiveViewでVRMファイルを読み込んで口パクする](https://qiita.com/t-yamanashi/items/928e5b596edfa3bd6f73)<br>@t-yamanashi|2025-12-09|1|
+|75|[LiveView on Babylon.js でチュートリアルの2章やってみた その2](https://qiita.com/the_haigo/items/fb1f83e88081c4b5673c)<br>@the_haigo|2025-12-10|0|
 
 
 # 総件数 :christmas_tree::santa::santa_tone1::santa_tone2::santa_tone3::santa_tone4::santa_tone5::christmas_tree:
-5586件 :tada::tada::tada:
+5589件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[Elixirでゼロから学ぶ生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-08|7|
-|2|[Advent of Code 2025 Day 2: Gift Shop をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/74b1872c7ab3fedde968)<br>@torifukukaiou|2025-12-07|6|
-|3|[Advent of Code 2025 Day 1: Secret Entrance をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/c35348d85b328eddaa14)<br>@torifukukaiou|2025-12-07|6|
-|4|[Elixir(AtomVM)非同期Lチカ LEDごとプロセスを作る　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/5bf3f6af6a3f441cabc4)<br>@t-yamanashi|2025-12-07|5|
-|5|[Elixirプロセス間通信／分散／並行は23種類もあるってご存じでした？](https://qiita.com/piacerex/items/addad997095dcc1dca1c)<br>@piacerex|2025-12-07|5|
-|6|[Elixirを変数（Map）管理をしてVR(Resonite)でも使える仕組みを作ってみた](https://qiita.com/t-yamanashi/items/08a0d0a265885098662d)<br>@t-yamanashi|2025-12-07|5|
-|7|[Elixir 製 Modbus ライブラリ Modbuzz の紹介](https://qiita.com/pojiro/items/ac51cf32905b4d1536d5)<br>@pojiro|2025-12-07|5|
-|8|[本格わら納豆づくりで関数型プログラミング言語ElixirのIoTフレームワークNervesを活用した話](https://qiita.com/torifukukaiou/items/925065aab28f24975cd3)<br>@torifukukaiou|2025-12-06|4|
-|9|[Phoenix アプリケーションのローカル環境でのトレースを OpenTelemetry + Jaeger で気軽に可視化する](https://qiita.com/koyo-miyamura/items/027ff65d7c2231e78bfe)<br>@koyo-miyamura|2025-12-08|4|
-|10|[ LiveViewでLLM + VOICEVOXの非同期高速化](https://qiita.com/t-yamanashi/items/a903358067d851c19487)<br>@t-yamanashi|2025-12-08|3|
-|11|[LiveViewでLLMを使う　〜非同期処理を対応する〜](https://qiita.com/t-yamanashi/items/d1d124f6dae097fa511d)<br>@t-yamanashi|2025-12-07|2|
-|12|[LiveView on Babylon.js でチュートリアルの2章やってみた その１](https://qiita.com/the_haigo/items/548969cb29411d2e4b1e)<br>@the_haigo|2025-12-06|2|
-|13|[Advent of Code 2025 Day 3: Lobby をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/3e2474bab10c21bd4fd5)<br>@torifukukaiou|2025-12-08|1|
+|1|[Elixirでゼロから学ぶ生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-09|11|
+|2|[Advent of Code 2025 Day 2: Gift Shop をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/74b1872c7ab3fedde968)<br>@torifukukaiou|2025-12-07|7|
+|3|[Advent of Code 2025 Day 1: Secret Entrance をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/c35348d85b328eddaa14)<br>@torifukukaiou|2025-12-07|7|
+|4|[Elixir(AtomVM)非同期Lチカ LEDごとプロセスを作る　〜 Raspberry Pi Pico 〜](https://qiita.com/t-yamanashi/items/5bf3f6af6a3f441cabc4)<br>@t-yamanashi|2025-12-07|7|
+|5|[AtomVM 入門: 最新のソースコードからビルド (2025年12月)](https://qiita.com/mnishiguchi/items/d4ee6fbfa9d24378446f)<br>@mnishiguchi|2025-12-09|3|
+|6|[Advent of Code 2025 Day 3: Lobby をElixirで解くことを楽しむ](https://qiita.com/torifukukaiou/items/3e2474bab10c21bd4fd5)<br>@torifukukaiou|2025-12-08|3|
+|7|[ LiveViewでLLM + VOICEVOXの非同期高速化](https://qiita.com/t-yamanashi/items/a903358067d851c19487)<br>@t-yamanashi|2025-12-08|3|
+|8|[LiveViewでLLMを使う　〜非同期処理を対応する〜](https://qiita.com/t-yamanashi/items/d1d124f6dae097fa511d)<br>@t-yamanashi|2025-12-07|3|
+|9|[LiveViewでVRMファイルを読み込んで口パクする](https://qiita.com/t-yamanashi/items/928e5b596edfa3bd6f73)<br>@t-yamanashi|2025-12-09|1|
+|10|[LiveView on Babylon.js でチュートリアルの2章やってみた その2](https://qiita.com/the_haigo/items/fb1f83e88081c4b5673c)<br>@the_haigo|2025-12-10|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-12-08|82|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-12-09|60|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-12-08|37|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-12-09|82|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2025-12-10|60|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-12-09|37|
 |4|[Ubuntu 20.04でElixir／Phoenixの最短インストール手順（Nx＋EXLA／Phoenix＋PostgreSQLのインストール、Elixir最新版へのアップグレード、WSL2対応のオマケ付き）](https://qiita.com/piacerex/items/01e89435af0f7a454ad2)<br>@piacerex|2025-11-26|27|
 |5|[「JupyterNotebook + NumPyでサクッと画像加工するノリ」をElixir Livebookでやってみた（lennaさんのバージョンアップもあるよ）](https://qiita.com/piacerex/items/533d26c81bada4741422)<br>@piacerex|2025-11-30|25|
 |6|[asdf でよく使うコマンド ── それは asdf](https://qiita.com/torifukukaiou/items/9009191de6873664bb58)<br>@torifukukaiou|2025-12-02|24|
-|7|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-12-08|23|
-|8|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-12-09|20|
+|7|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-12-09|23|
+|8|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2025-12-10|20|
 |9|[Elixirプロセス間通信／分散／並行は18種類もあるってご存じでした？](https://qiita.com/piacerex/items/f1cefcaa170c116db048)<br>@piacerex|2025-12-06|20|
 |10|[ElixirChipの鼓動③ 70年間続くノイマン型の闇を抜けて ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/208fdfb40646063bc0f0)<br>@piacerex|2025-11-22|18|
-|11|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-12-08|15|
+|11|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-12-09|15|
 |12|[音声で会話できるローカルLLM AIボットをElixir／LiveViewで作ってみた](https://qiita.com/piacerex/items/ef80e90f8a8f402ed4d5)<br>@piacerex|2025-12-07|13|
-|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-12-08|11|
-|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-12-09|11|
-|15|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2025-12-08|11|
-|16|[Elixir で Open JTalk を使い、IEx に日本語をしゃべらせてみた](https://qiita.com/mnishiguchi/items/becc3c1fa35958921965)<br>@mnishiguchi|2025-11-09|11|
+|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2025-12-09|11|
+|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2025-12-10|11|
+|15|[Elixirでゼロから学ぶ生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-09|11|
+|16|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2025-12-09|11|
 |17|[Elixirのパイプ演算子は川の流れの如く](https://qiita.com/torifukukaiou/items/d9656e75011fb8ce4787)<br>@torifukukaiou|2025-11-22|11|
 |18|[VibeコーデイングこそElixirで練習すると良い理由](https://qiita.com/Yoosuke/items/9c62861b7383ef103b5f)<br>@Yoosuke|2025-12-02|10|
-|19|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-12-08|9|
-|20|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-12-08|9|
+|19|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2025-12-09|9|
+|20|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2025-12-09|9|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
