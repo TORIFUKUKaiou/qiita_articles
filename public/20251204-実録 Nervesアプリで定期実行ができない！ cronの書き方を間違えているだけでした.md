@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-04T20:38:42+09:00'
+updated_at: '2025-12-10T18:08:55+09:00'
 id: eab541b850e17593deea
 organization_url_name: fukuokaex
 slide: false
@@ -18,10 +18,10 @@ ignorePublish: false
 
 「[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)」記事の「○日間連続でうまく動いています。」の○を自動で更新させているつもりでした。しかしうまく動いていませんでした。
 
-内情を包み隠さず申しますと、
+どうやって問題を回避していたのか、内情を包み隠さず申しますと、
 **実は自分でSSHにて接続し、IEx経由でたまに手動実行して更新をしていました。**
 
-見事、解決をいたしました:tada::tada::tada:
+この度、見事、解決をいたしました:tada::tada::tada:
 その愛と感動の物語を余すところなくみなさまにお伝えいたしたいと思っています。
 
 ## 定期実行
