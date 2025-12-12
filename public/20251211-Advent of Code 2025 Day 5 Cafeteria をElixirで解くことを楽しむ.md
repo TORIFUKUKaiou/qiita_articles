@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-11T08:53:41+09:00'
+updated_at: '2025-12-11T12:35:30+09:00'
 id: 52fa3cc49068dd6e48e5
 organization_url_name: null
 slide: false
@@ -29,7 +29,7 @@ https://qiita.com/haw_ohnuma/items/9a2ae842958095dc9a53
 
 [Advent of Code 2025 Day 5: Cafeteria をRustで解いた](https://qiita.com/haw_ohnuma/items/9a2ae842958095dc9a53)
 
-## Day 4: Day 5: Cafeteria 
+## Day 5: Cafeteria 
 問題文は、[Day 5: Cafeteria ](https://adventofcode.com/2025/day/5)を読んでください。  
 Part 1は割とすんなりできました。Part 2は簡単に書けた解法では、本番データでは結果がなかなかでてこなかったので一工夫してみました。
 
