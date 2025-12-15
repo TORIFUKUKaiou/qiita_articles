@@ -8,7 +8,7 @@ tags:
   - Nerves
   - QiitaAzure
 private: false
-updated_at: '2025-12-13T09:05:06+09:00'
+updated_at: '2025-12-14T09:05:02+09:00'
 id: 2db585bf7dbe39ed6f5d
 organization_url_name: fukuokaex
 slide: false
@@ -50,7 +50,7 @@ https://qiita.com/official-events/8bc3780a142f8ee8effa
 |15|[Azure Kubernetes Serviceにオンプレミスのローカル環境からアクセスしてみる](https://qiita.com/hidekko/items/732b9cac80fe695eb481)<br>@hidekko|2021-11-01|2021-11-01|2|
 |16|[プライベートでマルチテナントな AKS(Azure Kubernetes Service) を構築・運用する上で困ったこと](https://qiita.com/sabure500/items/e813d66c2716fd7868b8)<br>@sabure500|2021-10-30|2021-11-09|2|
 |17|[Azur IoT Edgeインストールと設定の公式構成ツール](https://qiita.com/motoJinC25/items/ee84a9173e03766b60c7)<br>@motoJinC25|2021-10-26|2021-10-26|2|
-|18|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2025-12-12|2|
+|18|[【毎日自動更新】Azure Kubernetes Serviceに関する記事を投稿しよう！(2021/10/10–2021/11/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/2db585bf7dbe39ed6f5d)<br>@torifukukaiou|2021-10-25|2025-12-13|2|
 |19|[Azure Kubernetes Serviceを使ってみた](https://qiita.com/rk05231977/items/744e144cae8f253cf3ba)<br>@rk05231977|2021-10-25|2021-10-27|2|
 |20|[M5Stack Core 2で始めるAzure IoT Hub入門（その４）](https://qiita.com/hatsune_/items/3ebcba2384f6e302fafd)<br>@hatsune_|2021-10-10|2021-10-10|2|
 |21|[AnsibleでAKS（Azure Kubernete Service）を操作する](https://qiita.com/ussvgr/items/8fa04fc88afbef08d6d7)<br>@ussvgr|2021-10-31|2021-10-31|1|

@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-11T22:20:46+09:00'
+updated_at: '2025-12-14T14:46:46+09:00'
 id: e6fe419ab7f8929eb737
 organization_url_name: null
 slide: false
@@ -148,33 +148,27 @@ defmodule AdventOfCode2025Day6Part2 do
 
     operations = String.split(operations, " ", trim: true)
 
-    list_of_charlists = numbers |> Enum.reverse() |> Enum.map(&String.to_charlist/1)
-    width = Enum.at(list_of_charlists, 0) |> Enum.count()
-    height = Enum.count(list_of_charlists)
-
-    last_index = Enum.count(operations) - 1
-    {list_of_lists, [], list, ^last_index} = 
-    for i <- 0..(width - 1), j <- 0..(height - 1) do
-      {j, i}
-    end
-    |> Enum.reduce({[], [], [], 0}, fn {j, i}, {list_of_lists, tmp, acc, index} ->
-      v = Enum.at(list_of_charlists, j) |> Enum.at(i)
-      new_tmp = [v | tmp]
-      if j >= height - 1 do
-        if Enum.all?(new_tmp, & &1 == 0x20) do
-          new_list_of_lists = List.insert_at(list_of_lists, index, acc)
-          {new_list_of_lists, [], [], index + 1}
-        else
-          num = new_tmp |> Enum.filter(& &1 != 0x20) |> Enum.reverse() |> List.to_integer()
-          new_acc = [num | acc]
-          {list_of_lists, [], new_acc, index}
-        end
+    chunk_fun = fn charlist, acc ->
+      if Enum.all?(charlist, & &1 == ?\s) do
+        {:cont, acc, []}
       else
-        {list_of_lists, new_tmp, acc, index}
+        num = charlist |> Enum.reject(& &1 == ?\s) |> List.to_integer()
+        {:cont, [num | acc]}
       end
-    end)
+    end
 
-    {operations, List.insert_at(list_of_lists, last_index, list)}
+    after_fun = fn
+      acc -> {:cont, acc, []}
+    end
+
+    list_of_lists = 
+      numbers 
+      |> Enum.reverse() 
+      |> Enum.map(&String.to_charlist/1)
+      |> Enum.zip_with(& &1)
+      |> Enum.chunk_while([], chunk_fun, after_fun)
+
+    {operations, list_of_lists}
   end
 end
 
