@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-14T15:39:43+09:00'
+updated_at: '2025-12-15T11:49:48+09:00'
 id: 2aee585d149b9a79eff5
 organization_url_name: null
 slide: false
@@ -55,7 +55,8 @@ width = Enum.at(list_of_lists, 0) |> Enum.count()
 |> Enum.chunk_every(height)
 ```
 
-これでも一応できますが、[Enum.zip_with/2](https://hexdocs.pm/elixir/1.19.4/Enum.html#zip_with/2)を使ったほうがよっぽど簡単にできます。力ワザでは、Elixirでプログラミングしているっぽい感じがあまりしません……　なにか手続き型言語で書いているみたいな雰囲気です。
+これでも一応できますが、[Enum.zip_with/2](https://hexdocs.pm/elixir/1.19.4/Enum.html#zip_with/2)を使ったほうがよっぽど簡単にできます。力ワザでは、Elixirでプログラミングしているっぽい感じがあまりしません……　なにやら手続き型言語で書いているみたいな雰囲気になってしまいます。
+この記事で紹介する`Enum.zip_with(enumerables, & &1)`は、いかにも関数型プログラミング言語をよく使いこなしている感じがして美しいです。
 
 ## さいごに
 イディオムとして覚えたいElixirでの転置 `Enum.zip_with(enumerables, & &1)`のご紹介でした。
