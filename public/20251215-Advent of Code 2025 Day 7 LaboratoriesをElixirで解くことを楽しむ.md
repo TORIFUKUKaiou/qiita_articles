@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-15T19:30:23+09:00'
+updated_at: '2025-12-18T14:35:37+09:00'
 id: 1cbf7d6ea9e4f7f82ab3
 organization_url_name: null
 slide: false
@@ -29,7 +29,7 @@ https://qiita.com/haw_ohnuma/items/3ed19d1d7bc10e768f30
 
 [Advent of Code 2025 Day 7: Laboratories をRustで解いた](https://qiita.com/haw_ohnuma/items/3ed19d1d7bc10e768f30)
 
-## Day 6: Trash Compactor
+## Day 7: Laboratories
 問題文は、[Day 7: Laboratories](https://adventofcode.com/2025/day/7)を読んでください。  
 
 
