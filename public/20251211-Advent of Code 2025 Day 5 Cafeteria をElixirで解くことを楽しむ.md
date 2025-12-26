@@ -7,9 +7,9 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-12-11T12:35:30+09:00'
+updated_at: '2025-12-25T09:45:02+09:00'
 id: 52fa3cc49068dd6e48e5
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
