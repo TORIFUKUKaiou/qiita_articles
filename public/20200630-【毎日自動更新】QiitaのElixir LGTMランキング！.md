@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2026-01-01T09:03:40+09:00'
+updated_at: '2026-01-02T07:03:47+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -16,40 +16,38 @@ ignorePublish: false
 
 
 # 総件数 
-5665件 :tada::tada::tada:
+5666件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[Broadwayを嗜む③：ProducerのレートリミッターとbatcherのタイムアウトによるQoS](https://qiita.com/piacerex/items/0f01fa84ad2c30e4b6f5)<br>@piacerex|2025-12-29|8|
-|2|[Google Antigravity に Phoenix LiveView のアプリケーションを設計・実装させてみた](https://qiita.com/RyoWakabayashi/items/c0fd60dee4ed3f9b6581)<br>@RyoWakabayashi|2025-12-30|7|
-|3|[IBM Bob に Phoenix LiveView のアプリケーションを設計・実装させてみた](https://qiita.com/RyoWakabayashi/items/a1324d918d5aa2f907a6)<br>@RyoWakabayashi|2025-12-30|7|
-|4|[関数型プログラミングのコンカレント性って違うじゃね](https://qiita.com/MickeyOoh/items/1dbb54379faa82974d14)<br>@MickeyOoh|2025-12-29|2|
+|1|[Google Antigravity に Phoenix LiveView のアプリケーションを設計・実装させてみた](https://qiita.com/RyoWakabayashi/items/c0fd60dee4ed3f9b6581)<br>@RyoWakabayashi|2025-12-30|7|
+|2|[Elixir/Phoenix入門](https://qiita.com/shikigamix/items/d58364564999e3ff6f2f)<br>@shikigamix|2026-01-01|2|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2025-12-31|82|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-01-01|60|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2025-12-31|37|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-01-01|82|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-01-02|60|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-01-01|37|
 |4|[はじめてなElixir(0)](https://qiita.com/kikuyuta/items/3c1798d15508040ccaaf)<br>@kikuyuta|2025-12-25|27|
-|5|[asdf でよく使うコマンド ── それは asdf](https://qiita.com/torifukukaiou/items/9009191de6873664bb58)<br>@torifukukaiou|2025-12-02|24|
-|6|[Elixir/Phoenixをdocker環境で立ち上げてみる。](https://qiita.com/naritomo08/items/fecf4ace7b9ca9078102)<br>@naritomo08|2025-12-22|24|
-|7|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2025-12-31|23|
-|8|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-01-01|20|
-|9|[Elixirプロセス間通信／分散／並行は18種類もあるってご存じでした？](https://qiita.com/piacerex/items/f1cefcaa170c116db048)<br>@piacerex|2025-12-28|20|
-|10|[ElixirChipの鼓動③ 80年間続くノイマン型の闇を抜けて ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/208fdfb40646063bc0f0)<br>@piacerex|2025-12-25|19|
-|11|[Elixirにて数式ゼロで学べる生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-11|16|
-|12|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2025-12-31|15|
-|13|[音声で会話できるローカルLLM AIボットをElixir／LiveViewで作ってみた（LiveView開発レクチャー付き）](https://qiita.com/piacerex/items/ef80e90f8a8f402ed4d5)<br>@piacerex|2025-12-23|15|
-|14|[VibeコーデイングこそElixirで練習すると良い理由](https://qiita.com/Yoosuke/items/9c62861b7383ef103b5f)<br>@Yoosuke|2025-12-02|14|
-|15|[②Elixirエッジコンピューティング：クラウド無でも分散エッジコンピューティングを叶えるElixir](https://qiita.com/piacerex/items/979cfa7575b880144c4c)<br>@piacerex|2025-12-26|13|
-|16|[①Elixirエッジコンピューティング：クラウドからエッジ／エッジサーバに拡がる未来とElixir](https://qiita.com/piacerex/items/ba0143f784cf360dda5f)<br>@piacerex|2025-12-26|12|
-|17|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2025-12-31|12|
-|18|[「fukuoka.ex：福岡Elixirコミュ」は、Advanced Organizationなのです🎉🎉🎉](https://qiita.com/torifukukaiou/items/736b52134de18fec842f)<br>@torifukukaiou|2025-12-04|12|
-|19|[AtomVM: ビルド済みイメージを活用した環境構築 (2025年9月)](https://qiita.com/mnishiguchi/items/86a821f853b504911cae)<br>@mnishiguchi|2025-12-12|12|
-|20|[ElixirChipの鼓動④ ノイマン型の闇（性能劣化、消費電力増大）は今から解決できる ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/27ec5b25ed15385598cd)<br>@piacerex|2025-12-27|12|
+|5|[Elixir/Phoenixをdocker環境で立ち上げてみる。](https://qiita.com/naritomo08/items/fecf4ace7b9ca9078102)<br>@naritomo08|2025-12-22|24|
+|6|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-01-01|23|
+|7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-01-02|20|
+|8|[Elixirプロセス間通信／分散／並行は18種類もあるってご存じでした？](https://qiita.com/piacerex/items/f1cefcaa170c116db048)<br>@piacerex|2025-12-28|20|
+|9|[ElixirChipの鼓動③ 80年間続くノイマン型の闇を抜けて ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/208fdfb40646063bc0f0)<br>@piacerex|2025-12-25|19|
+|10|[Elixirにて数式ゼロで学べる生成AI①Attention編【Bumblebeeコードハック】](https://qiita.com/piacerex/items/8c15c85166a2cf923b36)<br>@piacerex|2025-12-11|16|
+|11|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-01-01|15|
+|12|[音声で会話できるローカルLLM AIボットをElixir／LiveViewで作ってみた（LiveView開発レクチャー付き）](https://qiita.com/piacerex/items/ef80e90f8a8f402ed4d5)<br>@piacerex|2025-12-23|15|
+|13|[②Elixirエッジコンピューティング：クラウド無でも分散エッジコンピューティングを叶えるElixir](https://qiita.com/piacerex/items/979cfa7575b880144c4c)<br>@piacerex|2025-12-26|13|
+|14|[①Elixirエッジコンピューティング：クラウドからエッジ／エッジサーバに拡がる未来とElixir](https://qiita.com/piacerex/items/ba0143f784cf360dda5f)<br>@piacerex|2025-12-26|12|
+|15|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-01-01|12|
+|16|[「fukuoka.ex：福岡Elixirコミュ」は、Advanced Organizationなのです🎉🎉🎉](https://qiita.com/torifukukaiou/items/736b52134de18fec842f)<br>@torifukukaiou|2025-12-04|12|
+|17|[AtomVM: ビルド済みイメージを活用した環境構築 (2025年9月)](https://qiita.com/mnishiguchi/items/86a821f853b504911cae)<br>@mnishiguchi|2025-12-12|12|
+|18|[ElixirChipの鼓動④ ノイマン型の闇（性能劣化、消費電力増大）は今から解決できる ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/27ec5b25ed15385598cd)<br>@piacerex|2026-01-01|12|
+|19|[DockerでElixirの環境を構築して、ブラウザを使ってVSCodeで開発をする](https://qiita.com/t-yamanashi/items/0c3a25918004ded2ba48)<br>@t-yamanashi|2025-12-18|12|
+|20|[アドベントカレンダーは26記事目からが本番](https://qiita.com/torifukukaiou/items/4d1d6b575ea93909134e)<br>@torifukukaiou|2025-12-07|12|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
