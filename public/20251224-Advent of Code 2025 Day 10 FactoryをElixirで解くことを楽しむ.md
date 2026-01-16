@@ -7,9 +7,9 @@ tags:
   - AdventofCode
   - 闘魂
 private: false
-updated_at: '2025-12-24T14:59:22+09:00'
+updated_at: '2026-01-15T16:45:17+09:00'
 id: 9610888667a08551b8b8
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---

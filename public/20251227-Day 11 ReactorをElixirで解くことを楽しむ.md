@@ -7,9 +7,9 @@ tags:
   - 闘魂
   - AdventCalendar2026
 private: false
-updated_at: '2025-12-27T12:00:33+09:00'
+updated_at: '2026-01-15T16:44:51+09:00'
 id: d4498fe7eb6f95cb5e62
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
