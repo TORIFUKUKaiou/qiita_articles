@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AdventCalendar2026
 private: false
-updated_at: '2026-01-29T16:09:18+09:00'
+updated_at: '2026-01-30T09:43:50+09:00'
 id: 9a8db2e8a1b89b9e8827
 organization_url_name: null
 slide: false
@@ -26,6 +26,9 @@ Elixir をブラウザで動かしてみました。サーバー不要、イン�
 ```elixir
 Enum.map(1..10, & &1 * 2)
 ```
+
+![スクリーンショット 2026-01-30 9.43.24.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3877014f-094b-42c9-b107-234ca1230fbd.png)
+
 
 
 この記事では、WebAssembly (Wasm)、AtomVM、Popcorn という3つの技術を紹介し、実際に Cloudflare Pages にデプロイするまでの過程をまとめます。
