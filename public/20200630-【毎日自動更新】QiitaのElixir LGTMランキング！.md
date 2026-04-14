@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2026-04-13T09:04:34+09:00'
+updated_at: '2026-04-14T09:04:18+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -22,32 +22,31 @@ ignorePublish: false
 |No|title|created_at|LGTM|
 |---|---|---|---:|
 |1|[【Elixir】Glicko-2レーティングシステムをピュアElixirで実装した](https://qiita.com/cyril/items/f297b04998db566124de)<br>@cyril|2026-04-11|0|
-|2|[架空文字のための“フォント＋正規表現DSL＋レンダリング”をElixirで実装した話](https://qiita.com/asagikaki/items/0bd95438fa0c6339856a)<br>@asagikaki|2026-04-10|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-04-12|82|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-04-13|60|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-04-12|37|
-|4|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-04-12|23|
-|5|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-04-13|20|
-|6|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-04-12|15|
-|7|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-04-12|12|
-|8|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-04-12|11|
-|9|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-04-13|11|
-|10|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-04-12|9|
-|11|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-04-12|9|
-|12|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-04-12|9|
-|13|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-04-13|8|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-04-13|82|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-04-14|60|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-04-13|37|
+|4|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-04-13|23|
+|5|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-04-14|20|
+|6|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-04-13|15|
+|7|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-04-13|12|
+|8|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-04-13|11|
+|9|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-04-14|11|
+|10|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-04-13|9|
+|11|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-04-13|9|
+|12|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-04-13|9|
+|13|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-04-14|8|
 |14|[黄色が黄色にならなかったので、LovyanGFX の色形式とエンディアンを學び直した](https://qiita.com/mnishiguchi/items/b5a3908c410a7e1b6b32)<br>@mnishiguchi|2026-03-30|8|
-|15|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2026-04-12|7|
-|16|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2026-04-12|7|
+|15|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2026-04-13|7|
+|16|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2026-04-13|7|
 |17|[Nerves 2.0でLANに接続できない？原因はRaspberry Pi 4のEEPROMが古いせいだった](https://qiita.com/torifukukaiou/items/744821eff5de30eac36b)<br>@torifukukaiou|2026-04-06|7|
-|18|[【毎日自動更新】アルゴリズム強化月間 - 楽しいアルゴリズムの世界を紹介しよう - LGTMランキング！](https://qiita.com/torifukukaiou/items/8593958b584f07fab756)<br>@torifukukaiou|2026-04-13|6|
-|19|[【毎日自動更新】remote.it を使って○○に接続してみた！ LGTMランキング！](https://qiita.com/torifukukaiou/items/f284b5be23bc6f1a4e5e)<br>@torifukukaiou|2026-04-13|6|
-|20|[【毎日自動更新】私が体験した1番ゾッとするインシデントの話 LGTMランキング！](https://qiita.com/torifukukaiou/items/24d45a65cadd0a65809e)<br>@torifukukaiou|2026-04-13|6|
+|18|[【毎日自動更新】アルゴリズム強化月間 - 楽しいアルゴリズムの世界を紹介しよう - LGTMランキング！](https://qiita.com/torifukukaiou/items/8593958b584f07fab756)<br>@torifukukaiou|2026-04-14|6|
+|19|[【毎日自動更新】remote.it を使って○○に接続してみた！ LGTMランキング！](https://qiita.com/torifukukaiou/items/f284b5be23bc6f1a4e5e)<br>@torifukukaiou|2026-04-14|6|
+|20|[【毎日自動更新】私が体験した1番ゾッとするインシデントの話 LGTMランキング！](https://qiita.com/torifukukaiou/items/24d45a65cadd0a65809e)<br>@torifukukaiou|2026-04-14|6|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
