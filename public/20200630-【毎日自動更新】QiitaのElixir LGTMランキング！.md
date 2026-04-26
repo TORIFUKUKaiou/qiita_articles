@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2026-04-25T09:07:31+09:00'
+updated_at: '2026-04-26T09:04:01+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -21,33 +21,30 @@ ignorePublish: false
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
-|1|[はじめてね AtomVM(0) 資源の乏しい計算環境で Elixir を楽しむ](https://qiita.com/kikuyuta/items/66ee8e269fcc577573c7)<br>@kikuyuta|2026-04-22|2|
-|2|[はじめてね AtomVM(3) .avm 形式には何が詰め込まれてるのか](https://qiita.com/kikuyuta/items/4a8aef9b43cda591b9ad)<br>@kikuyuta|2026-04-22|0|
-|3|[はじめてね AtomVM(2) コンパイル時の関数がないという警告の扱い方](https://qiita.com/kikuyuta/items/060ffa6ba0615b242182)<br>@kikuyuta|2026-04-22|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-04-24|82|
-|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-04-25|60|
-|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-04-24|37|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-04-25|82|
+|2|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-04-26|60|
+|3|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-04-25|37|
 |4|[はじめてなElixir(0)](https://qiita.com/kikuyuta/items/3c1798d15508040ccaaf)<br>@kikuyuta|2026-04-22|27|
-|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-04-24|23|
+|5|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-04-25|23|
 |6|[はじめてNerves(0) ElixirによるIoTフレームワークNervesがとにかく動くようになるためのリンク集](https://qiita.com/kikuyuta/items/9dee85c32004c8e827e7)<br>@kikuyuta|2026-04-22|20|
-|7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-04-25|20|
-|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-04-24|15|
-|9|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-04-24|12|
-|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-04-24|11|
-|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-04-25|11|
-|12|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-04-24|9|
-|13|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-04-24|9|
-|14|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-04-24|9|
+|7|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-04-26|20|
+|8|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-04-25|15|
+|9|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-04-25|12|
+|10|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-04-25|11|
+|11|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-04-26|11|
+|12|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-04-25|9|
+|13|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-04-25|9|
+|14|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-04-25|9|
 |15|[はじめてね AtomVM(1) ESP32でLチカ](https://qiita.com/kikuyuta/items/db50647047654a7f98c4)<br>@kikuyuta|2026-04-22|9|
-|16|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-04-25|8|
+|16|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-04-26|8|
 |17|[黄色が黄色にならなかったので、LovyanGFX の色形式とエンディアンを學び直した](https://qiita.com/mnishiguchi/items/b5a3908c410a7e1b6b32)<br>@mnishiguchi|2026-03-30|8|
-|18|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2026-04-24|7|
-|19|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2026-04-24|7|
+|18|[【毎日自動更新】Java開発者のためのAzure入門(2021/4/6–2021/5/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/9cfefb20ec347514576b)<br>@torifukukaiou|2026-04-25|7|
+|19|[【毎日自動更新】データに関する記事を書こう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/b10fa94764aaaa2c6db1)<br>@torifukukaiou|2026-04-25|7|
 |20|[Nerves 2.0でLANに接続できない？原因はRaspberry Pi 4のEEPROMが古いせいだった](https://qiita.com/torifukukaiou/items/744821eff5de30eac36b)<br>@torifukukaiou|2026-04-06|7|
 
 
