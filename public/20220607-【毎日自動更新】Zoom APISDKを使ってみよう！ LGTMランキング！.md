@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Zoom
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2026-05-10T08:00:37+09:00'
+updated_at: '2026-05-11T08:00:39+09:00'
 id: 3b232899320ee2f1ceec
 organization_url_name: fukuokaex
 slide: false
@@ -54,7 +54,7 @@ https://qiita.com/official-events/86d8555146e1b14fef24
 |9|[Next.jsでZoom Video SDKとAPIを試してみる](https://qiita.com/mikan3rd/items/4bdbc318a11f612e2108)<br>@mikan3rd|2022-07-18|2022-07-18|5|
 |10|[pythonでZoom APIを触ってみた](https://qiita.com/shinkoma/items/1c3e68db47732543e400)<br>@shinkoma|2022-07-15|2022-07-15|5|
 |11|[【Zoom API】クラウド録画をPHPで一括ダウンロードする](https://qiita.com/KeiOTN/items/f9a858b1e0ae12c6c61e)<br>@KeiOTN|2022-06-22|2022-06-22|5|
-|12|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2026-05-09|5|
+|12|[【毎日自動更新】Zoom API/SDKを使ってみよう！ LGTMランキング！](https://qiita.com/torifukukaiou/items/3b232899320ee2f1ceec)<br>@torifukukaiou|2022-06-07|2026-05-10|5|
 |13|[Zoom Video SDKを使用したロボットの遠隔監視システムを作ってみる。](https://qiita.com/takahiro19981013/items/0dfe46688d5d4e4fc0d5)<br>@takahiro19981013|2022-07-18|2022-12-22|4|
 |14|[Zoom Meeting SDKをつかって会議にアバターで参加する](https://qiita.com/wok/items/1bccd567e844ac4e8979)<br>@wok|2022-07-13|2022-08-01|4|
 |15|[Zoom Meeting SDKでアバターにいろいろしゃべらせる](https://qiita.com/wok/items/0450c8620f11a371bd8b)<br>@wok|2022-07-12|2022-08-01|4|
