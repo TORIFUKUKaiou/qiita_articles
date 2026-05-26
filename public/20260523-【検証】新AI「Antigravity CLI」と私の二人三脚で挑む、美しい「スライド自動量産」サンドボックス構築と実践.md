@@ -7,9 +7,9 @@ tags:
   - Antigravity
   - agy
 private: false
-updated_at: '2026-05-24T09:54:42+09:00'
+updated_at: '2026-05-25T10:13:59+09:00'
 id: ca7baeea25eadca58a94
-organization_url_name: null
+organization_url_name: haw
 slide: false
 ignorePublish: false
 ---
