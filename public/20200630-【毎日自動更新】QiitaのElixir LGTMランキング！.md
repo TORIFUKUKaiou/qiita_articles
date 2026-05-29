@@ -5,7 +5,7 @@ tags:
   - Qiita夏祭り2020_Qiita
   - Qiita夏祭り2020_パソナテック
 private: false
-updated_at: '2026-05-28T09:04:14+09:00'
+updated_at: '2026-05-29T09:04:14+09:00'
 id: 1edb3e961acf002478fd
 organization_url_name: fukuokaex
 slide: false
@@ -16,36 +16,37 @@ ignorePublish: false
 
 
 # 総件数 
-5700件 :tada::tada::tada:
+5701件 :tada::tada::tada:
 
 # 新着 :hatching_chick::baby_chick::hatched_chick:
 |No|title|created_at|LGTM|
 |---|---|---|---:|
+|1|[AtomVM とネットワーク](https://qiita.com/mnishiguchi/items/0bef26738525c5c5d77f)<br>@mnishiguchi|2026-05-28|0|
 
 
 # 直近1ヶ月
 |No|title|updated_at|LGTM|
 |---|---|---|---:|
-|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-05-27|82|
+|1|[【毎日自動更新】湯婆婆 LGTMランキング！](https://qiita.com/torifukukaiou/items/c8361231cdc56e493245)<br>@torifukukaiou|2026-05-28|82|
 |2|[NeosVRに見出した可能性と未来について：「4つの世界」は「7つの世界」に](https://qiita.com/piacerex/items/7c29778e19e5b281f293)<br>@piacerex|2026-05-21|78|
-|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-05-28|60|
+|3|[【毎日自動更新】QiitaのElixir LGTMランキング！](https://qiita.com/torifukukaiou/items/1edb3e961acf002478fd)<br>@torifukukaiou|2026-05-29|60|
 |4|[NeosVRは既にSFの世界が叶い、現実は「オマケ」 ～先端VRの「アフターデジタル」な世界へ～](https://qiita.com/piacerex/items/35980fb08662853d6663)<br>@piacerex|2026-05-21|44|
 |5|[ElixirChipの鼓動① 君はElixir CPU＋リモートGPUによる高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/b99baebf284243fb6d6b)<br>@piacerex|2026-05-21|44|
-|6|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-05-27|37|
-|7|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-05-27|23|
-|8|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-05-28|20|
+|6|[Qiitaエンジニアフェスタ2021 LGTMランキング！](https://qiita.com/torifukukaiou/items/949ff6d59ffeeec0cd51)<br>@torifukukaiou|2026-05-28|37|
+|7|[Qiita 10周年記念イベント LGTMランキング！](https://qiita.com/torifukukaiou/items/69980bf263d20eab1988)<br>@torifukukaiou|2026-05-28|23|
+|8|[闘魂Elixir ── 03. 完走賞を目指してみましょう！【自動更新記事】](https://qiita.com/torifukukaiou/items/17d55cf896c24b13350e)<br>@torifukukaiou|2026-05-29|20|
 |9|[ElixirChipの鼓動③ 80年間続くノイマン型の闇を抜けて ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/208fdfb40646063bc0f0)<br>@piacerex|2026-05-21|20|
-|10|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-05-27|15|
+|10|[【毎日自動更新】新人プログラマ応援 - みんなで新人を育てよう！（2022年04月） LGTMランキング！](https://qiita.com/torifukukaiou/items/18dad64ba99aa5a40f95)<br>@torifukukaiou|2026-05-28|15|
 |11|[ElixirChipの鼓動④ ノイマン型の闇（性能劣化、消費電力増大）は今から解決できる ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/27ec5b25ed15385598cd)<br>@piacerex|2026-05-21|14|
-|12|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-05-27|12|
-|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-05-27|11|
-|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-05-28|11|
+|12|[Raspberry Pi 2 + Nerves、5年間の連続運転で不調に → microSDカード交換で復活](https://qiita.com/torifukukaiou/items/90118093a1b9d319313e)<br>@torifukukaiou|2026-05-28|12|
+|13|[【毎日自動更新】Azure AIを活用した機械学習に関する記事を投稿しよう！(2021/5/10–2021/6/9) LGTMランキング！](https://qiita.com/torifukukaiou/items/17f05aad2aff239ab6d2)<br>@torifukukaiou|2026-05-28|11|
+|14|[【毎日自動更新】マイクロソフト認定資格を取得する際の学習方法や経験談、おすすめ学習リソースなどを紹介しよう！(2021/11/11–2021/12/10) LGTMランキング！](https://qiita.com/torifukukaiou/items/5105eed1aff115b8a4ef)<br>@torifukukaiou|2026-05-29|11|
 |15|[ElixirChipの鼓動② 宇宙（そら）が呼ぶ声 ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/4187ec0f224cca5bab38)<br>@piacerex|2026-05-21|10|
-|16|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-05-27|9|
-|17|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-05-27|9|
-|18|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-05-27|9|
+|16|[【毎日自動更新】カフェでプログラミングしてる風（でも何もやってない） LGTMランキング！](https://qiita.com/torifukukaiou/items/b70dc5476762225cd4a2)<br>@torifukukaiou|2026-05-28|9|
+|17|[【毎日自動更新】Go強化月間～開発する上で知っておくべき知見を共有しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/1e2ab051ef422f040fd2)<br>@torifukukaiou|2026-05-28|9|
+|18|[【毎日自動更新】エンジニア夏休み企画！～自由研究や読書感想文を発表しよう～ LGTMランキング！](https://qiita.com/torifukukaiou/items/a5cfd648b4e477a2f131)<br>@torifukukaiou|2026-05-28|9|
 |19|[ElixirChipの鼓動⑤ 「AIとコンピューティングの7つの課題」を解決した後に訪れる世界 ～君は高速分散データ処理とエッジコンピューティングの未来を見る](https://qiita.com/piacerex/items/99ce566393e6aae67286)<br>@piacerex|2026-05-21|9|
-|20|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-05-28|8|
+|20|[【毎日自動更新】PHP強化月間～開発する上で知っておくべき知見を共有しよう～ いいねランキング！](https://qiita.com/torifukukaiou/items/a50b97bd532cf971e867)<br>@torifukukaiou|2026-05-29|8|
 
 
 # 全期間 :confetti_ball::military_medal::confetti_ball:
@@ -53,7 +54,7 @@ ignorePublish: false
 |---|---|---|---:|
 |1|[[翻訳] Elixir - 次に来る大物Web言語](https://qiita.com/HirofumiTamori/items/0dfdbada30c7d8f183fd)<br>@HirofumiTamori|2016-08-30|1,378|
 |2|[リアルタイムウェブな観点からElixir / Phoenix について](https://qiita.com/mizchi/items/e38d3f0461fe316021f7)<br>@mizchi|2016-10-06|713|
-|3|[[翻訳] なぜ私はElixirに賭けたか - メンテナンスプログラマになりたくなければ君もそうしろ](https://qiita.com/HirofumiTamori/items/2e4fd9e70e5358e34d98)<br>@HirofumiTamori|2015-06-01|591|
+|3|[[翻訳] なぜ私はElixirに賭けたか - メンテナンスプログラマになりたくなければ君もそうしろ](https://qiita.com/HirofumiTamori/items/2e4fd9e70e5358e34d98)<br>@HirofumiTamori|2015-06-01|590|
 |4|[Elixir 基礎文法最速マスター](https://qiita.com/niku/items/729ece76d78057b58271)<br>@niku|2020-05-03|466|
 |5|[Elixir自社プロダクト「Bright」①：「今のIT業界でエンジニア／プログラマは適正に評価されない」と 25年間、思い悩んだ結果、「自社から変えよう」と始めて2年後、プロダクト化に至る](https://qiita.com/piacerex/items/bac30ec027c9eef0e717)<br>@piacerex|2023-12-26|427|
 |6|[BASIC以来、35年間プログラミングしてないIT企業社長が、ElixirでWebアプリを作った](https://qiita.com/piacerex/items/59bf9cb86d77a8857672)<br>@piacerex|2022-01-08|303|
