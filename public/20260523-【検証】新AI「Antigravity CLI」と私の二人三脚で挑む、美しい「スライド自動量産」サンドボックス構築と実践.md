@@ -7,7 +7,7 @@ tags:
   - Antigravity
   - agy
 private: false
-updated_at: '2026-05-25T10:13:59+09:00'
+updated_at: '2026-06-11T08:45:00+09:00'
 id: ca7baeea25eadca58a94
 organization_url_name: haw
 slide: false
@@ -155,7 +155,7 @@ Anthropic の pptx スキルガイドには、`markitdown` を用いたテキス
 
 ## 4. まとめ
 
-Gemini CLI から Antigravity CLI への移行は、単なる名称の変更にとどまらず、**「マルチエージェントを前提とした新しいペアプログラミング体験」**への大いなる進化です。
+Gemini CLI から Antigravity CLI への移行は、単なる名称の変更にとどまらず、 **「マルチエージェントを前提とした新しいペアプログラミング体験」** への大いなる進化です。
 
 Anthropic の pptx スキルのような高度なツールも、Antigravity CLI の非同期並行処理を活かしてプロジェクトローカルでスマートに動作させることが可能です。
 
