@@ -7,7 +7,7 @@ tags:
   - Tauri
   - 闘魂
 private: false
-updated_at: '2026-06-14T23:01:35+09:00'
+updated_at: '2026-06-16T12:03:06+09:00'
 id: e683ed4deccf5e1cb8ff
 organization_url_name: haw
 slide: false
@@ -290,7 +290,7 @@ Tauri は Web 技術でデスクトップアプリを作れる便利なフレー
 しかし、内部では Rust / Cargo が動いています。  
 そのため、詰まったときには `Cargo.lock` や `cargo tree` を読む必要が出てきます。
 
-少年老いやすく学成りがたし。  
+青年老いやすく学成りがたし。  
 ビルドエラーもまた学びの入口です。
 
 迷わず行けよ、行けばわかるさ。
