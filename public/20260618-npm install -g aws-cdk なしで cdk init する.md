@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2026-06-19T09:12:56+09:00'
+updated_at: '2026-06-19T09:53:43+09:00'
 id: 09a7816a08fec5b50ba1
 organization_url_name: haw
 slide: false
@@ -137,7 +137,7 @@ npx aws-cdk init app --language typescript
   --project-name, -n                The name of the new project         [string]
 ```
 
-しかし、手元のバージョンでは --project-name が表示されるものの、期待どおりには反映されませんでした。ソースを見ると `projectName: args.name` となっており、 `args.projectName` を参照していないように見えます
+しかし、手元のバージョンでは --project-name が表示されるものの、期待どおりには反映されませんでした。ソースを見ると `projectName: args.name` となっており、 `args.projectName` を参照していないように見えます。
 
 そのため、初期化時にプロジェクト名を指定する手段は実質的に機能しておらず、やはり最初のディレクトリ名は意外と大事です。
 

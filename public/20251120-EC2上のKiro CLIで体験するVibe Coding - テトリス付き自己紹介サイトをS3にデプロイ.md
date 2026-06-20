@@ -7,7 +7,7 @@ tags:
   - Kiro
   - KiroCLI
 private: false
-updated_at: '2026-01-08T21:47:10+09:00'
+updated_at: '2026-06-19T16:09:40+09:00'
 id: 29e217d5f7483d4218aa
 organization_url_name: haw
 slide: false
@@ -66,19 +66,21 @@ AWS Builder IDの取得方法は、以下のページを参考にしてくださ
 
 ```bash
 #!/bin/bash
+set -e
+
 apt-get update -y
 
 # AWS CLI インストール
+apt-get install -y curl unzip wget
+
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-apt-get install -y unzip
 unzip -q awscliv2.zip
 ./aws/install
 rm -rf aws awscliv2.zip
 
 # Kiro CLI インストール
 wget https://desktop-release.q.us-east-1.amazonaws.com/latest/kiro-cli.deb
-dpkg -i kiro-cli.deb
-apt-get install -f -y
+dpkg -i kiro-cli.deb || apt-get install -f -y
 rm kiro-cli.deb
 ```
 
