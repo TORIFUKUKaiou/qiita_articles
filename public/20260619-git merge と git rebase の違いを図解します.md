@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2026-06-19T23:43:02+09:00'
+updated_at: '2026-06-20T11:00:07+09:00'
 id: 3bfdf9627038f6d026f6
 organization_url_name: haw
 slide: false
@@ -238,6 +238,17 @@ Pull Request上でコンフリクトしたときは、`merge` を使ったほう
 
 - https://git-scm.com/book/en/v2/Git-Branching-Rebasing
 - https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
+
+OSS への Pull Request では、少し事情が変わります。
+
+fork した自分のリポジトリ上の作業ブランチで Pull Request を出している場合、そのブランチを他の人が作業の土台にしていることは多くありません。  
+このような「公開はされているが、実質的には自分だけの作業ブランチ」では、`main` の変更を取り込むときに `rebase` が選ばれることも多いです。
+
+理由は、Pull Request の履歴に「main を取り込んだだけの merge commit」を増やさず、自分の変更だけを最新の `main` の上に並べられるからです。  
+レビューする側から見ると、Pull Request の意図が追いやすくなります。
+
+ただし、これは絶対のルールではありません。  
+プロジェクトが `merge` を推奨しているならそれに従うべきですし、複数人で同じブランチに push しているなら、履歴を書き換える `rebase` には注意が必要です。
 
 実は私は、どちらでもよいと思っています。  
 さきほど申し上げた通り、過去を気にしないからです。最新状態しか見ないからです。
