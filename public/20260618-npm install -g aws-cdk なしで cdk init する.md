@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2026-06-19T09:53:43+09:00'
+updated_at: '2026-06-25T08:53:35+09:00'
 id: 09a7816a08fec5b50ba1
 organization_url_name: haw
 slide: false
@@ -148,3 +148,17 @@ npx aws-cdk init app --language typescript
 - 初期化時にプロジェクト名を指定する `--project-name` オプションはあるが、動作しないようにみえる（？）
 
 地味ですが、CDK プロジェクトを作り始める前に知っておくとよさそうです。
+
+## 追記
+
+その後、`cdk init --project-name` が期待どおり反映されない件について、AWS CDK CLI に Pull Request を送り、マージされました。
+
+`aws-cdk@2.1128.1` 以降では、次のように実行ディレクトリ名とは別のプロジェクト名を指定できます。
+
+```bash
+npx aws-cdk@latest init app --language typescript --project-name awesome-cdk
+```
+
+詳しくは次の記事に書きました。
+
+- [`cdk init --project-name` で実行ディレクトリ名以外のプロジェクト名を指定できるようにした話](https://qiita.com/torifukukaiou/items/d01fca30d48a777e6a3d)
