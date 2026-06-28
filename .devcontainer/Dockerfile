@@ -13,8 +13,8 @@ RUN su ${USERNAME} -c "mkdir -p /home/${USERNAME}/.elixir-install"
 RUN su ${USERNAME} -c "curl -fsSo '/home/${USERNAME}/.elixir-install/install.sh' 'https://elixir-lang.org/install.sh'"
 
 ARG ELIXIR_VERSION='1.20.2'
-ARG ELIXIR_OTP_RELEASE='29'
-ARG OTP_VERSION='29.0.2'
+ARG ELIXIR_OTP_RELEASE='28'
+ARG OTP_VERSION='28.5.0.2'
 
 RUN su ${USERNAME} -c "sh /home/${USERNAME}/.elixir-install/install.sh elixir@${ELIXIR_VERSION} otp@${OTP_VERSION}"
 RUN su ${USERNAME} -c "echo 'export PATH=/home/${USERNAME}/.elixir-install/installs/otp/${OTP_VERSION}/bin:/home/${USERNAME}/.elixir-install/installs/elixir/${ELIXIR_VERSION}-otp-${ELIXIR_OTP_RELEASE}/bin:$PATH' >> /home/${USERNAME}/.profile"
