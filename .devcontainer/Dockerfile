@@ -12,9 +12,9 @@ RUN apt-get update && apt-get install -y xz-utils build-essential inotify-tools 
 RUN su ${USERNAME} -c "mkdir -p /home/${USERNAME}/.elixir-install"
 RUN su ${USERNAME} -c "curl -fsSo '/home/${USERNAME}/.elixir-install/install.sh' 'https://elixir-lang.org/install.sh'"
 
-ARG ELIXIR_VERSION='1.18.4'
-ARG ELIXIR_OTP_RELEASE='27'
-ARG OTP_VERSION='27.3.4.1'
+ARG ELIXIR_VERSION='1.20.2'
+ARG ELIXIR_OTP_RELEASE='28'
+ARG OTP_VERSION='28.5.0.2'
 
 RUN su ${USERNAME} -c "sh /home/${USERNAME}/.elixir-install/install.sh elixir@${ELIXIR_VERSION} otp@${OTP_VERSION}"
 RUN su ${USERNAME} -c "echo 'export PATH=/home/${USERNAME}/.elixir-install/installs/otp/${OTP_VERSION}/bin:/home/${USERNAME}/.elixir-install/installs/elixir/${ELIXIR_VERSION}-otp-${ELIXIR_OTP_RELEASE}/bin:$PATH' >> /home/${USERNAME}/.profile"
@@ -24,6 +24,6 @@ RUN su ${USERNAME} -c "source /home/${USERNAME}/.profile \
   && mix local.rebar --force"
 
 # Install Node.js and npm
-RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
+RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - && \
     apt-get install -y nodejs && \
     rm -rf /var/lib/apt/lists/*
