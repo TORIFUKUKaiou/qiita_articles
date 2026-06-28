@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
       - uses: erlef/setup-beam@v1
         with:
-          otp-version: "29.0.2"
+          otp-version: "28.5.0.2"
           elixir-version: "1.20.2"
       - name: Rename articles
         run: elixir bin/normalize-filenames.exs
