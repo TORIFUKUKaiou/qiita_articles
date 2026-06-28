@@ -15,7 +15,7 @@
 	"forwardPorts": [8888],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install",
+	"postCreateCommand": "npm ci",
 	"postStartCommand": "chmod +x /workspaces/qiita_articles/init.sh && /workspaces/qiita_articles/init.sh",
 
 	// Configure tool-specific properties.
