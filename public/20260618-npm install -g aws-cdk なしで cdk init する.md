@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2026-06-25T08:53:35+09:00'
+updated_at: '2026-07-01T08:08:16+09:00'
 id: 09a7816a08fec5b50ba1
 organization_url_name: haw
 slide: false
@@ -69,7 +69,7 @@ RUN curl -fsSL https://github.com/AikidoSec/safe-chain/releases/latest/download/
 ENV PATH="/usr/local/.safe-chain/shims:/usr/local/.safe-chain/bin:${PATH}"
 ```
 
-[AikidoSec/safe-chain](https://github.com/AikidoSec/safe-chain/ を利用しています。
+[AikidoSec/safe-chain](https://github.com/AikidoSec/safe-chain/) を利用しています。
 
 `devcontainer.json` は次のようにしました。
 
