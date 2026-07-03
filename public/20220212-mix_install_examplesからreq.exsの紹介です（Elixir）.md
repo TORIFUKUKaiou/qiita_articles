@@ -11,6 +11,8 @@ id: 130a6ba0b16e1fddf24f
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **他社の動きを気にし始めるのは負けの始まりだ。**
 

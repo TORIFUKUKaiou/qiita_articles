@@ -12,6 +12,8 @@ id: ab6b423d968711b65e9c
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 16baee61b1d8bd4aac5a
+agreed_posting_campaign_term: true
 ---
 <b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
 <b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>

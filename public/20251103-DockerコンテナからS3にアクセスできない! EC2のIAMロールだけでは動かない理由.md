@@ -12,6 +12,8 @@ id: e6dccad33a333ff966bc
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## TL;DR
 

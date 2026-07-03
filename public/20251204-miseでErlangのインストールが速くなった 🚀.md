@@ -12,6 +12,8 @@ id: f9884c0c71f2cc817fa6
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 [mise](https://mise.jdx.dev/)で[Elixir](https://elixir-lang.org/)、[Erlang](https://www.erlang.org/)のバージョン管理をする人が増えています。Elixirを楽しむためにはErlangのインストールは避けては通れません。

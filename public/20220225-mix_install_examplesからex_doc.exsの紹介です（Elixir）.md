@@ -11,6 +11,8 @@ id: aa05896f009588175c04
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **あまの原ふりさけ見ればかすがなるみ笠の山にいでし月かも**
 

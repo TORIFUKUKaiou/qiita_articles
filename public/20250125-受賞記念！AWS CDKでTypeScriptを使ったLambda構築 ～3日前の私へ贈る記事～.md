@@ -12,6 +12,8 @@ id: 8b7d0ddd4fdb4355eb29
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: fd9d012cdc6dcd0b2f5c
+agreed_posting_campaign_term: true
 ---
 :::note info
 **受賞記念記事**:tada::tada::tada:

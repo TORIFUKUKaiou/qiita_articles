@@ -11,6 +11,8 @@ id: 7509e747c0f48dc2ac09
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **後発での失敗は再起不能と思え**
 

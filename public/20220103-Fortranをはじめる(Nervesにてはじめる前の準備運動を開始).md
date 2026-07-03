@@ -12,6 +12,8 @@ id: 9494767af2816d1b607c
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **いくら考えても、どうにもならぬときは、四つ辻へ立って、杖の倒れたほうへ歩む。**
 

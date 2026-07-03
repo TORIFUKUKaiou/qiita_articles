@@ -11,6 +11,8 @@ id: 08f6435f3d420b8afdd2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **いにしへの奈良の都の八重桜今日九重ににほひぬるかな**

@@ -7,17 +7,19 @@ tags:
   - Tauri
   - Antigravity
 private: false
-updated_at: '2026-07-01T20:33:53+09:00'
+updated_at: '2026-07-02T15:42:11+09:00'
 id: b3c676f56146287b2034
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 9d632f51614ebd7b333c
+agreed_posting_campaign_term: true
 ---
 こんにちは。[Rust](https://rust-lang.org/ja/)はそこまで詳しくないものの、デスクトップアプリ開発で[Tauri](https://v2.tauri.app/ja/)を愛用している開発者です。
 
-最近、オープンソース界隈でよく耳にするのが**「ソフトウェアサプライチェーン攻撃」**です。悪意のあるコードが紛れ込んだライブラリがリリースされ、それを知らずにアップデートして取り込んでしまうリスクが身近に存在します。
+最近、オープンソース界隈でよく耳にするのが **「ソフトウェアサプライチェーン攻撃」** です。悪意のあるコードが紛れ込んだライブラリがリリースされ、それを知らずにアップデートして取り込んでしまうリスクが身近に存在します。
 
-もちろん「ライブラリのリリースから数日〜数週間経っていること（エイジング）」を確認しただけでサプライチェーン攻撃を100%防げるわけではありません。しかし、**「リリース直後の怪しいアップデートを無防備に踏まない」**ための一応の防御策、一歩としては十分に意味があると考えています。
+もちろん「ライブラリのリリースから数日〜数週間経っていること（エイジング）」を確認しただけでサプライチェーン攻撃を100%防げるわけではありません。しかし、 **「リリース直後の怪しいアップデートを無防備に踏まない」** ための一応の防御策、一歩としては十分に意味があると考えています。
 
 とはいえ、毎回 `cargo update --dry-run` を実行し、更新される大量のCrate名とバージョンを見て、いちいちブラウザで crates.io を開いてリリース日時を調べるのは……**あまりにも面倒すぎます。**
 
@@ -39,9 +41,19 @@ $ cargo-update-age -p tauri --dry-run
 note: pass `--verbose` to see 43 unchanged dependencies behind latest
 ```
 
+![output.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/a1568eba-467f-43e9-a399-876f8b240e0d.gif)
+
+
 `v2.11.4 (released: 2026-07-01 00:14:25)` のように、リリースされてどれくらい経っているか（Age）が一目瞭然になります。
 
 このラッパーは確認専用です。引数に `--dry-run` が含まれていない場合でも自動で付与し、`Cargo.lock` を変更しないようにしています。
+
+申し遅れました！
+`cargo-update-age` は以下のようなエイリアスを書いております。
+
+```
+alias cargo-update-age="uv run --no-project /path/to/tools/cargo-update-date.py"
+```
 
 ### スクリプトコード (Python 3)
 外部依存ライブラリを一切使わず、Pythonの標準ライブラリ（`urllib.request`, `json`, `datetime`）のみで完結させたため、`uv run` 等でカレントを汚さずに即実行可能です。

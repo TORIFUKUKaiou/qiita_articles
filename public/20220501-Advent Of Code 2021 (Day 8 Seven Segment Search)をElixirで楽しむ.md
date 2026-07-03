@@ -11,6 +11,8 @@ id: c0c55da8c6dde4bb6f1a
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **めぐりあひて見しやそれともわかぬまに雲隠れにし夜はの月かな**

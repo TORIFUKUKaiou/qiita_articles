@@ -12,6 +12,8 @@ id: b2cd2bbb01f5efddf767
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 5114a25130bf833bbe10
+agreed_posting_campaign_term: true
 ---
 > 「[API Gateway](https://aws.amazon.com/jp/api-gateway/)でいいんでないの？」
 > ーー その通りです。

@@ -12,6 +12,8 @@ id: bbf1c18cb9dbe28ef664
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 783b7a849caf11eefd91
+agreed_posting_campaign_term: true
 ---
 会社の決算期間のように、技術発信も一定期間で区切って振り返ってみるとおもしろいです。
 

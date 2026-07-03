@@ -12,6 +12,8 @@ id: 925065aab28f24975cd3
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 Qiitaに「納豆づくり?」何のこと? と思われると思います。そうせかせかしなさんなって。たまにはこんな記事もいいではありませんか。目に見えない縁起によってあなたはこの記事にたどり着いたのです。せっかくなので最後までごゆるりとしていってください。

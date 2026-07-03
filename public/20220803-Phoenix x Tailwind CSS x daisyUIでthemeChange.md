@@ -11,6 +11,8 @@ id: 4112f18ef516150da641
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ![output.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/ff449a4f-90fc-4530-db05-beb5a24b7448.gif)
 

@@ -11,6 +11,8 @@ id: 81f2a75bee0f919224ad
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @matsujirushi さんの[だれか書いてくれないかなー（過疎ってる](https://twitter.com/matsujirushi12/status/1334305032313786370) をみてしまいまして、

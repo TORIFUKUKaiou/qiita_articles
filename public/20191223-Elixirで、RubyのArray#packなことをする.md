@@ -11,6 +11,8 @@ id: ec81a4e5a0e3464b00ca
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Monacoin](https://monacoin.org/)のtestnet4に、とある[コインベーストランザクション](https://testnet-blockbook.electrum-mona.org/tx/2d3dcae3531be76f8e1ad1ba15f1c4503b159329156ad3814b1904eab411a6dd)があります

@@ -12,6 +12,8 @@ id: 6ff7da98e2ceb6ee694b
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 4f7ac46e5cd6c03f1397
+agreed_posting_campaign_term: true
 ---
 https://qiita.com/tech-festa/2025/tech-sprint
 

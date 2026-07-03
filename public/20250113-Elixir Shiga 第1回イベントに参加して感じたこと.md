@@ -12,6 +12,8 @@ id: efa77619f9887e2462d7
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: fd9d012cdc6dcd0b2f5c
+agreed_posting_campaign_term: true
 ---
 2025年1月11日（土）、滋賀県に新たなElixirコミュニティ「[Elixir Shiga](https://elixir-shiga.connpass.com/)」が誕生しました。その記念すべき第1回イベントに参加する機会をいただきましたので、イベントの様子と感じたことをお伝えします。
 

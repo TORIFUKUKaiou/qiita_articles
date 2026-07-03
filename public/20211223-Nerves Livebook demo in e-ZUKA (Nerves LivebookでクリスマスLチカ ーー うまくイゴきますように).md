@@ -12,6 +12,8 @@ id: 173a6d86d7a15649c5b5
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2021/nervesjp
 

@@ -12,6 +12,8 @@ id: 3bc56af7aac1dd86d897
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 > _いよいよ[Qiita Advent Calendar 2024](https://qiita.com/advent-calendar/2024)はおわりの時を迎えようとしています。おわりはまたはじまりも意味します。_
 

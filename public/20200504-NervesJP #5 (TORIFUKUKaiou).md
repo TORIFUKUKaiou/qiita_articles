@@ -9,6 +9,8 @@ id: fbe2702cda17509169a2
 organization_url_name: fukuokaex
 slide: true
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # Introduction
 - I hear to hold the meeting of [NeversJP #5](https://nerves-jp.connpass.com/event/175374/) on 6/May/2020 at 17:00 JST.

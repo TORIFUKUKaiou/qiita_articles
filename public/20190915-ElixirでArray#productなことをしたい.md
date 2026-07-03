@@ -8,6 +8,8 @@ id: f916d8373418b1a41f68
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # 結論
 - [内包表記](https://elixirschool.com/ja/lessons/basics/comprehensions/)を使う

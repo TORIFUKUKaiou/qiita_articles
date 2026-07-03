@@ -9,6 +9,8 @@ id: 84a7249a86a51fb8ac80
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @u2dayo さんの[【AtCoder解説】PythonでABC171のA,B,C問題を制する！](https://qiita.com/u2dayo/items/5f9dfee2ec0145402d75)を拝見しまして、私は[Elixir](https://elixir-lang.org/)でやってみようとおもいました

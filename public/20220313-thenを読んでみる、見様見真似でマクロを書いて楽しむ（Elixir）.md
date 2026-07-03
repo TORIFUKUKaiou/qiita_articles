@@ -11,6 +11,8 @@ id: e29ccaffa405ebdbc4c1
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **月見ればちぢにものこそ悲しけれわが身ひとつの秋にはあらねど**
 

@@ -11,6 +11,8 @@ id: bc21aad5b44fb3b95156
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **企画の知恵に勝るコストダウンはない。**
 

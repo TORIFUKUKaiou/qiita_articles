@@ -12,6 +12,8 @@ id: 5a8a5ce92f83c028d9cb
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: db2106c2a38d86187ffc
+agreed_posting_campaign_term: true
 ---
 :::note info
 **Qiita Advent Calendar 2026**

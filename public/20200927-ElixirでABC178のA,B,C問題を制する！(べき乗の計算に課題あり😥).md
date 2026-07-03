@@ -8,6 +8,8 @@ id: 2f739c12c031325016a2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 :::note info
 Elixir 1.13 or laterでは ** が追加されています！

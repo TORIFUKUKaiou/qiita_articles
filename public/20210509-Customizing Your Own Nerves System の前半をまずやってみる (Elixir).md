@@ -9,6 +9,8 @@ id: 71c3aaaee999ac1b7617
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://autoracex.connpass.com/event/212778/
 

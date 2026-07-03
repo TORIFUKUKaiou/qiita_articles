@@ -11,6 +11,8 @@ id: 111ae746293319dbc1ff
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **明けぬれば暮るるものとは知りながらなほ恨めしき朝ぼらけかな**
 

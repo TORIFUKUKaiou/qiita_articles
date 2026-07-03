@@ -12,6 +12,8 @@ id: dcff45f4146f8d58cf04
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 373107c63dfb360f9d9b
+agreed_posting_campaign_term: true
 ---
 Macを電源ボタン長押しで強制終了させることがありました。  
 

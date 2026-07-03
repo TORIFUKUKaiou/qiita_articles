@@ -8,6 +8,8 @@ id: 33c51de4a1abae2b683f
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @natsukbd さんの[Goのsortパッケージ](https://qiita.com/natsukbd/items/356d9a2f52176925544f)を拝見しまして、私はぜひ[Elixir](https://elixir-lang.org/)でやってみようとおもいました

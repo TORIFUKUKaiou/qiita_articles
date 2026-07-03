@@ -11,6 +11,8 @@ id: b8dfa91f7fa7a37d45d9
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **たれをかも知る人にせむ高砂の松も昔の友ならなくに**
 

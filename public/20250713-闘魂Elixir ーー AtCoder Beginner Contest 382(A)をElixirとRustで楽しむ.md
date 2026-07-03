@@ -12,6 +12,8 @@ id: 5a87d5c3b22613805584
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 43ff3363e32f43d7507c
+agreed_posting_campaign_term: true
 ---
 https://qiita.com/tech-festa/2025
 

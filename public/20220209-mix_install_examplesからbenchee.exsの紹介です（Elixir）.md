@@ -11,6 +11,8 @@ id: 2a2acad0cd07ec5cd9ff
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **ものが売れないのは高いか悪いのかのどちらかだ**
 

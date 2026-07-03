@@ -10,6 +10,8 @@ id: 6ea18016983cd66bdebd
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # 2020/12/22(火) 12:12 追記
 - <font color="purple">$\huge{解決しました🎉🎉🎉}$</font>

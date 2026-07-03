@@ -8,6 +8,8 @@ id: 422116d6617892ab7050
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 （この記事は @piacerex さんの[Timex利用コードをコマンド化すると実行時エラーが出る](https://qiita.com/piacerex/items/7ebaa107ad7a7f6cec46)のオマージュです）
 

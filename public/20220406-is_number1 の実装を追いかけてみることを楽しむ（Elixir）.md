@@ -11,6 +11,8 @@ id: e392052f4339d5f795e5
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **白露に風の吹きしく秋の野はつらぬきとめぬ玉ぞ散りける**
 

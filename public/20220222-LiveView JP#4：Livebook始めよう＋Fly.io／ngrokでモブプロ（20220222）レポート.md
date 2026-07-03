@@ -11,6 +11,8 @@ id: 5d393e293eac3759dca0
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **田子の浦にうちいでて見れば白たへの富士の高嶺に雪は降りつつ**
 

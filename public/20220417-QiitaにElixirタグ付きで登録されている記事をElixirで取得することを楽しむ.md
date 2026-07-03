@@ -11,6 +11,8 @@ id: 38493ca50c57d88a65fb
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **風をいたみ岩打つ波のおのれのみくだけてものを思ふ頃かな**
 

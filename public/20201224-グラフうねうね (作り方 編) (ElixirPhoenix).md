@@ -9,6 +9,8 @@ id: e3056efc3d2c62600fa2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 この記事は、[名前は聞いたことあるけど使ったことないやつをせっかくだから使ってみる Advent Calendar 2020](https://qiita.com/advent-calendar/2020/sekkaku) **25日目(最終日)** です。
 

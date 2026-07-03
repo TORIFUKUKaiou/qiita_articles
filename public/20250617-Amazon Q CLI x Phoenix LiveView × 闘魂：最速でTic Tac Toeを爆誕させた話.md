@@ -12,6 +12,8 @@ id: 30f43217a6b98058ae28
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 43ff3363e32f43d7507c
+agreed_posting_campaign_term: true
 ---
 :::note info
 ㊗️ Tシャツをいただけました :tada::tada::tada:

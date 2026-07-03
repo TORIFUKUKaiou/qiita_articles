@@ -8,6 +8,8 @@ id: cbe366320723cc12c973
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @aaabb6211 さんの[fizzbuzzを噛み砕く](https://qiita.com/aaabb6211/items/f1ec6d32075a96598ba0)を拝見しまして、ぜひ[Elixir](https://elixir-lang.org/)で書いてみようとおもいました。

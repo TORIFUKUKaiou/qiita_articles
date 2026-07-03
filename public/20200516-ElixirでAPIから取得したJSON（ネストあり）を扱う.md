@@ -9,6 +9,8 @@ id: 378f5b69a8a90e8afb26
 organization_url_name: fukuokaex
 slide: true
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @chokunari さんの[Node.jsでAPIから取得したJSON（ネストあり）を扱う](https://qiita.com/chokunari/items/cfabfa1039911f8f5f75)を拝見しまして、ぜひ[Elixir](https://elixir-lang.org/)で書いてみようとおもいました

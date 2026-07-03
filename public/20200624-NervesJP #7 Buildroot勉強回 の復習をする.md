@@ -8,6 +8,8 @@ id: ce141100348a4f558669
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - 2020/6/15に行われた[NervesJP #7 Buildroot勉強回](https://nerves-jp.connpass.com/event/178989/)に出席しました

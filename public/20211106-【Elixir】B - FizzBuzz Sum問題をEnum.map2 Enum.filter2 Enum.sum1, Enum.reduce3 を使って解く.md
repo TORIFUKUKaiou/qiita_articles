@@ -12,6 +12,8 @@ id: b82dac53c79b4ee16b98
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2021/elixir
 

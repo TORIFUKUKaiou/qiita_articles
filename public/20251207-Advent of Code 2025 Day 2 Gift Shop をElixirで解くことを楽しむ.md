@@ -12,6 +12,8 @@ id: 74b1872c7ab3fedde968
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 [Advent of Code 2025](https://adventofcode.com/2025) Day 2を解いてみます。  

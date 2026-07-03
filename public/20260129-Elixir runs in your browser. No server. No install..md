@@ -12,6 +12,8 @@ id: 9a8db2e8a1b89b9e8827
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: db2106c2a38d86187ffc
+agreed_posting_campaign_term: true
 ---
 ## はじめに
 

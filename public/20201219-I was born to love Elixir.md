@@ -8,6 +8,8 @@ id: 33e3471aaab6d863aecf
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 この記事は、「[プログラミング技術の変化で得られた知見・苦労話【PR】パソナテック Advent Calendar 2020](https://qiita.com/advent-calendar/2020/pasonatech-experience)」 5日目です。
 あいていたので埋めました。

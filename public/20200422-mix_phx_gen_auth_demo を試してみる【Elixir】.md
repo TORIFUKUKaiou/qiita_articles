@@ -11,6 +11,8 @@ id: 0be1bcd131ff3790a347
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [mix_phx_gen_auth_demo](https://github.com/dashbitco/mix_phx_gen_auth_demo)を動かしてみます

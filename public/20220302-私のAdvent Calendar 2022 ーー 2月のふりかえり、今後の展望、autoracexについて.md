@@ -12,6 +12,8 @@ id: 3b660ba8aa71fe3033f5
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **わたの原八十島かけて漕ぎいでぬと人には告げよあまの釣舟**
 

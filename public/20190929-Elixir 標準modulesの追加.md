@@ -8,6 +8,8 @@ id: 073204626e04aa123ae1
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - 2019/9/29(日)

@@ -12,6 +12,8 @@ id: b23538894e706a000410
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 :::note info
 **Qiita Advent Calendar 2025**

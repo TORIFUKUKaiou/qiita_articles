@@ -9,6 +9,8 @@ id: 63823013b7b6e76fd9ef
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - **私**は、[Elixir](https://elixir-lang.org/)の関数や[if](https://hexdocs.pm/elixir/Kernel.html#if/2)を1行で書くときに `,` を忘れがちです

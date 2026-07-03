@@ -10,6 +10,8 @@ id: 8c8a37e1a088c99b445b
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/official-events/5cb794f7cb9ac194ed70
 

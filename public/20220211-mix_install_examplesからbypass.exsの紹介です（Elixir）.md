@@ -11,6 +11,8 @@ id: d8972e3bc32aef49a72a
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **新しい種（商品）は育つ畑に蒔け**
 

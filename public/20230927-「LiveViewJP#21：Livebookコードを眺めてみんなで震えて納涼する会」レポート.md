@@ -11,6 +11,8 @@ id: fe40f6a16d8ac11ec297
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 2023年9月26日(火) 19:30、私は「[LiveViewJP#21：Livebookコードを眺めてみんなで震えて納涼する会](https://liveviewjp.connpass.com/event/294500/)」に参加しました。
 このイベントは、[Elixir](https://elixir-lang.org/)コミュニティの中で非常に注目されており、私の期待も高まっていました。以下はそのレポートです。

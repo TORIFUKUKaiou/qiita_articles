@@ -12,6 +12,8 @@ id: bc4cdcd7025bce09bffe
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ![DALL·E 2024-12-15 12.22.31 - A vibrant illustration depicting the concept of GitHub Codespaces and Livebook development. The image shows a futuristic workspace in the cloud, with .png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/40f31852-8b54-bf87-f871-6c0e6e3be467.png)
 

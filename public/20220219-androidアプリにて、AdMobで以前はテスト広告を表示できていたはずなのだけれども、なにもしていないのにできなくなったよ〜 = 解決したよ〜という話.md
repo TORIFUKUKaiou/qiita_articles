@@ -11,6 +11,8 @@ id: 6c25e3e0183f12f90c14
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **少にして学べば、即ち壮にして為すことあり。壮にして学べば、即ち老いて衰えず。老いて学べば、即ち死して朽ちず**
 

@@ -8,6 +8,8 @@ id: 937a0e5ba7f393e00793
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - ある条件に合致するときは"Yes"、そうではない場合は"No"を返しなさいという関数をつくりたいとします

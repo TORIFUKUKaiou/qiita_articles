@@ -11,6 +11,8 @@ id: 0ee203ab0ad7ca47f5fc
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2024/blastengine
 

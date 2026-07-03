@@ -12,6 +12,8 @@ id: 7709f7dd5e6a5fb793dc
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2024/cpaas-now
 

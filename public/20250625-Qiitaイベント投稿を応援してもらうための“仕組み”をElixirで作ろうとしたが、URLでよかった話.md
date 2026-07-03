@@ -11,6 +11,8 @@ id: 5ee42757ad079844c543
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 373107c63dfb360f9d9b
+agreed_posting_campaign_term: true
 ---
 
 

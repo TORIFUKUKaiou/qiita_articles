@@ -11,6 +11,8 @@ id: 96bd52f314768cb16e89
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 16fbe2948367d399e185
+agreed_posting_campaign_term: true
 ---
 ![ChatGPT Image 2025年7月12日 23_43_30.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/e4e4ab5a-6109-4ba3-bb7c-29d8071f08ab.png)
 

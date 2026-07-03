@@ -9,6 +9,8 @@ id: c3e37813c6c32fb6d5d2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [How can I implement an infinite scroll in liveview?](https://elixirforum.com/t/how-can-i-implement-an-infinite-scroll-in-liveview/30457)

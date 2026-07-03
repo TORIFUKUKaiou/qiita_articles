@@ -12,6 +12,8 @@ id: e958fd9885d322625c8a
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/nolanlover0527/items/32d8f4c1b3064eff5ecd
 

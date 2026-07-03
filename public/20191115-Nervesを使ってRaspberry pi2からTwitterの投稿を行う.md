@@ -9,6 +9,8 @@ id: 6096c201fbb013e65baa
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 （この記事は、「[#NervesJP Advent Calendar 2019](https://qiita.com/advent-calendar/2019/nervesjp)」の2日目です）
 昨日は[takasehideki](https://qiita.com/takasehideki)先生の「[ElixirでIoT#4.1：Nerves開発環境の準備（2019年12月版）](https://qiita.com/takasehideki/items/88dda57758051d45fcf9)」です！こちらもぜひぜひ！

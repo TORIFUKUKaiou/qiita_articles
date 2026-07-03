@@ -10,6 +10,8 @@ id: 07412d94fc86a4eb12a0
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - 私は[Elixir](https://elixir-lang.org/)を使ってプログラムを書くのが好きです

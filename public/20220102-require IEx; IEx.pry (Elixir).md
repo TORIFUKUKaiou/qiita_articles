@@ -10,6 +10,8 @@ id: e59b20caaecd22db1705
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **鞭声粛粛夜河を渡る**
 

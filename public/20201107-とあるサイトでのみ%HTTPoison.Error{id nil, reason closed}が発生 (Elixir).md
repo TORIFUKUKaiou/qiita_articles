@@ -8,6 +8,8 @@ id: 100afafe1920eb72b339
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 [Elixir その2 Advent Calendar 2020](https://qiita.com/advent-calendar/2020/elixir2) 4日目です。
 前日は、[Surfaceをつかってみる(Elixir/Phoenix)](https://qiita.com/torifukukaiou/items/b5ae9eac42bd304b7aa3)でした。

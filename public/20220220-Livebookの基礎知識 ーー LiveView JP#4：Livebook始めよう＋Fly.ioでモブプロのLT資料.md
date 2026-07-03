@@ -11,6 +11,8 @@ id: d1f2e8e3ec2869566b93
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **春すぎて夏来にけらし白たへのころもほすてふあまの香具山**
 

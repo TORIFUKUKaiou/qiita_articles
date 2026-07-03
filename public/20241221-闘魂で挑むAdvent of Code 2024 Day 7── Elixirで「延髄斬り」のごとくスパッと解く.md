@@ -11,6 +11,8 @@ id: 99abccaab0b1807aee8a
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ```elixir
 defmodule FightingSpirit do

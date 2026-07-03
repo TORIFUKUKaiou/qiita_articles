@@ -9,6 +9,8 @@ id: 2a17b1cb850cde75f664
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @koyo-miyamura さんの[【doctestつき】AtCoder に登録したら解くべき精選過去問 10 問を"Elixir"で解いてみた](https://qiita.com/koyo-miyamura/items/9f224a3e56ea75939dca)を拝見しまして、私も[Elixir](https://elixir-lang.org/)でやってみました

@@ -9,6 +9,8 @@ id: 795ee5a112845dbf7730
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 （この記事は、「[#NervesJP Advent Calendar 2019](https://qiita.com/advent-calendar/2019/nervesjp)」の10日目です）
 昨日は[私](https://qiita.com/torifukukaiou)の「[Nervesを使ってRaspberry Pi 2でLEDをチカチカさせる 〜クリスマスの飾り付けをしよう〜](https://qiita.com/torifukukaiou/items/bf0354db8cd0628f161e)」です！こちらもぜひぜひ！

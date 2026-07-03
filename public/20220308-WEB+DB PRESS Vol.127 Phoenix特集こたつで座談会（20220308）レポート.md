@@ -10,6 +10,8 @@ id: 26e81d72b4525528a366
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **すみの江の岸による波よるさへや夢のかよひ路人目よくらむ**
 

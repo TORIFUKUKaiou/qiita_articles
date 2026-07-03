@@ -8,6 +8,8 @@ id: f5c0cb895617427f84b3
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 @QUANON さんの[[Ruby] Array#find_index の複数の index を返すバージョンがほしい](https://qiita.com/QUANON/items/ca06f3068c87b3a21e18) を[Elixir](https://elixir-lang.org/)で書いてみました
 

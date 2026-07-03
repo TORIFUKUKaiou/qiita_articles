@@ -9,6 +9,8 @@ id: 68ae12c5801b7f41bf23
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/)でやってみました

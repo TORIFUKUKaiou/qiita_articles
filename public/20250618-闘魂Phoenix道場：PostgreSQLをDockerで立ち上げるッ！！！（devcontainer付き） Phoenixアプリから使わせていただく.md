@@ -12,6 +12,8 @@ id: bc1e3486330e1be2674f
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 96a5d14a8908bfca8b8f
+agreed_posting_campaign_term: true
 ---
 いよいよはじまりました！
 [Qiita Tech Festa](https://qiita.com/tech-festa/2025) :tada::tada::tada: 

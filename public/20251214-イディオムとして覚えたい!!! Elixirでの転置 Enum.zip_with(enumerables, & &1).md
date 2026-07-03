@@ -12,6 +12,8 @@ id: 2aee585d149b9a79eff5
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 Advent Of Code等を解いていると行列を転置したいことがあります。

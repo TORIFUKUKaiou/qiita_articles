@@ -13,6 +13,8 @@ id: f260b956d7152a47de0a
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: fd9d012cdc6dcd0b2f5c
+agreed_posting_campaign_term: true
 ---
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3d2814f3-e06a-e4d2-c602-00e1fc7142cc.png)
 

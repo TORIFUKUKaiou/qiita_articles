@@ -11,6 +11,8 @@ id: 08efd4314d2cae5bfe62
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 09dee22c436b60f856c9
+agreed_posting_campaign_term: true
 ---
 2023年9月20日(水) 19:30、私は「[ElixirImp#35：Elixir Chipについてアレコレ座談会](https://fukuokaex.connpass.com/event/288072/)」に熱心に参加しました。
 このイベントは、[Elixir](https://elixir-lang.org/)コミュニティの中で非常に注目されており、私の期待も高まっていました。以下はそのレポートです。

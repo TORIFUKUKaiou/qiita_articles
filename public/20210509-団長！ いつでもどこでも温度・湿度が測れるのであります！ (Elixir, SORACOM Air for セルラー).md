@@ -12,6 +12,8 @@ id: ed0d80c2af8699875f54
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://www.lp.soracom.jp/202104-soracom-raspberry-pi-contest
 

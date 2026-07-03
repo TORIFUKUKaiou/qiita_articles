@@ -11,6 +11,8 @@ id: aea6409e695f9a29d1b0
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **よいものを安く、より新しいものを早く。**
 

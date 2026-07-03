@@ -12,6 +12,8 @@ id: 0c2f42e10f14f5dfff5f
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **志士は溝壑（こうがく）に在るを忘れず、勇士は其の元（かうべ）を喪うことを忘れず**

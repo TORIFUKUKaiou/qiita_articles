@@ -11,6 +11,8 @@ id: 998d6539e4adcd1816b3
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 この記事は、「[Docker Advent Calendar 2020](https://qiita.com/advent-calendar/2020/docker)」 7日目です。
 あいていたので埋めました。

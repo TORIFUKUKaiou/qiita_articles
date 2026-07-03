@@ -8,6 +8,8 @@ id: 0d2c63265aa2600bddd2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Scenic](https://hexdocs.pm/scenic/welcome.html) とは、いまこの時点ではなんのことかさっぱりわかっていません

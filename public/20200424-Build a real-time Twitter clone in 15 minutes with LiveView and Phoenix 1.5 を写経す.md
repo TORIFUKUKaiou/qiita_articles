@@ -12,6 +12,8 @@ id: 860d027edbe5672ca53b
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Build a real-time Twitter clone in 15 minutes with LiveView and Phoenix 1.5](https://www.youtube.com/watch?v=MZvmYaFkNJI) という[Phoenix](https://www.phoenixframework.org/)の作者[Chris McCord](https://github.com/chrismccord)さんのビデオがあります

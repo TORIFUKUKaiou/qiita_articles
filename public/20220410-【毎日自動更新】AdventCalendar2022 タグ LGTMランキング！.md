@@ -10,6 +10,8 @@ id: 6cbea79ccf0eea8777d2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/kaizen_nagoya/items/0f48e2a8402f40630976
 

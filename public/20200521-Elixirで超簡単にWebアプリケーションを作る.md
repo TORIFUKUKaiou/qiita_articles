@@ -9,6 +9,8 @@ id: ec4d0ae18c7072309c5c
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @lambda_funtaro さんの[Haskellで超簡単にWebアプリケーションを作る(モナドも出てこないよ)](https://qiita.com/lambda_funtaro/items/589c2a93749927c33c96)を拝見しまして、ぜひ[Elixir](https://elixir-lang.org/)でやってみたいとおもってやってみました

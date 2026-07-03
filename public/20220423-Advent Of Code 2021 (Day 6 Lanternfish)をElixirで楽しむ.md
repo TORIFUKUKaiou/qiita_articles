@@ -11,6 +11,8 @@ id: b254ae720e17ee86f276
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **滝の音は絶えて久しくなりぬれど名こそ流れてなほ聞こえけれ**

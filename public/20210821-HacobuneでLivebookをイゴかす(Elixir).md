@@ -8,6 +8,8 @@ id: eab0dbebf3623e4e0b47
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Elixir](https://elixir-lang.org/)を楽しんでいますか:bangbang::bangbang::bangbang:

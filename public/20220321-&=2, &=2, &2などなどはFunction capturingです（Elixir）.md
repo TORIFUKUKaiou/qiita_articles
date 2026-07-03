@@ -11,6 +11,8 @@ id: 140e0e90ba080f3be0ad
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **山里は冬ぞ寂しさまさりける人目も草もかれぬと思へば**
 

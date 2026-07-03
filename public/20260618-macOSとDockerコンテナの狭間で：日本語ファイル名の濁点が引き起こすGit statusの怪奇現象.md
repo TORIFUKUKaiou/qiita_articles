@@ -12,6 +12,8 @@ id: 3c4e750bd8564144c178
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 3af9413ea59cb9f9b1d8
+agreed_posting_campaign_term: true
 ---
 macOS（ホスト）とDocker（Linuxコンテナ）を組み合わせて開発していると、時々 **「Mac側ではクリーンなのに、コンテナ内でだけ特定のファイルが `Untracked files` として検出される」** という現象に遭遇することがあります。
 

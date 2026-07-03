@@ -9,6 +9,8 @@ id: c1d6fd54117197ea9991
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - たとえば[Phoenix](https://www.phoenixframework.org/)で[Controllers](https://hexdocs.pm/phoenix/controllers.html#content)を書く時に、`use HelloWeb, :controller`みたいなことを書きますが、`use`しているものを自分で書くにはどうしたらいいのでしょうか

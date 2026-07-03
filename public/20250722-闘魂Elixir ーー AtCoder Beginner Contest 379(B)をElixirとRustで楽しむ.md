@@ -12,6 +12,8 @@ id: c2f1b3fc109526e6d36a
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 <!---
 闘魂とは己に打ち克つこと。そして闘いを通じて己の魂を磨いていくことだと思います。

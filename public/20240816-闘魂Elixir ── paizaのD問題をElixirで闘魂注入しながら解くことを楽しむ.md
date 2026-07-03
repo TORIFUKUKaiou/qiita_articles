@@ -12,6 +12,8 @@ id: ec4e6628aea20d73bdbf
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 9ab96aa95d62fe3cbdd7
+agreed_posting_campaign_term: true
 ---
 <b><font color="red">$\huge{元氣ですかーーーーッ！！！}$</font></b>
 <b><font color="red">$\huge{元氣があればなんでもできる！}$</font></b>

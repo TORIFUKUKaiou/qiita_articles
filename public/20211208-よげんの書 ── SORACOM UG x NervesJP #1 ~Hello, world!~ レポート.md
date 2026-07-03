@@ -12,6 +12,8 @@ id: bfb827fd97c70e89c427
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2021/nervesjp
 

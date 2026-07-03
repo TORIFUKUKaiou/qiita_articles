@@ -9,6 +9,8 @@ id: d26c9ffb051dd3df82ba
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 （この記事は、「[#NervesJP Advent Calendar 2019](https://qiita.com/advent-calendar/2019/nervesjp)」の7日目です）
 昨日は[Yoosuke](https://qiita.com/Yoosuke)さんの「[Nerves と GraphQLsever の組み合わせを考える「ポエム」](https://qiita.com/Yoosuke/items/50fc77bf8230109cfa88)」です！こちらもぜひぜひ！

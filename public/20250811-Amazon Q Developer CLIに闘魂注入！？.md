@@ -12,6 +12,8 @@ id: f2768a6704e0e86ad8da
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 English: [Injecting Toukon (Self-Mastery Spirit) into Amazon Q Developer CLI!?](https://dev.to/torifukukaiou/injecting-toukon-self-mastery-spirit-into-amazon-q-cli-3ddb)
 

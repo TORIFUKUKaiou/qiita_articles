@@ -11,6 +11,8 @@ id: a94c5c131cebb9505eef
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **あひ見ての後の心にくらぶれば昔はものを思はざりけり**
 

@@ -12,6 +12,8 @@ id: 29e217d5f7483d4218aa
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 Kiro CLI(旧Amazon Q Developer CLI)をEC2にインストールして、Vibe Codingで静的ウェブサイトのコンテンツの制作ならびに、デプロイまでを行います。

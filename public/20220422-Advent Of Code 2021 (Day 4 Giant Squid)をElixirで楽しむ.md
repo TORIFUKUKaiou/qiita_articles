@@ -11,6 +11,8 @@ id: 9d575ddcc7791593bf53
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **歎きつつひとりぬる夜の明くるまはいかに久しきものとかは知る**

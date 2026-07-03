@@ -8,6 +8,8 @@ id: 75fa25c55ce2f0b92496
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - `% brew install elixir` でインストールした[Elixir](https://elixir-lang.org/)で楽しんでいましたが、[asdf](https://asdf-vm.com/#/)でインストールするのがいいらしいといろいろな人から聞いていました

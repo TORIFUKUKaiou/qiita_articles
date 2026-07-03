@@ -11,6 +11,8 @@ id: 891db4e40a7f6194af56
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **絞った知恵の量だけ付加価値が得られる。**
 

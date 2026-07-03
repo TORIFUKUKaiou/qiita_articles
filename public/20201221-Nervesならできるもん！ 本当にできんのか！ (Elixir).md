@@ -10,6 +10,8 @@ id: dc54108e4a1f1cb3a650
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 この記事は[Raspberry Pi Advent Calendar 2020](https://qiita.com/advent-calendar/2020/raspberry-pi) **11日目**です。
 あいていたので書きます

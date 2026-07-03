@@ -12,6 +12,8 @@ id: 3fcebf5dd832654e4fea
 organization_url_name: linedc_jp
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **無謀はいけないが多少の無理はさせろ、無理を通せば、発想が変わる**
 

@@ -11,6 +11,8 @@ id: 92803b9eb4fb9b7bdf07
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **ありま山ゐなの笹原風吹けばいでそよ人を忘れやはする**

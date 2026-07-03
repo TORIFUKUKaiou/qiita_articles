@@ -13,6 +13,8 @@ id: 84c03b8d31c19ca20711
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2022/ruby
 

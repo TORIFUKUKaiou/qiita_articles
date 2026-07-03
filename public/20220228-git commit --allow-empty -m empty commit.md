@@ -10,6 +10,8 @@ id: 552a5ac98ff42de8c019
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 何も変更をしていないけれども、コミットをしたいことありますよね！
 私はあります。

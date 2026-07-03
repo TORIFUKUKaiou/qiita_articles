@@ -8,6 +8,8 @@ id: e8a27dd5bdfa31a1ec02
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Ruby](https://www.ruby-lang.org/ja/)の[Array#combination](https://docs.ruby-lang.org/ja/latest/method/Array/i/combination.html)相当のことを[Elixir](https://elixir-lang.org/)でやってみたいのであります

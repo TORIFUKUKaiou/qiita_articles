@@ -11,6 +11,8 @@ id: 24ab8b4b313b6f5171d9
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 https://qiita.com/torifukukaiou/items/8332fc2bac0778f40d8c

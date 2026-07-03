@@ -12,6 +12,8 @@ id: 4c4d6f9a295fa2121eab
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **み垣もり衛士のたく火の夜はもえ昼は消えつつものをこそ思へ**
 

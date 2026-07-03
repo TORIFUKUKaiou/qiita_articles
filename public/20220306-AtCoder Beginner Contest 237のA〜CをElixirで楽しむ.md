@@ -12,6 +12,8 @@ id: 64c12bea833a5d7c2c0b
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **みちのくの忍ぶもぢずり誰ゆゑに乱れそめにしわれならなくに**
 

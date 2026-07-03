@@ -9,6 +9,8 @@ id: 4ebd31dbc0804c3f1dd3
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - タイトルの通りです。

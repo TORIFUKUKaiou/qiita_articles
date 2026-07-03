@@ -11,6 +11,8 @@ id: 872e28ca5c8bb3a48951
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 **忘れじの行く末まではかたければ今日を限りの命ともがな**

@@ -12,6 +12,8 @@ id: ca7baeea25eadca58a94
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 米Googleは2026年5月19日、AI開発者向けおよび一般消費者向けにいくつかの重要な発表を行いました。
 

@@ -9,6 +9,8 @@ id: 3c2ff39e5a20cba3e62f
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [Scenic](https://hexdocs.pm/scenic/welcome.html)は、Elixir/Erlang/OTP stackで直接書けるアプリケーションフレームワークです

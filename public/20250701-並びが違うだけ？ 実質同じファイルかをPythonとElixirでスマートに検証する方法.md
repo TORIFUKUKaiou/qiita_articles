@@ -11,6 +11,8 @@ id: fb42f8d6dc98d7d56760
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 4f7ac46e5cd6c03f1397
+agreed_posting_campaign_term: true
 ---
 # 並びが違うだけで“diff”に出るファイル、本当に違う？
 

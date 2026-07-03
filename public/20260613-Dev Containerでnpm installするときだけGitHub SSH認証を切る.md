@@ -12,6 +12,8 @@ id: 4febb1087b6e1ca71025
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: 3af9413ea59cb9f9b1d8
+agreed_posting_campaign_term: true
 ---
 [VS Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers)は便利です。
 

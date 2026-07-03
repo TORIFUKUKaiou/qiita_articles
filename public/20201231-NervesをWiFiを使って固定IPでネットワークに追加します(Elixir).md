@@ -9,6 +9,8 @@ id: 45cfc7bdf73f3f232299
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - 公式の[VintageNet Cookbook](https://hexdocs.pm/vintage_net/cookbook.html)をよくみるとよいです

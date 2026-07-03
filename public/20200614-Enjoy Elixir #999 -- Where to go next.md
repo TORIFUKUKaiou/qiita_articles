@@ -8,6 +8,8 @@ id: 4fa0747546aafa3fe89a
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - 私が[Elixir](https://elixir-lang.org/)を使ってなにかを書くときに、とてもお世話になっているいろいろをご紹介します

@@ -9,6 +9,8 @@ id: 75d5db21d98fdf4459e2
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 この記事は、[fukuoka.ex Elixir／Phoenix Advent Calendar 2020](https://qiita.com/advent-calendar/2020/fukuokaex) 3日目です。
 前日は、@marocchino さんの[優しいエラーメッセージを書きたい](https://qiita.com/marocchino/items/f8b4baa6f6ee294f6b79)でした。

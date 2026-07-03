@@ -10,6 +10,8 @@ id: 8dd486a2d12dd44e371e
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **山中の賊を破るは易く心中の賊を破るは難し**
 

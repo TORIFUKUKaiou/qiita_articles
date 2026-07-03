@@ -12,6 +12,8 @@ id: e3c9793c052ca7b19f31
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 https://qiita.com/advent-calendar/2021/docker
 

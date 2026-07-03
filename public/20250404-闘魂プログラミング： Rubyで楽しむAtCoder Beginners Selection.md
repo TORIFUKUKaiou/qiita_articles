@@ -10,6 +10,8 @@ id: 4d8d87ec18ddf2e89af4
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ![2025-02-10_07-46-21_436.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/898583e8-1ac4-fd37-3c05-f66dbc2e15a2.jpeg)
 

@@ -8,6 +8,8 @@ id: c0c4af21d0dc25ad3855
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - @tsuBee5 さんの[[Go] JSON レスポンスから CSV を作成する](https://qiita.com/tsuBee5/items/9b8da61e851a1e62f309)を拝見しまして、私はぜひ[Elixir](https://elixir-lang.org/)でやってみようとおもいました

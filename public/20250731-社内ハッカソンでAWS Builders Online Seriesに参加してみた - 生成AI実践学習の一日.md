@@ -12,6 +12,8 @@ id: 18f0745d9b4b563c58c4
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ![image2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3f5fbba3-cab7-4413-81b4-d3b3c40d42a5.png)
 

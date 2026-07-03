@@ -8,6 +8,8 @@ id: 0881555558387c66c5c4
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 # はじめに
 - [プログラマ脳を鍛える数学パズル](https://www.amazon.co.jp/dp/479814245X) という本の問題を[Elixir](https://elixir-lang.org/)を使って解くということをやっています

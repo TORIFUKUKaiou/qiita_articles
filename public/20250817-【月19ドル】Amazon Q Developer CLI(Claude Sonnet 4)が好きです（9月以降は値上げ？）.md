@@ -12,6 +12,8 @@ id: cca725c15c4922133a36
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: c2120f866138017e728a
+agreed_posting_campaign_term: true
 ---
 https://qiita.com/official-events/c2120f866138017e728a
 

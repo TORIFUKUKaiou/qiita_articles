@@ -12,6 +12,8 @@ id: 9ea1d1652d08d330a2ce
 organization_url_name: haw
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 :::note alert
 【2025/06/24追記】

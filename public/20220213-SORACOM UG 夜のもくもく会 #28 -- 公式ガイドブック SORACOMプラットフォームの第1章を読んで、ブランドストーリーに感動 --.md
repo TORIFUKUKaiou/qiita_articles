@@ -11,6 +11,8 @@ id: c86e8abe2cf1ea96af03
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **可能と困難は可能のうち**
 

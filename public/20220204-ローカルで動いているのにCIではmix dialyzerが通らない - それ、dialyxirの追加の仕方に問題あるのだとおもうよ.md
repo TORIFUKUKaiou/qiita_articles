@@ -11,6 +11,8 @@ id: 35454d3faaaa0d142ae6
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **できない理由はできることの証拠だ。できない理由を解決すればよい。**
 

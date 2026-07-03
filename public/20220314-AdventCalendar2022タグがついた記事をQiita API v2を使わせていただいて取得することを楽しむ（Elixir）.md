@@ -11,6 +11,8 @@ id: ba2b283537bc84e0c196
 organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 **このたびはぬさも取りあへずたむけ山もみぢのにしき神のまにまに（菅公）**
 
