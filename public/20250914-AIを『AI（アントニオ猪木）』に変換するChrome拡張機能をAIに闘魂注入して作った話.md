@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2025-09-17T10:19:11+09:00'
+updated_at: '2026-07-07T07:04:50+09:00'
 id: e958fd9885d322625c8a
 organization_url_name: haw
 slide: false
@@ -124,3 +124,9 @@ Chrome exstensionを作りたいです。
 ブラウザに表示される「AI（アントニオ猪木）」の文字をみて、改めて、猪木さんが訴え続けられていた「**本当の世界平和の実現**」と「**地球レベルでのゴミ問題の解決**」を目指したいという気持ちをより強くしました。  
 
 ![スクリーンショット 2025-09-14 22.58.08.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/cc3ea681-2d11-49bb-bd28-a586bf38220f.png)
+
+---
+
+## 参考
+
+https://note.com/awesomey/n/n6b2c8f4e2197
