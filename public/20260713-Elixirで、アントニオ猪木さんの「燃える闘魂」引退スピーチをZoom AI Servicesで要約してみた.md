@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2026-07-13T00:48:39+09:00'
+updated_at: '2026-07-13T11:13:00+09:00'
 id: df8b32fe6b7d1103c97a
 organization_url_name: fukuokaex
 slide: false
@@ -85,7 +85,7 @@ export ZOOM_API_SECRET="あなたのAPI_SECRET"
 引退セレモニーの文字起こしテキストを以下の2つのファイルとして同じディレクトリに保存します。
 
 #### `furutachi.txt` (古舘伊知郎氏のアナウンス)
-```text
+```text:furutachi.txt
 闘う旅人、アントニオ猪木。
 いま相手のいないリングに猪木はたった一人で佇んでいます。
 おもえば38年におよぶプロレス人生。旅から旅への連続であり、そして猪木の精神も旅の連続であった。
@@ -106,7 +106,7 @@ export ZOOM_API_SECRET="あなたのAPI_SECRET"
 ```
 
 #### `inoki.txt` (アントニオ猪木氏本人の引退挨拶)
-```text
+```text:inoki.txt
 わたしは今、感動と感激そしてすばらしい空間の中に立っています。
 心の奥底から湧き上がる、みなさまに対する感謝と熱い思いを止めることができません。
 カウントダウンがはじまってからかなりの時間が経ちました。
