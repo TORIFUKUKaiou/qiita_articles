@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - ai&
 private: false
-updated_at: '2026-07-13T11:26:28+09:00'
+updated_at: '2026-07-14T11:12:17+09:00'
 id: 78314be5a6db95b13286
 organization_url_name: fukuokaex
 slide: false
@@ -230,4 +230,4 @@ ai& Inference については、『[OpenAI APIからai& InferenceのOpenAI互換
 
 ## 編集後記
 
-`NewPJ` (新プロジェクト) ということだと思いますが、私には、New Japanつまり、新日本にしか見えませんでした。
+`NewPJ` (新プロジェクト) ということだと思いますが、私には、New Japanつまり、新日本（プロレス）にしか見えませんでした。新日本プロレスを創設したのは、もちろんアントニオ猪木さんです。

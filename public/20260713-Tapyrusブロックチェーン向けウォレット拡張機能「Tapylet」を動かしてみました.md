@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - Tapylet
 private: false
-updated_at: '2026-07-14T07:59:29+09:00'
+updated_at: '2026-07-14T15:56:21+09:00'
 id: 1159be14ff92e0449037
 organization_url_name: haw
 slide: false
@@ -99,12 +99,12 @@ https://site.tapyrus.chaintope.com/colored-coin/spec
 
 ### レジストリを開く
 
-レジストリを開くと、自動的にGitHub Issuesが開きます。
+「レジストリを開く」を押すと、自動的にGitHub Issuesが開きます。
 一瞬何のことかはわかりませんでしたが、危ぶむことなく、歩を前へ進めます。迷わず行きます。
 
 ![スクリーンショット 2026-07-02 8.37.34.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/410c1149-8765-41e3-aa7f-d0e7557da39d.png)
 
-アセット発行完了に表示されていた内容で埋めることができます。
+「アセット発行完了」ポップアップに表示されていた内容で埋めることができます。
 迷わず「Create」します。
 
 少し待つと、IssueはCloseされます。
@@ -115,12 +115,12 @@ https://site.tapyrus.chaintope.com/colored-coin/spec
 
 https://chaintope.github.io/tapyrus-token-registry/
 
-[Tapyrus Token Registory](https://chaintope.github.io/tapyrus-token-registry/)に行くと、さきほど発行し、Issueで登録をした「すごいトークン」が一覧に表示されています。
+[Tapyrus Token Registry](https://chaintope.github.io/tapyrus-token-registry/)に行くと、さきほど発行し、Issueで登録をした「すごいトークン」が一覧に表示されています。
 
 
 ![スクリーンショット 2026-07-02 8.40.22.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/8c3c5387-b815-49b0-b0c9-8d8040870932.png)
 
-さきほどのIssueで自動的に追加されたようです。
+さきほどのIssueが自動的に処理されて、一覧に追加されたようです。
 
 ![スクリーンショット 2026-07-02 9.04.52.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/70718fe5-1b96-4bf2-9cc6-a1baefb87129.png)
 
