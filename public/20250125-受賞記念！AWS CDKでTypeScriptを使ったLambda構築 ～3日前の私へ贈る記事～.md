@@ -7,7 +7,7 @@ tags:
   - 猪木
   - 闘魂
 private: false
-updated_at: '2025-01-27T13:12:32+09:00'
+updated_at: '2026-07-15T19:39:38+09:00'
 id: 8b7d0ddd4fdb4355eb29
 organization_url_name: haw
 slide: false
@@ -64,7 +64,7 @@ https://github.com/TORIFUKUKaiou/line-bot-cdk
 少しだけ補足しておきます。
 
 - API Gatewayではなく、Lambda 関数のための専用 HTTP エンドポイントである「[Lambda 関数 URL](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/urls-configuration.html)」を使用しています
-- LINEボットとOpenAI APIを利用するために必要な機密値は、[AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-parameter-store.html)に、SecureStringで格納しています
+- LINEボットとOpenAI APIを利用するために必要なシークレット値は、[AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/systems-manager-parameter-store.html)に、SecureStringで格納しています
     - [Secrets Manager](https://aws.amazon.com/jp/secrets-manager/)の選択肢もあります
     - 以下の記事で詳しく解説されています
     - [Secrets ManagerとParameter Storeの違いについてまとめてみた](https://dev.classmethod.jp/articles/secretsmanager-or-parameterstore/)
