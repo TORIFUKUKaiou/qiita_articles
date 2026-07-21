@@ -1,5 +1,5 @@
 ---
-title: さくらのAI Engine Playgroundに記事を書いてもらいました
+title: "さくらのAI Engine Playgroundに記事を書いてもらいました（応答が速い\U0001F680\U0001F680\U0001F680)"
 tags:
   - AI
   - さくらインターネット
@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - さくらのAI
 private: false
-updated_at: '2026-07-15T21:12:42+09:00'
+updated_at: '2026-07-21T03:34:12+09:00'
 id: 5a3fd81908bcdb0ee59e
 organization_url_name: haw
 slide: false
