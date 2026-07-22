@@ -1,5 +1,5 @@
 ---
-title: さくらのAI Engineに書いてもらったコードで、さくらのAI Engineの「ずんだもん」に毎朝私は起こされる
+title: さくらのAI Engineに書いてもらったコードで、さくらのAI Engineの「ずんだもん」に毎朝私は起こしてもらう
 tags:
   - さくらのAI
   - ずんだもん
@@ -7,7 +7,7 @@ tags:
   - Elixir
   - Nerves
 private: false
-updated_at: '2026-07-18T12:49:32+09:00'
+updated_at: '2026-07-21T12:02:19+09:00'
 id: 3c03c45da77e9cb7cf6b
 organization_url_name: fukuokaex
 slide: false
@@ -91,7 +91,8 @@ defmodule Sakura.TextToSpeech do
       json: body,
       headers: [authorization: "Bearer #{@token}"],
       pool_timeout: 50000,
-      receive_timeout: 50000
+      receive_timeout: 50000,
+      connect_options: [timeout: 50_000]
     )
     |> Map.get(:body)
   end
