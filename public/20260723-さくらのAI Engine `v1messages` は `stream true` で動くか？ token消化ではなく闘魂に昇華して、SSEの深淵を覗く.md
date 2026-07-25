@@ -9,7 +9,7 @@ tags:
   - 猪木
   - AIではなく人間が書いてます
 private: false
-updated_at: '2026-07-23T08:20:34+09:00'
+updated_at: '2026-07-25T10:14:41+09:00'
 id: b090f60b13c8dcdfce94
 organization_url_name: haw
 slide: false
@@ -341,3 +341,34 @@ data: {"type":"content_block_delta", ...}
 - [Anthropic：Streaming messages](https://platform.claude.com/docs/en/build-with-claude/streaming)
 - [WHATWG HTML Standard：Server-sent events](https://html.spec.whatwg.org/multipage/server-sent-events.html)
 - [Anthropic Python SDK v0.116.0（固定コミット）](https://github.com/anthropics/anthropic-sdk-python/tree/d2f6543ee7995adcae74666a5d37b3d9743debfe)
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d648527b-6c59-4c85-9681-bf5d01b0b6f4.png)

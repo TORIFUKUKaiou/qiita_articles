@@ -7,7 +7,7 @@ tags:
   - Elixir
   - Nerves
 private: false
-updated_at: '2026-07-21T12:02:19+09:00'
+updated_at: '2026-07-25T09:40:58+09:00'
 id: 3c03c45da77e9cb7cf6b
 organization_url_name: fukuokaex
 slide: false
@@ -149,3 +149,32 @@ https://qiita.com/torifukukaiou/items/c3adf542824e4d5ae7b2
 引き続き3,000リクエストを使い切る2兆個のアイデアを実践します。
 
 token消化ではなく、**$\huge{闘魂昇華}$**。無料枠を、闘って、磨いて、使い切りますッ！！！
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::

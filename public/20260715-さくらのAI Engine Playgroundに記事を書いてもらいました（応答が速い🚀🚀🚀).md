@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - さくらのAI
 private: false
-updated_at: '2026-07-21T03:34:12+09:00'
+updated_at: '2026-07-25T09:42:55+09:00'
 id: 5a3fd81908bcdb0ee59e
 organization_url_name: haw
 slide: false
@@ -372,3 +372,34 @@ https://ai.sakura.ad.jp/sakura-ai/ai-engine/#flow
 ---
 
 最後になりましたが、このような実践的な記事をありがとうございます。私もさくらのAI Engine、触ってみたくなりました 😊
+
+---
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::

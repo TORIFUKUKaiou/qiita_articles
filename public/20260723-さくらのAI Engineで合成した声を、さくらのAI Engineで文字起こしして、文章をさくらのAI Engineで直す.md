@@ -7,7 +7,7 @@ tags:
   - 猪木
   - ずんだもん
 private: false
-updated_at: '2026-07-23T04:37:41+09:00'
+updated_at: '2026-07-25T09:36:08+09:00'
 id: f37cc5c2b09732e63e7e
 organization_url_name: haw
 slide: false
@@ -235,3 +235,32 @@ token消化ではなく、**$\huge{闘魂昇華}$**。
 
 [^1]: [さくらのAI Engineことはじめ(2): 音声ファイルの文字起こし | さくらのナレッジ](https://knowledge.sakura.ad.jp/47088/) によると、whisper-large-v3-turbo自体は本来30秒までの音声にしか対応していないが、さくらのAI Engineがアップロードされた音声を内部で30秒以内のチャンクに分割して個別に文字起こしし、結果を結合して返す処理を行っているため、最長30分・30MBまでのファイルに対応しているとのこと。
 [^2]: [Speech to text | OpenAI API](https://developers.openai.com/api/docs/guides/speech-to-text) にある説明。ファイルが複数セグメントに分割された際、直前セグメントの書き起こしを`prompt`として渡すことで文脈を引き継がせ、精度を上げる使い方が想定されている(whisper-1の場合、`prompt`の末尾224トークンのみが考慮される)。固有名詞のヒント注入のような用途は公式に想定された使い方ではない。
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::

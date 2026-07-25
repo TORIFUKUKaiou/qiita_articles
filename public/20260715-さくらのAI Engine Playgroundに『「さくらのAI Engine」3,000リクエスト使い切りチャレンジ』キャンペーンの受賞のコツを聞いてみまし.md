@@ -9,7 +9,7 @@ tags:
   - 闘魂
   - さくらのAI
 private: false
-updated_at: '2026-07-15T21:14:53+09:00'
+updated_at: '2026-07-25T09:42:27+09:00'
 id: 38f5cd9fbcd60bcbe627
 organization_url_name: haw
 slide: false
@@ -370,3 +370,35 @@ AIが出力したチェックリストは、**「Qiita記事としての完成�
 > **「AIは道具ではなく、問いかけ次第で共に創り出すパートナー」——そのことを改めて実感した一日でした。**
 
 さくらのAI Engine、そしてPlaygroundの快適なインターフェースと応答速度に感謝しつつ、これからも「技術×表現」のバランスを大切にしていきたいと思います。
+
+
+---
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::

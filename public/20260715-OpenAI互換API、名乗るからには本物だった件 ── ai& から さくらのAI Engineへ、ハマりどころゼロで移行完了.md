@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - さくらのAI
 private: false
-updated_at: '2026-07-16T10:09:23+09:00'
+updated_at: '2026-07-25T09:41:54+09:00'
 id: 747284dcd98157bdfad6
 organization_url_name: haw
 slide: false
@@ -210,3 +210,33 @@ OpenAI → ai& Inference → さくらのAI Engine と、2度の移行を経験�
 > **$\huge{OpenAI互換API、信じてよかった！！！}$**  
 
 素晴らしい記事、ありがとうございました。
+
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::

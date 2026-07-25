@@ -9,7 +9,7 @@ tags:
   - ClaudeCode
   - codex
 private: false
-updated_at: '2026-07-18T00:12:42+09:00'
+updated_at: '2026-07-25T09:41:29+09:00'
 id: c3adf542824e4d5ae7b2
 organization_url_name: haw
 slide: false
@@ -359,3 +359,32 @@ Claude Codeの評判が高い理由を少し理解したのは、この差を目
 それでも私は、もう使い切ったかのような満足感を覚えている。
 
 だが、ここで歩みを止めては使い切れない。実はあと2兆個のネタを思いついている。次回作にも期待してほしい。
+
+:::note
+**TokenをTokonへ**
+
+AIが扱うのは、Token。
+
+```math
+\mathrm{Token}
+-
+\mathrm{見\ (Ken)}
++
+\mathrm{魂\ (Kon)}
+=
+\mathrm{Tokon\ (闘魂)}
+```
+
+現段階の生成AIは、突き詰めればベクトルの数理遊びである。
+
+どのモデルが賢い、速い、勝つ。
+外から眺め、比べ、論評するだけでは、まだTokenだ。
+
+だから「見（Ken）」を引く。
+
+見る側から、使う側へ。
+そこに目的と意味を与え、執念を持ち込み、魂を込めるのは人間である。
+
+token消化ではなく、**$\huge{闘魂昇華}$** :fire:
+Don't just consume Tokens. Forge them into Tokon.
+:::
