@@ -7,7 +7,7 @@ tags:
   - Elixir
   - Nerves
 private: false
-updated_at: '2026-07-25T09:40:58+09:00'
+updated_at: '2026-07-25T10:47:27+09:00'
 id: 3c03c45da77e9cb7cf6b
 organization_url_name: fukuokaex
 slide: false
@@ -178,3 +178,5 @@ AIが扱うのは、Token。
 token消化ではなく、**$\huge{闘魂昇華}$** :fire:
 Don't just consume Tokens. Forge them into Tokon.
 :::
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d648527b-6c59-4c85-9681-bf5d01b0b6f4.png)

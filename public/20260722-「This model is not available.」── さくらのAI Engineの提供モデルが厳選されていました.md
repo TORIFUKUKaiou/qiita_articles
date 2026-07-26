@@ -7,7 +7,7 @@ tags:
   - 猪木
   - AIではなく人間が書いてます
 private: false
-updated_at: '2026-07-25T09:39:48+09:00'
+updated_at: '2026-07-25T10:44:39+09:00'
 id: ab729b521f14a017e6b6
 organization_url_name: haw
 slide: false
@@ -92,3 +92,5 @@ AIが扱うのは、Token。
 token消化ではなく、**$\huge{闘魂昇華}$** :fire:
 Don't just consume Tokens. Forge them into Tokon.
 :::
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/d648527b-6c59-4c85-9681-bf5d01b0b6f4.png)
