@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
+      - uses: flatt-security/setup-takumi-guard-npm@v1
       - name: Install qiita-cli
         run: npm install -g @qiita/qiita-cli@latest
         shell: bash
