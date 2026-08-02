@@ -7,7 +7,7 @@ tags:
   - 猪木
   - TTS
 private: false
-updated_at: '2026-07-29T12:24:00+09:00'
+updated_at: '2026-08-01T22:17:23+09:00'
 id: 3ccc6b50af4da3138d34
 organization_url_name: haw
 slide: false
@@ -15,6 +15,9 @@ ignorePublish: false
 posting_campaign_uuid: bd14d28b53326d318fec
 agreed_posting_campaign_term: true
 ---
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/0a038fed-882d-4481-a43e-b3a9d3acf5e8.png)
+
+
 ## TL;DR
 
 - さくらのAI Engineの`audio/speech`（ずんだもん）は **1リクエストあたり1000モーラまで**
