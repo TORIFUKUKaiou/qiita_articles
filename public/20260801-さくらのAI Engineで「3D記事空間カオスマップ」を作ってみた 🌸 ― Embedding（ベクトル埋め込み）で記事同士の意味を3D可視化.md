@@ -7,9 +7,9 @@ tags:
   - Qiita
   - Gemini
 private: false
-updated_at: '2026-08-02T06:33:16+09:00'
+updated_at: '2026-08-02T14:22:54+09:00'
 id: 6fb6d80713b8114eefee
-organization_url_name: haw
+organization_url_name: fukuokaex
 slide: false
 ignorePublish: false
 posting_campaign_uuid: bd14d28b53326d318fec
