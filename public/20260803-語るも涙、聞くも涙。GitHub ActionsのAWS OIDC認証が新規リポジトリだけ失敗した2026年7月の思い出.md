@@ -1,5 +1,7 @@
 ---
-title: 語るも涙、聞くも涙。GitHub ActionsのAWS OIDC認証が新規リポジトリだけ失敗した2026年7月の思い出
+title: >-
+  語るも涙、聞くも涙。GitHub ActionsのAWS OIDC認証が新規リポジトリだけ失敗した2026年7月の思い出 (Not authorized
+  to perform sts:AssumeRoleWithWebIdentity)
 tags:
   - AWS
   - 闘魂
@@ -7,7 +9,7 @@ tags:
   - GitHub
   - GitHubActions
 private: false
-updated_at: '2026-08-03T15:38:13+09:00'
+updated_at: '2026-08-06T07:53:54+09:00'
 id: 6818ebfc026eada9e2dd
 organization_url_name: haw
 slide: false
@@ -75,7 +77,7 @@ GitHubのOIDCリファレンスには、この日以降に作成されたリポ�
 
 `configure-aws-credentials`のREADMEにも同様の記述があり、2026年7月15日以降に作られたリポジトリ(および opt-in 済みの旧リポジトリ)は、組織とリポジトリそれぞれの永続的な数値IDを名前の後ろに`@`区切りで付与した`sub`クレームを発行するようになった、と説明されています。これは、リポジトリ名やOrg名が削除・再利用された際に、古い信頼ポリシーが新しい(しかし同名の)リポジトリに誤ってマッチしてしまう事故を防ぐための変更とのことです。
 
-なぜこの変更が入ったかという「意図」自体はセキュリティ上まっとうです。ただ問題は、**この変更が入ったことを知らずに、いつも通りのテンプレートで信頼ポリシーを書いてしまったこと**にあります。旧リポジトリの`sub`は`repo:<octo-org>/<octo-repo>:ref:refs/heads/<branch>`のままなので今まで通り動く一方、7/15以降に新規作成したリポジトリの実際の`sub`は`repo:<octo-org>@<OWNER_ID>/<octo-repo>@<REPO_ID>:ref:refs/heads/<branch>`になっていて、両者はまったく別の文字列として扱われます。信頼ポリシー側は旧形式のままなので、当然マッチしません。
+なぜこの変更が入ったかという「意図」自体はセキュリティ上まっとうです。ただ問題は、**この変更が入ったことを知らずに、いつも通りのテンプレートで信頼ポリシーを書いてしまったこと**にあります。旧リポジトリの`sub`は`repo:<octo-org>/<octo-repo>:ref:refs/heads/<branch>`のままなので今まで通り動く一方、2026/7/15以降に新規作成したリポジトリの実際の`sub`は`repo:<octo-org>@<OWNER_ID>/<octo-repo>@<REPO_ID>:ref:refs/heads/<branch>`になっていて、両者はまったく別の文字列として扱われます。信頼ポリシー側は旧形式のままなので、当然マッチしません。
 
 つまり、**同じ書き方をしているつもりで、実は「別のフォーマットのIDカード」を求められていた**というのが今回のオチでした。
 
