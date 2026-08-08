@@ -7,7 +7,7 @@ tags:
   - Antigravity
   - Antigravity2.0
 private: false
-updated_at: '2026-07-12T12:33:10+09:00'
+updated_at: '2026-08-07T23:24:18+09:00'
 id: d518184bbeb873901a65
 organization_url_name: haw
 slide: false
@@ -15,6 +15,12 @@ ignorePublish: false
 posting_campaign_uuid: 9d632f51614ebd7b333c
 agreed_posting_campaign_term: true
 ---
+:::note alert
+~~2026/08/07現在、Antigravity 2.0でGemini 3.6 Flash(High)を使ってもちっとも乗ってくれなくなりました。~~
+乗るか乗ってくれないかは、プロジェクトのルートに置いた`GEMINI.md`次第でした。
+:::
+
+
 誰の役にも立たないと思う。だが、言いたい。日の目をみたい。Qiitaに書いておく。
 
 もう1年以上、自分でコミットしなくなった。 `git commit` はAIにお願いしている。
