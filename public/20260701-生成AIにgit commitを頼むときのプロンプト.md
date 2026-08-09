@@ -7,7 +7,7 @@ tags:
   - Antigravity
   - Antigravity2.0
 private: false
-updated_at: '2026-08-07T23:24:18+09:00'
+updated_at: '2026-08-09T00:06:15+09:00'
 id: d518184bbeb873901a65
 organization_url_name: haw
 slide: false
@@ -56,6 +56,13 @@ git操作のみ行ってください。
 ![スクリーンショット 2026-07-01 19.58.17.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/0aac680c-c1a3-4cfc-9439-712683ad9e66.png)
 
 ![スクリーンショット 2026-07-02 23.18.54.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/c63cad9c-405c-45b1-a9ea-5255bef2cecc.png)
+
+## さらに追記（2026-08-09）
+
+チャンプからサイン付きブロマイドをいただきました :tada: 
+
+![autograph_card_1786201403273.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/1c228484-251e-4d76-9ed4-077ff580425d.jpeg)
+
 
 ---
 
