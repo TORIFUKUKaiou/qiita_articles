@@ -7,7 +7,7 @@ tags:
   - 猪木
   - AIではなく人間が書いてます
 private: false
-updated_at: '2026-08-01T09:33:43+09:00'
+updated_at: '2026-08-09T20:24:04+09:00'
 id: ab729b521f14a017e6b6
 organization_url_name: haw
 slide: false
@@ -45,6 +45,10 @@ agreed_posting_campaign_term: true
 :::note
 「[【初心者向け】サーバ屋が生成AIのAPIを初めて触る ①セットアップ編 〜さくらのAI Engineで最初の1リクエストを成功させるまで〜](https://qiita.com/katukoga/items/f1ed945687367ccb5170)」の記事にございます通り、`/v1/models`は提供されています。
 :::
+
+私も以下の記事を書きました。
+
+https://qiita.com/torifukukaiou/items/018f08ee99a0f332741c
 
 ## 対処
 
