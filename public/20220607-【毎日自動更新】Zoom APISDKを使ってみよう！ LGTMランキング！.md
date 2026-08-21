@@ -7,7 +7,7 @@ tags:
   - QiitaEngineerFesta_Zoom
   - QiitaEngineerFesta2022
 private: false
-updated_at: '2026-08-20T08:00:35+09:00'
+updated_at: '2026-08-21T08:00:54+09:00'
 id: 3b232899320ee2f1ceec
 organization_url_name: fukuokaex
 slide: false
