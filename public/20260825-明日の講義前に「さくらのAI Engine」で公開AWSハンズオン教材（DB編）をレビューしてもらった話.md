@@ -7,7 +7,7 @@ tags:
   - 猪木
   - ClaudeCode
 private: false
-updated_at: '2026-08-25T23:50:23+09:00'
+updated_at: '2026-08-26T11:16:32+09:00'
 id: de5fa805e3c9c6f16904
 organization_url_name: haw
 slide: false
@@ -42,8 +42,9 @@ agreed_posting_campaign_term: true
 
 ```text
 レビューしてください。 day3/db-lab/README.md
-
 ```
+
+**ゼロショットプロンプティング** です。
 
 ---
 
