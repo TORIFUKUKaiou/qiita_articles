@@ -7,7 +7,7 @@ tags:
   - ChromeDevTools
   - みんなのQiita15周年
 private: false
-updated_at: '2026-10-03T17:08:24+09:00'
+updated_at: '2026-10-29T17:14:07+09:00'
 id: 2a5a53094b05488e9f66
 organization_url_name: fukuokaex
 slide: false
@@ -15,6 +15,8 @@ ignorePublish: false
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/2e053d12-18b8-4442-a236-308d1b339e19.png)
+
 ## はじめに
 
 Qiita が15周年を迎えました。公式ブログの [15周年のお知らせ](https://blog.qiita.com/qiita15th/) に、「Qiita のどこかにささやかなメッセージを用意した」という趣旨の「お祝い隠しメッセージ」の話があります。
