@@ -7,9 +7,9 @@ tags:
   - codex
   - Antigravity
 private: false
-updated_at: '2026-11-01T12:30:18+09:00'
+updated_at: '2026-11-04T15:50:57+09:00'
 id: e1ec9fd7aa025fd21d12
-organization_url_name: fukuokaex
+organization_url_name: haw
 slide: false
 ignorePublish: false
 posting_campaign_uuid: null
