@@ -5,7 +5,7 @@ tags:
   - 闘魂連鎖
   - tips
 private: false
-updated_at: '2026-11-11T12:22:18+09:00'
+updated_at: '2026-11-11T17:49:45+09:00'
 id: 84c8794cbfc954aa70d8
 organization_url_name: haw
 slide: false
@@ -13,6 +13,9 @@ ignorePublish: false
 posting_campaign_uuid: null
 agreed_posting_campaign_term: false
 ---
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/3991b7c1-2ce9-4bd4-95a6-e080c926e438.png)
+
+
 ## はじめに
 
 AWSコンソールで作業していて、迷った操作を2つ紹介します。
