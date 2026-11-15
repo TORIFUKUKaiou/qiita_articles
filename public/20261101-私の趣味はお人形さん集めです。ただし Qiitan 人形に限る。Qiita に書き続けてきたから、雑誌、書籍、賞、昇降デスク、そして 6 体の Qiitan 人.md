@@ -1,7 +1,7 @@
 ---
 title: >-
-  私の趣味はお人形さん集めです。ただし Qiitan 人形に限る。Qiita に書き続けてきたから、雑誌、書籍、賞、昇降デスク、そして 6 体の Qiitan
-  人形にまでつながった。Qiita さん、ありがとう。
+  私の趣味はお人形さん集めです。ただし Qiitan 人形に限る。Qiita に書き続けてきたから、雑誌、書籍、賞、昇降デスク、Qiita Team
+  Personal、海外カンファレンス登壇、世界的プロジェクトへの貢献そして 6 体の Qiitan 人形にまでつながった。Qiita さん、ありがとう。
 tags:
   - Qiita15th
   - 闘魂連鎖
@@ -9,7 +9,7 @@ tags:
   - Qiita
   - ポエム
 private: false
-updated_at: '2026-11-02T09:19:22+09:00'
+updated_at: '2026-11-15T00:07:46+09:00'
 id: 52ffbb51faf8dd9a2858
 organization_url_name: fukuokaex
 slide: false
@@ -24,13 +24,15 @@ https://qiita.com/advent-calendar/2026/15th-anniversary
 
 ## はじめに
 
+<b><font color="red">$\huge{15周年、おめでとうーーーッ！（ございます）。}$</font></b>
+
 :::note info
 断言します。私の趣味はお人形さん集めです。ただし Qiitan 人形に限る。
 :::
 
 Qiita 15周年記念カレンダーに参加しています。テーマは、技術や開発環境の「当時」と「今」を振り返ることです。
 
-私にとっての「当時」と「今」は、どちらも Qiita の中にあります。Qiita に書き続けてきたから、雑誌、書籍、賞、昇降デスク、そして 6 体の Qiitan 人形にまでつながりました。
+私にとっての「当時」と「今」は、どちらも Qiita の中にあります。Qiita に書き続けてきたから、雑誌、書籍、賞、昇降デスク、Qiita Team Personal、海外カンファレンス登壇、世界的プロジェクトへの貢献そして 6 体の Qiitan 人形にまでつながりました。
 
 ## 当時：デビューは Ruby、2 記事目から Elixir
 
@@ -93,6 +95,17 @@ https://qiita.com/torifukukaiou/items/2a5a53094b05488e9f66
 同じ月、画面越しに何度も会ってきた [autoracex](https://autoracex.connpass.com/) コミュニティの仲間と、ついに対面で会えました。
 
 https://qiita.com/torifukukaiou/items/7f1468c5b566aa23a330
+
+---
+
+## Qiita Team Personal
+
+https://teams.qiita.com/
+
+2021年2月から加入しています。継続利用中です。 :qiitan: 信者です。
+
+![スクリーンショット 2026-11-15 0.03.07.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/72a3bf08-34c5-4115-a68b-d94ad8c5d535.png)
+
 
 ---
 
@@ -179,6 +192,7 @@ Qiitaに書き続けていて本当によかったと思います。すべての
 | 書籍 | Elixir実践入門（技術評論社） |
 | 賞 | 日本マイクロソフト賞④ |
 | 昇降デスク | 日本マイクロソフト賞④でいただきました。この記事も、この昇降デスクで書いています |
+| Qiita Team Personal | 2021年2月から加入！ |
 | Qiitan 人形 | 6 体います |
 | 海外カンファレンス登壇 | 光よりもはやいLighting Talk |
 | 世界的プロジェクト | 貢献したという自己満足、消えることのない足跡、この業界に身を置いていたという証 |

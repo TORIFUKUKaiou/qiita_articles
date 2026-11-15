@@ -7,7 +7,7 @@ tags:
   - autoracex
   - 飯塚
 private: false
-updated_at: '2026-11-01T08:52:38+09:00'
+updated_at: '2026-11-14T23:58:52+09:00'
 id: 7f1468c5b566aa23a330
 organization_url_name: fukuokaex
 slide: false
@@ -35,7 +35,7 @@ autoracex 対面開催しました。
 https://autoracex.connpass.com/
 
 [Elixir](https://elixir-lang.org/) のリモートもくもく会です。
-Zoom はつなぎません。各自がそれぞれの場所で、Elixir で何かを作ります。会場は「緑の地球」。地球のどこにいても参加できます。
+Zoom はつなぎません。各自がそれぞれの場所で、Elixir で何かを作ります。会場は「緑の地球」。地球のどこにいても参加できます。日本国内だけではなく、本当に海外から参加してくださっている方がいます。
 
 今回、その autoracex が はじめて対面で開催 されました。地球のどこか、ではなく、飯塚市のどこかで。
 
