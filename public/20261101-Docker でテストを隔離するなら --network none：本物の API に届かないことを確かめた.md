@@ -7,7 +7,7 @@ tags:
   - テスト
   - AWS
 private: false
-updated_at: '2026-11-01T08:50:44+09:00'
+updated_at: '2026-11-15T23:51:46+09:00'
 id: 8146693bad688ea5791f
 organization_url_name: haw
 slide: false
@@ -19,6 +19,8 @@ agreed_posting_campaign_term: false
 
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 :::note info
 **今日の Tips**

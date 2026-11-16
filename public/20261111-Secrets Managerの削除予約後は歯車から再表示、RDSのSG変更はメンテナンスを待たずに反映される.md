@@ -5,7 +5,7 @@ tags:
   - 闘魂連鎖
   - tips
 private: false
-updated_at: '2026-11-11T17:49:45+09:00'
+updated_at: '2026-11-15T23:53:45+09:00'
 id: 84c8794cbfc954aa70d8
 organization_url_name: haw
 slide: false
@@ -17,6 +17,8 @@ agreed_posting_campaign_term: false
 
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 AWSコンソールで作業していて、迷った操作を2つ紹介します。
 
@@ -108,3 +110,5 @@ SG変更だけを早く反映したいのであれば、そのために「すぐ
 | 削除予約したSecretの値を取得 | 復旧猶予中でも、そのままでは取得不可。先に削除をキャンセルする |
 | RDSのVPC SG変更 | メンテナンス期間を待たず、非同期で反映される |
 | RDSの「すぐに適用」 | 他の保留中変更も適用対象になる |
+
+![apios.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/a20f8e73-ba77-4bcd-8e75-1717502aaefc.png)

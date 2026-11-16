@@ -7,7 +7,7 @@ tags:
   - tips
   - 闘魂連鎖
 private: false
-updated_at: '2026-11-14T23:55:49+09:00'
+updated_at: '2026-11-15T23:54:02+09:00'
 id: 9c965b5c28c26cb15fa1
 organization_url_name: haw
 slide: false
@@ -21,6 +21,8 @@ agreed_posting_campaign_term: false
 
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 `brew list` を眺めていると、自分でインストールした覚えのないパッケージが入っていることがあります。たとえば `python@3.15`。
 
@@ -93,3 +95,5 @@ Homebrew の公式ドキュメント（[Language Runtimes and Packages](https://
 ## おわりに
 
 `brew list` で見覚えのないパッケージを見つけたら、`brew uses --installed` と `installed_on_request` の2つを確かめてみてください。正体がわかれば、`uv` の Python と二重に管理しているのではないかと悩まずに済みます。
+
+![apios.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/a20f8e73-ba77-4bcd-8e75-1717502aaefc.png)

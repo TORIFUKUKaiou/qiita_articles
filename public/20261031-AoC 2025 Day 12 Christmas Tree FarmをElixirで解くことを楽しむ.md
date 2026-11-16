@@ -7,7 +7,7 @@ tags:
   - 協議プログラミング
   - AdventCalendar2027
 private: false
-updated_at: '2026-10-31T18:47:14+09:00'
+updated_at: '2026-11-15T23:49:03+09:00'
 id: 8e94c759f5442bd493f5
 organization_url_name: fukuokaex
 slide: false
@@ -29,6 +29,9 @@ agreed_posting_campaign_term: false
 :::
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
+
 2026年ですが、昨年できずに諦めて放置した問題から解いてみます。
 
 [Advent of Code 2025](https://adventofcode.com/2025) Day 12を解いてみます。  

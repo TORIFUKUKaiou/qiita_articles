@@ -9,7 +9,7 @@ tags:
   - Qiita
   - ポエム
 private: false
-updated_at: '2026-11-15T00:07:46+09:00'
+updated_at: '2026-11-15T23:52:44+09:00'
 id: 52ffbb51faf8dd9a2858
 organization_url_name: fukuokaex
 slide: false
@@ -25,6 +25,9 @@ https://qiita.com/advent-calendar/2026/15th-anniversary
 ## はじめに
 
 <b><font color="red">$\huge{15周年、おめでとうーーーッ！（ございます）。}$</font></b>
+
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 :::note info
 断言します。私の趣味はお人形さん集めです。ただし Qiitan 人形に限る。

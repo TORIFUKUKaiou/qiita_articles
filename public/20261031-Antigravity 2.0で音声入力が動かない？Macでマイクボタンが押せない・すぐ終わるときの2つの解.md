@@ -7,7 +7,7 @@ tags:
   - macOS
   - 闘魂連鎖
 private: false
-updated_at: '2026-11-01T08:51:34+09:00'
+updated_at: '2026-11-15T23:49:26+09:00'
 id: 6a48f1b3bacfd6eb95d1
 organization_url_name: haw
 slide: false
@@ -19,6 +19,8 @@ agreed_posting_campaign_term: false
 
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 Google Antigravity 2.0 は、デスクトップアプリから Gemini 等のモデルと高速に対話できる開発者向け環境です。
 便利な機能のひとつに **「音声入力（リアルタイム文字起こし）」** があります。プロンプト入力欄のマイクアイコンをクリックするか、キーボードショートカット（`Ctrl + M`）で手軽に思考を吹き込むことができます。

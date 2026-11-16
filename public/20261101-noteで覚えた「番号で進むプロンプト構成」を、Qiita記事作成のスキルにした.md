@@ -7,7 +7,7 @@ tags:
   - codex
   - Antigravity
 private: false
-updated_at: '2026-11-04T15:50:57+09:00'
+updated_at: '2026-11-15T23:52:06+09:00'
 id: e1ec9fd7aa025fd21d12
 organization_url_name: haw
 slide: false
@@ -19,6 +19,8 @@ agreed_posting_campaign_term: false
 
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 :::note info
 note で覚えた「番号で進むプロンプト構成」を、Qiita 記事作成のスキルにしました。素材を渡して番号を選んでいくだけで、事実ベースの記事の下書きまでたどり着きます。

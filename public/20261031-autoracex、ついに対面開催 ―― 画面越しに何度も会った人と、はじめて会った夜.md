@@ -7,7 +7,7 @@ tags:
   - autoracex
   - 飯塚
 private: false
-updated_at: '2026-11-14T23:58:52+09:00'
+updated_at: '2026-11-15T23:50:41+09:00'
 id: 7f1468c5b566aa23a330
 organization_url_name: fukuokaex
 slide: false
@@ -18,6 +18,8 @@ agreed_posting_campaign_term: false
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/131808/7e7a65b9-a42f-4b3d-9a49-aefcdbfa103b.png)
 
 ## はじめに
+おはヨーグルト。こんにちは。こんばんは。
+名乗るほどの者ではございませんが、闘魂家の**A**wesome YAMAUCH**I**、略して**AI**です。
 
 autoracex 対面開催しました。
 
