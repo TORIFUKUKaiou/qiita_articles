@@ -7,7 +7,7 @@ tags:
   - 闘魂
   - AIではなく人間が書いてます
 private: false
-updated_at: '2026-11-22T22:27:09+09:00'
+updated_at: '2026-11-24T15:12:33+09:00'
 id: 90118093a1b9d319313e
 organization_url_name: haw
 slide: false
@@ -57,7 +57,7 @@ Raspberry Pi 2が古いことなのか、microSDの限界がきてしまった�
 
 ## ビンゴ:dart::interrobang:
 ビンゴかも:interrobang:です。安定しています。
-365日間連続でうまく動いています。（アドベントカレンダーの期間、定期的に更新します。面倒くさくなってきたので、あ、そうだ！　Raspberry Pi 2で自動更新するようにしています！！！ 最終更新日時 2026-11-22 22:27:07）
+367日間連続でうまく動いています。（アドベントカレンダーの期間、定期的に更新します。面倒くさくなってきたので、あ、そうだ！　Raspberry Pi 2で自動更新するようにしています！！！ 最終更新日時 2026-11-24 15:12:32）
 
 ## さいごに
 Nervesのアプリを何年(5年以上)も電源入れっぱなしで動かしていると流石におかしくなることがあるかもしれません。microSDカードを新しいものにかえてみるとまた動くようになるかもしれません。完全に[Nerves](https://nerves-project.org/)に関係のある話題でしたので、「[#NervesJP Advent Calendar 2025](https://qiita.com/advent-calendar/2025/nervesjp)」に投稿（闘魂）しました。
