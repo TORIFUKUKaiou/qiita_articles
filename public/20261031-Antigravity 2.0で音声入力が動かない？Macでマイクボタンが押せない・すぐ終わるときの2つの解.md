@@ -7,7 +7,7 @@ tags:
   - macOS
   - 闘魂連鎖
 private: false
-updated_at: '2026-11-15T23:49:26+09:00'
+updated_at: '2026-11-28T12:48:30+09:00'
 id: 6a48f1b3bacfd6eb95d1
 organization_url_name: haw
 slide: false
@@ -74,7 +74,7 @@ macOS のセキュリティ機能（TCC: Transparency, Consent, and Control）�
 * しかし、声を吹き込もうとすると **1〜2秒ですぐに入力モードが強制終了（キャンセル）** されてしまう
 
 ### 原因
-認証の権限不足 です。
+認証の権限不足です。
 
 Antigravity の音声入力は、話した音声をリアルタイムでサーバーに送り、文字起こしをしています。公式ドキュメント（CLI の /voice コマンドのページ）には、次のように書かれています。
 
